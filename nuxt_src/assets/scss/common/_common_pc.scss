@@ -1,0 +1,17 @@
+/* common PC */
+.main {
+  // min-width: $pcMinWidth;
+}
+.section_table {
+  width: 100%;
+  margin-top: 60px;
+  th {
+    text-align: left;
+    border-bottom: 3px solid #eee;
+    padding: 16px 0;
+  }
+  td {
+    border-bottom: 1px solid #eee;
+    padding: 14px 0;
+  }
+}

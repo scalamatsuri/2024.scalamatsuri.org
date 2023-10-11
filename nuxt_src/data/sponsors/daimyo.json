@@ -1,0 +1,79 @@
+[
+  {
+    "name": "アルプ株式会社",
+    "logo": "/img/sponsors/alpinc.svg",
+    "url": "https://alpinc.notion.site/52af90188305440d86acf72968646054",
+    "text_html": "<br><a href=\"https://note.com/itokin/n/nd7c3f2038b58?magazine_key=mbff416423224\"><em>「あらゆる企業に、フルスイングを。」</em></a><p align=\"justify\">当社は、SaaSやサブスクリプションビジネスをはじめとした継続課金型ビジネスの事業成長を支援する<a href=\"https://scalebase.com/\"><em>「Scalebase」</em></a>を開発・提供しております。</p><p align=\"justify\">企業が成長する過程で「やり方がわからない」「やるとしても難しい」などの実務やオペレーションがボトルネックになってしまうことが多くあり、事業運営における課題を取り除いて経営をドライブできる企業が1社でも世の中に増える未来をつくりたいと考えています。</br>日本の社会により多くのイノベーションが起きるようなビジネスができるように、という想いで<em>「あらゆる企業に、フルスイングを。」</em>というビジョンを掲げています。</p><br><a href=\"https://alpinc.notion.site/ecb51d8312d045219af7abb3005f0fa3\">「Scalebase」の開発について</a><p align=\"justify\">バックエンドはScala、フロントエンドはReact+TypeScript、全社的にはDDDを採用しています。</br>事業ドメインとしてはかなり複雑、かつお客様の業務のコアな部分を担うため、堅牢性を担保しつつスピード感を持って機能開発・UX改善していくのが課題でもありやりがいを感じられる部分かと思います。</p><p align=\"justify\">会社としては5期目を迎え「Scalebase」の提供社数は100社を超えました。事業もプロダクトもこれから更に伸ばして成長させていくフェーズです。</p><p align=\"justify\">市場1兆円超のサブスクリプションビジネスの事業成長を支援するプロダクトを共に開発していきませんか？詳しくは以下のサイトをご覧ください。</p><br><a href=\"https://alpinc.notion.site/52af90188305440d86acf72968646054\">採用ページ</a><a href=\"https://herp.careers/v1/alpinc/3MOgVFjURTGC\">オンラインでのカジュアル面談ご希望の方はこちらから</a>",
+    "slide_html": "<div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;\"><iframe src=\"https://speakerdeck.com/player/835856a450a1468ab0dcc13add5f1a94\" style=\"top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;\" allowfullscreen scrolling=\"no\"></iframe></div>"
+  },
+  {
+    "name": "株式会社FLINTERS",
+    "logo": "/img/sponsors/FLINTES.svg",
+    "url": "https://www.flinters.co.jp/",
+    "text_html": "<p>株式会社FLINTERSはデジタルマーケティング事業を展開する電通グループ、SEPTENIグループに所属するエンジニアリング企業です。</p><p>西新宿とベトナム・ハノイ（子会社）に開発拠点を持ち、社員300名弱の組織で、アプリケーション・データエンジニアリング・MLOpsなど領域の開発を得意としています。<br>エンジニアリング指針を外部に公開し、エンジニアファーストな組織づくりを行っており、安定した事業基盤を持ちつつも、スタートアップ特有のスピード感や裁量を併せ持つハイブリットな環境が特徴です。</p><p>これまでグループ企業向けのプロダクトやサービス開発がメインでしたが、今まで培った開発経験を元に、グループ外企業へのサービス提供も始めており、FLINTERSの第二創業期となるタイミングで、多くの仲間を募集しております。<br>もしご興味ございましたら、是非一度カジュアルにお話させてください。</p><p><a href= \"https://www.flinters.co.jp/culture/guidelines\" >エンジニアリング指針</a><br><a href= \"https://herp.careers/v1/spflinters\" >FLINTERSの募集ポジション</a></p>",
+    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/46303de9e5a44fef9c562dd3ec8ff5a9\" title=\"株式会社FLINTERS - 会社案内資料 - We are hiring!\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
+  },
+  {
+    "name": "株式会社はてな",
+    "logo": "/img/sponsors/hatena.png",
+    "url": "https://hatena.co.jp/recruit/engineer",
+    "text_html": "<p>はてなは「『知る』『つながる』『表現する』で新しい体験を提供し、人の生活を豊かにする」をミッションに、「<a href=\"https://b.hatena.ne.jp/\">はてなブックマーク</a>」「<a href=\"https://hatenablog.com/\">はてなブログ</a>」などのソーシャルサービスを展開してきました。最近はこれまでのサービス開発・運用知見を活かし、サーバー監視サービス「<a href=\"https://ja.mackerel.io/\">Mackerel</a>」などビジネス向けの製品や、受託サービスの開発・運用も行っています。</p><p>ScalaはMackerelやはてなブックマーク、はてなブログで採用され、稼働しています（<a href=\"https://developer.hatenastaff.com/entry/2019/07/09/103000\">いかにして我々は10年もののPerlプロダクトをScalaでリプレースしたか</a>、<a href=\"https://speakerdeck.com/aereal/microservices-and-scala-at-hatena\">はてなにおけるマイクロサービスとScala</a> など）。</p><p>技術によってインターネットと人々の生活を豊かにすることに情熱を持てる方、ぜひはてなで働いてみませんか？ 詳しくは以下のサイトをご覧ください。</p><ul><li><a href=\"https://hatena.co.jp/recruit/engineer\">エンジニア採用 - 採用情報 - 株式会社はてな</a></li><li><a href=\"https://speakerdeck.com/hatena/engineers-recruitment\">株式会社はてな エンジニア採用資料 / Engineers Recruitment - Speaker Deck</a></li><li><a href=\"https://developer.hatenastaff.com/\">Hatena Developer Blog</a></li></ul>",
+    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/73919842c53c4af3a7d4025702e399fc\" title=\"株式会社はてな エンジニア採用資料 / Engineers Recruitment\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
+  },
+  {
+    "name": "ファンズ株式会社",
+    "logo": "/img/sponsors/funds.png",
+    "url": "https://funds.jp/",
+    "text_html": "<p><em>未来の不安に、まだない答えを</em></p><p>ファンズ株式会社は、個人が上場企業へ間接的にお金を貸し出すことで資産形成をすることができる、<em><a href=\"https://funds.jp/\">貸付ファンドのオンラインマーケット「Funds」</a></em>を運営する企業です。 Funds では1円から投資可能で、投資未経験の方であっても、少額から資産形成を始めることができます。 「未来の不安に、まだない答えを。」というミッションのもと、従来の資産運用サービスでは実現されていない新たな投資機会の提供を通じて、国民的な資産運用サービスへと成長させ、将来の資産形成にまつわる課題の解決を目指しています。</p><p><em>Funds と Scala</em></p><p>Funds のプロダクト開発では、スタートアップながらも持続可能性のある開発を重要視しています。 Scala のもつ堅牢な型システムや表現力は、金融という複雑かつ正確性が要求されるドメインの表現に最適と考え、開発当初から Scala を採用しています。</p><p>また技術研鑽についても奨励しており、業務時間内で Scala にまつわる勉強会を実施しています。</p><p><em>エンジニアの働き方</em></p><p>エンジニアメンバーは裁量労働制となっています。オフィスへの出社も可能ですが、ほとんどのメンバーは完全リモートで働いています（日本国内であれば遠隔地での就業も可能です。）</p><p><em>ファンズではScalaエンジニアを募集しています</em></p><p>ファンズ株式会社では、 私達と一緒に課題解決に携わっていただけるサーバーサイドエンジニアを募集しています。</p><p><em><a href=\"https://open.talentio.com/r/1/c/crowdport_entry/pages/56324\">サーバサイドエンジニア（Scala） / ファンズ株式会社</a></em></p><p>少しでもご関心のある方は、 上記のページよりご応募いただくことで、まずはカジュアル面談のご案内をさせていただきます。</p><p><em><a href=\"https://fundsinc.notion.site/346315aa14f6464cbba91b96f5177343\">ファンズ採用特設ページ / ファンズの開発</a></em> </p><p>またファンズでの開発の雰囲気が伝わる特設ページもご用意しておりますので、ぜひご覧ください。</p>",
+    "slide_html": ""
+  },
+  {
+    "name": "株式会社FOLIO",
+    "logo": "/img/sponsors/folio.svg",
+    "url": "https://corp.folio-sec.com/",
+    "text_html": "<p>FOLIOは様々な資産運用サービスを提供している証券会社です。</p><p>2021年には、toCサービスで培ったシステムやノウハウを他の金融機関にSaaS方式で提供する<a href=\"https://4rap.folio-sec.com/\">4RAP</a>という新規事業をローンチしました。スタートアップらしいスピード感と、金融機関としての堅牢性を兼ね備えたシステムをScalaやk8s, DDD等を利用して開発しています。</p><p><b>Scalaで資産運用をもっと身近にしませんか？</b></p><p>FOLIOでのScala開発について</p><ul><li>AWS/EKS上で稼働させるScalaアプリケーション（cats, fs2などを採用）の開発を通じてモダンな技術のキャッチアップが可能です。</li><li>コーディングガイドラインや採用ライブラリのチュートリアル集の整備など、Scala未経験者も活躍しやすい環境を整えています。</li><li>作って終わりではなく、長く運用し改善し続けることを見据えたシステム設計・開発のノウハウが学べます。</li></ul><p>資産運用をもっと身近にしたいエンジニア、Scalaで堅牢なシステムを作りたいエンジニアを積極募集中です。<br>お気軽にご連絡ください！</p><ul><li><a href=\"https://herp.careers/v1/folio/k3G-VR4BxV4Q\">バックエンドエンジニア カジュアル面談へのご応募はこちらから</a></li><li><a href=\"https://www.docswell.com/s/folio/KERQD5-folio\">会社説明資料</a></li></ul>",
+    "slide_html": ""
+  },
+  {
+    "name": "株式会社ネクストビート",
+    "logo": "/img/sponsors/nextbeat.png",
+    "url": "https://www.nextbeat.co.jp/",
+    "text_html": "<p><b>人口減少社会において必要とされるインターネット事業を創造し、ニッポンを元気にする。</b></p><p>私たちは、人口減少に関連する非デジタル業界を「技術」で変革していくことを目指す組織です。<br>そのために、ユーザーにとって長く使い続けられる堅牢なプロダクトを創りたいという想いから、Scalaを採用しています。</p><p>＜解決したい課題の例＞<br><ul><li>・手作業、手動管理が多い保育施設職員の業務の効率化</li><li>・フリーランスで働く保育士の方の雇用創出</li><li>・過疎化が進む地方における宿泊施設で働く職員の支援</li></ul></p><p>また、新しい技術を積極的に取り入れるだけでなく、全員が「技術的な意思決定」に挑戦できる環境を作る、ということも大切にしています。</p><p>そのために、業務時間内に2時間の学習時間の確保（夕学）、新しい取り組みに挑戦する研究開発プロジェクト、各開発チーム同士で技術知見を共有する場、等、エンジニアの技術成長へのサポートも欠かしません。</p><p>少しでもご興味をお持ちの方は、よければ<a href=\"https://hrmos.co/pages/nextbeat/jobs/1000002?_ga=2.217849942.1727330956.1678338745-1229119637.1617865805\">カジュアルにお話しませんか？</a></p><p>＼4月下旬に<a href=\"https://nextbeat.connpass.com/event/280679/\">Scalaをテーマにした自社イベント「Nextbeat Tech Bar」</a>を開催予定／</p>",
+    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/c86d0d41b0f245d580796fc608a43e6d\" title=\"エンジニア向け会社紹介資料/company-profile\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
+  },
+  {
+    "name": "クォンツ・リサーチ株式会社",
+    "logo": "/img/sponsors/quantsresearch.svg",
+    "url": "https://www.quantsresearch.com/",
+    "text_html": "<p>「金融工学 × IT × 自由な発想」</p><p>私たちクォンツ・リサーチが2000年の創業当初より目指したのは、学術である金融工学を、現実の金融の世界に応用し、世の中のニーズに応えるコンテンツを産み出すことです。<br>金融工学を使って、あらゆるモノの適正価格を算出することはその一例で、その思想は、様々なコンテンツに発展しています。</p><p>そのコンテンツの実現には、主にScalaを用いて開発を行っています。</p><p>クォンツ・リサーチでは企画から開発、プログラミングやサービス運用、インフラ保守まで、ほぼすべての工程を自社で行います。<br>個々のメンバーの高い能力と、スピード感をもって意思決定が出来る社風があり、少人数ながら金融関連を中心に日本有数の大手企業から選ばれ続け、多くのコンテンツを手掛けることができています。</p><p>クォンツ・リサーチではエンジニアを積極採用中です。一緒に働いてみませんか？<br>少しでも興味を持っていただけたら、ぜひお問い合わせください！</p><a href=\"https://my.kabumap.com/\">my株</a><br><a href=\"https://jp.kabumap.com/\">株マップ</a><br><a href=\"https://www.quantsresearch.com/recruit/careers.html\">採用情報ページ</a>",
+    "slide_html": ""
+  },
+  {
+    "name": "株式会社スタンバイ",
+    "logo": "/img/sponsors/stanby.png",
+    "url": "https://recruit.stanby.co.jp/engineering/",
+    "text_html": "<html><head><title>株式会社スタンバイ</title></head><body><p>▼スタンバイについて</p><p>株式会社スタンバイは日本最大級の求人検索エンジン「スタンバイ」を運営しています。</p><p>私たちは現在提供しているサービスの先に、日本における「労働人口の減少」、「生産性向上」など大きな社会の課題解決を見据えています。<br>こういった大きな社会の課題に取り組むため、私たちはZホールディングスグループが持つ様々なアセットや、Visionalグループが持つ求人・採用ノウハウ、技術力を掛け合わせた新たなチャレンジをはじめます。</p><p>まずは、求職者にとって集約的・一元的に求人情報を探せること、求人募集企業様にとって簡単かつ効率的に人材を確保できること、その先には、よりライフスタイルに合わせた働き方の選択や、あらゆる人が自身のキャリアを向上させていくことなど、私たちが社会に提供する価値への挑戦はまだ始まったばかりです。</p><p>私たちは\"UPDATE WORKSTYLES「はたらく」にもっと彩りを\"をミッション掲げ、テクノロジーの力を通じて、様々な働き方を尊重、支援し、人々の「はたらく」の在り方をアップデートします。</p><p><a href=\"https://recruit.stanby.co.jp/\">採用サイト</a><br><a href=\"https://techblog.stanby.co.jp/\">Stanby Tech Blog /技術ブログ</a><br><a href=\"https://hrmos.co/pages/stanby-inc/jobs?category=1445664202436182016\">エンジニア募集ポジション一覧</a></p></body></html>",
+    "slide_html": ""
+  },
+  {
+    "name": "株式会社アットウェア",
+    "logo": "/img/sponsors/atware.svg",
+    "url": "https://www.atware.co.jp/",
+    "text_html": "<br>アットウェアは「システムで人々をしあわせにする」をミッションとする、横浜みなとみらいにある50名ほどの会社で、ScalaMatsuriには2017年以来毎年協賛しています。<br><br>私たちは、Java + アジャイル + クラウド を軸として、小規模から大規模まで、BtoB/BtoC Webアプリケーション開発の他、ビッグデータの並列分散処理案件など幅広い分野に携わっています。<br>近年は問題解決のアプローチを模索する中で、Scalaが持つ可能性を見いだし案件での採用を増やしています。<br>また、社内の情報共有ツールは過去に社員がScalaで構築したもので、現在も社員自ら機能拡張や運用を行なっています。<br><br>Scala以外では、アフターコロナに合った働き方を探す中で、「選択的全国居住制度」を1年前に開始しました。<br>日本全国好きな場所に住み働くことができる制度で、静岡や兵庫などの日本各地へ移住したエンジニアもいます。<br><br>もしアットウェアに少しでもご興味を持っていただけたのであれば、Scalaの経験は問いませんので、お気軽に下記のフォームからお問合せください。<br>選考だけでなく、カジュアル面談も受け付けております。<br><a href=\"https://www.atware.co.jp/recruit#recruit/index\">採用情報ページ</a><br><br><a href=\"https://www.atware.co.jp/blogpost\">atWare blog</a><br><a href=\"https://tech.atware.co.jp/scalainterview/\">Scala 先駆者インタビュー</a><br><a href=\"https://blog.scalamatsuri.org/entry/2022/03/01/093656\">私、ScalaMatsuri で転職しました Vol.7 株式会社アットウェア オヤマさん</a><br>",
+    "slide_html": ""
+  },
+  {
+    "name": "株式会社マイクロアド",
+    "logo": "/img/sponsors/microad.svg",
+    "url": "https://www.microad.co.jp/",
+    "text_html": "<br>マイクロアドはデータとテクノロジーをかけ合わせた、マーケティングプラットフォームを提供する会社です。<br><br>「Redesigning the Future Life」という想いを掲げ、広告やコミュニケーションだけではなく、人々の未来の暮らしそのものを再デザインしてまいります。<br><br>マイクロアドのエンジニアは、インターネット広告の配信を支える大規模なサービスを自社開発しています。<br>スピードが重要となる広告配信アプリケーションの開発、高負荷に耐えるインフラ環境の構築、機械学習を活用したアルゴリズムの開発まで、幅広い技術領域が存在しています。<br>日々変化し続ける技術トレンドをいち早く取り入れながら、サービスの開発運用に携われる環境があります。<br><br>興味のある方は是非ご応募ください。<br>広告配信システム、大規模データ基盤、データ分析、その他のWeb開発など多様な領域で開発を行うことができます。それにともなって、多様なスキルを求められることになりますが、社内でも勉強ができる環境を整備しています。<br>成長意欲のある方を求めていますので、これらの分野において開発経験が浅い方でも歓迎しています。<br><br><a href=\"https://www.microad.co.jp/\">マイクロアド</a><br><a href=\"https://recruit.microad.co.jp/engineer/\">マイクロアド エンジニア職 採用サイト</a><br><a href=\"https://developers.microad.co.jp/\">Microad Developers Blog</a><br>",
+    "slide_html": ""
+  },
+  {
+    "name": "株式会社サイバーエージェント",
+    "logo": "/img/sponsors/cyberagent.png",
+    "url": "https://hrmos.co/pages/cyberagent-group/jobs/1833170313527164941",
+    "text_html": "<p><b>■新しい力とインターネットで日本の閉塞感を打破する</b><br>サイバーエージェントは 1998 年の創業以来、「21世紀を代表する会社を創る」というビジョンを掲げ、インターネット産業を軸に事業拡大を続けてまいりました。<br>メディア、インターネット広告、ゲームと大きく3つの事業を展開しており、国内トップシェアを誇るインターネット広告事業やインターネットテレビ局「ABEMA」の運営、AI・DX領域での新規事業開発を行なっています。<br><br>今回は、デジタルマーケティング分野のサービス開発を行う事業部「AI事業本部」で開発中のサービスである<br>デジタルサイネージ事業「ミライネージ」をご紹介します！</p><p><b>■Scala歴10年のEM・TechLeadが率いるデジタルサイネージ事業<a href =\"https://www.cyberagent.co.jp/news/detail/id=24848\">「ミライネージ」</a></b><br>広告事業ではScalaを用いた開発を行っているプロダクトが複数あり<br>「ミライネージ事業」では今後の事業拡大を見据え、Scalaエンジニアを積極的に募集しています。<br><br>デジタルサイネージを用いて小売店舗内を活性化させるメディアの開発に取り組むミライネージは、お客様の買い物の瞬間に一番近いところで情報を届け、よりワクワクする店舗体験を創出することに挑戦しています。<br><br>ミライネージは毎年社内で開かれる技術者による技術者のための表彰イベント『CA BASE AWAERD』にて2022年度のベストプロダクト賞を受賞した事業であり、社内でも注目を集めている事業です。<br><br>技術への挑戦意欲が高いメンバーが多く、バックエンドを軸にフルスタックに活躍したり、技術選定などからチーム一丸となって議論するなど、チームで楽しみながら技術を磨いています。<br>ぜひ、一緒にリテールメディアの未来を創るプロダクト開発に取り組んでいきませんか？<br><br>少しでもご興味をお持ち頂けましたら、ぜひカジュアル面談でお話させてください！<br>#Scala #TypeScript #Vue.js #Kotlin #AWS #GraphQL<br><p><b><a href=\"https://hrmos.co/pages/cyberagent-group/jobs/1833170313527164941\">事業の詳細や、カジュアル面談へのご応募はこちらから</a></b><br><b><a href=\"https://cyberagent.ai/careers/\">サイバーエージェントAI事業本部HP</a></b></p>",
+    "slide_html": ""
+  }
+]

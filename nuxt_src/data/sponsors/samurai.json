@@ -1,0 +1,22 @@
+[
+  {
+    "name": "合同会社ザウエル",
+    "logo": "/img/sponsors/zauel.png",
+    "url": "https://zauel.co.jp/"
+  },
+  {
+    "name": "日本インサイトテクノロジー株式会社",
+    "logo": "/img/sponsors/insightech.png",
+    "url": "http://www.insightech.co.jp/"
+  },
+  {
+    "name": "ピクシブ株式会社",
+    "logo": "/img/sponsors/pixiv.svg",
+    "url": "https://www.pixiv.co.jp/"
+  },
+  {
+    "name": "ワンダーソフト株式会社",
+    "logo": "/img/sponsors/wondersoft.png",
+    "url": "https://wonder-soft.com/"
+  }
+]

@@ -1,0 +1,1633 @@
+[
+  {
+    "id": "E1681521600",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/_OsM7bqY4-g",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "The Case For Effect Systems",
+      "detail": "Scaling and stabilizing cloud services in the face of torrential volumes of traffic is one of the major problem spaces that defines our language ecosystem. Problems such as reliability, predictability, throughput, efficiency, self-healing, and such are the primary factors which largely dictate both architectural and implementation decisions. \n\nIn this talk, we will peel apart how these factors manifest on the JVM, ultimately motivating not only the asynchronous I/O paradigm in general but effect systems in particular, with a special emphasis on performance and efficiency in the real world.",
+      "language": "English",
+      "length": 40,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Daniel Spiewak",
+          "icon": "https://avatars.githubusercontent.com/u/752?v=4",
+          "twitter": "djspiewak",
+          "github": "djspiewak",
+          "speaker_experience": []
+        }
+      ]
+    },
+    "ja": {
+      "title": "Effect システムのすゝめ",
+      "detail": "大量のトラフィックを捌けるようにクラウド・サービスをスケールさせ、安定化させるというのは Scala という言語環境の一大テーマであると言える。信頼性、予測可能性、スループット、効率、自己復旧などはアーキテクチャ及び実装レベルでの設計判断の決め手となる問題だ。\n\nこのトークでは、これらの要素が JVM上でどのように表出するかを解明し、非同期 I/O というパラダイムに留まらず、特に実践での性能と効率という観点から Effect システムの必要性について論じたいと思う。\n\nDaniel Spiewak さんは、Disney Streaming 社チーフ・アーキテクト、かつ Cats Effect 作者。",
+      "language": "English",
+      "length": 40,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Daniel Spiewak",
+          "icon": "https://avatars.githubusercontent.com/u/752?v=4",
+          "twitter": "djspiewak",
+          "github": "djspiewak",
+          "speaker_experience": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "J1681524900",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/psUPNQSn9d0",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Introduction to Functional Programming through CSV Import",
+      "detail": "Proper propagation of data imperfections is critical for CSV import functionality for ingesting large amounts of complex data.\nIn this session, you will learn how to take a functional approach to data validation using Cats' Validated.",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Yuichiro Iwai",
+          "icon": "https://avatars.githubusercontent.com/u/6065514?s=96&v=4"
+        }
+      ]
+    },
+    "ja": {
+      "title": "CSVインポートで学ぶ実例関数型入門",
+      "detail": "複雑な構造のデータを大量にシステムに取り込むためのCSVインポート機能では、いかにデータの不備を適切にハンドリングして作業者に伝えるかが重要です。\nこのセッションでは、CatsのValidatedを用いて関数型のアプローチでデータのバリデーションを行う方法を学びます。",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "岩井雄一郎",
+          "icon": "https://avatars.githubusercontent.com/u/6065514?s=96&v=4"
+        }
+      ]
+    }
+  },
+  {
+    "id": "J1681526400",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/FXC8Dpjupjk",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "5 Key Evaluation Points Everyone Should Know for Hiring Engineers",
+      "detail": "5 Key Evaluation Points Everyone Should Know for Hiring Engineers",
+      "language": "Japanese",
+      "length": 15,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Givery, Inc.",
+          "icon": ""
+        },
+        {
+          "name": "Mitsuru Ogawa",
+          "icon": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "エンジニア採用面接で評価するべき5つのポイント",
+      "detail": "エンジニア採用面接で評価するべき5つのポイント",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "株式会社ギブリー",
+          "icon": ""
+        },
+        {
+          "name": "小川 充",
+          "icon": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "J1681531200",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "embed_url": "https://docs.google.com/presentation/d/e/2PACX-1vTR-kKYTZ3KaV6RTofZNXgAa6zVBnAp6LGBPBuVQ3R2rLQjUayEZsyUlQGd2Z3SaBdTSADu_5g6EzJp/embed?start=false&loop=false&delayms=3000",
+        "other_url": ""
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/p_CKzxydifQ",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Introduction to Scalafix and Scalafix Rule Writing",
+      "detail": "This lecture will explain how to implement Scalafix, a Scala Lint and automatic rewriting tool, and how to create rules.\nIn particular, a list of child classes of Tree Trait and how to retrieve classes using Semantic DB will be explained based on an example implementation of scalafix-pixiv-rule.",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Javakky",
+          "icon": "https://pbs.twimg.com/profile_images/1077576484380790784/MbpJ94BM_400x400.jpg"
+        }
+      ]
+    },
+    "ja": {
+      "title": "Scalafix 入門および Scalafix ルール作成入門",
+      "detail": "Scala の Lint ・ 自動書き換えツールである Scalafix の導入方法とルールの作成手法について解説します。特に、 scalafix-pixiv-rule の実装事例をもとに Tree トレイトの子クラスや  Semantic DB を用いたクラス特定手法を説明します。",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Javakky",
+          "icon": "https://pbs.twimg.com/profile_images/1077576484380790784/MbpJ94BM_400x400.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "J1681532700",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": "f3c63d74333241cc8b30a436f8753344"
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/7qmkvh3zpZU",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Refactoring of Domain Objects with Scalafix",
+      "detail": "Domain objects, which implement critical business logic, are also code that is dependent from many different places. Even a single line of change can create potential bugs.\n\nHow can they be refactored quickly and safely?\n\nIn this session, we will present a case study of refactoring using Scalafix.",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Naoki Aoyama",
+          "icon": "https://pbs.twimg.com/profile_images/556312366862708736/jmQUaeoW_400x400.jpeg",
+          "twitter": "@aoiroaoino"
+        }
+      ]
+    },
+    "ja": {
+      "title": "Scalafix を用いたドメインオブジェクトのリファクタリング",
+      "detail": "重要なビジネスロジックを実装したドメインオブジェクトは様々なところから利用されるコードでもあり、たった一行の変更だったとしても様々な場所に影響し、時に潜在的なバグを生み出してしまうこともあります。これらを素早く、そして安全にリファクタリングするためにはどうしたら良いでしょうか？\n\n本セッションではこれを実現するために Scalafix を用いて奮闘した事例をご紹介いたします。",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Naoki Aoyama",
+          "icon": "https://pbs.twimg.com/profile_images/556312366862708736/jmQUaeoW_400x400.jpeg",
+          "twitter": "@aoiroaoino"
+        }
+      ]
+    }
+  },
+  {
+    "id": "J1681534800",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "embed_url": "https://gakuzzzz.github.io/slides/controls_the_traverse_controls_the_code/#1",
+        "other_url": "https://gakuzzzz.github.io/slides/controls_the_traverse_controls_the_code/#1"
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/akJFetDxZHw",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Whoever controls the traverse controls the code",
+      "detail": "The elements of a program are branches and loops.\nBranching is becoming more common, with pattern matching and polymorphism and so on that are easier for humans to manage and less prone to error.\nWhat about loops?\nHigher-order functions have become common, and simple loops can be expressed in a concise manner.\nHowever, there are still many cases where you may feel it is difficult to express asynchronous loops etc..\nIn this session, we will introduce traverse and explain how to express even complex loops in a concise manner.",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "gakuzzzz",
+          "icon": "https://pbs.twimg.com/profile_images/1431608839/ceb5e4f7-bec8-4a68-a86c-32d0c7ae4e22_400x400.png"
+        }
+      ]
+    },
+    "ja": {
+      "title": "traverseを制するものはコードを制す",
+      "detail": "プログラムの要素として分岐とループがあります。\n分岐はパターンマッチやポリモーフィズム等々、人間がより間違えにくく管理しやすい手法が定着してきています。\nループはどうでしょう？\n高階関数が一般的になり単純な物は簡潔に表現できるようになってきました。\nしかしasyncが絡んだり等まだ難しいと感じる時も多くあるのではないでしょうか？\nこのセッションではtraverseを紹介し、複雑なループも簡潔に表現する方法を解説します。",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "がくぞ",
+          "icon": "https://pbs.twimg.com/profile_images/1431608839/ceb5e4f7-bec8-4a68-a86c-32d0c7ae4e22_400x400.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "J1681536300",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": "5cdcea8d0e9f4bfea9d05eff989096f0"
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/tkqcg7-18tA",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Scala nowadays at Chatwork",
+      "detail": "Scala nowadays at Chatwork",
+      "language": "Japanese",
+      "length": 15,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Chatwork Co., Ltd.",
+          "icon": ""
+        },
+        {
+          "name": "Yoshitaka Fujii",
+          "icon": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "ChatworkのScala近況",
+      "detail": "ChatworkのScala近況",
+      "language": "Japanese",
+      "length": 15,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Chatwork株式会社",
+          "icon": ""
+        },
+        {
+          "name": "藤井善隆",
+          "icon": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "E1681538400",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "embed_url": "https://slides.com/magdastozek/goodbye-implicits-20/embed",
+        "other_url": ""
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/wrHZKn4vySQ",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Say goodbye to implicits - contextual abstractions in Scala 3",
+      "detail": "Have you ever been confused by implicits in Scala? I most certainly have. It doesn't help that one keyword can be used for many different things - defining implicit parameters, implicit conversions, or type class instances. \nScala 3 addresses a lot of the tricky bits in the language to make it clearer and easier to use, and as a result, implicits… were removed. But in their place, we're getting language constructs that do one thing and do it well. Let’s welcome the new tools for contextual abstractions: \"given\" and \"using\", as well as extension methods and the Conversion class.",
+      "language": "English",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Magda Stożek",
+          "icon": "https://avatars.githubusercontent.com/u/1413543?v=4"
+        }
+      ]
+    },
+    "ja": {
+      "title": "implicits よさらば: Scala 3 のコンテキスト抽象",
+      "detail": "Scala の implicit で混乱したことはありますか? 私は何回もあります。一つのキーワードが、implicit パラメタ、暗黙の変換、型クラスのインスタンス多くの異なることに使えるのも混乱のもとです。\n\nScala 3 ではこれらの点を対策した結果 implicit は、無くなってしまいました。その代わりに、単一のことをうまくやるの言語機能がいくつか追加されました。コンテキスト抽象のための新しいツール given と using、拡張メソッド、Conversion クラスを拍手でお迎えください。",
+      "language": "English",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Magda Stożek",
+          "icon": "https://avatars.githubusercontent.com/u/1413543?v=4"
+        }
+      ]
+    }
+  },
+  {
+    "id": "J1681539900",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/GN0W4k_YRiE",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Introducing COMPASS, Inc",
+      "detail": "Introducing COMPASS, Inc",
+      "language": "Japanese",
+      "length": 15,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "COMPASS Inc.",
+          "icon": ""
+        },
+        {
+          "name": "Masaki Ogawa",
+          "icon": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "株式会社COMPASS 会社・サービス紹介",
+      "detail": "株式会社COMPASS 会社・サービス紹介",
+      "language": "Japanese",
+      "length": 15,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "株式会社COMPASS",
+          "icon": ""
+        },
+        {
+          "name": "小川正幹",
+          "icon": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "E1681542000",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "embed_url": "/slides/E1681542000/ComposableGens.pdf",
+        "other_url": "https://github.com/on-air-entertainment/scala-matsuri-2024"
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/cN7dw5aRXtA",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Gens & Lens: Making generators composable",
+      "detail": "The goal of this talk is to show how to use ScalaCheck and Monocle together in order to make composable data generators. Often in property-based tests we need to change a part of a case class in order to check a certain property. With help of Monocle we can have gens that can be easily composed.",
+      "language": "English",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Aleksei Shamenev",
+          "icon": "https://s.gravatar.com/avatar/62276b8e228c933b6a57aac76d9031bc"
+        }
+      ]
+    },
+    "ja": {
+      "title": "Gens & Lens: ジェネレータを合成可能にする",
+      "detail": "このトークのゴールは、合成可能なデータ生成をネタにScalaCheck と Monocle を同時に解説することです。プロパティー・ベーステストであるあるなのが case class の一部を寄せていかないと、というのがあります。そこで Monocle を活用するとその作業を自動化できます。",
+      "language": "English",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Aleksei Shamenev",
+          "icon": "https://s.gravatar.com/avatar/62276b8e228c933b6a57aac76d9031bc"
+        }
+      ]
+    }
+  },
+  {
+    "id": "J1681543500",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": "dcf90fafb5704166a18b2cbf97d51ec7"
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/zBYz8dR4SCQ",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Implement for Authorization-Effect using Extensible-Effect",
+      "detail": "Authorization(Authz) is a very difficult concept to implement because of its wide-range and high-level of abstraction.\n\nBy implementing it as an authz-effect using Extensible-Effect, it can be handled as an single function, so it is possible to obtain a list of authz information necessary for the function and make an Allow/Deny decision in a single function. It was also possible to perform pure, clean, and safe authz control because there is no need to send out the information necessary for authz to the all layer interface.\n\nIn this session, we will present the details of the  implementation.",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Tsubasa Matsukawa",
+          "icon": "https://avatars.githubusercontent.com/u/1573032?s=96&v=4"
+        }
+      ]
+    },
+    "ja": {
+      "title": "Extensible Effectで実装する認可エフェクト",
+      "detail": "認可はHttpRequest, DB, ドメインロジック等、適用範囲が多岐に渡り抽象度も高いため、実装がとても難しい概念です。\n\nExtensible-Effectを使って認可エフェクトとして実装することで、処理の最初から最後まで非正格な関数として取り扱うことができるため、その関数に必要な認可情報の一覧を取得し、一度の処理でAllow/Denyの判定を行うことができたり、ドメイン層やアダプタ層のインターフェースに認可に必要な情報を出す必要がないため、ピュアでクリーンかつ安全な認可制御を行うことができました。\n\nこのセッションではその実現方法と実装の詳細を発表します。",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "松川翼",
+          "icon": "https://avatars.githubusercontent.com/u/1573032?s=96&v=4"
+        }
+      ]
+    }
+  },
+  {
+    "id": "E1681610400",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/8wjiJTEcauk",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Exploring Systems with Open Telemetry and Honeycomb",
+      "detail": "Metrics and Logs are no longer sufficient for understanding problems in our distributed systems.  We'll learn what Tracing is, show how to instrument our application, and explore a system using that telemetry with the tool Honeycomb.",
+      "language": "English",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Zach McCoy",
+          "icon": "https://pbs.twimg.com/profile_images/1425616916442406914/YTHlOmPV_400x400.jpg"
+        }
+      ]
+    },
+    "ja": {
+      "title": "Open Telemetry と Honeycomb を用いたシステム調査",
+      "detail": "近年の分散システムにおいて、メトリックスやログは分散システムの理解を得るのに力不足になってきています。このトークでは「トレーシング (tracing)」の概要、アプリの測定可能化の解説を行い、Honeycomb というツールを用いたテレメトリを用いたシステムの探求方法をみていきます。",
+      "language": "English",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Zach McCoy",
+          "icon": "https://pbs.twimg.com/profile_images/1425616916442406914/YTHlOmPV_400x400.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "E1681611900",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/IuwvBT_V63I",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Composable Constraint Types",
+      "detail": "Runtime and compile time checking of user-defined constraints now compose better than ever before by utilizing several Scala features such as singleton types, type classes, (transparent) inline, macros, intersection types, union types, match types, and dependent types.",
+      "language": "English",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Michael Perucca",
+          "icon": "https://avatars.githubusercontent.com/u/30921036?v=4"
+        }
+      ]
+    },
+    "ja": {
+      "title": "合成可能な制約型",
+      "detail": "シングルトン型、型クラス、(透過な)インライン、マクロ、交叉型、直和型、マッチ型、依存型などの Scala 機能の登場により、コンパイル時や実行時にユーザ定義の制約を合成させることは過去一やりやすくなっています。",
+      "language": "English",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Michael Perucca",
+          "icon": "https://avatars.githubusercontent.com/u/30921036?v=4"
+        }
+      ]
+    }
+  },
+  {
+    "id": "J1681614000",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/94CkxlyW5cs",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Current state of products made with DDD & Scala.",
+      "detail": "In 2018, MicroAd developed an ad distribution system using DDD&Scala.\nI wasn't on the dev team, but I became the leader of that team in  2020.\nI think DDD makes it easier to add functionality by creating a common domain between various parties but does it?\nI will explain the merits and demerits of DDD from a long-term perspective.",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "OSAWA Kota",
+          "icon": "https://pbs.twimg.com/profile_images/1139412357480796161/9YzMvaKd_400x400.png"
+        }
+      ]
+    },
+    "ja": {
+      "title": "DDD&Scalaで作られたプロダクトはその後どうなったか?",
+      "detail": "マイクロアドでは2018年からDDDとScalaを活用して広告配信システムの開発を行いました。\n私は当時開発チームではなかったのですが、コアメンバーの入れ替えがあり2020年からそのチームのリーダになりました。\nDDDは関係者間の齟齬を少なくする事で機能追加を容易にする長期的な目線を持った手法ですが本当にそうでしょうか？\n当時のメンバーと私でプロダクトを振り返り４年間を耐え抜く事ができたのか紹介します",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "大澤昂太",
+          "icon": "https://pbs.twimg.com/profile_images/1139412357480796161/9YzMvaKd_400x400.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "J1681615200",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/89jwM3WmZv4",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Points of implementation of repository to avoid dead lock",
+      "detail": "When construct a system refering to Domain Driven Design, it is not available to avoid difficult stage of implementation of repositories. We struggle to get over impedance mismatch between object world and RDB world, and run into many of performance problems in production environment. In this session, I will talk about one of those problems, dead lock.",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "TANGA Kenichi",
+          "icon": "https://pbs.twimg.com/profile_images/1496771833240391685/NzaiFJFV_400x400.jpg"
+        }
+      ]
+    },
+    "ja": {
+      "title": "デッドロックを回避するRepository実装の勘所",
+      "detail": "ドメイン駆動設計に沿ってシステムを開発する際、Repositoryの実装は避けて通れない難所になります。オブジェクトとデータベースのインピーダンスミスマッチを解消して運用を始めると、今度は多くのパフォーマンス上の課題に向き合うことになるでしょう。このセッションでは、それらの課題の中でもデッドロックに焦点を当て、実際の現場で起きた事象と解決のパターンをご紹介します。",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "丹賀健一",
+          "icon": "https://pbs.twimg.com/profile_images/1496771833240391685/NzaiFJFV_400x400.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "J1681618500",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/cBYTiYJdGLA",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Helix and Scala",
+      "detail": "Neovim is becoming a nice developing environment for Scala thanks to meta-tooling such as LSP, Metals, and tree-sitter. In this talk I would like to talk about them.",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Eugene Yokota",
+          "icon": "https://en.gravatar.com/userimage/4910561/aa5421808eae0364f0a9c29d0dc27816.jpg"
+        }
+      ]
+    },
+    "ja": {
+      "title": "Helix と Scala",
+      "detail": "LSP、Metals、tree-sitter などメタツーリングが整ってきたことによって今注目の開発環境 Neovim について話したいと思います。",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Eugene Yokota",
+          "icon": "https://en.gravatar.com/userimage/4910561/aa5421808eae0364f0a9c29d0dc27816.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "J1681620000",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/apqVjDmYwTk",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "write fast ffi fast in Scala 3",
+      "detail": "In this session, I will show you how to write FFI in Scala 3 using slinc without writing a boilerplate in java.incubator.foreign.\n\n- Why FFI matters\n- FFI in JVM world: JNI, JNA\n- introduction to java.incubator.foreign\n- how to use slinc & demo",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Y.ITO(110416)",
+          "icon": "https://avatars.githubusercontent.com/u/39330037?v=4"
+        }
+      ]
+    },
+    "ja": {
+      "title": "write fast ffi fast in Scala 3",
+      "detail": "Scala 3 で slinc を使うことで java.incubator.foreign のボイラープレートを書かずに ffi を書く方法を紹介する.\n- なぜ ffi が重要なのか\n- Java(JVM言語)の ffi: JNI, JNA\n- j.i.foreign の紹介\n- slinc の使い方・デモ",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Y.ITO(110416)",
+          "icon": "https://avatars.githubusercontent.com/u/39330037?v=4"
+        }
+      ]
+    }
+  },
+  {
+    "id": "J1681621800",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/QqfwUVWMmGc",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "RateLimit implemented by Eff",
+      "detail": "Introduce RateLimit to provide fair APIs. In Alp, we implemented ScalebaseAPI's RateLimit as a Throttling effect and made it simple to use using Eff. Based on this Throttling effect implementation, I will introduce an example of how we use Eff in a business application.",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "kzmake",
+          "icon": "https://gravatar.com/avatar/504a6586cb4a6c46d86ce71ce7af2fa7?s=256"
+        }
+      ]
+    },
+    "ja": {
+      "title": "Effとリーキーバケットを使って実装するレートリミット",
+      "detail": "公平なAPIを提供するためRateLimitを導入することがあります。Alpでは、ScalebaseAPIのRateLimitをThrottringエフェクトとして実装し、Effをつかってシンプルに利用できるようにしました。このThrottringエフェクト実装をもとに、私たちがEffをビジネスアプリケーションで利用していく一例を紹介します。",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "kzmake",
+          "icon": "https://gravatar.com/avatar/504a6586cb4a6c46d86ce71ce7af2fa7?s=256"
+        }
+      ]
+    }
+  },
+  {
+    "id": "J1681623300",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/rz-tF_GfQ6w",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Creating an explainer video maker in Scala",
+      "detail": "The category of instructional videos in which characters speak with synthetic voices has a certain status in the Japanese video community. However, most of these videos are edited by hand using a GUI. I am developing software like pandoc, which converts XML manuscript files to mp4 files. I will introduce its architecture and other details.",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Windymelt",
+          "icon": "https://avatars.githubusercontent.com/u/1113940?v=4"
+        }
+      ]
+    },
+    "ja": {
+      "title": "解説動画作成ツールをScalaで作成している話",
+      "detail": "キャラクターが合成音声で会話を行う解説動画というカテゴリは、日本の動画界隈において一定の地位を占めています。しかしながらこうした動画はGUIを用いて手で編集されていることが殆どです。私はXML原稿ファイルからmp4ファイルへのpandocのようなソフトウェアを開発しています。そのアーキテクチャ等を紹介します。",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Windymelt",
+          "icon": "https://avatars.githubusercontent.com/u/1113940?v=4"
+        }
+      ]
+    }
+  },
+  {
+    "id": "J1681624800",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "embed_url": "/slides/J1681624800/scalamatsuri2024.pdf",
+        "other_url": "https://github.com/y-yu/scalamatsuri2024"
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/K1rP04o9gzc",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Datatype Generic Programming with Scala 3",
+      "detail": "Datatype Generic Programming with Scala 3",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Recruit Co., Ltd.",
+          "icon": ""
+        },
+        {
+          "name": "YOSHIMURA Hikaru",
+          "icon": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "Datatype Generic Programming with Scala 3",
+      "detail": "Datatype Generic Programming with Scala 3",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "株式会社リクルート",
+          "icon": ""
+        },
+        {
+          "name": "YOSHIMURA Hikaru",
+          "icon": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "E1681626600",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/SGx4ysX9UX8",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Full-Stack Scala 3 with the Typelevel Stack",
+      "detail": "This talk will demonstrate a blueprint and approach for building end-to-end, full-stack applications in Scala 3, using Cats, Cats Effect, Doobie, FS2, Http4s and friends, working live at Rock the JVM.",
+      "language": "English",
+      "length": 40,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Daniel Ciocirlan",
+          "icon": "https://pbs.twimg.com/profile_images/1189887417349750785/bnnxYdFj_400x400.jpg"
+        }
+      ]
+    },
+    "ja": {
+      "title": "Typelevel スタックを用いたフルスタック Scala 3",
+      "detail": "このトークでは、Rock the JVM で実際に動いているコードを例に、エンド・ツー・エンド、フルスタックな Scala 3 アプリを Cats、Cats Effect、Doobie、FS2、Http4s などを活用して書くための設計概要およびアプローチを解説します。",
+      "language": "English",
+      "length": 40,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Daniel Ciocirlan",
+          "icon": "https://pbs.twimg.com/profile_images/1189887417349750785/bnnxYdFj_400x400.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "E1681630200",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "embed_url": "https://docs.google.com/presentation/d/e/2PACX-1vSDj2-Hyikf6RtCZYexez8L_2pzpSurKc6kgO6zaThwsFAOprI_fXiI3aPudMxZJA2KdBAYIsKM7Tq8/embed?start=false&loop=false&delayms=10000",
+        "other_url": "https://docs.google.com/presentation/d/e/2PACX-1vSDj2-Hyikf6RtCZYexez8L_2pzpSurKc6kgO6zaThwsFAOprI_fXiI3aPudMxZJA2KdBAYIsKM7Tq8/pub?start=false&loop=false&delayms=10000"
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/2eBReZaNYLg",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Generating production code",
+      "detail": "Under most circumstances we code ourselves. Machines haven't replaced us (yet). However, when a project requires coding and maintaining millions of functions, coding those ourselves is not viable anymore.\n\nIn this talk I will do a return on experience on coding a code generator.",
+      "language": "English",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Yohann Jardin",
+          "icon": "https://avatars.githubusercontent.com/u/10663802?v=4"
+        }
+      ]
+    },
+    "ja": {
+      "title": "プロダクション・コードの生成",
+      "detail": "多くの状況において僕たちで自分でコードを書きます。機械はまだ僕たちを置き換えていません。しかし、プロジェクトが数百万もの関数を書いて、メンテし続けることを必要とする場合、手で書くという方法は現実的では無くなってきます。\n\nこのトークでは、コード生成を書いた経験の振り返りを行います。",
+      "language": "English",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Yohann Jardin",
+          "icon": "https://avatars.githubusercontent.com/u/10663802?v=4"
+        }
+      ]
+    }
+  },
+  {
+    "id": "E1681631700",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/2i5Pf0FcZns",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "How to save time by letting Scala ecosystem work for you.",
+      "detail": "So in this talk we will dive into how we can employ Scala web libraries to help us achieve more by doing less.\n\nWe'll have a look at how can we type our endpoints, consume JSONs, expose endpoints with some metrics and have self written documentation on top of what. All that with testable and functional code.\n\nYour microservices will never be the same!\n\nA bit of slides and a bit of coding :) ",
+      "language": "English",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Marcin Krykowski",
+          "icon": "https://pbs.twimg.com/profile_images/1289693418688598022/q8jE7bxQ_400x400.jpg"
+        }
+      ]
+    },
+    "ja": {
+      "title": "Scala エコシステムをうまく利用して時短する方法",
+      "detail": "このトークでは、様々な Scala web ライブラリを利用して、最小限の努力で最も多く仕事をする方法解説します。\n\n具体例としては、エンドポイントの型付け、JSON の処理、メトリック付きのエンドポイントの公開の仕方、おまけで自動ドキュメンテーションなど。全てテスト可能かつ関数型で行きます。\n\nあなたのマイクロサービスは生まれ変わります! ",
+      "language": "English",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Marcin Krykowski",
+          "icon": "https://pbs.twimg.com/profile_images/1289693418688598022/q8jE7bxQ_400x400.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "OMC1681534800",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Decrel in action — utilize domain relations in Scala",
+      "detail": "I will demonstrate the usecase of the decrel library with an example backend app.\nDecrel makes accessing data fast and efficient, and generating test data easy and consistent.\nhttps://github.com/yoohaemin/decrel",
+      "language": "English",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "yoohaemin",
+          "id": "",
+          "icon": "https://avatars.githubusercontent.com/u/22650536?v=4",
+          "organization": "",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "yoohaemin",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "Decrel in action — utilize domain relations in Scala",
+      "detail": "I will demonstrate the usecase of the decrel library with an example backend app.\nDecrel makes accessing data fast and efficient, and generating test data easy and consistent.\nhttps://github.com/yoohaemin/decrel",
+      "language": "English",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "yoohaemin",
+          "id": "",
+          "icon": "https://avatars.githubusercontent.com/u/22650536?v=4",
+          "organization": "",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "yoohaemin",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "OMC1681538400",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "embed_url": "https://docs.google.com/presentation/d/e/2PACX-1vQpMpHldnsGPxaZe166nDED9HKaAazb-7-65vve32af6Qb92P7m69xv555lZytt_0QYJdszfhCIAelG/embed?start=false&loop=false&delayms=3000",
+        "other_url": ""
+      },
+      "youtube_embed_url": "",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Play Framework プロジェクトにおける Swagger (OpenAPI) ドキュメントの自動生成",
+      "detail": "play-swagger を利用した OpenAPI ドキュメントの生成方法を紹介します。\n特に、 Scaladoc を利用した埋め込みや複数の XML ファイルを分割することで routes ファイルを汚染しないための Tips を解説します。\nまた、 Swagger UI や Stoplight Elements などの OpenAPI ビューワーの比較と Play 連携についても解説します。",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Javakky-pxv",
+          "id": "",
+          "icon": "https://avatars.githubusercontent.com/u/71240288?v=4",
+          "organization": "",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "Javakky-pxv",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "Play Framework プロジェクトにおける Swagger (OpenAPI) ドキュメントの自動生成",
+      "detail": "play-swagger を利用した OpenAPI ドキュメントの生成方法を紹介します。\n特に、 Scaladoc を利用した埋め込みや複数の XML ファイルを分割することで routes ファイルを汚染しないための Tips を解説します。\nまた、 Swagger UI や Stoplight Elements などの OpenAPI ビューワーの比較と Play 連携についても解説します。",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Javakky-pxv",
+          "id": "",
+          "icon": "https://avatars.githubusercontent.com/u/71240288?v=4",
+          "organization": "",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "Javakky-pxv",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "OMC1681542000",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Scala-CLI in daily work / 仕事でつかうScala-CLI",
+      "detail": "ちょっとしたオペレーションやデータ生成のスクリプトを、どの言語で書いていますか？Scala-CLIを使うと、ちょっとしたスクリプトも手慣れたScalaで快適に書くことができます。\nこのセッションではScala-CLIの利用の事例と所感についてお話しします。\nScala-CLIの前提知識は必要ありません。",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "todokr",
+          "id": "",
+          "icon": "https://avatars.githubusercontent.com/u/2328540?v=4",
+          "organization": "",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "todokr",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "Scala-CLI in daily work / 仕事でつかうScala-CLI",
+      "detail": "ちょっとしたオペレーションやデータ生成のスクリプトを、どの言語で書いていますか？Scala-CLIを使うと、ちょっとしたスクリプトも手慣れたScalaで快適に書くことができます。\nこのセッションではScala-CLIの利用の事例と所感についてお話しします。\nScala-CLIの前提知識は必要ありません",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "todokr",
+          "id": "",
+          "icon": "https://avatars.githubusercontent.com/u/2328540?v=4",
+          "organization": "",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "todokr",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "OMC1681610400",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "embed_url": "https://docs.google.com/presentation/d/e/2PACX-1vQVK2gTnxYk430Teeu1qzVa_jMH_4AoKlvoStt80yo50UKrTbVQAko1IGCZLPKGimergwBN71mZ3DhI/embed?start=false&loop=false&delayms=3000",
+        "other_url": ""
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/Gvoy11tlTyA",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "モックライブラリとカバレッジ計測ツールでテスト環境を快適にした話",
+      "detail": "Scala Test を用いたユニットテスト環境を快適にするいくつかのライブラリとCI設定について解説します。\nJava 向けモックライブラリの Mocktio の導入や、 scoverage を利用したカバレッジの取得と GitLab CI 連携、外部のAPIを実行するテストのための設定など、明日から使える設定を多数紹介します。",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Javakky-pxv",
+          "id": "",
+          "icon": "https://avatars.githubusercontent.com/u/71240288?v=4",
+          "organization": "",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "Javakky-pxv",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "モックライブラリとカバレッジ計測ツールでテスト環境を快適にした話",
+      "detail": "Scala Test を用いたユニットテスト環境を快適にするいくつかのライブラリとCI設定について解説します。\nJava 向けモックライブラリの Mocktio の導入や、 scoverage を利用したカバレッジの取得と GitLab CI 連携、外部のAPIを実行するテストのための設定など、明日から使える設定を多数紹介します。",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "Javakky-pxv",
+          "id": "",
+          "icon": "https://avatars.githubusercontent.com/u/71240288?v=4",
+          "organization": "",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "Javakky-pxv",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "OMC1681612200",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "TBD",
+      "detail": "",
+      "language": "",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "",
+          "id": "",
+          "icon": "",
+          "organization": "",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "TBD",
+      "detail": "",
+      "language": "",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "",
+          "id": "",
+          "icon": "",
+          "organization": "",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "OMC1681617600",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "TBD",
+      "detail": "",
+      "language": "",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "",
+          "id": "",
+          "icon": "",
+          "organization": "",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "TBD",
+      "detail": "",
+      "language": "",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "",
+          "id": "",
+          "icon": "",
+          "organization": "",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "OMC1681619400",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "TBD",
+      "detail": "",
+      "language": "",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "",
+          "id": "",
+          "icon": "",
+          "organization": "",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "TBD",
+      "detail": "",
+      "language": "",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "",
+          "id": "",
+          "icon": "",
+          "organization": "",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "OMC1681621200",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/N__DQAMLjKc",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "About sbt 2.x",
+      "detail": "Q&A around some sbt 2.x stuff.",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "id": "",
+          "name": "Eugene Yokota",
+          "icon": "https://en.gravatar.com/userimage/4910561/aa5421808eae0364f0a9c29d0dc27816.jpg",
+          "organization": "",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "eed3si9n",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "About sbt 2.x",
+      "detail": "Q&A around some sbt 2.x stuff.",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "id": "",
+          "name": "Eugene Yokota",
+          "icon": "https://en.gravatar.com/userimage/4910561/aa5421808eae0364f0a9c29d0dc27816.jpg",
+          "organization": "",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "eed3si9n",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "OMC1681626600",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "embed_url": "https://docs.google.com/presentation/d/1Kbhq8OyqTewiUdGaZEtxxwsjec7A482116aCkkecVEY/edit#slide=id.p",
+        "other_url": "https://docs.google.com/presentation/d/1Kbhq8OyqTewiUdGaZEtxxwsjec7A482116aCkkecVEY/edit#slide=id.p"
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/xZbbyLwhcgo",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "[Hands-on] How to play Play with GraalVM",
+      "detail": "PlayをGraalVMで実行する方法をハンズオン形式で紹介したいと思います。\n\n\nGraalVMで実行することで、Playはネイティブバイナリとしてビルド・実行できるようになります。JVMのオーバーヘッドがなくなるため、パフォーマンスが向上します。ただし、私が紹介する内容は、現時点ではPlayによる公式な方法ではないことに注意してください（そのため「遊び(play)」目的です）。\n\n内容はこちらのQiitaを元にします https://qiita.com/kijuky/items/ab3d1aecc9e4466145f9 ~~(専用のスライドはありません。今日時間があれば用意するかもしれません...)~~\n\n追記\n資料はこちらになります https://docs.google.com/presentation/d/1Kbhq8OyqTewiUdGaZEtxxwsjec7A482116aCkkecVEY/edit#slide=id.p",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "kijuky",
+          "id": "",
+          "icon": "",
+          "organization": "",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "kijuky",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "[Hands-on] How to play Play with GraalVM",
+      "detail": "PlayをGraalVMで実行する方法をハンズオン形式で紹介したいと思います。\n\n\nGraalVMで実行することで、Playはネイティブバイナリとしてビルド・実行できるようになります。JVMのオーバーヘッドがなくなるため、パフォーマンスが向上します。ただし、私が紹介する内容は、現時点ではPlayによる公式な方法ではないことに注意してください（そのため「遊び(play)」目的です）。\n\n内容はこちらのQiitaを元にします https://qiita.com/kijuky/items/ab3d1aecc9e4466145f9 ~~(専用のスライドはありません。今日時間があれば用意するかもしれません...)~~\n\n追記\n資料はこちらになります https://docs.google.com/presentation/d/1Kbhq8OyqTewiUdGaZEtxxwsjec7A482116aCkkecVEY/edit#slide=id.p",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "kijuky",
+          "id": "",
+          "icon": "",
+          "organization": "",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "kijuky",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "OMC1681628400",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/zNPfhR59Sps",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Live coding scalafix and wartremover",
+      "detail": "最近作ったscalafixやwartremoverのruleの解説や、いい題材があればlive codingでその場でrule作るなどをします",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "xuwei-k",
+          "id": "",
+          "icon": "https://avatars.githubusercontent.com/u/389787?v=4",
+          "organization": "",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "xuwei-k",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "Live coding scalafix and wartremover",
+      "detail": "最近作ったscalafixやwartremoverのruleの解説や、いい題材があればlive codingでその場でrule作るなどをします",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "xuwei-k",
+          "id": "",
+          "icon": "https://avatars.githubusercontent.com/u/389787?v=4",
+          "organization": "",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "xuwei-k",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "OMC1681630200",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "other_url": ""
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/UTmfO18WFnU",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "slinc を使ったネイティブコードバインディングのデモ",
+      "detail": "Slinc を使ったネイティブコードのバインディングのデモをします.\n簡単なバインディング、portaudio や scala native の例を示します.",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "i10416",
+          "id": "",
+          "icon": "https://avatars.githubusercontent.com/u/39330037?v=4",
+          "organization": "",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "i10416",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "slinc を使ったネイティブコードバインディングのデモ",
+      "detail": "Slinc を使ったネイティブコードのバインディングのデモをします.\n簡単なバインディング、portaudio や scala native の例を示します.",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "i10416",
+          "id": "",
+          "icon": "https://avatars.githubusercontent.com/u/39330037?v=4",
+          "organization": "",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "i10416",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1647655800",
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        }
+      },
+      "youtube_embed_url": "",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Scalaの新規事業でScalaの未経験者をオンボーディング",
+      "detail": "オンボーディングした人＆された人が、実体験を語るトークイベントです！\nぜひDiscord内Assuredチャンネルにお越しください＾＾",
+      "language": "ja",
+      "length": 15,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "岩松、内山",
+          "icon": "",
+          "organization": "ビジョナル・インキュベーション株式会社",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "Scalaの新規事業でScalaの未経験者をオンボーディング",
+      "detail": "オンボーディングした人＆された人が、実体験を語るトークイベントです！\nぜひDiscord内Assuredチャンネルにお越しください＾＾",
+      "language": "ja",
+      "length": 15,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "岩松、内山",
+          "icon": "",
+          "organization": "ビジョナル・インキュベーション株式会社",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    }
+  }
+]

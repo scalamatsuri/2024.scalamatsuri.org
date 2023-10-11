@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Chatwork株式会社",
+    "logo": "/img/sponsors/chatwork.png",
+    "url": "https://corp.chatwork.com/ja/",
+    "text_html": "<p><a href=\"https://recruit.chatwork.com/mission/\">この国の経済を活性化させる。</a><br>私たちは事業上の成功ではなく、その先にある社会課題の解決をゴールに掲げています。Chatworkのメインユーザーは中小企業の従業員の方々です。日本の企業数の99.7%、雇用の7割を占める中小企業のDXは、この国の大きな課題です。そこで、コミュニケーションのインフラとしてChatworkを普及し、DX推進のきっかけをつくる。そして、日本中の中小企業の労働生産性を高めていくことで、経済を活性化させたいのです。</p><p><a href=\"https://recruit.chatwork.com/jobs/\">プロダクトに携わる方へ。</a><br>働く歴史を変えるプロダクトを、つくっていこう。<br>導入社数は毎月4000社で増え続け、累計のチャットログは65億に達し、毎月数億のメッセージが飛び交うサービスとして、いまも拡大を続けています。業界トップクラスのスキルを持ったメンバーが集い、問題解決に取り組んでいます。でもまだ、つくりたいプロダクトの20%も実現できていません。日本のあらゆる産業が使っているプロダクトをつくる。そんなメンバーの一員になりませんか。</p><p><a href=\"https://hrmos.co/pages/chatwork/jobs?category=1501423708939517952\">Chatwork株式会社 エンジニア 求人一覧</a><br><a href=\"https://hrmos.co/pages/chatwork/jobs/1020001\">Scalaエンジニア 募集要項</a><br><a href=\"https://www.wantedly.com/companies/chatwork/post_articles/318984\">Engineer Entrance Book</a></p>",
+    "slide_html": "<div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;\"> <iframe src=\"https://speakerdeck.com/player/14c8891581624369ae5c3e86e70899cc\" style=\"top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;\" allowfullscreen scrolling=\"no\"> </iframe></div>"
+  },
+  {
+    "name": "株式会社COMPASS",
+    "logo": "/img/sponsors/qubena.png",
+    "url": "https://qubena.com/",
+    "text_html": "<html><head><title>株式会社COMPASS</title></head><body><p><a href=\"https://qubena.com/\">COMPASS</a>は、学習eポータル＋AI型教材「Qubena（キュビナ）」の開発を通して、子ども達の学習をパーソナライズし、より効果的に知識、技能を習得できるプラットフォームを提供しています！</p><p>現在全国170以上の自治体、小中学校で約2,300校にて導入され、100万人以上の子供たちの学びを支えています。<br>昨今のコロナの影響もあり、今後ますます多くの自治体での導入が見込まれています。</p><p><b>「Scalaで、学びをもっと愉しく！」</b></p><p>バックエンド開発ではScalaを採用しており、設計にはDDDを取り入れています。<br>高負荷への対処が重要であるため、新しい技術やアプローチを検討し続けています。<br>また、進化可能なアーキテクチャ基盤の構築に向けてモジュラモノリスの導入に取り組んでいます。</p><p>組織としては機能開発のチームの他にPlatformチームを作り，カイゼン活動、技術的課題への取り組みに充てており、常に現状に満足しないシステム開発を進めています。</p><p>日本の公教育をアップデートし、子ども達の未来を支えるエンジニアを募集しています！少しでも興味がある方は、ぜひお気軽にご連絡ください！</p><p><a href=\"https://hrmos.co/pages/qubena/jobs/4_1_1\">Scalaエンジニア採用情報</a><br><a href=\"https://speakerdeck.com/qubena_compass/about-compass\">COMPASS会社紹介</a></p></body></html>",
+    "slide_html": ""
+  },
+  {
+    "name": "株式会社リクルート",
+    "logo": "/img/sponsors/recruit.jpg",
+    "url": "https://www.recruit.co.jp/employment/mid-career/technology/",
+    "text_html": "<p>私たちは、個人と企業をつなぎ、より多くの選択肢を提供することで「まだ、ここにない、出会い。」を実現してきました。<br>リクルートグループでは国内で200以上のサービスを開発・運用しており、規模、課題感、開発体制、使用技術はそれぞれ違っていますが、開発現場ではサービスを良くするために様々な挑戦をしております。</p><p>スタディサプリENGLISH</p><p>累計590万DLの英語学習アプリ（2021年12月時点）。予約・通学不要、最短3分の隙間時間で充実した学習ができます。iOS、Android、PCに対応しています。</p><p>スタディサプリENGLISHではシステムを内製しており、バックエンドの開発言語としてScalaを採用しています。アプリケーションは複数のマイクロサービスから構成されお互いがgRPCで通信することで協調動作しています。また積極的に関数型プログラミングのエッセンスを採用しEffなどの先進的な概念も取り入れています。<br>サーバーのエンジニアは合計で15名ほど在籍しており、全員に最新のMacBookProやディスプレイを貸与されフルリモートでSlackやGitHub, GoogleMeetsなどを利用してコミュニケーションをとり開発を行っています。また、OSSのコミッターも複数在籍しスタディサプリ ENGLISHで活用しているライブラリやシステムには積極的に機能追加を行ってもらっています。モナドやScalaに限らずセキュリティーに関する勉強会なども開催されており技術交流もさかんです。</p><p>興味ある方のエントリーお待ちしております。</p><p><a href=\"https://www.recruit.co.jp/employment/mid-career/technology/\">テクノロジー職 | 株式会社リクルート 中途採用サイト</a><br><a href=\"https://blog.recruit.co.jp/rmp/\">テックブログ</a> </p>",
+    "slide_html": ""
+  },
+  {
+    "name": "株式会社ギブリー",
+    "logo": "/img/sponsors/track.png",
+    "url": "https://tracks.run/",
+    "text_html": "<p><a href=\"https://tracks.run/aboutus/\" target=\"_blank\">テクノロジースキルを経営資源に</a></p><p>私たちギブリーでは、ソフトウェアを創造し続けるエンジニアをアスリートになぞらえ、彼らの成長を支援するような、エンジニアにとっての陸上競技場を目指したいという思いで、<a href=\"https://tracks.run/\" target=\"_blank\">「Track」</a>というプロダクトを開発し、企業におけるエンジニアの採用や育成の支援をしています。</p><p>エンジニア採用においては、Track Test が国内で最も使われているコーディングテストツールとなっており、これまでの累計受験数は50万回を超える規模まで成長しています。またエンジニア育成においては、Track Training を通じて、ベンチャーから大手企業まで、これまで累計3万人を超える若手エンジニアのスキルアップを支援して来ました。</p><p>しかし、私たちの目指している先にはさらに大きなビジョンがあり、まだまだ仲間が足りません！<br/>プロダクトの開発はScalaを中心としており、半数以上が外国籍のエンジニアというグローバルなチームで行っています。</p><ul><li>・エンジニアの教育や育成、スキルの評価に興味がある！</li><li>・グローバルを目指すプロダクト開発に挑戦したい！</li><li>・ダイバーシティ（多国籍）のあるプロフェッショナルなエンジニアリングチームで働きたい！</li><li>・自らのスキルアップにつながるような技術的にチャレンジングな仕事がしたい！</li></ul><p>これらの想いや情熱に共感していただける方は、ぜひ一度お話をさせてください！</p><p><a href=\"https://hrmos.co/pages/givery/jobs?jobType=FULL&category=1688060102702190592\" target=\"_blank\">株式会社ギブリー エンジニアの求人一覧</a></p><a href=\"https://givery.co.jp/\" target=\"_blank\">株式会社ギブリー</a>",
+    "slide_html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/vTtHS8o_q58\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"></iframe><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/6AidJReEEKY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+    "others": "株式会社ギブリー様は「さてらいとスポンサー」でもご協賛いただいております。"
+  }
+]

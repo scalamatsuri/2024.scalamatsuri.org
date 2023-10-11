@@ -1,0 +1,414 @@
+[
+  {
+    "id": "1681520400",
+    "title": { "ja": "オープニング", "en": "Opening" },
+    "startAt": 1681520400,
+    "endAt": 1681521600,
+    "jst": "2024-04-15 10:00:00"
+  },
+  {
+    "id": "E1681521600",
+    "title": "Daniel Spiewak: The Case For Effect Systems",
+    "startAt": 1681521600,
+    "endAt": 1681524000,
+    "jst": "2024-04-15 10:20:00",
+    "room": "Main Track"
+  },
+  {
+    "id": "1681524000-BREAK",
+    "title": { "ja": "質問 + 休憩", "en": "Question + Break" },
+    "startAt": 1681521600,
+    "endAt": 1681524900,
+    "jst": "2024-04-15 11:00:00"
+  },
+  {
+    "id": "J1681524900",
+    "title": "Yuichiro Iwai: Introduction to Functional Programming through CSV Import",
+    "startAt": 1681524900,
+    "endAt": 1681526100,
+    "jst": "2024-04-15 11:15:00",
+    "room": "Main Track"
+  },
+  {
+    "id": "J1681526400",
+    "title": "Mitsuru Ogawa: 5 Key Evaluation Points Everyone Should Know for Hiring Engineers",
+    "startAt": 1681526400,
+    "endAt": 1681527300,
+    "jst": "2024-04-15 11:40:00",
+    "room": "Sponsor Session"
+  },
+  {
+    "id": "1681527300",
+    "title": { "ja": "ランチ (サテライト会場内飲食禁止)", "en": "Lunch" },
+    "startAt": 1681527300,
+    "endAt": 1681531200,
+    "jst": "2024-04-15 11:55:00"
+  },
+  {
+    "id": "J1681531200",
+    "title": "Javakky: Introduction to Scalafix and Scalafix Rule Writing",
+    "startAt": 1681531200,
+    "endAt": 1681532400,
+    "jst": "2024-04-15 13:00:00",
+    "room": "Main Track"
+  },
+  {
+    "id": "J1681532700",
+    "title": "Naoki Aoyama: Refactoring of Domain Objects with Scalafix",
+    "startAt": 1681532700,
+    "endAt": 1681533900,
+    "jst": "2024-04-15 13:25:00",
+    "room": "Main Track"
+  },
+  {
+    "id": "1681533900-BREAK",
+    "title": { "ja": "休憩", "en": "Break" },
+    "startAt": 1681533900,
+    "endAt": 1681534800,
+    "jst": "2024-04-15 13:45:00"
+  },
+  {
+    "id": "J1681534800",
+    "title": "gakuzzzz: Whoever controls the traverse controls the code.",
+    "startAt": 1681534800,
+    "endAt": 1681536000,
+    "jst": "2024-04-15 14:00:00",
+    "room": "Main Track"
+  },
+  {
+    "id": "J1681536300",
+    "title": "Yoshitaka Fujii: Scala nowadays at Chatwork",
+    "startAt": 1681536300,
+    "endAt": 1681537200,
+    "jst": "2024-04-15 14:25:00",
+    "room": "Sponsor Session"
+  },
+  {
+    "id": "1681537200-BREAK",
+    "title": { "ja": "休憩", "en": "Break" },
+    "startAt": 1681537200,
+    "endAt": 1681538400,
+    "jst": "2024-04-15 14:40:00"
+  },
+  {
+    "id": "E1681538400",
+    "title": "Magda Stożek: Say goodbye to implicits - contextual abstractions in Scala 3",
+    "startAt": 1681538400,
+    "endAt": 1681539600,
+    "jst": "2024-04-15 15:00:00",
+    "room": "Main Track"
+  },
+  {
+    "id": "O1681538400",
+    "title": { "ja": "休憩", "en": "Break" },
+    "startAt": 1681538400,
+    "endAt": 1681539600,
+    "jst": "2024-04-15 15:00:00"
+  },
+  {
+    "id": "J1681539900",
+    "title": "Masaki Ogawa: Introducing COMPASS, Inc",
+    "startAt": 1681539900,
+    "endAt": 1681540800,
+    "jst": "2024-04-15 15:25:00",
+    "room": "Sponsor Session"
+  },
+  {
+    "id": "1681540800-BREAK",
+    "title": { "ja": "休憩", "en": "Break" },
+    "startAt": 1681540800,
+    "endAt": 1681542000,
+    "jst": "2024-04-15 15:40:00"
+  },
+  {
+    "id": "E1681542000",
+    "title": "Aleksei Shamenev: Gens & Lens: Making generators composable",
+    "startAt": 1681542000,
+    "endAt": 1681543200,
+    "jst": "2024-04-15 16:00:00",
+    "room": "Main Track"
+  },
+  {
+    "id": "O1681542000",
+    "title": { "ja": "休憩", "en": "Break" },
+    "startAt": 1681542000,
+    "endAt": 1681543200,
+    "jst": "2024-04-15 16:00:00"
+  },
+  {
+    "id": "J1681543500",
+    "title": "Tsubasa Matsukawa: Implement for Authorization-Effect using Extensible-Effect",
+    "startAt": 1681543500,
+    "endAt": 1681544700,
+    "jst": "2024-04-15 16:25:00",
+    "room": "Main Track"
+  },
+  {
+    "id": "O1681543500",
+    "title": { "ja": "休憩", "en": "Break" },
+    "startAt": 1681543500,
+    "endAt": 1681544700,
+    "jst": "2024-04-15 16:25:00"
+  },
+  {
+    "id": "1681545000",
+    "title": { "ja": "Day 1 クロージング", "en": "Day 1 Closing" },
+    "startAt": 1681545000,
+    "endAt": 1681546200,
+    "jst": "2024-04-15 16:50:00"
+  },
+  {
+    "id": "1681548000",
+    "title": { "ja": "懇親会", "en": "After party" },
+    "startAt": 1681548000,
+    "endAt": 1681555200,
+    "jst": "2024-04-15 17:40:00"
+  },
+  {
+    "id": "1681606800",
+    "title": { "ja": "朝会", "en": "Open-Mic Planning Session" },
+    "startAt": 1681606800,
+    "endAt": 1681610100,
+    "jst": "2024-04-16 10:00:00"
+  },
+  {
+    "id": "E1681610400",
+    "title": "Zach McCoy: Exploring Systems with Open Telemetry and Honeycomb",
+    "startAt": 1681610400,
+    "endAt": 1681611600,
+    "jst": "2024-04-16 11:00:00",
+    "room": "Main Track"
+  },
+  {
+    "id": "O1681610400",
+    "title": { "ja": "休憩", "en": "Break" },
+    "startAt": 1681610400,
+    "endAt": 1681613100,
+    "jst": "2024-04-16 11:00:00"
+  },
+  {
+    "id": "E1681611900",
+    "title": "Michael Perucca: Composable Constraint Types",
+    "startAt": 1681611900,
+    "endAt": 1681613100,
+    "jst": "2024-04-16 11:25:00",
+    "room": "Main Track"
+  },
+  {
+    "id": "1681613100-BREAK",
+    "title": { "ja": "休憩", "en": "Break" },
+    "startAt": 1681613100,
+    "endAt": 1681614000,
+    "jst": "2024-04-16 11:45:00"
+  },
+  {
+    "id": "J1681614000",
+    "title": "OSAWA Kota: Current state of products made with DDD & Scala",
+    "startAt": 1681614000,
+    "endAt": 1681615200,
+    "jst": "2024-04-16 12:00:00",
+    "room": "Main Track"
+  },
+  {
+    "id": "O1681614000",
+    "title": { "ja": "休憩", "en": "Break" },
+    "startAt": 1681615200,
+    "endAt": 1681615500,
+    "jst": "2024-04-16 12:00:00"
+  },
+  {
+    "id": "J1681615200",
+    "title": "TANGA Kenichi: Points of implementation of repository to avoid dead lock",
+    "startAt": 1681615500,
+    "endAt": 1681616400,
+    "jst": "2024-04-16 12:20:00",
+    "room": "Main Track"
+  },
+  {
+    "id": "1681616400",
+    "title": { "ja": "ランチ", "en": "Lunch" },
+    "startAt": 1681616400,
+    "endAt": 1681618500,
+    "jst": "2024-04-16 12:40:00"
+  },
+  {
+    "id": "J1681618500",
+    "title": "Eugene Yokota: Helix and Scala",
+    "startAt": 1681618500,
+    "endAt": 1681619700,
+    "jst": "2024-04-16 13:15:00",
+    "room": "Main Track"
+  },
+  {
+    "id": "J1681620000",
+    "title": "Y.ITO(110416): write fast ffi fast in Scala 3",
+    "startAt": 1681620000,
+    "endAt": 1681621200,
+    "jst": "2024-04-16 13:40:00",
+    "room": "Main Track"
+  },
+  {
+    "id": "1681621200-BREAK",
+    "title": { "ja": "休憩", "en": "Break" },
+    "startAt": 1681621200,
+    "endAt": 1681621800,
+    "jst": "2024-04-16 13:55:00"
+  },
+  {
+    "id": "J1681621800",
+    "title": "kzmake: RateLimit implemented by Eff",
+    "startAt": 1681621800,
+    "endAt": 1681623000,
+    "jst": "2024-04-16 14:10:00",
+    "room": "Main Track"
+  },
+  {
+    "id": "J1681623300",
+    "title": "Windymelt: Creating an explainer video maker in Scala",
+    "startAt": 1681623300,
+    "endAt": 1681624500,
+    "jst": "2024-04-16 14:35:00",
+    "room": "Main Track"
+  },
+  {
+    "id": "J1681624800",
+    "title": "YOSHIMURA Hikaru: Datatype Generic Programming with Scala 3",
+    "startAt": 1681624800,
+    "endAt": 1681625700,
+    "jst": "2024-04-16 15:00:00",
+    "room": "Sponsor Session"
+  },
+  {
+    "id": "1681625700-BREAK",
+    "title": { "ja": "休憩", "en": "Break" },
+    "startAt": 1681625700,
+    "endAt": 1681626600,
+    "jst": "2024-04-16 15:15:00"
+  },
+  {
+    "id": "E1681626600",
+    "title": "Daniel Ciocirlan: Full-Stack Scala 3 with the Typelevel Stack",
+    "startAt": 1681626600,
+    "endAt": 1681629000,
+    "jst": "2024-04-16 15:30:00",
+    "room": "Main Track"
+  },
+  {
+    "id": "1681629000-BREAK",
+    "title": { "ja": "休憩", "en": "Break" },
+    "startAt": 1681629000,
+    "endAt": 1681630200,
+    "jst": "2024-04-16 16:10:00"
+  },
+  {
+    "id": "E1681630200",
+    "title": "Yohann Jardin: Generating production code",
+    "startAt": 1681630200,
+    "endAt": 1681631400,
+    "jst": "2024-04-16 16:30:00",
+    "room": "Main Track"
+  },
+  {
+    "id": "E1681631700",
+    "title": "Marcin Krykowski: How to save time by letting Scala ecosystem work for you.",
+    "startAt": 1681631700,
+    "endAt": 1681632900,
+    "jst": "2024-04-16 16:55:00",
+    "room": "Main Track"
+  },
+  {
+    "id": "1681633200",
+    "title": { "ja": "Day 2 クロージング", "en": "Day 2 Closing" },
+    "startAt": 1681633200,
+    "endAt": 1681634400,
+    "jst": "2024-04-15 17:20:00"
+  },
+  {
+    "id": "OMC1681534800",
+    "title": "Day1 14:00 ~ 14:20 Decrel in action — utilize domain relations in Scala #29",
+    "startAt": 1681534800,
+    "endAt": 1681536000,
+    "jst": "2024-04-15 14:00:00",
+    "room": "Open Mic Conference"
+  },
+  {
+    "id": "OMC1681538400",
+    "title": "Day1 15:00 ~ 15:20 Play Framework プロジェクトにおける Swagger (OpenAPI) ドキュメントの自動生成",
+    "startAt": 1681538400,
+    "endAt": 1681539600,
+    "jst": "2024-04-15 15:00:00",
+    "room": "Open Mic Conference"
+  },
+  {
+    "id": "OMC1681542000",
+    "title": "Day1 16:00 ~ 16:20 Scala-CLI in daily work / 仕事でつかうScala-CLI",
+    "startAt": 1681542000,
+    "endAt": 1681543200,
+    "jst": "2024-04-15 16:00:00",
+    "room": "Open Mic Conference"
+  },
+  {
+    "id": "OMC1681610400",
+    "title": "Day2 11:00 ~ 11:20 モックライブラリとカバレッジ計測ツールでテスト環境を快適にした話",
+    "startAt": 1681610400,
+    "endAt": 1681611600,
+    "jst": "2024-04-16 11:00:00",
+    "room": "Open Mic Conference"
+  },
+  {
+    "id": "OMC1681612200",
+    "title": "TBD",
+    "startAt": 1681612200,
+    "endAt": 1681613400,
+    "jst": "2024-04-16 11:30:00",
+    "room": "Open Mic Conference"
+  },
+  {
+    "id": "OMC1681617600",
+    "title": "TBD",
+    "startAt": 1681617600,
+    "endAt": 1681618800,
+    "jst": "2024-04-16 13:00:00",
+    "room": "Open Mic Conference"
+  },
+  {
+    "id": "OMC1681619400",
+    "title": "TBD",
+    "startAt": 1681619400,
+    "endAt": 1681620600,
+    "jst": "2024-04-16 13:30:00",
+    "room": "Open Mic Conference"
+  },
+  {
+    "id": "OMC1681621200",
+    "title": "About sbt 2.x",
+    "startAt": 1681621200,
+    "endAt": 1681624200,
+    "jst": "2024-04-16 14:00:00",
+    "room": "Open Mic Conference"
+  },
+  {
+    "id": "OMC1681626600",
+    "title": "[Hands-on] How to play Play with GraalVM",
+    "startAt": 1681626600,
+    "endAt": 1681627800,
+    "jst": "2024-04-16 15:30:00",
+    "room": "Open Mic Conference"
+  },
+  {
+    "id": "OMC1681628400",
+    "title": "Live coding scalafix and wartremover",
+    "startAt": 1681628400,
+    "endAt": 1681629600,
+    "jst": "2024-04-16 16:00:00",
+    "room": "Open Mic Conference"
+  },
+  {
+    "id": "OMC1681630200",
+    "title": "slinc を使ったネイティブコードバインディングのデモ",
+    "startAt": 1681630200,
+    "endAt": 1681631400,
+    "jst": "2024-04-16 16:30:00",
+    "room": "Open Mic Conference"
+  }
+]

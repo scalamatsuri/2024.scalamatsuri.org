@@ -1,0 +1,69 @@
+ja:
+  candidate:
+    name: "test name"
+    twitter: "test_ja"
+    github: "test" 
+    icon: /path/to/image
+    organization:
+      - 'test company 1'
+      - 'test company 2'
+    contributes:
+      - "Baker: <a href='https://github.com/ing-bank/baker'>https://github.com/ing-bank/baker</a>"
+      - "Styx: <a href='https://github.com/streaming-analytics/Styx'>https://github.com/streaming-analytics/Styx</a>"
+      - "Spoofax: <a href='https://github.com/metaborg/spoofax'>https://github.com/metaborg/spoofax</a>"
+    speaker_experience:
+      - "Scale By the Bay 2018: <a href='https://www.youtube.com/watch?v=e9oFGVG9b9Q'>https://www.youtube.com/watch?v=e9oFGVG9b9Q</a>"
+      - "Curry On 2017: <a href='https://t.co/wosQAAxIJD'>https://t.co/wosQAAxIJD</a>"
+      - "FlatMap(Oslo) 2017: <a href='https://vimeo.com/216466694'>https://vimeo.com/216466694</a>"
+  program:
+    title: "test title ja"
+    length: 40
+    audience: Intermediate
+    language: English
+    tags:
+      - "Big Data / Fast Data"
+      - "Data Science / Machine Learning"
+      - "DevOps"
+    suggestions:
+      - "ストリーミング解析や Fast Data に興味のある人"
+      - "ストリーム処理の基礎に興味がある人"
+      - "ストリーム処理への様々な方法に興味がある人"
+    detail: |
+      test用Description
+      test用Description
+      test用Description
+en:
+  candidate:
+    name: "test name"
+    twitter: "test_en"
+    github: "test" 
+    icon: /path/to/image
+    organization:
+      - 'test company 1'
+      - 'test company 2'
+    contributes:
+      - "Baker: <a href='https://github.com/ing-bank/baker'>https://github.com/ing-bank/baker</a>"
+      - "Styx: <a href='https://github.com/streaming-analytics/Styx'>https://github.com/streaming-analytics/Styx</a>"
+      - "Spoofax: <a href='https://github.com/metaborg/spoofax'>https://github.com/metaborg/spoofax</a>"
+    speaker_experience:
+      - "Scale By the Bay 2018: <a href='https://www.youtube.com/watch?v=e9oFGVG9b9Q'>https://www.youtube.com/watch?v=e9oFGVG9b9Q</a>"
+      - "Curry On 2017: <a href='https://t.co/wosQAAxIJD'>https://t.co/wosQAAxIJD</a>"
+      - "FlatMap(Oslo) 2017: <a href='https://vimeo.com/216466694'>https://vimeo.com/216466694</a>"
+  program:
+    title: "test title en"
+    length: 40
+    audience: Intermediate
+    language: English
+    tags:
+      - Big Data / Fast Data
+      - Data Science / Machine Learning
+      - DevOps
+    suggestions:
+      - "Anyone who is interested in:"
+      - Streaming Analytics and Fast Data capabilities.
+      - Understanding the fundamental of Stream Processing.
+      - Varying approaches to (distributed) stream processing, their programming models, execution models and notable properties that potentially can help the audience in differentiating different approaches and selecting in right one for the problem.
+    detail: |
+      test
+      test
+      test

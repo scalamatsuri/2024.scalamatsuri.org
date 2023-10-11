@@ -1,0 +1,25 @@
+id: 'TomoyukiShimomura'
+ja:
+  name: 下村 朋之
+  twitter: s10myk4
+  github: s10myk4
+  icon: https://d2mxuefqeaa7sj.cloudfront.net/s_84C0A5896E9B8ADFA74D479EF9473FCB5BC38BDABDA062C6718D295F2C3E3603_1548505719997_scalamatsuri2019-icon.png
+  organization: 株式会社セプテーニ・オリジナル エンジニア
+  contributes:
+    -
+  speaker_experience:
+    - Scala Matsuri 2018 アンカンファレンス
+    - 市ヶ谷 Geek Night
+    - JJUG
+en:
+  name: Tomoyuki Shimomura
+  twitter: s10myk4
+  github: s10myk4
+  icon: https://d2mxuefqeaa7sj.cloudfront.net/s_84C0A5896E9B8ADFA74D479EF9473FCB5BC38BDABDA062C6718D295F2C3E3603_1548505719997_scalamatsuri2019-icon.png
+  organization: "Septeni Original, Inc Engineer"
+  contributes:
+    -
+   speaker_experience:
+    - Scala Matsuri 2018 Unconference
+    - Ichigaya Geek Night
+    - JJUG

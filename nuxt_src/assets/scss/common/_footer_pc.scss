@@ -1,0 +1,20 @@
+/* footer PC */
+.footer {
+  padding-top: 85px;
+}
+.footer_inner {
+  width: 870px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.footerlogo {
+  float: left;
+  margin-right: 127px;
+}
+.footerNav {
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  width: 675px;
+}
+

@@ -1,0 +1,172 @@
+/* sponsorship */
+.sponsorship {
+  max-width: 1200px;
+  margin: 100px auto 0;
+  padding: 42px 0 51px;
+  background-color: #F1F1F1;
+  text-align: center;
+
+}
+.section {
+  max-width: 1200px;
+  // width: 100%;
+}
+.sponsorship_title {
+font-weight: bold;
+line-height: 59px;
+font-size: 36px;
+text-align: center;
+letter-spacing: 0.1em;
+
+}
+.sponsorship_text {
+font-weight: bold;
+line-height: 26px;
+font-size: 16px;
+text-align: center;
+letter-spacing: 0.1em;
+}
+.sponsorship_btnArea {
+  max-width: 720px;
+  width: 100%;
+  display: flex;
+  margin: 45px auto 0;
+  justify-content: space-between;
+
+}
+.sponsorship_btn {
+  max-width: 340px;
+  width: calc(50% - 20px);
+  display: block;
+  height: 60px;
+  font-weight: bold;
+  line-height: 60px;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  border-radius: 30px;
+  background-color: #fff;
+  color: #000;
+  position: relative;
+  &-pdf {
+    padding-left: 30px;
+    &:before {
+      content: "";
+      background-image: url('~assets/img/common/icon-pdf.svg');
+      width: 24px;
+      height: 24px;
+      display: block;
+      position: absolute;
+      margin-top: -12px;
+      top: 50%;
+      left: 34px;
+    }
+  }
+  &-form {
+    background-color: #00A4DE;
+    color: #fff;
+
+  }
+}
+.sponsorship_note {
+font-size: 14px;
+text-align: center;
+letter-spacing: 0.1em;
+margin-top: 40px;
+}
+.recruit_recruit {
+  margin-top: 60px;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  li {
+    width: 31.6%;
+  }
+}
+.recruit_recruit_img {
+  width: 100%;
+}
+.recruit_recruit_title {
+  font-weight: bold;
+  line-height: normal;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.table {
+  width: 100%;
+  margin-top: 60px;
+  th, td {
+    border: 1px solid #eee;
+
+  }
+  thead {
+    th {
+      font-weight: bold;
+      line-height: normal;
+      font-size: 26px;
+      text-align: center;
+      letter-spacing: 0.1em;
+      padding: 15px;
+      span {
+        font-size: 14px;
+        display: block;
+      }
+    }
+  }
+  tbody {
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    th {
+      text-align: left;
+      padding: 15px 18px;
+
+    }
+    td {
+      text-align: center;
+      padding: 15px 18px;
+    }
+  }
+  &-alignL {
+    tbody {
+      td {
+        text-align: left;
+      }
+    }
+  }
+}
+.plan_note {
+  margin-top: 25px;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+.inquiry {
+  margin: 60px auto 0;
+  text-align: left;
+  padding: 40px;
+  background-color: #F1F1F1;
+}
+.inquiry_title {
+  font-weight: bold;
+  line-height: 33px;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  color: #000000;
+
+}
+.inquiry_text {
+  margin-top: 20px;
+  line-height: 23px;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+@media screen and (max-width: $viewport - 1) {
+  @import "sp";
+}
+@media screen and (min-width: $viewport) {
+  @import "pc";
+}
