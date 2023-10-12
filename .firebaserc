@@ -1,7 +1,0 @@
-{
-  "projects": {
-    "default": "scalamatsuri-2024-web",
-    "staging": "scalamatsuri-2024-web-stage"
-  },
-  "targets": {}
-}
