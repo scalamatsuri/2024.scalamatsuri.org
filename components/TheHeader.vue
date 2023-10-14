@@ -1,4 +1,5 @@
 <i18n lang="yaml">
+# TEST
 en:
   code-of-conduct: Code of Conduct
   call-for-proposals: Call for Proposals
@@ -26,53 +27,312 @@ ja:
 </i18n>
 
 <template>
-  <nav>
-    <ul>
-      <li>
-        <NuxtLink :to="localePath('/')">TOP</NuxtLink>
-      </li>
-      <li v-for="_header in _headers" :key="_header.order">
-        <NuxtLink :to="localePath(_header.path)">{{ t(_header.path) }}</NuxtLink>
-      </li>
-      <li>
-        <ul>
-          <li v-for="l in _locales" :key="l.code" @click="onClickedLocaleLink(switchLocalePath(l.code))">
-            {{ l.name }}
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
+  <header>
+    <div ref="header" class="header is_pc">
+      <div class="header_inner">
+        <p class="logo">
+          <NuxtLink :to="localePath('/')">
+            <img src="~/assets/img/common/logo.svg" :alt="`ScalaMatsuri ${appConfig.year}`" width="42" height="32" />
+          </NuxtLink>
+        </p>
+        <div class="menu">
+          <ul class="gnav">
+            <li class="gnav_item" v-for="_header in headers" :key="_header.order">
+              <NuxtLink :to="localePath(_header.path)">{{ t(_header.path) }}</NuxtLink>
+            </li>
+            <LangSwitcher />
+          </ul>
+        </div>
+      </div>
+    </div>
+    <transition name="fade">
+      <div v-if="menuActive" class="shadow" @click.self="toggleMenu()" />
+    </transition>
+    <div ref="header" class="header is_sp">
+      <div class="header_inner">
+        <transition name="fade">
+          <p v-if="!menuActive" class="logo">
+            <NuxtLint :to="localePath('/')">
+              <img src="~/assets/img/common/logo.svg" alt="ScalaMatsuri 2023" height="24" /><span class="logo_type">
+                ScalaMatsuri {{ appConfig.year }}
+              </span>
+            </NuxtLint>
+          </p>
+        </transition>
+        <transition name="expand-v">
+          <div v-if="menuActive" class="menu">
+            <ul class="gnav">
+              <li
+                class="gnav_item"
+                v-for="_header in headers"
+                :key="_header.order"
+                :class="{ 'gnav_item-current': currentPath(_header.path) }"
+                @click="toggleMenu()">
+                <NuxtLink :to="localePath(_header.path)">
+                  <span>{{ t(_header.path) }}</span>
+                </NuxtLink>
+              </li>
+            </ul>
+            <LangSwitcherSp @on-option-click="toggleMenu" />
+            <a class="menuCloseBtn is_sp" @click="toggleMenu">閉じる</a>
+          </div>
+        </transition>
+        <a class="menuBtn" :class="{ is_active: menuActive }" @click.capture="toggleMenu">
+          <span />
+          <span />
+          <span />
+        </a>
+      </div>
+    </div>
+  </header>
 </template>
 
 <script setup lang="ts">
-import { LocaleObject } from '@nuxtjs/i18n/dist/runtime/composables'
-
+const { currentRoute } = useRouter()
+const { t } = useI18n()
 const localePath = useLocalePath()
-const switchLocalePath = useSwitchLocalePath()
-
 const appConfig = useAppConfig()
-const _headers = appConfig.pages.filter((h) => h.published && h.header).sort((h1, h2) => h1.order - h2.order)
+const headers = appConfig.pages.filter((h) => h.published && h.header).sort((h1, h2) => h1.order - h2.order)
+const currentPath = (path: string) => currentRoute.value.fullPath.endsWith(path)
+const menuActive = ref(false)
+const toggleMenu = () => (menuActive.value = !menuActive.value)
+</script>
 
-const router = useRouter()
-const onClickedLocaleLink = (url: string) => {
-  router.push(url)
-}
-
-const { locales, t } = useI18n()
-const _locales = computed<{ code: string; name: string }[]>(() =>
-  locales.value.map((locale: LocaleObject | string) => {
-    if (typeof locale === 'string') {
-      return {
-        code: locale,
-        name: locale,
+<style scoped lang="scss">
+@media screen and (min-width: $headerViewport) {
+  .header {
+    background-color: #ff0000; // TODO: あとで消す
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px 0;
+    height: 120px;
+    position: absolute;
+    z-index: 2;
+    background-color: #fff;
+    top: -120px;
+    &.is_fixed {
+      position: fixed;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    }
+    &.is_active {
+      top: 0;
+      display: block;
+      transition-property: background-color, height, top;
+      transition-duration: 0.2s;
+      transition-timing-function: ease;
+    }
+  }
+  .header_inner {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .logo {
+    margin-top: 5px;
+    margin-right: 22px;
+    float: left;
+  }
+  .gnav {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 0;
+    float: left;
+  }
+  .gnav_item {
+    // width: 120px;
+    display: inline-block;
+    text-align: center;
+    a {
+      display: block;
+      // width: 120px;
+      color: #000;
+      padding: 0 16px;
+      span {
+        display: inline-block;
+        padding: 8px 4px;
+        position: relative;
+        &:after {
+          content: none;
+          display: block;
+          width: 100%;
+          height: 3px;
+          background-color: #bd3844;
+          border-radius: 3px;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+        }
       }
-    } else {
-      return {
-        code: locale.code,
-        name: locale.name ?? '',
+      &:hover,
+      &.nuxt-link-exact-active {
+        span {
+          &:after {
+            content: '';
+          }
+        }
       }
     }
-  })
-)
-</script>
+    > select {
+      opacity: 0;
+    }
+  }
+}
+
+@media screen and (max-width: $headerViewport - 1) {
+  .header {
+    background-color: #1900ff;
+  }
+  header {
+    height: 50px;
+    padding: 6px 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-width: 320px;
+    background-color: #fff;
+    box-sizing: border-box;
+    z-index: 2;
+    pointer-events: auto;
+  }
+  .logo {
+    margin-top: 6px;
+    margin-left: 5px;
+    position: relative;
+    z-index: 3;
+    html.is_gmenuView & {
+      opacity: 0;
+    }
+  }
+
+  .logo_type {
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    vertical-align: bottom;
+    margin-left: 10px;
+    margin-bottom: 2px;
+  }
+  .menu {
+    position: absolute;
+    top: 46px;
+    left: 0;
+    z-index: 1;
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden;
+    max-height: calc(100vh - 50px);
+  }
+  .gnav {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .gnav_item {
+    font-weight: bold;
+  }
+  .gnav_item a {
+    display: block;
+    padding: 10px;
+    color: #000;
+  }
+  .menuBtn,
+  .menuBtn span {
+    display: inline-block;
+    position: relative;
+    z-index: 1000;
+    transition: all 0.4s;
+    box-sizing: border-box;
+  }
+  .menuBtn {
+    padding: 10px;
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    width: 40px;
+    height: 38px;
+    span {
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: #000;
+      &:nth-of-type(1) {
+        top: 13px;
+        left: 10px;
+        animation: menu-bar01 0.5s forwards;
+        width: 20px;
+      }
+      &:nth-of-type(2) {
+        top: 18px;
+        left: 10px;
+        transition: all 0.25s 0.25s;
+        opacity: 1;
+        width: 20px;
+      }
+      &:nth-of-type(3) {
+        top: 23px;
+        left: 10px;
+        animation: menu-bar02 0.5s forwards;
+        width: 20px;
+      }
+    }
+    &.is_active {
+      span {
+        &:nth-of-type(1) {
+          animation: active-menu-bar01 0.5s forwards;
+        }
+        &:nth-of-type(2) {
+          opacity: 0;
+        }
+        &:nth-of-type(3) {
+          animation: active-menu-bar03 0.5s forwards;
+        }
+      }
+    }
+  }
+  .menuCloseBtn {
+    text-align: center;
+    display: block;
+    padding: 10px;
+    margin-top: 30px;
+  }
+  .shadow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    pointer-events: auto;
+  }
+  .fade {
+    &-enter-active,
+    &-leave-active {
+      transition: opacity 0.3s ease-out;
+      will-change: opacity;
+    }
+    &-enter,
+    &-leave-to {
+      opacity: 0;
+    }
+  }
+  .expand-v {
+    &-enter-active {
+      max-height: calc(100vh - 40px);
+      transition: max-height 0.6s ease;
+    }
+    &-leave-active {
+      max-height: calc(100vh - 40px);
+      transition: max-height 0.3s ease;
+    }
+    &-enter,
+    &-leave-to {
+      max-height: 0;
+    }
+  }
+}
+</style>
