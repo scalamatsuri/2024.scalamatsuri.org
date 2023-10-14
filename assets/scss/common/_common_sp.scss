@@ -1,24 +1,23 @@
-/* common SP */
+.main {
+  padding: 15px 0;
+}
+.main_title {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  line-height: 48px;
+}
+
 .section {
   margin: 30px auto 30px;
 }
-.section_title {
-  margin: 0 -20px;
-  font-weight: bold;
-  .section_title_inner {
-    display: block;
-    font-weight: bold;
-    font-size: 24px;
-    padding: 20px 20px;
-    line-height: 1.5;
-  }
-}
-
-.section_text {
-  margin-top: 30px;
-  &-em {
-    margin: 20px 0 0;
-    padding: 20px;
+.section_btn {
+  &-l {
+    font-size: 3.8vw;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    padding: 10px 0;
   }
 }
 .section_movie {
@@ -26,7 +25,7 @@
   height: 157px;
 }
 .section_note {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   font-weight: bold;
   line-height: 26px;
   font-size: 16px;
@@ -34,7 +33,9 @@
   padding: 20px;
   margin-top: 20px;
 }
-
+.section_scroll {
+  overflow: auto;
+}
 .section_table {
   width: 100%;
   border-top: 3px solid #eee;
@@ -58,42 +59,13 @@
     + td {
       font-size: 14px;
       &:before {
-        content: "（" attr(data-title) "： ";
+        content: '（' attr(data-title) '： ';
       }
       &:after {
-        content: "）";
-      }
-
-    }
-  }
-}
-.section_scroll {
-  overflow: auto;
-}
-.section_table2 {
-  margin: 0 -20px;
-  width: calc(100% + 40px);
-  &-wide {
-    width: 900px;
-  }
-  thead {
-    th {
-      font-size: 18px;
-      span {
-        font-size: 12px;
+        content: '）';
       }
     }
   }
-}
-
-.main {
-  padding: 15px 0;
-}
-.main_title {
-  font-size: 20px;
-  font-weight: bold;
-  letter-spacing: 0.05em;
-  line-height: 48px;
 }
 .section_table1 {
   margin-top: 0px;
@@ -111,13 +83,36 @@
     width: 100%;
   }
 }
-.section_btn {
-  &-l {
-    font-size: 3.8vw;
-    width: 100%;
-    height: auto;
-    border-radius: 30px;
-    padding: 10px 0;
+.section_table2 {
+  margin: 0 -20px;
+  width: calc(100% + 40px);
+  &-wide {
+    width: 900px;
   }
-
+  thead {
+    th {
+      font-size: 18px;
+      span {
+        font-size: 12px;
+      }
+    }
+  }
+}
+.section_text {
+  margin-top: 30px;
+  &-em {
+    margin: 20px 0 0;
+    padding: 20px;
+  }
+}
+.section_title {
+  margin: 0 -20px;
+  font-weight: bold;
+  .section_title_inner {
+    display: block;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 20px 20px;
+    line-height: 1.5;
+  }
 }
