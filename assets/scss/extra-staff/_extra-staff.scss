@@ -1,0 +1,49 @@
+/* extra-staff */
+.lead {
+  background-image: url('~assets/img/extra-staff/img-main.jpg');
+  background-size: auto 100%;
+  background-repeat: repeat;
+  background-position: center;
+  height: 337px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.lead_inner {
+  width: 572px;
+  background-color: #343A4F;
+  color: #fff;
+  padding: 25px;
+}
+.lead_text {
+font-weight: bold;
+line-height: 49px;
+font-size: 30px;
+text-align: center;
+letter-spacing: 0.1em;
+}
+.lead_btnArea {
+  margin-top: 17px;
+}
+.catch {
+  font-weight: bold;
+  line-height: 24px;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin-top: 30px;
+  padding: 0 20px;
+}
+.extrastaff_note {
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin-top: 40px;
+}
+@media screen and (max-width: $viewport - 1) {
+  @import "sp";
+}
+@media screen and (min-width: $viewport) {
+  @import "pc";
+}

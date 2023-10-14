@@ -1,0 +1,108 @@
+/* --- --- --- ---
+    PC/SP用アニメーション
+--- --- --- --- --- */
+@keyframes fadeIn {
+  0% {opacity: 0; visibility: hidden;}
+  40% {opacity: 0; visibility: hidden;}
+  100% {opacity: 1; visibility: visible;}
+}
+@keyframes fadeOut {
+  0% {opacity: 1; visibility: visible;}
+  100% {opacity: 0;visibility: hidden;}
+}
+/* --- --- --- ---
+    SP用アニメーション
+--- --- --- --- --- */
+/* ハンバーガーメニュー */
+@keyframes menu-bar01 {
+  0% {
+    transform: translateY(5px) rotate(45deg);
+  }
+  50% {
+    transform: translateY(5px) rotate(0);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+}
+@keyframes menu-bar02 {
+  0% {
+    transform: translateY(-5px) rotate(-45deg);
+  }
+  50% {
+    transform: translateY(-5px) rotate(0);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+}
+@keyframes active-menu-bar01 {
+  0% {
+    transform: translateY(0) rotate(0);
+  }
+  50% {
+    transform: translateY(5px) rotate(0);
+  }
+  100% {
+    transform: translateY(5px) rotate(45deg);
+  }
+}
+@keyframes active-menu-bar03 {
+  0% {
+    transform: translateY(0) rotate(0);
+  }
+  50% {
+    transform: translateY(-5px) rotate(0);
+  }
+  100% {
+    transform: translateY(-5px) rotate(-45deg);
+  }
+}
+/* footer アコーディオン */
+@keyframes accordion-bar01 {
+  0% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+@keyframes accordion-bar02 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
+}
+
+@keyframes accordion-close-bar01 {
+  0% {
+    transform: rotate(-90deg);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+@keyframes accordion-close-bar02 {
+  0% {
+    transform: rotate(-0);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}

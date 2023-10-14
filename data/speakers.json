@@ -1,0 +1,32 @@
+[
+  {
+    "id": "SPEAKER_ID_1",
+    "name": "SPEAKER_NAME_1",
+    "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
+    "organization": "ORGANIZATION",
+    "speaker_experience": ["SPEAKER_EXPERIENCE_1", "SPEAKER_EXPERIENCE_2"],
+    "contributes": ["CONTRIBUTES_1", "CONTRIBUTES_2"],
+    "github": "https://github.com/scalamatsuri",
+    "twitter": "https://twitter.com/scalamatsuri"
+  },
+  {
+    "id": "SPEAKER_ID_2",
+    "name": "SPEAKER_NAME_2",
+    "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
+    "organization": "ORGANIZATION",
+    "speaker_experience": ["SPEAKER_EXPERIENCE_1", "SPEAKER_EXPERIENCE_2"],
+    "contributes": ["CONTRIBUTES_1", "CONTRIBUTES_2"],
+    "github": "https://github.com/scalamatsuri",
+    "twitter": "https://twitter.com/scalamatsuri"
+  },
+  {
+    "id": "SPEAKER_ID_3",
+    "name": "SPEAKER_NAME_3",
+    "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
+    "organization": "ORGANIZATION",
+    "speaker_experience": ["SPEAKER_EXPERIENCE_1", "SPEAKER_EXPERIENCE_2"],
+    "contributes": ["CONTRIBUTES_1", "CONTRIBUTES_2"],
+    "github": "https://github.com/scalamatsuri",
+    "twitter": "https://twitter.com/scalamatsuri"
+  }
+]

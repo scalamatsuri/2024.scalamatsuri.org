@@ -1,0 +1,30 @@
+[
+  {
+    "id": {
+      "value": "SPONSOR_PROPOSAL_ID_1",
+      "type": "proposal"
+    },
+    "speakerIds": ["SPEAKER_ID_1"],
+    "sponsorId": "SHOGUN_1",
+    "language": "ja",
+    "length": 40,
+    "en": { "title": "TITLE", "description": "DESCRIPTION" },
+    "ja": { "title": "タイトル", "description": "概要" },
+    "tags": ["TAG_1"],
+    "keywords": ["KEYWORDS_1,KEYWORDS_2"]
+  },
+  {
+    "id": {
+      "value": "SPONSOR_PROPOSAL_ID_2",
+      "type": "proposal"
+    },
+    "speakerIds": ["SPEAKER_ID_2", "SPEAKER_ID_3"],
+    "sponsorId": "SHOGUN_3",
+    "language": "ja",
+    "length": 40,
+    "en": { "title": "TITLE", "description": "DESCRIPTION" },
+    "ja": { "title": "タイトル", "description": "概要" },
+    "tags": ["TAG_1"],
+    "keywords": ["KEYWORDS_1,KEYWORDS_2"]
+  }
+]

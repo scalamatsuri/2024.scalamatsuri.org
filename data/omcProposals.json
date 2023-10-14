@@ -1,0 +1,28 @@
+[
+  {
+    "id": {
+      "value": "OPEN_MIC_CONFERENCE_ID_1",
+      "type": "omc"
+    },
+    "speakerIds": ["SPEAKER_ID_1"],
+    "language": "ja",
+    "length": 40,
+    "en": { "title": "TITLE", "description": "DESCRIPTION" },
+    "ja": { "title": "タイトル", "description": "概要" },
+    "tags": ["TAG_1"],
+    "keywords": ["KEYWORDS_1,KEYWORDS_2"]
+  },
+  {
+    "id": {
+      "value": "OPEN_MIC_CONFERENCE_ID_2",
+      "type": "omc"
+    },
+    "speakerIds": ["SPEAKER_ID_2", "SPEAKER_ID_3"],
+    "language": "ja",
+    "length": 40,
+    "en": { "title": "TITLE", "description": "DESCRIPTION" },
+    "ja": { "title": "タイトル", "description": "概要" },
+    "tags": ["TAG_1"],
+    "keywords": ["KEYWORDS_1,KEYWORDS_2"]
+  }
+]
