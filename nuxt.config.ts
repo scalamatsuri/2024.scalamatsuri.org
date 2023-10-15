@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     },
   },
   modules: [
+    'nuxt-lazy-load',
     [
       '@nuxtjs/i18n',
       {

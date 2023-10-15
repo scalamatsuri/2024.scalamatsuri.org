@@ -1,6 +1,6 @@
 <i18n lang="yaml">
-# TEST
 en:
+  outline: Outline
   code-of-conduct: Code of Conduct
   call-for-proposals: Call for Proposals
   proposals: Proposals
@@ -13,6 +13,7 @@ en:
   staff: Staff
   extra-staff: Extra Staffs(ja)
 ja:
+  outline: 開催概要
   code-of-conduct: 行動規範
   call-for-proposals: セッション募集
   proposals: セッション候補
@@ -28,7 +29,7 @@ ja:
 
 <template>
   <header>
-    <div ref="header" class="header is_pc">
+    <div ref="header" class="header is_pc is_active is_fixed">
       <div class="header_inner">
         <p class="logo">
           <NuxtLink :to="localePath('/')">
@@ -37,8 +38,15 @@ ja:
         </p>
         <div class="menu">
           <ul class="gnav">
-            <li class="gnav_item" v-for="_header in headers" :key="_header.order">
-              <NuxtLink :to="localePath(_header.path)">{{ t(_header.path) }}</NuxtLink>
+            <li class="gnav_item" :class="{ 'gnav_item-current': currentPath('/') }">
+              <NuxtLink :to="localePath('/')">
+                <span>{{ t('outline') }}</span>
+              </NuxtLink>
+            </li>
+            <li class="gnav_item" :class="{ 'gnav_item-current': currentPath(_header.path) }" v-for="_header in headers" :key="_header.order">
+              <NuxtLink :to="localePath(_header.path)">
+                <span>{{ t(_header.path) }}</span>
+              </NuxtLink>
             </li>
             <LangSwitcher />
           </ul>
@@ -48,7 +56,7 @@ ja:
     <transition name="fade">
       <div v-if="menuActive" class="shadow" @click.self="toggleMenu()" />
     </transition>
-    <div ref="header" class="header is_sp">
+    <div class="header is_sp">
       <div class="header_inner">
         <transition name="fade">
           <p v-if="!menuActive" class="logo">
@@ -62,12 +70,17 @@ ja:
         <transition name="expand-v">
           <div v-if="menuActive" class="menu">
             <ul class="gnav">
+              <li class="gnav_item" :class="{ 'gnav_item-current': currentPath('/') }" @click="toggleMenu()">
+                <NuxtLink :to="localePath('/')">
+                  <span>{{ t('outline') }}</span>
+                </NuxtLink>
+              </li>
               <li
                 class="gnav_item"
-                v-for="_header in headers"
-                :key="_header.order"
                 :class="{ 'gnav_item-current': currentPath(_header.path) }"
-                @click="toggleMenu()">
+                @click="toggleMenu()"
+                v-for="_header in headers"
+                :key="_header.order">
                 <NuxtLink :to="localePath(_header.path)">
                   <span>{{ t(_header.path) }}</span>
                 </NuxtLink>
@@ -88,20 +101,20 @@ ja:
 </template>
 
 <script setup lang="ts">
-const { currentRoute } = useRouter()
+const router = useRouter()
 const { t } = useI18n()
 const localePath = useLocalePath()
 const appConfig = useAppConfig()
 const headers = appConfig.pages.filter((h) => h.published && h.header).sort((h1, h2) => h1.order - h2.order)
-const currentPath = (path: string) => currentRoute.value.fullPath.endsWith(path)
+const currentPath = (path: string) => router.currentRoute.value.fullPath.indexOf(path) > 0
 const menuActive = ref(false)
 const toggleMenu = () => (menuActive.value = !menuActive.value)
 </script>
 
 <style scoped lang="scss">
+/* header PC */
 @media screen and (min-width: $headerViewport) {
   .header {
-    background-color: #ff0000; // TODO: あとで消す
     box-sizing: border-box;
     width: 100%;
     padding: 40px 0;
@@ -139,12 +152,10 @@ const toggleMenu = () => (menuActive.value = !menuActive.value)
     float: left;
   }
   .gnav_item {
-    // width: 120px;
     display: inline-block;
     text-align: center;
     a {
       display: block;
-      // width: 120px;
       color: #000;
       padding: 0 16px;
       span {
@@ -164,7 +175,7 @@ const toggleMenu = () => (menuActive.value = !menuActive.value)
         }
       }
       &:hover,
-      &.nuxt-link-exact-active {
+      &.router-link-exact-active {
         span {
           &:after {
             content: '';
@@ -177,12 +188,9 @@ const toggleMenu = () => (menuActive.value = !menuActive.value)
     }
   }
 }
-
+/* header SP */
 @media screen and (max-width: $headerViewport - 1) {
   .header {
-    background-color: #1900ff;
-  }
-  header {
     height: 50px;
     padding: 6px 10px;
     position: fixed;
@@ -203,7 +211,6 @@ const toggleMenu = () => (menuActive.value = !menuActive.value)
       opacity: 0;
     }
   }
-
   .logo_type {
     display: inline-block;
     position: relative;
@@ -308,31 +315,6 @@ const toggleMenu = () => (menuActive.value = !menuActive.value)
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 1;
     pointer-events: auto;
-  }
-  .fade {
-    &-enter-active,
-    &-leave-active {
-      transition: opacity 0.3s ease-out;
-      will-change: opacity;
-    }
-    &-enter,
-    &-leave-to {
-      opacity: 0;
-    }
-  }
-  .expand-v {
-    &-enter-active {
-      max-height: calc(100vh - 40px);
-      transition: max-height 0.6s ease;
-    }
-    &-leave-active {
-      max-height: calc(100vh - 40px);
-      transition: max-height 0.3s ease;
-    }
-    &-enter,
-    &-leave-to {
-      max-height: 0;
-    }
   }
 }
 </style>

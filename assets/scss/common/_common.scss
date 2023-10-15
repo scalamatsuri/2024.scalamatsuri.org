@@ -65,17 +65,16 @@ blockquote {
 }
 
 @media screen and (max-width: $viewport - 1) {
-  @import 'common_sp';
   .is_pc {
     display: none;
   }
 }
 @media screen and (min-width: $viewport) {
-  @import 'common_pc';
   .is_sp {
     display: none;
   }
 }
+
 @media screen and (max-width: $headerViewport - 1) {
   body {
     padding-top: 50px;

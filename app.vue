@@ -16,14 +16,11 @@ ja:
 </i18n>
 
 <template>
-  <!-- <div v-lazy-container="{ selector: 'img.lazy' }"> -->
   <div>
     <TheHeader />
     <NuxtPage />
-    <!-- <lazy-component @show="hasShown"> -->
-    <!-- <sns v-if="snsFooterHasShown" /> -->
-    <!-- </lazy-component> -->
-    <!-- <flow-sns v-if="$mq === 'lg'" /> -->
+    <LazySnsFooter />
+    <LazySnsFlow />
     <TheFooter />
   </div>
 </template>
@@ -31,7 +28,8 @@ ja:
 <script setup lang="ts">
 const { t } = useI18n()
 const { year } = useAppConfig()
-
+const title = `ScalaMatsuri ${year}`
+const snsFooterHasShown = ref(false)
 useHead({
   title: t('defaultSiteName', { year: year }),
   titleTemplate: `%s | ${t('defaultSiteSubTitle')}`,
@@ -40,7 +38,7 @@ useHead({
     { 'http-equiv': 'x-ua-compatible', content: 'ie=edge' },
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
     { name: 'description', content: `${t('defaultSiteName', { year: year })} | ${t('defaultSiteSubTitle')}` },
-    { name: 'keywords', content: 'Scala,スカラ,カンファレンス,ScalaMatsuri,2023' },
+    { name: 'keywords', content: `Scala,スカラ,カンファレンス,ScalaMatsuri,${year}` },
     { property: 'og:type', content: 'website' },
     { property: 'og:locale', content: 'ja_JP' },
     { property: 'og:url', content: t('defaultUrl') },
@@ -58,8 +56,8 @@ useHead({
     { name: 'twitter:description', content: t('defaultDescription') },
     { name: 'twitter:image', content: t('opengraphUri') },
     { name: 'og:image:secure_url', content: t('opengraphUri'), hid: 'og:image:secure_url' },
-    { name: 'application-name', content: 'ScalaMatsuri 2023' },
-    { name: 'apple-mobile-web-app-title', content: 'ScalaMatsuri 2023' },
+    { name: 'application-name', content: title },
+    { name: 'apple-mobile-web-app-title', content: title },
     { name: 'theme-color', content: '#2d88ef' },
     { name: 'msapplication-TileColor', content: '#2d88ef' },
     { name: 'msapplication-TileImage', content: '/img/favicons/mstile-144x144.png' },
@@ -95,23 +93,3 @@ useHead({
   ],
 })
 </script>
-
-<style lang="scss">
-// img[lazy='loaded'] {
-//   opacity: 0;
-//   animation-name: fadein;
-//   animation-duration: 0.3s;
-//   animation-iteration-count: 1;
-//   animation-fill-mode: forwards;
-//   animation-direction: normal;
-//   animation-timing-function: ease-out;
-//   @keyframes fadein {
-//     0% {
-//       opacity: 0;
-//     }
-//     100% {
-//       opacity: 1;
-//     }
-//   }
-// }
-</style>
