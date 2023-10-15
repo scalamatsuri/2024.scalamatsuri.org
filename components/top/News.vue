@@ -21,7 +21,7 @@
 const year = '2023'
 const { data: postsXmlStr } = await useFetch(`https://blog.scalamatsuri.org/rss/category/ScalaMatsuri${year}`, {
   onRequest({ request, options }) {
-    options.headers = { ...options.headers, accept: 'application/xml, text/plain, */*' }
+    options.headers = { ...options.headers, accept: 'application/json, text/plain, */*' }
     console.dir(
       JSON.stringify(
         {
