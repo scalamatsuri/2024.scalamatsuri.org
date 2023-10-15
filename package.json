@@ -7,7 +7,9 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "staging_deploy": "firebase deploy --only hosting --project scalamatsuri-2024-web",
+    "production_deploy": "firebase deploy --only hosting --project scalamatsuri-2024-web-staging"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
