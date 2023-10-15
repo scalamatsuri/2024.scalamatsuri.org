@@ -35,7 +35,6 @@ const images = [
   '/img/events/img-events20.jpg',
   '/img/events/img-events21.jpg',
   '/img/events/img-events22.jpg',
-  '/img/events/img-events23.jpg',
   '/img/events/img-days1.jpg',
   '/img/events/img-days2.jpg',
   '/img/events/img-days3.jpg',
