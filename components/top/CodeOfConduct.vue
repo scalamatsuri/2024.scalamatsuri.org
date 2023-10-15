@@ -39,7 +39,7 @@ const { t } = useI18n()
 
 <style lang="scss" scoped>
 .info {
-  background-image: url('~/img/top/bg-info_pc.jpg');
+  background-image: url('/img/top/bg-info_pc.jpg');
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -63,7 +63,6 @@ const { t } = useI18n()
 .info_btn {
   width: 20em;
   height: 3em;
-  // padding: 10px;
   background-color: #fff;
   line-height: 3em;
   color: #000;
