@@ -1,4 +1,5 @@
 export default defineNuxtConfig({
+  ssr: false,
   css: ['~/assets/vendor/sanitize.css/sanitize.css', '~/assets/scss/main.scss'],
   vite: {
     css: {
