@@ -11,7 +11,7 @@ export type Speaker = {
 
 export type Sponsor = {
   id: string // スポンサーID
-  sponsorType: string // スポンサータイプ(SHOGUN,DAIMYO,SAMURAI,NINJA)
+  type: 'SHOGUN' | 'DAIMYO' | 'SAMURAI' | 'NINJA' // スポンサータイプ
   name: string // スポンサー名
   logo: string // スポンサーのロゴ
   url: string // スポンサーのWEBサイト

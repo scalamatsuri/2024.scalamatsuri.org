@@ -1,7 +1,4 @@
 <template>
-  {{ $route.fullPath }}
+  <!-- LazyをPrefixにつけることで遅延読み込みになる -->
+  <LazyTopMainVisual />
 </template>
-
-<script setup lang="ts">
-publichedCheck()
-</script>

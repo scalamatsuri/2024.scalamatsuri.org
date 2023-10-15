@@ -16,7 +16,7 @@ const localedProposals = proposals.value.map((proposal) => ({
   localed: proposal[locale.value as keyof ProposalSession] as Talk,
 }))
 const speakers: ComputedRef<Speaker[]> = getSpeakers()
-const sponsors: ComputedRef<Sponsor[]> = getSponsor()
+const sponsors: ComputedRef<Sponsor[]> = getSponsors()
 const sponsor: ComputedRef<Sponsor> = getSponsorById('SAMURAI_3')
 const sponsor2: ComputedRef<Sponsor> = getSponsorById('SAMURAI_X')
 </script>

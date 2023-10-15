@@ -1,101 +1,128 @@
 [
   {
     "id": "SHOGUN_1",
-    "sponsorType": "SHOGUN",
-    "name": "株式会社将軍スポンサー01",
-    "logo": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
-    "url": "https://github.com/scalamatsuri",
-    "text_html": "<p>株式会社将軍スポンサー01です。</p>",
-    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/46303de9e5a44fef9c562dd3ec8ff5a9\" title=\"株式会社FLINTERS - 会社案内資料 - We are hiring!\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
+    "type": "SHOGUN",
+    "name": "ScalaMatsuri将軍スポンサー01",
+    "logo": "/img/sponsors/scalamatsuri_logo.png",
+    "url": "https://scalamatsuri.org",
+    "text_html": "<p>ScalaMatsuri将軍スポンサー01です。</p>",
+    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/46303de9e5a44fef9c562dd3ec8ff5a9\" title=\"ScalaMatsuriFLINTERS - 会社案内資料 - We are hiring!\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
   },
   {
     "id": "SHOGUN_2",
-    "sponsorType": "SHOGUN",
-    "name": "株式会社将軍スポンサー02",
-    "logo": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
-    "url": "https://github.com/scalamatsuri",
-    "text_html": "<p>株式会社将軍スポンサー01です。</p>",
-    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/46303de9e5a44fef9c562dd3ec8ff5a9\" title=\"株式会社FLINTERS - 会社案内資料 - We are hiring!\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
+    "type": "SHOGUN",
+    "name": "ScalaMatsuri将軍スポンサー02",
+    "logo": "/img/sponsors/scalamatsuri_logo.png",
+    "url": "https://scalamatsuri.org",
+    "text_html": "<p>ScalaMatsuri将軍スポンサー01です。</p>",
+    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/46303de9e5a44fef9c562dd3ec8ff5a9\" title=\"ScalaMatsuriFLINTERS - 会社案内資料 - We are hiring!\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
   },
   {
     "id": "SHOGUN_3",
-    "sponsorType": "SHOGUN",
-    "name": "株式会社将軍スポンサー03",
-    "logo": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
-    "url": "https://github.com/scalamatsuri",
-    "text_html": "<p>株式会社将軍スポンサー01です。</p>",
-    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/46303de9e5a44fef9c562dd3ec8ff5a9\" title=\"株式会社FLINTERS - 会社案内資料 - We are hiring!\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
+    "type": "SHOGUN",
+    "name": "ScalaMatsuri将軍スポンサー03",
+    "logo": "/img/sponsors/scalamatsuri_logo.png",
+    "url": "https://scalamatsuri.org",
+    "text_html": "<p>ScalaMatsuri将軍スポンサー01です。</p>",
+    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/46303de9e5a44fef9c562dd3ec8ff5a9\" title=\"ScalaMatsuriFLINTERS - 会社案内資料 - We are hiring!\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
+  },
+  {
+    "id": "SHOGUN_4",
+    "type": "SHOGUN",
+    "name": "ScalaMatsuri将軍スポンサー04",
+    "logo": "/img/sponsors/scalamatsuri_logo.png",
+    "url": "https://scalamatsuri.org",
+    "text_html": "<p>ScalaMatsuri将軍スポンサー04です。</p>",
+    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/46303de9e5a44fef9c562dd3ec8ff5a9\" title=\"ScalaMatsuriFLINTERS - 会社案内資料 - We are hiring!\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
+  },
+  {
+    "id": "SHOGUN_5",
+    "type": "SHOGUN",
+    "name": "ScalaMatsuri将軍スポンサー05",
+    "logo": "/img/sponsors/scalamatsuri_logo.png",
+    "url": "https://scalamatsuri.org",
+    "text_html": "<p>ScalaMatsuri将軍スポンサー05です。</p>",
+    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/46303de9e5a44fef9c562dd3ec8ff5a9\" title=\"ScalaMatsuriFLINTERS - 会社案内資料 - We are hiring!\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
+  },
+  {
+    "id": "SHOGUN_6",
+    "type": "SHOGUN",
+    "name": "ScalaMatsuri将軍スポンサー06",
+    "logo": "/img/sponsors/scalamatsuri_logo.png",
+    "url": "https://scalamatsuri.org",
+    "text_html": "<p>ScalaMatsuri将軍スポンサー06です。</p>",
+    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/46303de9e5a44fef9c562dd3ec8ff5a9\" title=\"ScalaMatsuriFLINTERS - 会社案内資料 - We are hiring!\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
   },
   {
     "id": "DAIMYO_1",
-    "sponsorType": "DAIMYO",
-    "name": "株式会社大名スポンサー01",
-    "logo": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
-    "url": "https://github.com/scalamatsuri",
-    "text_html": "<p>株式会社大名スポンサー01です。</p>",
-    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/46303de9e5a44fef9c562dd3ec8ff5a9\" title=\"株式会社FLINTERS - 会社案内資料 - We are hiring!\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
+    "type": "DAIMYO",
+    "name": "ScalaMatsuri大名スポンサー01",
+    "logo": "/img/sponsors/scalamatsuri_logo.png",
+    "url": "https://scalamatsuri.org",
+    "text_html": "<p>ScalaMatsuri大名スポンサー01です。</p>",
+    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/46303de9e5a44fef9c562dd3ec8ff5a9\" title=\"ScalaMatsuriFLINTERS - 会社案内資料 - We are hiring!\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
   },
   {
     "id": "DAIMYO_2",
-    "sponsorType": "DAIMYO",
-    "name": "株式会社大名スポンサー02",
-    "logo": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
-    "url": "https://github.com/scalamatsuri",
-    "text_html": "<p>株式会社大名スポンサー01です。</p>",
-    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/46303de9e5a44fef9c562dd3ec8ff5a9\" title=\"株式会社FLINTERS - 会社案内資料 - We are hiring!\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
+    "type": "DAIMYO",
+    "name": "ScalaMatsuri大名スポンサー02",
+    "logo": "/img/sponsors/scalamatsuri_logo.png",
+    "url": "https://scalamatsuri.org",
+    "text_html": "<p>ScalaMatsuri大名スポンサー01です。</p>",
+    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/46303de9e5a44fef9c562dd3ec8ff5a9\" title=\"ScalaMatsuriFLINTERS - 会社案内資料 - We are hiring!\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
   },
   {
     "id": "DAIMYO_3",
-    "sponsorType": "DAIMYO",
-    "name": "株式会社大名スポンサー03",
-    "logo": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
-    "url": "https://github.com/scalamatsuri",
-    "text_html": "<p>株式会社大名スポンサー01です。</p>",
-    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/46303de9e5a44fef9c562dd3ec8ff5a9\" title=\"株式会社FLINTERS - 会社案内資料 - We are hiring!\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
+    "type": "DAIMYO",
+    "name": "ScalaMatsuri大名スポンサー03",
+    "logo": "/img/sponsors/scalamatsuri_logo.png",
+    "url": "https://scalamatsuri.org",
+    "text_html": "<p>ScalaMatsuri大名スポンサー01です。</p>",
+    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/46303de9e5a44fef9c562dd3ec8ff5a9\" title=\"ScalaMatsuriFLINTERS - 会社案内資料 - We are hiring!\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
   },
   {
     "id": "SAMURAI_1",
-    "sponsorType": "SAMURAI",
-    "name": "株式会社侍スポンサー01",
-    "logo": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
-    "url": "https://github.com/scalamatsuri",
-    "text_html": "<p>株式会社侍スポンサー01です。</p>",
-    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/46303de9e5a44fef9c562dd3ec8ff5a9\" title=\"株式会社FLINTERS - 会社案内資料 - We are hiring!\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
+    "type": "SAMURAI",
+    "name": "ScalaMatsuri侍スポンサー01",
+    "logo": "/img/sponsors/scalamatsuri_logo.png",
+    "url": "https://scalamatsuri.org",
+    "text_html": "<p>ScalaMatsuri侍スポンサー01です。</p>",
+    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/46303de9e5a44fef9c562dd3ec8ff5a9\" title=\"ScalaMatsuriFLINTERS - 会社案内資料 - We are hiring!\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
   },
   {
     "id": "SAMURAI_2",
-    "sponsorType": "SAMURAI",
-    "name": "株式会社侍スポンサー02",
-    "logo": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
-    "url": "https://github.com/scalamatsuri",
-    "text_html": "<p>株式会社侍スポンサー01です。</p>",
-    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/46303de9e5a44fef9c562dd3ec8ff5a9\" title=\"株式会社FLINTERS - 会社案内資料 - We are hiring!\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
+    "type": "SAMURAI",
+    "name": "ScalaMatsuri侍スポンサー02",
+    "logo": "/img/sponsors/scalamatsuri_logo.png",
+    "url": "https://scalamatsuri.org",
+    "text_html": "<p>ScalaMatsuri侍スポンサー01です。</p>",
+    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/46303de9e5a44fef9c562dd3ec8ff5a9\" title=\"ScalaMatsuriFLINTERS - 会社案内資料 - We are hiring!\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
   },
   {
     "id": "SAMURAI_3",
-    "sponsorType": "SAMURAI",
-    "name": "株式会社侍スポンサー03",
-    "logo": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
-    "url": "https://github.com/scalamatsuri",
-    "text_html": "<p>株式会社侍スポンサー01です。</p>",
-    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/46303de9e5a44fef9c562dd3ec8ff5a9\" title=\"株式会社FLINTERS - 会社案内資料 - We are hiring!\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
+    "type": "SAMURAI",
+    "name": "ScalaMatsuri侍スポンサー03",
+    "logo": "/img/sponsors/scalamatsuri_logo.png",
+    "url": "https://scalamatsuri.org",
+    "text_html": "<p>ScalaMatsuri侍スポンサー01です。</p>",
+    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/46303de9e5a44fef9c562dd3ec8ff5a9\" title=\"ScalaMatsuriFLINTERS - 会社案内資料 - We are hiring!\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
   },
   {
     "id": "NINJA_1",
-    "sponsorType": "NINJA",
-    "name": "株式会社侍スポンサー01",
+    "type": "NINJA",
+    "name": "ScalaMatsuri侍スポンサー01",
     "logo": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png"
   },
   {
     "id": "NINJA_2",
-    "sponsorType": "NINJA",
-    "name": "株式会社侍スポンサー02",
+    "type": "NINJA",
+    "name": "ScalaMatsuri侍スポンサー02",
     "logo": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png"
   },
   {
     "id": "NINJA_3",
-    "sponsorType": "NINJA",
-    "name": "株式会社侍スポンサー03",
+    "type": "NINJA",
+    "name": "ScalaMatsuri侍スポンサー03",
     "logo": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png"
   }
 ]
