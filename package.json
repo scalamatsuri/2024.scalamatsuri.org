@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "nuxt-lazy-load": "^3.0.4",
-    "sass": "^1.69.3"
+    "sass": "^1.69.3",
+    "xml-js": "^1.6.11"
   }
 }

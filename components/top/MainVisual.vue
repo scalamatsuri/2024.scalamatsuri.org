@@ -1,10 +1,10 @@
 <i18n lang="yaml">
 en:
   alt: The largest international Scala conference in Asia
-  date: on 15th-16th Apr. 2023 Online, Satellite Venue
+  date: on 2023
 ja:
   alt: アジア最大級のScalaカンファレンス
-  date: 2023年4月15日(土) - 16日(日) オンライン,サテライト会場
+  date: 2024年
 </i18n>
 
 <template>
