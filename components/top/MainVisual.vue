@@ -67,10 +67,10 @@ const shogunSponsors: ComputedRef<Sponsor[]> = getSponsorsByType('SHOGUN')
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    background-image: url('~/assets/img/top/img-main.jpg'), linear-gradient(180deg, #cf5335 0%, #b81d26 100%);
+    background-image: url('/img/top/img-main.jpg'), linear-gradient(180deg, #cf5335 0%, #b81d26 100%);
   }
   .main_sponsor {
-    background-image: url('~/assets/img/top/bg-main-sponsor_body.png');
+    background-image: url('/img/top/bg-main-sponsor_body.png');
     background-size: 100% 100%;
     background-repeat: repeat-y;
     background-position: bottom center;
@@ -81,7 +81,7 @@ const shogunSponsors: ComputedRef<Sponsor[]> = getSponsorsByType('SHOGUN')
     &:before {
       content: '';
       display: block;
-      background-image: url('~/assets/img/top/bg-main-sponsor_head.png');
+      background-image: url('/img/top/bg-main-sponsor_head.png');
       background-size: 100% auto;
       background-repeat: no-repeat;
       background-position: bottom -1px center;
@@ -124,7 +124,7 @@ const shogunSponsors: ComputedRef<Sponsor[]> = getSponsorsByType('SHOGUN')
 }
 @media screen and (max-width: $viewport - 1) {
   .main {
-    background-image: url('~/assets/img/common/bg-red.png');
+    background-image: url('/img/common/bg-red.png');
     background-position: bottom center;
     background-repeat: repeat;
     overflow: hidden;
@@ -135,7 +135,7 @@ const shogunSponsors: ComputedRef<Sponsor[]> = getSponsorsByType('SHOGUN')
     padding: 66px 0 66px;
   }
   .main {
-    background-image: url('~/assets/img/top/img-main_sp.jpg');
+    background-image: url('/img/top/img-main_sp.jpg');
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: top center;
@@ -175,7 +175,7 @@ const shogunSponsors: ComputedRef<Sponsor[]> = getSponsorsByType('SHOGUN')
     &:before {
       content: '';
       display: block;
-      background-image: url('~/assets/img/top/bg-main-sponsor_head_sp.png');
+      background-image: url('/img/top/bg-main-sponsor_head_sp.png');
       background-size: 100% auto;
       background-repeat: no-repeat;
       background-position: center bottom -1px;
