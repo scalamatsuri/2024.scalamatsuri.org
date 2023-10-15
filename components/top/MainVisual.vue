@@ -1,7 +1,7 @@
 <i18n lang="yaml">
 en:
   alt: The largest international Scala conference in Asia
-  date: on 2023
+  date: on 2024
 ja:
   alt: アジア最大級のScalaカンファレンス
   date: 2024年

@@ -16,25 +16,30 @@
 </template>
 
 <script setup lang="ts">
-import xmlConverter from 'xml-js'
+// import xmlConverter from 'xml-js'
 // const { year } = useAppConfig()
 const year = '2023'
-const postsXmlStr2 = await useFetch(`https://blog.scalamatsuri.org/rss/category/ScalaMatsuri2023`)
-console.dir(
-  JSON.stringify(
-    {
-      postsXmlStr2: postsXmlStr2,
-    } ?? 'データナシ'
-  )
-)
+const { data: postsXmlStr } = await useFetch(`https://blog.scalamatsuri.org/rss/category/ScalaMatsuri${year}`, {
+  onRequest({ request, options }) {
+    options.headers = { ...options.headers, accept: 'application/xml, text/plain, */*' }
+    console.dir(
+      JSON.stringify(
+        {
+          headers: options.headers,
+        } ?? 'データナシ'
+      )
+    )
+  },
+})
+console.log(postsXmlStr.value)
 </script>
 
 <style scoped lang="scss">
 .news {
+  padding: 0 20px;
   background-color: #000;
   color: #fff;
   width: 100%;
-  padding: 0 20px;
 }
 .news_inner {
   max-width: $pcMinWidth - 40px;
