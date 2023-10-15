@@ -1,4 +1,4 @@
-export const stringArrayShuffle = (array: string[]) => {
+export const stringArrayShuffle = (array: any[]) => {
   let m = array.length
   while (m) {
     const i = Math.floor(Math.random() * m--)

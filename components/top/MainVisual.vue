@@ -19,8 +19,9 @@ ja:
       </div>
       <div class="main_sponsor">
         <ul class="main_sponsor_inner">
-          <li v-for="sponsor in shogunSponsors" :key="sponsor.logo" class="main_sponsor_item">
+          <li v-for="sponsor in shuffledShogunSponsors" :key="sponsor.logo" class="main_sponsor_item">
             <a :href="sponsor.url"><img :src="sponsor.logo" :alt="sponsor.name" /></a>
+            {{ sponsor.name }}
           </li>
         </ul>
       </div>
@@ -33,6 +34,7 @@ import { Sponsor } from '~/models/model'
 const { t } = useI18n()
 const { year } = useAppConfig()
 const shogunSponsors: ComputedRef<Sponsor[]> = getSponsorsByType('SHOGUN')
+const shuffledShogunSponsors = computed(() => stringArrayShuffle(shogunSponsors.value))
 </script>
 
 <style scoped lang="scss">
