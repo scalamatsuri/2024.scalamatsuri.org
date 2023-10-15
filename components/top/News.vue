@@ -18,20 +18,14 @@
 <script setup lang="ts">
 // import xmlConverter from 'xml-js'
 // const { year } = useAppConfig()
-const year = '2023'
-const { data: postsXmlStr } = await useFetch(`https://blog.scalamatsuri.org/rss/category/ScalaMatsuri${year}`, {
+const year = 2023
+const category = `ScalaMatsuri${year}`
+// https://github.com/scalamatsuri/2024.scalamatsuri.org/issues/1: Newsコンポーネントにてブログの内容が取得できないため修正する
+const { data: postsXmlStr } = await useFetch(`https://blog.scalamatsuri.org/rss/category/${category}`, {
   onRequest({ request, options }) {
     options.headers = { ...options.headers, accept: 'application/json, text/plain, */*' }
-    console.dir(
-      JSON.stringify(
-        {
-          headers: options.headers,
-        } ?? 'データナシ'
-      )
-    )
   },
 })
-console.log(postsXmlStr.value)
 </script>
 
 <style scoped lang="scss">
