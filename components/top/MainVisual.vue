@@ -34,7 +34,7 @@ import { Sponsor } from '~/models/model'
 const { t } = useI18n()
 const { year } = useAppConfig()
 const shogunSponsors: ComputedRef<Sponsor[]> = getSponsorsByType('SHOGUN')
-const shuffledShogunSponsors = computed(() => stringArrayShuffle(shogunSponsors.value))
+const shuffledShogunSponsors = computed(() => arrayShuffle(shogunSponsors.value))
 </script>
 
 <style scoped lang="scss">

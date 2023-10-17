@@ -39,7 +39,7 @@ const images = [
   '/img/events/img-days2.jpg',
   '/img/events/img-days3.jpg',
 ]
-const shuffledImages = computed(() => stringArrayShuffle(images).slice(0, 13))
+const shuffledImages = computed(() => arrayShuffle(images).slice(0, 13))
 </script>
 
 <style lang="scss" scoped>
