@@ -1,6 +1,9 @@
 <i18n lang="yaml">
 en:
   sponsor_title: 'Sponsors'
+  sponsor_overview1: We are looking for sponsors who can support ScalaMatsuri, Asia's largest international Scala conference.
+  sponsor_overview2: For details, please see the
+  sponsor_recruitment_page: Sponsor Recruitment Page
   syogun: 'Syogun Sponsor'
   daimyo: 'Daimyo Sponsor'
   samurai: 'Samurai Sponsor'
@@ -13,6 +16,10 @@ en:
   bugyo_sentry: 'Metsuke Bugyo'
   bugyo_scalatimes: 'Kawara-ban Bugyo'
 ja:
+  sponsor_overview: スポンサー
+  sponsor_overview1: アジア最大級の国際Scalaカンファレンスである、ScalaMatsuriに協賛いただけるスポンサー様を募集しています。
+  sponsor_overview2: 詳細はスポンサー募集ページをご覧ください。
+  sponsor_recruitment_page: スポンサー募集ページ
   sponsor_title: 'スポンサー'
   syogun: '将軍スポンサー'
   daimyo: '大名スポンサー'
@@ -30,18 +37,17 @@ ja:
 <template>
   <section class="sponsors">
     <div class="sponsors_inner">
-      <h2 class="content_title">
-        {{ $t('sponsor_title') }}
-      </h2>
+      <h2 class="content_title">{{ $t('sponsor_title') }}</h2>
       <p class="sponsors_content_text">
-        <span v-html="$t('sponsor_overview', { sponsor_link: localePath('sponsorship') })" />
+        <span v-html="t('sponsor_overview1')" />
+        <br />
+        <span v-html="t('sponsor_overview2')" />
+        <a :href="localePath('sponsors')">{{ t('sponsor_recruitment_page') }}</a>
       </p>
-      <h3 class="sponsors_title sponsors_subtitle-em">
-        {{ $t('syogun') }}
-      </h3>
+      <h3 class="sponsors_title sponsors_subtitle-em">{{ $t('syogun') }}</h3>
       <ul class="sponsors_list">
         <li v-for="sponsor in shoguns" :key="sponsor.logo" class="sponsors_item">
-          <a :href="sponsor.url" target="_blank" rel="noopener"><img v-lazy="sponsor.logo" :alt="sponsor.name" /></a>
+          <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.name" /></a>
         </li>
       </ul>
     </div>
@@ -50,6 +56,7 @@ ja:
 
 <script setup lang="ts">
 const localePath = useLocalePath()
+const { t } = useI18n()
 const shoguns = getSponsorsByType('SHOGUN')
 const shuffledShoguns = computed(() => arrayShuffle(shoguns.value))
 </script>

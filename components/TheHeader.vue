@@ -6,7 +6,7 @@ en:
   proposals: Proposals
   programs: Programss
   open-mic-conference: Open Mic Conference
-  sponsorship: SponsorShip(ja)
+  sponsorship: Sponsor Ship(ja)
   sponsors: Sponsors(ja)
   cm: CM
   ticket: Ticket

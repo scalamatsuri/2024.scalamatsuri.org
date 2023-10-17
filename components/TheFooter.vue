@@ -5,7 +5,7 @@ en:
   proposals: Proposals
   programs: Programss
   open-mic-conference: Open Mic Conference
-  sponsorship: SponsorShip(ja)
+  sponsorship: Sponsor Ship(ja)
   sponsors: Sponsors(ja)
   cm: CM
   ticket: Ticket
@@ -13,6 +13,9 @@ en:
   extra-staff: Extra Staffs(ja)
   help: 'Help'
   past_scalamatsuri: "Past ScalaMatsuri's"
+  scala-training-title-1: Scala Online Training Program
+  scala-training-title-2: by Japan Scala Association
+  scala-training: Scala Training(ja)
 ja:
   code-of-conduct: 行動規範
   call-for-proposals: セッション募集
@@ -27,15 +30,20 @@ ja:
   extra-staff: スタッフ募集
   help: 'ヘルプ'
   past_scalamatsuri: '過去のイベント'
+  scala-training-title-1: SCALA オンライン研修
+  scala-training-title-2: by Japan Scala Association
+  scala-training: Scala Training
 </i18n>
 
 <template>
   <footer class="footer">
     <div class="footer_inner">
-      <p class="footerlogo">
-        <NuxtLink :to="localePath('/')"><img src="~/assets/img/common/logo.svg" :alt="`ScalaMatsuri ${year}`" width="68" height="53" /></NuxtLink>
-      </p>
       <div class="footerNav">
+        <dl class="footerNav_list">
+          <p class="footer_logo">
+            <NuxtLink :to="localePath('/')"><img src="~/assets/img/common/logo.svg" :alt="`ScalaMatsuri ${year}`" width="68" height="53" /></NuxtLink>
+          </p>
+        </dl>
         <dl class="footerNav_list">
           <dt class="footerNav_title">ScalaMatsuri {{ year }}</dt>
           <dd class="footerNav_item" v-for="_header in headers" :key="_header.order">
@@ -64,6 +72,14 @@ ja:
           <dd class="footerNav_item"><a href="https://2016.scalamatsuri.org/" target="_blank" rel="noopener">ScalaMatsuri 2016</a></dd>
           <dd class="footerNav_item"><a href="https://2014.scalamatsuri.org/" target="_blank" rel="noopener">ScalaMatsuri 2014</a></dd>
           <dd class="footerNav_item"><a href="https://2013.scalamatsuri.org/" target="_blank" rel="noopener">Scala Conference in Japan 2013</a></dd>
+        </dl>
+        <dl class="footerNav_list">
+          <dt class="footerNav_title">{{ t('scala-training-title-1') }}<br />{{ t('scala-training-title-2') }}</dt>
+          <dd class="footerNav_item">
+            <a href="https://www.scala-training.jp/" target="_blank" rel="noopener">
+              {{ t('scala-training') }}
+            </a>
+          </dd>
         </dl>
       </div>
     </div>
@@ -134,36 +150,34 @@ useHead({
     }
   }
 }
-.copyright {
-  text-align: center;
-  color: rgba(255, 255, 255, 0.2);
-  margin-top: 92px;
-  margin-bottom: 20px;
-}
-.pullrequestBtn {
-  position: absolute;
-  height: 40px;
-  right: 70px;
-  bottom: 12px;
-  background: #221e23;
-  border: 2px solid #39333b;
-  box-sizing: border-box;
-  border-radius: 100px;
-  font-weight: bold;
-  line-height: normal;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 12px;
-  padding: 6px 16px 6px 6px;
-  white-space: nowrap;
-  img {
-    margin-right: 9px;
-    vertical-align: middle;
+@media screen and (min-width: $headerViewport) {
+  /* footer PC */
+  .footer {
+    padding-top: 85px;
+  }
+  .footer_inner {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .footer_logo {
+    float: left;
+    margin-right: 127px;
+  }
+  .footerNav {
+    // float: right;
+    display: flex;
+    justify-content: space-between;
+    // width: 675px;
+  }
+  .footerNav_list {
+    width: 20%;
+    max-width: 20%;
   }
 }
-
 @media screen and (max-width: $headerViewport - 1) {
   /* footer SP */
-  .footerlogo {
+  .footer_logo {
     display: none;
   }
   .footerNav_list {
@@ -187,25 +201,30 @@ useHead({
     margin-left: 18px;
   }
 }
-@media screen and (min-width: $headerViewport) {
-  /* footer PC */
-  .footer {
-    padding-top: 85px;
-  }
-  .footer_inner {
-    width: 870px;
-    margin: 0 auto;
-    overflow: hidden;
-  }
-  .footerlogo {
-    float: left;
-    margin-right: 127px;
-  }
-  .footerNav {
-    float: right;
-    display: flex;
-    justify-content: space-between;
-    width: 675px;
+.copyright {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.2);
+  margin-top: 92px;
+  margin-bottom: 20px;
+}
+.pullrequestBtn {
+  position: absolute;
+  height: 40px;
+  right: 10px;
+  bottom: 10px;
+  background: #221e23;
+  border: 2px solid #39333b;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-weight: bold;
+  line-height: normal;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  padding: 6px 16px 6px 6px;
+  white-space: nowrap;
+  img {
+    margin-right: 9px;
+    vertical-align: middle;
   }
 }
 </style>
