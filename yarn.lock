@@ -881,7 +881,7 @@
     which "^3.0.1"
     ws "^8.14.2"
 
-"@nuxt/kit@3.7.4", "@nuxt/kit@^3.7.4":
+"@nuxt/kit@3.7.4", "@nuxt/kit@^3.1.2", "@nuxt/kit@^3.7.4":
   version "3.7.4"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.7.4.tgz#31c0bd57397cc56a1098af5d6504353cc2e855a2"
   integrity sha512-/S5abZL62BITCvC/TY3KWA6N721U1Osln3cQdBb56XHIeafZCBVqTi92Xb0o7ovl72mMRhrKwRu7elzvz9oT/g==
@@ -4005,6 +4005,13 @@ nuxi@^3.9.0:
   optionalDependencies:
     fsevents "~2.3.3"
 
+nuxt-lazy-load@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/nuxt-lazy-load/-/nuxt-lazy-load-3.0.4.tgz#6f466f6d3d55d721d24161d8fa286895569f9d2c"
+  integrity sha512-NlJ/E3RPnbpHIhMigVIDHJwRaTsOHP9dVSPoUH9XhHXvSAgjkywGyoFkI21t+4x5Ug1pv13sFalPE8e75SnY4w==
+  dependencies:
+    "@nuxt/kit" "^3.1.2"
+
 nuxt@^3.7.4:
   version "3.7.4"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-3.7.4.tgz#281a596f84730869e14e231de376f1ec55553f1d"
@@ -4767,6 +4774,11 @@ sass@^1.69.3:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
     source-map-js ">=0.6.2 <2.0.0"
+
+sax@^1.2.4:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/sax/-/sax-1.3.0.tgz#a5dbe77db3be05c9d1ee7785dbd3ea9de51593d0"
+  integrity sha512-0s+oAmw9zLl1V1cS9BtZN7JAd0cW5e0QH4W3LWEK6a4LaLEA2OTpGYWDY+6XasBLtz6wkm3u1xRw95mRuJ59WA==
 
 scule@^1.0.0:
   version "1.0.0"
@@ -5689,6 +5701,13 @@ ws@^8.14.2:
   version "8.14.2"
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.14.2.tgz#6c249a806eb2db7a20d26d51e7709eab7b2e6c7f"
   integrity sha512-wEBG1ftX4jcglPxgFCMJmZ2PLtSbJ2Peg6TmpJFTbe9GZYOQCDPdMYu/Tm0/bGZkw8paZnJY45J4K2PZrLYq8g==
+
+xml-js@^1.6.11:
+  version "1.6.11"
+  resolved "https://registry.yarnpkg.com/xml-js/-/xml-js-1.6.11.tgz#927d2f6947f7f1c19a316dd8eea3614e8b18f8e9"
+  integrity sha512-7rVi2KMfwfWFl+GpPg6m80IVMWXLRjO+PxTq7V2CDhoGak0wzYzFgUY2m4XJ47OGdXd8eLE8EmwfAmdjw7lC1g==
+  dependencies:
+    sax "^1.2.4"
 
 xxhashjs@~0.2.2:
   version "0.2.2"

@@ -8,7 +8,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "predeploy": "nuxt generate"
+    "staging_deploy": "firebase deploy --only hosting --project scalamatsuri-2024-web",
+    "production_deploy": "firebase deploy --only hosting --project scalamatsuri-2024-web-staging"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
@@ -19,6 +20,8 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "sass": "^1.69.3"
+    "nuxt-lazy-load": "^3.0.4",
+    "sass": "^1.69.3",
+    "xml-js": "^1.6.11"
   }
 }
