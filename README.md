@@ -68,7 +68,10 @@ https://firebase.google.com/
 
 ### 2. firebase 上でアプリを作成する
 
-自分で決めるプロジェクト ID をメモしておきます。
+自分で決めるプロジェクト ID をメモしておきます。(ここでは `my-scalamatsuri-firebase-app` としています)
+
+<img width="1682" alt="image" src="https://github.com/scalamatsuri/2024.scalamatsuri.org/assets/4135267/09c28bd4-074f-40c9-bb63-49b111bc8763">
+
 
 ### 3. firebase-tools を使えるようにする
 
@@ -91,7 +94,9 @@ Nuxt の generate コマンドを実行すると、デプロイ用の JavaScript
 ```
 $ nuxt generate
 Nuxt 3.7.4 with Nitro 2.6.3                                                             21:02:12
+
 ・・・
+
 ✔ You can now deploy .output/public to any static hosting!                             21:02:30
 ✨  Done in 19.23s.
 ```
@@ -99,9 +104,12 @@ Nuxt 3.7.4 with Nitro 2.6.3                                                     
 ### 6. firebase にデプロイする
 
 ```
-$ firebase deploy --only hosting --token "1//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" -P scalamatsuri-dev
+$ firebase deploy --only hosting --token "1//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" -P my-scalamatsuri-firebase-app
+
+・・・
+
 ✔ Deploy complete!
 
-Project Console: https://console.firebase.google.com/project/scalamatsuri-dev/overview
-Hosting URL: https://scalamatsuri-dev.web.app
+Project Console: https://console.firebase.google.com/project/my-scalamatsuri-firebase-app/overview
+Hosting URL: https://my-scalamatsuri-firebase-app.web.app
 ```
