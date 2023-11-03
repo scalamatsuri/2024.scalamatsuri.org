@@ -1,0 +1,62 @@
+/* section */
+.section {
+  max-width: 980px;
+  width: calc(100% - 40px);
+  margin: 100px auto 100px;
+}
+.section_figure {
+  text-align: center;
+}
+.section_figcaption {
+  line-height: 20px;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin-top: 10px;
+  color: #555555;
+}
+.section_movie {
+  max-width: 100%;
+}
+.section_title {
+  text-align: center;
+  .section_title_inner {
+    background-color: #333;
+    font-weight: bold;
+    line-height: 49px;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 10px 56px;
+  }
+}
+.section_text {
+  margin-top: 60px;
+  line-height: 26px;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  color: #000000;
+  & + .section_text {
+  }
+  // 強調
+  &-em {
+    margin-top: 20px;
+    background-color: #F1F1F1;
+    padding: 30px 40px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+  }
+  &-strong {
+    font-weight: bold;
+  }
+  a {
+    font-weight: bold;
+  }
+  em {
+    font-weight: bold;
+    margin-bottom: 3px;
+    display: inline-block;
+  }
+}
