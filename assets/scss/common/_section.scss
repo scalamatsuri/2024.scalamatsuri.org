@@ -60,3 +60,28 @@
     display: inline-block;
   }
 }
+.section_note {
+  background-color: #F1F1F1;
+  font-weight: bold;
+  line-height: 26px;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  padding: 40px;
+  margin-top: 20px;
+}
+.section_note_item {
+  padding-left: 22px;
+  position: relative;
+  margin-bottom: 5px;
+  &:before {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    background: #000000;
+    border-radius: 3px;
+    position: absolute;
+    top: 11px;
+    left: 0;
+  }
+}
