@@ -1,5 +1,4 @@
 <i18n lang="yaml">
-## language=yaml
 en:
   title: "Code of Conduct"
   coc_manner_video_title: "CoC Manner Video"
@@ -31,9 +30,10 @@ en:
     The code of conduct is subject to change without notice.
   body_text_07:
     Similar code of conduct have been adopted by PNW Scala, NE Scala, and Scala Days to provide a harassment-free conference. We also support the cause.
-  body_text_08: "The following descibes the operational process by the conference organizers. It is subject to change without notice."
   process_title: Process
-  process_text_01:
+  process_text_01: 
+    The following descibes the operational process by the conference organizers. It is subject to change without notice.
+  process_text_02:
     - The conference organizers are to prepare an incident reporting form both in offline and online. Upon a report, adequate actions will be taken like giving a citation or a warning to prevent from repeating the incident.
     - All sponsors are asked to comply with the Code of conduct when they apply. Their slides and commercial videos are checked beforehand and modified if necessary.
     - All speakers are asked to comply with the Code of conduct when they apply to CFP. Their slides are checked beforehand and modified if necessary.
@@ -86,11 +86,10 @@ ja:
     当カンファレンスの参加者、発表者、スポンサー、ブースの出展者は、主催者の指示に即時かつ無条件に従ってもらえることを期待します。 また、主催者の裁量によって会場から退場を指示された場合、該当者に対する参加料等の金銭の払い戻しは行わないものとします。
   body_text_07:
     同種の行動規範は、ハラスメントの無いカンファレンスを提供することを目指して、例年 PNW Scala、NE Scala、Scala Days などでも採用されており、ScalaMatsuri もその精神に賛同します。
-  body_text_08:
-    この行動規範はより適切な運用を行うために随時更新される可能性があります。
   process_title: 運用方法
-  body_text_09: ScalaMatsuri では、行動規範について以下の通り運用します。また必要に応じて、新たなプロセスを設ける可能性が有ります。
   process_text_01:
+    ScalaMatsuri では、行動規範について以下の通り運用します。また必要に応じて、新たなプロセスを設ける可能性が有ります。
+  process_text_02:
     - インシデントの報告窓口をオンライン及びオフラインで設けます。インシデントが報告された場合、主催者は同様のインシデントが繰り返し発生しないように努め、必要に応じて注意や警告を行います。
     - ScalaMatsuriの全てのスポンサーに対し、スポンサー申込時に行動規範準拠の同意を確認しています。また、スライドやCMといった上映コンテンツの事前チェックによる行動規範準拠の確認、そして必要な場合は修正を依頼しています。
     - カンファレンスにおける全ての発表者に対し、CFPへの応募時に行動規範準拠の同意を確認しています。また、スライドの事前チェックによる行動規範準拠の確認、そして必要な場合は修正を依頼しています。
@@ -175,18 +174,18 @@ ja:
         {{ t('body_text_06') }}
         <br><br>
         {{ t('body_text_07') }}
-        <br><br>
-        {{ t('body_text_08') }}
       </p>
     </div>
     <div class="section">
       <h2 class="section_title">
         <span class="section_title_inner">{{ t('process_title') }}</span>
       </h2>
-      <p class="section_text" v-html="t('body_text_04.array')" />
+      <p class="section_text">
+        {{ t('process_text_01') }}
+      </p>
       <ul class="section_note">
-        <li v-for="text in t('process_text_01')" :key="text" class="section_note_item">
-          {{ text }}
+        <li v-for="text in tm('process_text_02')" :key="text" class="section_note_item">
+          {{ rt(text) }}
         </li>
       </ul>
     </div>
