@@ -6,10 +6,10 @@ en:
   code_of_conduct_text_01: "We showed a video for Code of conduct and referee system in ScalaMatsuri 2016 opening."
   code_of_conduct_title: "Code of conduct"
   preface_title: "Preface"
-  # preface_text_01: |
-  #   ScalaMatsuri is dedicated to providing an open conference for all technologists from various regions and communities. We want to make it a fun experience for everyone, inclusive of gender, race, and many different backgrounds whom they may not meet in their daily life.
-  #   <br><br>
-  #   The following Code of conduct is a guideline to prevent all of us from making inconsiderate behavior, intentional or otherwise. The ScalaMaturi comittee requires all participants, including speakers and sponsors to comply with the Code of conduct as part of our active step to prevent inappropriate behaviors.
+  preface_text_01:
+    ScalaMatsuri is dedicated to providing an open conference for all technologists from various regions and communities. We want to make it a fun experience for everyone, inclusive of gender, race, and many different backgrounds whom they may not meet in their daily life.
+  preface_text_02:
+    The following Code of conduct is a guideline to prevent all of us from making inconsiderate behavior, intentional or otherwise. The ScalaMaturi comittee requires all participants, including speakers and sponsors to comply with the Code of conduct as part of our active step to prevent inappropriate behaviors.
   body_title: "Body"
   # body_text_01: |
   #   All communication is expected to be appropriate for a technology conference with professional audience including people of many different backgrounds. ScalaMatsuri does not tolerate harassment of conference participants in any form.
@@ -61,10 +61,10 @@ ja:
   code_of_conduct_text_01: ScalaMatsuri2016当日には、行動規範とレフェリー制について解説した動画を上映しました。
   code_of_conduct_title: 行動規範
   preface_title: はじめに
-  # preface_text_01: |
-  #   ScalaMatsuri は、様々な地域やコミュニティから集う技術者に対して開かれたカンファレンスを目指しています。 そのためには、性別や人種など多様な背景を持つ、普段の生活では会わない人々同士でも、互いに敬意を払って楽しい時間を過ごせることが重要だと考えています。
-  #   <br/><br/>
-  #   以下の行動規範は、意図せずそういった配慮の行き届かない発言や行為をしてしまうことを防ぐためのガイドラインです。 ScalaMatsuri の主催者は、発表者や参加者、スポンサーの皆様に行動規範を守っていただくことをお願いしており、その場にそぐわない発言や行為を未然に防ぐための手助けをしています。
+  preface_text_01:
+    ScalaMatsuri は、様々な地域やコミュニティから集う技術者に対して開かれたカンファレンスを目指しています。 そのためには、性別や人種など多様な背景を持つ、普段の生活では会わない人々同士でも、互いに敬意を払って楽しい時間を過ごせることが重要だと考えています。
+  preface_text_02:
+    以下の行動規範は、意図せずそういった配慮の行き届かない発言や行為をしてしまうことを防ぐためのガイドラインです。 ScalaMatsuri の主催者は、発表者や参加者、スポンサーの皆様に行動規範を守っていただくことをお願いしており、その場にそぐわない発言や行為を未然に防ぐための手助けをしています。
   body_title: 本文
   # body_text_01: |
   #   多様な背景を持つ人々が参加する技術カンファレンスにおいて、そこで交わされるコミュニケーションは技術的な発表と交流の場に相応しいものであって欲しいと願っています。 ScalaMatsuri は、カンファレンスの参加者に対するいかなるハラスメント行為も歓迎しません。
@@ -115,9 +115,87 @@ ja:
 </i18n>
 
 <template>
-  {{ $route.fullPath }}
+  <div id="codeOfConduct">
+    <div class="main">
+      <div class="main_inner">
+        <h1 class="main_title">
+          {{ t('code_of_conduct_title') }}
+        </h1>
+      </div>
+    </div>
+    <div class="section">
+      <h2 class="section_title">
+        <span class="section_title_inner">{{ t('coc_manner_video_title') }}</span>
+      </h2>
+      <p class="section_text" />
+      <figure class="section_figure">
+        <iframe
+          class="section_movie"
+          width="900"
+          height="450"
+          src="https://www.youtube.com/embed/lIfOQNTWdxI"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        />
+        <figcaption class="section_figcaption">
+          {{ t('code_of_conduct_text_01') }}
+        </figcaption>
+      </figure>
+    </div>
+    <div class="section">
+      <h2 class="section_title">
+        <span class="section_title_inner">{{ t('preface_title') }}</span>
+      </h2>
+      <p class="section_text">
+        {{ t('preface_text_01') }}
+        <br><br>
+        {{ t('preface_text_02') }}
+      </p>
+    </div>
+    <div class="section">
+      <h2 class="section_title">
+        <span class="section_title_inner">{{ t('body_title') }}</span>
+      </h2>
+      <p class="section_text" v-html="t('body_text_01')" />
+      <ul class="section_note">
+        <li v-for="text in t('body_text_02')" :key="text" class="section_note_item">
+          {{ text }}
+        </li>
+      </ul>
+      <p class="section_text" v-html="t('body_text_03')" />
+    </div>
+    <div class="section">
+      <h2 class="section_title">
+        <span class="section_title_inner">{{ t('process_title') }}</span>
+      </h2>
+      <p class="section_text" v-html="t('body_text_04')" />
+      <ul class="section_note">
+        <li v-for="text in t('process_text_01')" :key="text" class="section_note_item">
+          {{ text }}
+        </li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2 class="section_title">
+        <span class="section_title_inner">{{ t('contacts_during_the_conference_title') }}</span>
+      </h2>
+      <p class="section_text" v-html="t('contacts_during_the_conference_text_01')" />
+    </div>
+    <div class="section">
+      <h2 class="section_title">
+        <span class="section_title_inner">{{ t('license_and_attribution_title') }}</span>
+      </h2>
+      <p class="section_text" v-html="t('license_and_attribution_text_01')" />
+      <blockquote class="section_note">
+        <p v-html="t('license_and_attribution_text_02')" />
+      </blockquote>
+      <p class="section_text" v-html="t('license_and_attribution_text_03')" />
+    </div>
+  </div>
 </template>
 
 <script setup lang="ts">
 publichedCheck()
+const { t } = useI18n()
 </script>
