@@ -4,7 +4,6 @@
 
 [![Deploy to Firebase Hosting on staging](https://github.com/scalamatsuri/2024.scalamatsuri.org/actions/workflows/staging-firebase-hosting-merge.yml/badge.svg?branch=master)](https://github.com/scalamatsuri/2024.scalamatsuri.org/actions/workflows/staging-firebase-hosting-merge.yml) [![Deploy to Firebase Hosting on production](https://github.com/scalamatsuri/2024.scalamatsuri.org/actions/workflows/production-firebase-hosting-merge.yml/badge.svg?branch=production)](https://github.com/scalamatsuri/2024.scalamatsuri.org/actions/workflows/production-firebase-hosting-merge.yml)
 
-
 ## Build Setup
 
 ### Install nodenv
@@ -58,3 +57,59 @@ $ yarn dev
 ## Build and deploy production
 
 WIP
+
+## firebase
+
+自分用の firebase 環境を作って動作確認する時の手順です。
+
+### 1. firebase のアカウントを設定する
+
+https://firebase.google.com/
+
+### 2. firebase 上でアプリを作成する
+
+自分で決めるプロジェクト ID をメモしておきます。(ここでは `my-scalamatsuri-firebase-app` としています)
+
+<img width="1682" alt="image" src="https://github.com/scalamatsuri/2024.scalamatsuri.org/assets/4135267/09c28bd4-074f-40c9-bb63-49b111bc8763">
+
+
+### 3. firebase-tools を使えるようにする
+
+https://firebase.google.com/docs/cli?hl=ja
+
+### 4. ローカルのコンソールから firebase にログインする
+
+```
+$ firebase login:ci
+
+1//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+```
+
+`1//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX` といった TOKEN が表示されるので、これをデプロイで使います。
+
+### 5. WEB サイトをビルドする
+
+Nuxt の generate コマンドを実行すると、デプロイ用の JavaScript が .output/public に吐き出されます。
+
+```
+$ nuxt generate
+Nuxt 3.7.4 with Nitro 2.6.3                                                             21:02:12
+
+・・・
+
+✔ You can now deploy .output/public to any static hosting!                             21:02:30
+✨  Done in 19.23s.
+```
+
+### 6. firebase にデプロイする
+
+```
+$ firebase deploy --only hosting --token "1//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" -P my-scalamatsuri-firebase-app
+
+・・・
+
+✔ Deploy complete!
+
+Project Console: https://console.firebase.google.com/project/my-scalamatsuri-firebase-app/overview
+Hosting URL: https://my-scalamatsuri-firebase-app.web.app
+```

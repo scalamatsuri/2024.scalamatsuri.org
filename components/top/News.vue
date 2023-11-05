@@ -3,29 +3,42 @@
     <div class="news_inner">
       <h2 class="news_title">News</h2>
       <ul class="news_list">
-        <!-- <li
+        <li
           v-for="(post, idx) in posts"
           :key="idx"
           class="news_item"
-          :class="{ 'news_item-show': currentIdx === idx, 'news_item-hide': posts.length > 1 ? currentIdx === idx + (1 % posts.length) : false }">
+          :class="{ 'news_item-show': currentPostIdx === idx, 'news_item-hide': posts.length > 1 ? currentPostIdx === idx + (1 % posts.length) : false }">
           <a :href="post.link._text" target="_blank" rel="noopener">{{ post.title._text }}</a>
-        </li> -->
+        </li>
       </ul>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-// import xmlConverter from 'xml-js'
-// const { year } = useAppConfig()
-const year = 2023
+import xmlConverter from 'xml-js'
+import { onMounted, onUnmounted } from 'vue'
+
+const { year } = useAppConfig()
+const { locale } = useI18n()
 const category = `ScalaMatsuri${year}`
-// https://github.com/scalamatsuri/2024.scalamatsuri.org/issues/1: Newsコンポーネントにてブログの内容が取得できないため修正する
-const { data: postsXmlStr } = await useFetch(`https://blog.scalamatsuri.org/rss/category/${category}`, {
-  onRequest({ request, options }) {
-    options.headers = { ...options.headers, accept: 'application/json, text/plain, */*' }
-  },
+const blogDomain = {
+  ja: 'blog.scalamatsuri.org',
+  en: 'blog-en.scalamatsuri.org',
+}[locale.value] ?? 'blog.scalamatsuri.org'
+const { data: postsXmlStr } = await useFetch<Blob>(`https://${blogDomain}/rss/category/${category}`)
+const body = await postsXmlStr.value?.text()
+const converted = xmlConverter.xml2js(body, { compact: true })
+const posts = [].concat(converted.rss.channel.item) || []
+
+const currentPostIdx = useState<number>('currentPostIdx', () => 0)
+let updatePostInterval: NodeJS.Timeout | undefined
+onMounted(() => {
+  updatePostInterval = setInterval(() => {
+    currentPostIdx.value = (currentPostIdx.value + 1) % posts.length
+  }, 5000)
 })
+onUnmounted(() => clearInterval(updatePostInterval))
 </script>
 
 <style scoped lang="scss">
