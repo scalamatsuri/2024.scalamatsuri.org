@@ -1,16 +1,25 @@
 <i18n lang="yaml">
 en:
-  title: 'sponsor en'
+  title: Sponsors
+  sponsorType:
+    syogun: Shogun Sponsor
+    daimyo: Daimyo Sponsor
 ja:
-  title: 'sponsor ja'
+  title: スポンサー
+  sponsorType:
+    syogun: 将軍スポンサー
+    daimyo: 大名スポンサー
 </i18n>
 
 <template>
   <MainVisual :title="t('title')" />
-  {{ $route.fullPath }}
+  <SponsorInquiry />
+  <SponsorBlock :title="t('sponsorType.syogun')" :sponsors="shogunSponsors" />
+  <SponsorBlock :title="t('sponsorType.daimyo')" :sponsors="daimyoSponsors" />
 </template>
 
 <script setup lang="ts">
 const { t } = useI18n()
-publichedCheck()
+const shogunSponsors = getSponsorsByType('SHOGUN')
+const daimyoSponsors = getSponsorsByType('DAIMYO')
 </script>
