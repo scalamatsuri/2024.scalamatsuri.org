@@ -115,15 +115,8 @@ ja:
 
 
 <template>
-<MainVisual :title="t('title')">
+<MainVisual :title="t('title')" />
   <div id="codeOfConduct">
-    <div class="main">
-      <div class="main_inner">
-        <h1 class="main_title">
-          {{ t('code_of_conduct_title') }}
-        </h1>
-      </div>
-    </div>
     <div class="section">
       <h2 class="section_title">
         <span class="section_title_inner">{{ t('coc_manner_video_title') }}</span>
@@ -208,9 +201,6 @@ ja:
       <p class="section_text" v-html="t('license_and_attribution_text_03')" />
     </div>
   </div>
-  {{ $route.fullPath }}
-</MainVisual>
-
 </template>
 
 <script setup lang="ts">
