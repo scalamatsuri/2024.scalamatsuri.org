@@ -113,7 +113,9 @@ ja:
   #   もしご利用された場合には、<a href="mailto:info@scalamatsuri.org">info@scalamatsuri.org</a> か、ハッシュタグ <a href="https://twitter.com/hashtag/ScalaMatsuri" target="_blank">#ScalaMatsuri</a> をつけたツイートでご一報くださるととても嬉しいです。
 </i18n>
 
+
 <template>
+<MainVisual :title="t('title')">
   <div id="codeOfConduct">
     <div class="main">
       <div class="main_inner">
@@ -206,9 +208,12 @@ ja:
       <p class="section_text" v-html="t('license_and_attribution_text_03')" />
     </div>
   </div>
+  {{ $route.fullPath }}
+</MainVisual>
+
 </template>
 
 <script setup lang="ts">
-publichedCheck()
 const { t,tm,rt } = useI18n()
+publichedCheck()
 </script>
