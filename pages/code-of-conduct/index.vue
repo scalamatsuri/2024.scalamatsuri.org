@@ -40,10 +40,10 @@ en:
     - In Open mic conference, the conference organizers will ask speakers to be checked to comply with Code of conduct before their talks. Due the nature of Open mic conference, it will be difficult to guarantee prior check of all contents, so this will require cooperation from all participants.
     - At the conference venues, participants are free to use bathrooms based on their own self-declared gender identity. A non-binary person is allowed to use any bathrooms.
   contacts_during_the_conference_title: Contacts during the conference
-  # contacts_during_the_conference_text_01: |
-  #   If you are being harassed, notice that someone else is being harassed, please report the following form or contact a nearby conference staff immediately.
-  #   <br><br>
-  #   <a href="https://forms.gle/zu8x1jNBepbHZKXM8" target="_blank" rel="noopener">Harassment incidents report form.</a>
+  contacts_during_the_conference_text_01:
+    If you are being harassed, notice that someone else is being harassed, please report the following form or contact a nearby conference staff immediately.
+  contacts_during_the_conference_text_02: 
+    Harassment incidents report form.
   license_and_attribution_title: License and attribution
   # license_and_attribution_text_01: |
   #   The text part of this policy is licensed under the <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">Creative Commons Zero license</a>. Like public domain, no credit and no open licencing of your version is required.
@@ -96,10 +96,10 @@ ja:
     - 飛び入りカンファレンスでは、全ての発表者に対しスライドの事前チェックを受けるように呼びかけます。飛び入りカンファレンスの性質上、漏れのない事前チェックを保証することは難しいので、皆さんのご協力が特に不可欠です。よろしくお願いします。
     - 会場のお手洗いは、ご本人が自己宣言したジェンダーアイデンティティに基づいて利用していただいています。非バイナリジェンダーの方は、どのお手洗いでも利用可能としています。
   contacts_during_the_conference_title: 会期中の報告窓口
-  # contacts_during_the_conference_text_01: |
-  #   自分や他の人がハラスメントを受けている場合には以下のフォームにてご連絡ください。
-  #   <br/><br/>
-  #   <a href="https://forms.gle/zu8x1jNBepbHZKXM8" target="_blank">ハラスメント インシデント報告フォーム</a>
+  contacts_during_the_conference_text_01:
+    自分や他の人がハラスメントを受けている場合には以下のフォームにてご連絡ください。
+  contacts_during_the_conference_text_02:
+    ハラスメント インシデント報告フォーム
   license_and_attribution_title: ライセンスと帰属に関して
   # license_and_attribution_text_01: |
   #   本規範のテキスト部分は <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">Creative Commons Zero license</a> のもとに公開します。パブリック・ドメイン同様に、派生して作られた規範に一切のクレジット表示やオープンライセンスなどを要求しません。
@@ -189,6 +189,8 @@ ja:
         <span class="section_title_inner">{{ t('contacts_during_the_conference_title') }}</span>
       </h2>
       <p class="section_text" v-html="t('contacts_during_the_conference_text_01')" />
+      <br/><br/>
+      <a href="https://forms.gle/zu8x1jNBepbHZKXM8" target="_blank">{{  t('contacts_during_the_conference_text_02') }}</a>
     </div>
     <div class="section">
       <h2 class="section_title">
