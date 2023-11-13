@@ -45,16 +45,29 @@ en:
   contacts_during_the_conference_text_02: 
     Harassment incidents report form.
   license_and_attribution_title: License and attribution
-  # license_and_attribution_text_01: |
-  #   The text part of this policy is licensed under the <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">Creative Commons Zero license</a>. Like public domain, no credit and no open licencing of your version is required.
-  #   <br><br>
-  #   If you would like to optionally attribute it, you could use the below text and link to <a href="http://scalamatsuri.org/" target="_blank" rel="noopener">http://scalamatsuri.org/</a>:
-  license_and_attribution_text_02: |
+  license_and_attribution_text_01: |
+    The text part of this policy is licensed under the
+  license_and_attribution_text_02: Creative Commons Zero license
+  license_and_attribution_text_03: |
+    . Like public domain, no credit and no open licencing of your version is required.
+  license_and_attribution_text_04: |
+    If you would like to optionally attribute it, you could use the below text and link to
+  license_and_attribution_text_05:
+    http://scalamatsuri.org/
+  license_and_attribution_text_06: |
     This code of conduct is based on the policy from ScalaMatsuri, which in turn is based on the example policy from the Geek Feminism wiki, and inspired by PNW Scala, NE Scala, and Scala Days.
-  # license_and_attribution_text_03: |
-  #   Japan Scala Association, Inc reserves all rights for the CoC Manner Video. If you agree to our code of conduct as shown as above, we permit the use of the video in your conference or meetup.
-  #   <br><br>
-  #   We would also appreciate it if you let us know via e-mail to <a href="mailto:info@scalamatsuri.org">info@scalamatsuri.org</a> or tweet with hashtag <a href="https://twitter.com/hashtag/ScalaMatsuri" target="_blank" rel="noopener">#ScalaMatsuri</a>.
+  license_and_attribution_text_07: |
+    Japan Scala Association, Inc reserves all rights for the CoC Manner Video. If you agree to our code of conduct as shown as above, we permit the use of the video in your conference or meetup.
+  license_and_attribution_text_08: |
+    We would also appreciate it if you let us know via e-mail to 
+  license_and_attribution_text_09: | 
+    info@scalamatsuri.org
+  license_and_attribution_text_10: | 
+    or tweet with hashtag
+  license_and_attribution_text_11: | 
+    #ScalaMatsuri
+  license_and_attribution_text_12: |
+    .
 ja:
   title: 行動規範
   coc_manner_video_title: 行動規範マナー動画
@@ -101,16 +114,6 @@ ja:
   contacts_during_the_conference_text_02:
     ハラスメント インシデント報告フォーム
   license_and_attribution_title: ライセンスと帰属に関して
-  # license_and_attribution_text_01: |
-  #   本規範のテキスト部分は <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">Creative Commons Zero license</a> のもとに公開します。パブリック・ドメイン同様に、派生して作られた規範に一切のクレジット表示やオープンライセンスなどを要求しません。
-  #   <br><br>
-  #   もし、任意に帰属表示をしていただけるならば、<a href="http://scalamatsuri.org/" target="_blank">http://scalamatsuri.org/</a> へリンクして以下のようなテキストをお使いください:
-  license_and_attribution_text_02: |
-    本規範は ScalaMatsuri の規範に基いています。ScalaMatsuri の規範は Geek Feminism wiki の規範例から派生しており、PNW Scala、NE Scala、および Scala Days の影響を受けています。
-  # license_and_attribution_text_03: |
-  #   行動規範マナー動画に関しましては、一般社団法人 Japan Scala Association が著作権を保持します。ただし、この行動規範に同意してくださる限りにおいて、このビデオをカンファレンスや勉強会­、Meetupなどでご自由に使用して頂いて構いません。
-  #   <br><br>
-  #   もしご利用された場合には、<a href="mailto:info@scalamatsuri.org">info@scalamatsuri.org</a> か、ハッシュタグ <a href="https://twitter.com/hashtag/ScalaMatsuri" target="_blank">#ScalaMatsuri</a> をつけたツイートでご一報くださるととても嬉しいです。
 </i18n>
 
 
