@@ -53,7 +53,7 @@ en:
   license_and_attribution_text_03: |
     Japan Scala Association, Inc reserves all rights for the CoC Manner Video. If you agree to our code of conduct as shown as above, we permit the use of the video in your conference or meetup.
     <br><br>
-    We would also appreciate it if you let us know via e-mail to <a href="mailto:info@scalamatsuri.org">info@scalamatsuri.org</a> or tweet with hashtag <a href="https://twitter.com/hashtag/ScalaMatsuri" target="_blank" rel="noopener">#ScalaMatsuri</a>.
+    We would also appreciate it if you let us know via e-mail to <a href="mailto:info{'@'}scalamatsuri.org">info{'@'}scalamatsuri.org</a> or tweet with hashtag <a href="https://twitter.com/hashtag/ScalaMatsuri" target="_blank" rel="noopener">#ScalaMatsuri</a>.
 ja:
   title: 行動規範
   coc_manner_video_title: 行動規範マナー動画
@@ -110,7 +110,7 @@ ja:
   license_and_attribution_text_03: |
     行動規範マナー動画に関しましては、一般社団法人 Japan Scala Association が著作権を保持します。ただし、この行動規範に同意してくださる限りにおいて、このビデオをカンファレンスや勉強会­、Meetupなどでご自由に使用して頂いて構いません。
     <br><br>
-    もしご利用された場合には、<a href="mailto:info@scalamatsuri.org">info@scalamatsuri.org</a> か、ハッシュタグ <a href="https://twitter.com/hashtag/ScalaMatsuri" target="_blank">#ScalaMatsuri</a> をつけたツイートでご一報くださるととても嬉しいです。
+    もしご利用された場合には、<a href="mailto:info{'@'}scalamatsuri.org">info{'@'}scalamatsuri.org</a> か、ハッシュタグ <a href="https://twitter.com/hashtag/ScalaMatsuri" target="_blank">#ScalaMatsuri</a> をつけたツイートでご一報くださるととても嬉しいです。
 </i18n>
 
 <template>
@@ -147,8 +147,8 @@ ja:
     </h2>
     <p class="section_text" v-html="t('body_text_01')" />
     <ul class="section_note">
-      <li v-for="text in t('body_text_02')" :key="text" class="section_note_item">
-        {{ text }}
+      <li v-for="text in tm('body_text_02')" :key="text" class="section_note_item">
+        {{ rt(text) }}
       </li>
     </ul>
     <p class="section_text" v-html="t('body_text_03')" />
@@ -159,8 +159,8 @@ ja:
     </h2>
     <p class="section_text" v-html="t('body_text_04')" />
     <ul class="section_note">
-      <li v-for="text in t('process_text_01')" :key="text" class="section_note_item">
-        {{ text }}
+      <li v-for="text in tm('process_text_01')" :key="text" class="section_note_item">
+        {{ rt(text) }}
       </li>
     </ul>
   </div>
@@ -183,6 +183,6 @@ ja:
 </template>
 
 <script setup lang="ts">
-const { t } = useI18n()
+const { t, tm, rt } = useI18n()
 publichedCheck()
 </script>
