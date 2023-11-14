@@ -29,6 +29,10 @@ export default defineNuxtConfig({
           },
         ],
         strategy: 'prefix',
+        compilation: {
+          // ロケールメッセージ内のHTMLタグを許容
+          strictMessage: false,
+        },
         detectBrowserLanguage: {
           useCookie: true,
           cookieKey: 'scalamatsuri_i18n_redirected',
@@ -48,5 +52,10 @@ export default defineNuxtConfig({
       },
     ],
   ],
-  devtools: { enabled: true },
+  devtools: {
+    // 有効にするとエラーが出てしまうが、どの設定で切り分けを行ったら良いかわからなかった
+    // 内容は以下の通り
+    // [plugin:vite-plugin-vue-inspector] Unquoted attribute value cannot contain U+0022 ("), U+0027 ('), U+003C (<), U+003D (=), and U+0060 (`).
+    enabled: false,
+  },
 })
