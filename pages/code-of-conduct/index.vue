@@ -113,8 +113,6 @@ ja:
     もしご利用された場合には、<a href="mailto:info@scalamatsuri.org">info@scalamatsuri.org</a> か、ハッシュタグ <a href="https://twitter.com/hashtag/ScalaMatsuri" target="_blank">#ScalaMatsuri</a> をつけたツイートでご一報くださるととても嬉しいです。
 </i18n>
 
-
-
 <template>
   <MainVisual :title="t('title')" />
   <div class="section">
