@@ -1,0 +1,8 @@
+/* header */
+@media screen and (max-width: $headerViewport - 1) {
+  @import "header_sp";
+}
+
+@media screen and (min-width: $headerViewport) {
+  @import "header_pc";
+}
