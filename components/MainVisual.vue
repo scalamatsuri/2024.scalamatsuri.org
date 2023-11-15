@@ -2,14 +2,14 @@
   <div class="main">
     <div class="main_inner">
       <h1 class="main__title">
-        {{ props.title }}
+        {{ title }}
       </h1>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-const props = defineProps({
+const { title } = defineProps({
   title: String
 })
 </script>
