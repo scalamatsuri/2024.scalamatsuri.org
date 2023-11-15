@@ -9,7 +9,7 @@ export default defineAppConfig({
     { path: 'programs', published: false, header: true, order: 22 },
     { path: 'open-mic-conference', published: false, header: true, order: 23 },
     { path: 'sponsorship', published: true, header: true, order: 30 },
-    { path: 'sponsors', published: false, header: true, order: 31 },
+    { path: 'sponsors', published: true, header: true, order: 31 },
     { path: 'cm', published: false, header: true, order: 32 },
     { path: 'ticket', published: false, header: true, order: 90 },
     { path: 'staff', published: false, header: true, order: 100 },

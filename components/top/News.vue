@@ -29,7 +29,7 @@ const blogDomain = {
 const { data: postsXmlStr } = await useFetch<Blob>(`https://${blogDomain}/rss/category/${category}`)
 const body = await postsXmlStr.value?.text()
 const converted = xmlConverter.xml2js(body, { compact: true })
-const posts = [].concat(converted.rss.channel.item) || []
+const posts = [].concat(converted.rss.channel.item || [])
 
 const currentPostIdx = useState<number>('currentPostIdx', () => 0)
 let updatePostInterval: NodeJS.Timeout | undefined
