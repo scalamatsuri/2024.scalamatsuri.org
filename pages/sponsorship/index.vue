@@ -12,24 +12,22 @@ ja:
     <div class="sponsorship">
       <h2 class="sponsorship_title">Scalaコミュニティ 日本最大のイベント<br class="is_pc" />ScalaMatsuriのスポンサーを募集しています。</h2>
       <p class="sponsorship_text">様々な特典をご用意しています。詳細は以下の資料を参照してください。</p>
-      <div class="sponsorship_btnArea">
+
+
+      <p v-if="sponsership_expired" class="sponsorship_note">
+        2023/4/14 ScalaMatsuri 2023 <strong>スポンサー募集は締め切りました。</strong><br />たくさんのご応募、誠にありがとうございました。
+      </p>
+      <div v-else class="sponsorship_btnArea">
          <a href="/pdf/sponsorship.pdf" class="sponsorship_btn sponsorship_btn-pdf" target="_blank" rel="noopener">スポンサーシップのご案内</a>
          <a href="https://forms.gle/AVWpqNB3xyWWwx5T8" class="sponsorship_btn sponsorship_btn-form" target="_blank" rel="noopener">お申込みフォーム</a>
       </div>
-
-      <!-- 終了時 -->
-      <!--
-      <p class="sponsorship_note">
-        2023/4/14 ScalaMatsuri 2023 <strong>スポンサー募集は締め切りました。</strong><br />たくさんのご応募、誠にありがとうございました。
-      </p>
-      -->
     </div>
     <!-- sponsorship ここまで -->
 
 
 
     <!-- recruit ここから -->
-    <section class="section recruit">
+    <section v-if="has_recruits" class="section recruit">
       <h2 class="section_title">
         <span class="section_title_inner">特別企画 - 私、ScalaMatsuriで転職しました -</span>
       </h2>
@@ -200,7 +198,7 @@ ja:
       <!-- </p> -->
     </div>
     <!-- sponsorship ここまで -->
- 
+
     <section class="inquiry">
       <h3 class="inquiry_title">スポンサーのお申込みに関するお問い合わせ</h3>
       <p class="inquiry_text">
@@ -211,7 +209,7 @@ ja:
         よりお問い合わせください。
       </p>
     </section>
- 
+
 
 </template>
 
@@ -220,8 +218,12 @@ const { t } = useI18n()
 publichedCheck()
 
 
-/*
+const sponsership_expired = false
+const sponsership_expired_date = "2023/4/4"
+const test = "hoge"
+
 const recruit_recruits = [
+  /*
   {
     image: require("~/assets/img/sponsorship/img-recruit2.jpg"),
     url: "https://blog.scalamatsuri.org/entry/2017/10/30/150859",
@@ -237,8 +239,10 @@ const recruit_recruits = [
     url: "https://blog.scalamatsuri.org/entry/2020/05/01/155020",
     title: "アルプ株式会社さまへ転職された オミさん(@omiend)",
   },
+  */
 ]
-*/
+const has_recruits = recruit_recruits.length > 0
+
 //meta: [{ name: "og:title", content: "スポンサー募集 | ScalaMatsuri 2023" }],
 
 
@@ -256,21 +260,20 @@ const recruit_recruits = [
 }
 
 .sponsorship_title {
-font-weight: bold;
-line-height: 59px;
-font-size: 36px;
-text-align: center;
-letter-spacing: 0.1em;
-
+  font-weight: bold;
+  line-height: 59px;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.1em;
 }
 
 
 .sponsorship_text {
-font-weight: bold;
-line-height: 26px;
-font-size: 16px;
-text-align: center;
-letter-spacing: 0.1em;
+  font-weight: bold;
+  line-height: 26px;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
 }
 .sponsorship_btnArea {
   max-width: 720px;
@@ -316,10 +319,10 @@ letter-spacing: 0.1em;
   }
 }
 .sponsorship_note {
-font-size: 14px;
-text-align: center;
-letter-spacing: 0.1em;
-margin-top: 40px;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin-top: 40px;
 }
 
 .notification {
@@ -348,5 +351,220 @@ td {
 .addon-sponsorship-table th {
   width: 50%;
 }
+
+.table {
+  width: 100%;
+  margin-top: 60px;
+  th, td {
+    border: 1px solid #eee;
+
+  }
+  thead {
+    th {
+      font-weight: bold;
+      line-height: normal;
+      font-size: 26px;
+      text-align: center;
+      letter-spacing: 0.1em;
+      padding: 15px;
+      span {
+        font-size: 14px;
+        display: block;
+      }
+    }
+  }
+  tbody {
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    th {
+      text-align: left;
+      padding: 15px 18px;
+
+    }
+    td {
+      text-align: center;
+      padding: 15px 18px;
+    }
+  }
+  &-alignL {
+    tbody {
+      td {
+        text-align: left;
+      }
+    }
+  }
+}
+
+.section_table2 {
+  width: 100%;
+  margin-top: 60px;
+  th, td {
+    border: 1px solid #eee;
+
+  }
+  thead {
+    th {
+      font-weight: bold;
+      line-height: normal;
+      font-size: 26px;
+      text-align: center;
+      letter-spacing: 0.1em;
+      padding: 15px;
+      span {
+        font-size: 14px;
+        display: block;
+      }
+    }
+  }
+  tbody {
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    th {
+      text-align: left;
+      padding: 15px 18px;
+
+    }
+    td {
+      text-align: center;
+      padding: 15px 18px;
+    }
+  }
+  &-alignL {
+    tbody {
+      td {
+        text-align: left;
+      }
+    }
+  }
+}
+
+.plan_note {
+  margin-top: 25px;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+.inquiry {
+  margin: 60px auto 0;
+  text-align: left;
+  padding: 40px;
+  background-color: #F1F1F1;
+}
+.inquiry_title {
+  font-weight: bold;
+  line-height: 33px;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  color: #000000;
+
+}
+.inquiry_text {
+  margin-top: 20px;
+  line-height: 23px;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+$viewport: 820px;
+@media screen and (max-width: $viewport - 1) {
+  /* sponsorship SP */
+  .sponsorship {
+    margin-top: 30px;
+  }
+  .inquiry {
+    margin-top: 30px;
+  }
+  .sponsorship {
+    padding: 30px 20px;
+  }
+  .sponsorship_title {
+    font-size: 6.5vw;
+    line-height: 1.5;
+  }
+  .sponsorship_text {
+    font-size: 5vw;
+    line-height: 1.5;
+    margin-top: 5px;
+  }
+  .sponsorship_btnArea {
+    margin-top: 20px;
+    display: block;
+  }
+  .sponsorship_btn {
+    width: 100%;
+    margin: 15px auto 0;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+  }
+  .sponsorship_note {
+    margin-top: 20px;
+    text-align: left;
+  }
+  .recruit_recruit {
+    margin-top: 20px;
+    display: block;
+    li {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  .recruit_recruit_title {
+    padding: 0 20px;
+    margin-top: 10px;
+  }
+  .section_scroll {
+    overflow: auto;
+  }
+
+  .section_table2 {
+    margin: 0 -20px;
+    width: calc(100% + 40px);
+    &-wide {
+      width: 900px;
+    }
+    thead {
+      th {
+        font-size: 18px;
+        span {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $viewport) {
+  /* sponsorship PC */
+  .section,.inquiry {
+    max-width: 1200px;
+    width: calc(100% - 40px);
+  }
+
+}
+
+.color_shogun {
+  color: #E74E5E;
+}
+.color_tairou {
+  color: #EE892C;
+}
+.color_daimyo {
+  color: #3CAD8B;
+}
+.color_samurai {
+  color: #2989CF;
+}
+.color_ninja {
+  color: #593BD1;
+}
+.color_new {
+  color: #BD3844;
+}
+
 </style>
 
