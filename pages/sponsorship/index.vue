@@ -18,7 +18,6 @@
 const { t } = useI18n()
 publichedCheck()
 
-
 const sponsorship_expired = false
 const sponsorship_expired_date = "2023/4/4"
 const pdf_filepath = "/pdf/sponsership.pdf"
