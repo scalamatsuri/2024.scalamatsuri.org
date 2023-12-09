@@ -4,5 +4,5 @@
   <TopNews />
   <TopEvents />
   <TopCodeOfConduct />
-  <TopSponsors />
+  <!-- <TopSponsors /> -->
 </template>
