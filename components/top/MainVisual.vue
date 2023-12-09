@@ -1,10 +1,10 @@
 <i18n lang="yaml">
 en:
   alt: The largest international Scala conference in Asia
-  date: on 2024
+  date: on 7th-9th June. 2024
 ja:
   alt: アジア最大級のScalaカンファレンス
-  date: 2024年
+  date: 2024年6月7日(金)〜9日(日)
 </i18n>
 
 <template>
@@ -20,8 +20,13 @@ ja:
       <div class="main_sponsor">
         <ul class="main_sponsor_inner">
           <li v-for="sponsor in shuffledShogunSponsors" :key="sponsor.logo" class="main_sponsor_item">
-            <a :href="sponsor.url"><img :src="sponsor.logo" :alt="sponsor.name" /></a>
-            {{ sponsor.name }}
+            <a :href="sponsor.url"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
+            <div v-if="locale == `en`">
+              <p>{{ sponsor.en.name }}</p>
+            </div>
+            <div v-if="locale == `ja`">
+              <p>{{ sponsor.ja.name }}</p>
+            </div>
           </li>
         </ul>
       </div>
@@ -31,7 +36,7 @@ ja:
 
 <script setup lang="ts">
 import { Sponsor } from '~/models/model'
-const { t } = useI18n()
+const { locale, t } = useI18n()
 const { year } = useAppConfig()
 const shogunSponsors: ComputedRef<Sponsor[]> = getSponsorsByType('SHOGUN')
 const shuffledShogunSponsors = computed(() => arrayShuffle(shogunSponsors.value))
