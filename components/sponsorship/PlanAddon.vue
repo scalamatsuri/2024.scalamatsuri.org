@@ -1,5 +1,4 @@
-<i18n lang="yaml">
-</i18n>
+<i18n lang="yaml"></i18n>
 
 <template>
   <section class="section booth">
@@ -10,10 +9,13 @@
       <tbody>
         <tr v-for="c in contents" :key="c.name">
           <th>{{ c.name }}</th>
-          <td>{{ c.value }}</td>
+          <td v-html="c.value"></td>
         </tr>
       </tbody>
     </table>
+  </section>
+  <section class="section booth">
+    <div v-html="description"></div>
   </section>
 </template>
 
@@ -21,16 +23,15 @@
 const { t } = useI18n()
 
 interface PlanAddon {
-  name: String,
-  value: String,
+  name: String
+  value: String
 }
 
 const { contents } = defineProps({
   title: String,
-  contents: Array<PlanAddon>
+  description: String,
+  contents: Array<PlanAddon>,
 })
-
-
 </script>
 
 <style lang="scss" scoped>
@@ -49,5 +50,4 @@ td {
 .addon-sponsorship-table th {
   width: 50%;
 }
-
 </style>

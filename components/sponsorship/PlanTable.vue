@@ -1,5 +1,4 @@
-<i18n lang="yaml">
-</i18n>
+<i18n lang="yaml"></i18n>
 
 <template>
   <section class="section plan">
@@ -10,102 +9,99 @@
       <table class="section_table2 section_table2-wide">
         <thead>
           <tr>
-            <th colspan="3" />
+            <th colspan="2" />
             <th v-for="p in plans" :key="p.name_kana">
-              <p :class="'color ' + p.color">{{ p.name }}<span>{{ p.name_kana }}</span></p>
+              <p :class="'color ' + p.color">
+                {{ p.name }}<span>{{ p.name_kana }}</span>
+              </p>
             </th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th colspan="3">金額</th>
+            <th colspan="2">金額</th>
             <td v-for="p in plans" :key="p.name_kana" v-html="p.price"></td>
+          </tr>
+          <tr>
+            <th colspan="2">招待枠</th>
+            <td v-for="p in plans" :key="p.name_kana" v-html="p.shoutai_waku"></td>
           </tr>
           <tr>
             <th rowspan="2">Webサイト掲載</th>
             <th>ロゴ画像</th>
-            <th />
             <td v-for="p in plans" :key="p.name_kana" v-html="p.web_logo_view_html"></td>
           </tr>
           <tr>
             <th>広告ページ</th>
-            <th>
-              <span>サービス紹介や<br />リクルーティング</span>
-            </th>
             <td v-for="p in plans" :key="p.name_kana" v-html="p.web_advertisement"></td>
+          </tr>
+          <tr>
+            <th rowspan="3">ロゴ・社名掲載</th>
+            <th>スピーカーパネル</th>
+            <td v-for="p in plans" :key="p.name_kana" v-html="p.logo_panel"></td>
+          </tr>
+          <tr>
+            <th>会場内装飾品</th>
+            <td v-for="p in plans" :key="p.name_kana" v-html="p.logo_sousyoku"></td>
+          </tr>
+          <tr>
+            <th>エコバッグ</th>
+            <td v-for="p in plans" :key="p.name_kana" v-html="p.logo_eco_bag"></td>
           </tr>
           <tr>
             <th rowspan="2">スライド掲載</th>
             <th>オープニング</th>
-            <th>注目が集まる場面</th>
-            <td v-for="p in plans" :key="p.name_kana" v-html="p.slide_opening_html"></td>
+            <td v-for="p in plans" :key="p.name_kana" v-html="p.opening_call"></td>
           </tr>
           <tr>
             <th>セッション間<br />CMスライド</th>
-            <th />
             <td v-for="p in plans" :key="p.name_kana" v-html="p.slide_cm"></td>
           </tr>
           <tr>
-            <th>スポンサーセッション</th>
-            <th />
-            <th />
-            <td v-for="p in plans" :key="p.name_kana" v-html="p.sponser_session"></td>
-          </tr>
-          <!-- <tr> -->
-          <!--   <th>懇親会</th> -->
-          <!--   <th>冒頭</th> -->
-          <!--   <th>スポンサー名読み上げ</th> -->
-          <!--   <td v-for="p in plans" :key="p.name_kana" v-html="p.read_sponser"></td> -->
-          <!-- </tr> -->
-          <tr>
-            <th colspan="3">
-              バーチャルブース 15万<br />
-              最大5チャンネルまで
-            </th>
-            <td v-for="p in plans" :key="p.name_kana" v-html="p.virtual_booth"></td>
+            <th colspan="2">常設ブース (25万円)</th>
+            <td v-for="p in plans" :key="p.name_kana" v-html="p.booth"></td>
           </tr>
           <tr>
-            <th colspan="3">さてらいとスポンサー</th>
+            <th colspan="2">宴スポンサー (20万円)</th>
             <td v-for="p in plans" :key="p.name_kana" v-html="p.satellite_sponsor"></td>
           </tr>
         </tbody>
       </table>
     </div>
   </section>
-
 </template>
 
 <script setup lang="ts">
 const { t } = useI18n()
 
 interface Plan {
-  name: String,
-  name_kana: String,
-  color: String,
-  price: String,
-  web_logo_view_html: String,
-  web_advertisement: String,
-  slide_opening_html: String,
-  slide_cm: String,
-  sponser_session: String,
-  read_sponser: String,
-  virtual_booth: String,
-  satellite_sponsor: String,
+  name: string
+  name_kana: string
+  color: string
+  price: string
+  shoutai_waku: string
+  web_logo_view_html: string
+  web_advertisement: string
+  slide_opening_html: string
+  slide_cm: string
+  sponser_session: string
+  read_sponser: string
+  booth: string
+  utage_sponsor: string
 }
 
 const { plans } = defineProps({
-  plans: Array<Plan>
+  plans: Array<Plan>,
 })
-
 </script>
 
 <style lang="scss" scoped>
 .section_table2 {
   width: 100%;
   margin-top: 60px;
-  th, td {
+  th,
+  td {
     border: 1px solid #eee;
-
   }
   thead {
     th {
@@ -129,7 +125,6 @@ const { plans } = defineProps({
     th {
       text-align: left;
       padding: 15px 18px;
-
     }
     td {
       text-align: center;
@@ -170,28 +165,25 @@ $viewport: 820px;
   }
 }
 
-
 .color_shogun {
-  color: #E74E5E;
+  color: #e74e5e;
 }
 .color_tairou {
-  color: #EE892C;
+  color: #ee892c;
 }
 .color_daimyo {
-  color: #3CAD8B;
+  color: #3cad8b;
 }
 .color_samurai {
-  color: #2989CF;
+  color: #2989cf;
 }
 .color_inro {
-  color: #2989CF;
+  color: #2989cf;
 }
 .color_ninja {
-  color: #593BD1;
+  color: #593bd1;
 }
 .color_new {
-  color: #BD3844;
+  color: #bd3844;
 }
-
-
 </style>

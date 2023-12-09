@@ -1,20 +1,20 @@
-<i18n lang="yaml">
-</i18n>
+<i18n lang="yaml"></i18n>
 
 <template>
-    <div class="sponsorship">
-      <h2 class="sponsorship_title">Scalaコミュニティ 日本最大のイベント<br class="is_pc" />ScalaMatsuriのスポンサーを募集しています。</h2>
-      <p class="sponsorship_text">様々な特典をご用意しています。詳細は以下の資料を参照してください。</p>
+  <div class="sponsorship">
+    <h2 class="sponsorship_title">Scalaコミュニティ 日本最大のイベント<br class="is_pc" />ScalaMatsuriのスポンサーを募集しています。</h2>
+    <p class="sponsorship_text">様々な特典をご用意しています。詳細は以下の資料を参照してください。</p>
 
-
-      <p v-if="is_sponsorship_expired" class="sponsorship_note">
-        2023/4/14 ScalaMatsuri 2023 <strong>スポンサー募集は締め切りました。</strong><br />たくさんのご応募、誠にありがとうございました。
-      </p>
-      <div v-else class="sponsorship_btnArea">
-         <a :href="pdf_filepath" class="sponsorship_btn sponsorship_btn-pdf" target="_blank" rel="noopener">スポンサーシップのご案内</a>
-         <a v-if="!hidden_form_btn" :href="application_form" class="sponsorship_btn sponsorship_btn-form" target="_blank" rel="noopener">お申込みフォーム</a>
-      </div>
+    <p v-if="is_sponsorship_expired" class="sponsorship_note">
+      2024年6月 ScalaMatsuri 2024 <strong>スポンサー募集は締め切りました。</strong><br />たくさんのご応募、誠にありがとうございました。
+    </p>
+    <div v-else class="sponsorship_btnArea">
+      <a :href="pdf_filepath" class="sponsorship_btn sponsorship_btn-pdf" target="_blank" rel="noopener">スポンサーシップのご案内</a>
+      <a v-if="!hidden_form_btn" :href="application_form" class="sponsorship_btn sponsorship_btn-form" target="_blank" rel="noopener"
+        >お申込みフォーム</a
+      >
     </div>
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -29,12 +29,11 @@ const { is_sponsorship_expired, hidden_form_btn, pdf_filepath, application_form 
 </script>
 
 <style lang="scss" scoped>
-
 .sponsorship {
   max-width: 1200px;
   margin: 100px auto 0;
   padding: 42px 0 51px;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   text-align: center;
 }
 
@@ -45,7 +44,6 @@ const { is_sponsorship_expired, hidden_form_btn, pdf_filepath, application_form 
   text-align: center;
   letter-spacing: 0.1em;
 }
-
 
 .sponsorship_text {
   font-weight: bold;
@@ -60,7 +58,6 @@ const { is_sponsorship_expired, hidden_form_btn, pdf_filepath, application_form 
   display: flex;
   margin: 45px auto 0;
   justify-content: space-between;
-
 }
 
 .sponsorship_btn {
@@ -80,7 +77,7 @@ const { is_sponsorship_expired, hidden_form_btn, pdf_filepath, application_form 
   &-pdf {
     padding-left: 30px;
     &:before {
-      content: "";
+      content: '';
       background-image: url('~assets/img/common/icon-pdf.svg');
       width: 24px;
       height: 24px;
@@ -92,9 +89,8 @@ const { is_sponsorship_expired, hidden_form_btn, pdf_filepath, application_form 
     }
   }
   &-form {
-    background-color: #00A4DE;
+    background-color: #00a4de;
     color: #fff;
-
   }
 }
 .sponsorship_note {
@@ -134,5 +130,4 @@ const { is_sponsorship_expired, hidden_form_btn, pdf_filepath, application_form 
     text-align: left;
   }
 }
-
 </style>
