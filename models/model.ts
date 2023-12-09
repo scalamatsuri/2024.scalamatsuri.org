@@ -9,10 +9,18 @@ export type Speaker = {
   twitter?: string // [任意] X(旧Twitter) の URL
 }
 
+// スポンサータイプ
+export type SporsorType = 'SHOGUN' | 'TAIROU' | 'DAIMYO' | 'SAMURAI' | 'NINJA' | 'UTAGE' | 'BUGYO'
+
 export type Sponsor = {
   id: string // スポンサーID
-  type: 'SHOGUN' | 'DAIMYO' | 'SAMURAI' | 'NINJA' // スポンサータイプ
-  name: string // スポンサー名
+  type: SporsorType
+  en: {
+    name: string // スポンサー英語名
+  }
+  ja: {
+    name: string // スポンサー日本名
+  }
   logo: string // スポンサーのロゴ
   url: string // スポンサーのWEBサイト
   textHtml?: string // スポンサーの紹介文

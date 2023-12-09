@@ -5,10 +5,12 @@ en:
   sponsor_overview2: For details, please see the
   sponsor_recruitment_page: Sponsor Recruitment Page
   syogun: 'Syogun Sponsor'
+  tairou: 'Tairou Sponsor'
   daimyo: 'Daimyo Sponsor'
   samurai: 'Samurai Sponsor'
   inrou: 'Inrou Sponsor'
-  satellite: 'Satellite Sponsor'
+  ninja: 'Ninja Sponsor'
+  utage: 'Utage Sponsor'
   bugyo: 'Bugyo Sponsor'
   bugyo_kintone: 'Kintone Bugyo'
   bugyo_cacoo: 'Ukiyo-e Bugyo'
@@ -16,16 +18,17 @@ en:
   bugyo_sentry: 'Metsuke Bugyo'
   bugyo_scalatimes: 'Kawara-ban Bugyo'
 ja:
-  sponsor_overview: スポンサー
+  sponsor_title: 'スポンサー'
   sponsor_overview1: アジア最大級の国際Scalaカンファレンスである、ScalaMatsuriに協賛いただけるスポンサー様を募集しています。
   sponsor_overview2: 詳細はスポンサー募集ページをご覧ください。
   sponsor_recruitment_page: スポンサー募集ページ
-  sponsor_title: 'スポンサー'
   syogun: '将軍スポンサー'
+  tairou: '大老スポンサー'
   daimyo: '大名スポンサー'
   samurai: '侍スポンサー'
   inrou: '印籠スポンサー'
-  satellite: 'さてらいとスポンサー'
+  ninja: '忍者'
+  utage: '宴スポンサー'
   bugyo: '奉行スポンサー'
   bugyo_kintone: '筋斗雲奉行'
   bugyo_cacoo: '浮世絵奉行'
@@ -37,17 +40,95 @@ ja:
 <template>
   <section class="sponsors">
     <div class="sponsors_inner">
-      <h2 class="content_title">{{ $t('sponsor_title') }}</h2>
+      <h2 class="content_title">{{ t('sponsor_title') }}</h2>
       <p class="sponsors_content_text">
         <span v-html="t('sponsor_overview1')" />
         <br />
         <span v-html="t('sponsor_overview2')" />
-        <a :href="localePath('sponsors')">{{ t('sponsor_recruitment_page') }}</a>
+        <a :href="localePath('sponsorship')">{{ t('sponsor_recruitment_page') }}</a>
       </p>
-      <h3 class="sponsors_title sponsors_subtitle-em">{{ $t('syogun') }}</h3>
+      <h3 class="sponsors_title sponsors_subtitle-syogun">{{ t('syogun') }}</h3>
       <ul class="sponsors_list">
-        <li v-for="sponsor in shoguns" :key="sponsor.logo" class="sponsors_item">
-          <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.name" /></a>
+        <li v-for="sponsor in shuffledShoguns" :key="sponsor.logo" class="sponsors_item">
+          <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
+          <div v-if="locale == `en`">
+            <p>{{ sponsor.en.name }}</p>
+          </div>
+          <div v-if="locale == `ja`">
+            <p>{{ sponsor.ja.name }}</p>
+          </div>
+        </li>
+      </ul>
+      <h3 class="sponsors_title sponsors_subtitle-tairou">{{ t('tairou') }}</h3>
+      <ul class="sponsors_list">
+        <li v-for="sponsor in shuffledTairous" :key="sponsor.logo" class="sponsors_item">
+          <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
+          <div v-if="locale == `en`">
+            <p>{{ sponsor.en.name }}</p>
+          </div>
+          <div v-if="locale == `ja`">
+            <p>{{ sponsor.ja.name }}</p>
+          </div>
+        </li>
+      </ul>
+      <h3 class="sponsors_title sponsors_subtitle-daimyo">{{ t('daimyo') }}</h3>
+      <ul class="sponsors_list">
+        <li v-for="sponsor in shuffledDaimyos" :key="sponsor.logo" class="sponsors_item">
+          <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
+          <div v-if="locale == `en`">
+            <p>{{ sponsor.en.name }}</p>
+          </div>
+          <div v-if="locale == `ja`">
+            <p>{{ sponsor.ja.name }}</p>
+          </div>
+        </li>
+      </ul>
+      <h3 class="sponsors_title sponsors_subtitle-samurai">{{ t('samurai') }}</h3>
+      <ul class="sponsors_list">
+        <li v-for="sponsor in shuffledSamurais" :key="sponsor.logo" class="sponsors_item">
+          <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
+          <div v-if="locale == `en`">
+            <p>{{ sponsor.en.name }}</p>
+          </div>
+          <div v-if="locale == `ja`">
+            <p>{{ sponsor.ja.name }}</p>
+          </div>
+        </li>
+      </ul>
+      <h3 class="sponsors_title sponsors_subtitle-utage">{{ t('utage') }}</h3>
+      <ul class="sponsors_list">
+        <li v-for="sponsor in shuffledUtages" :key="sponsor.logo" class="sponsors_item">
+          <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
+          <div v-if="locale == `en`">
+            <p>{{ sponsor.en.name }}</p>
+          </div>
+          <div v-if="locale == `ja`">
+            <p>{{ sponsor.ja.name }}</p>
+          </div>
+        </li>
+      </ul>
+      <h3 class="sponsors_title sponsors_subtitle-ninja">{{ t('ninja') }}</h3>
+      <ul class="sponsors_list">
+        <li v-for="sponsor in shuffledNinjas" :key="sponsor.logo" class="sponsors_item-ninja">
+          <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
+          <div v-if="locale == `en`">
+            <p>{{ sponsor.en.name }}</p>
+          </div>
+          <div v-if="locale == `ja`">
+            <p>{{ sponsor.ja.name }}</p>
+          </div>
+        </li>
+      </ul>
+      <h3 class="sponsors_title sponsors_subtitle-bugyo">{{ t('bugyo') }}</h3>
+      <ul class="sponsors_list">
+        <li v-for="sponsor in shuffledBugyos" :key="sponsor.logo" class="sponsors_item">
+          <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
+          <div v-if="locale == `en`">
+            <p>{{ sponsor.en.name }}</p>
+          </div>
+          <div v-if="locale == `ja`">
+            <p>{{ sponsor.ja.name }}</p>
+          </div>
         </li>
       </ul>
     </div>
@@ -56,13 +137,26 @@ ja:
 
 <script setup lang="ts">
 const localePath = useLocalePath()
-const { t } = useI18n()
+const { locale, t } = useI18n()
 const shoguns = getSponsorsByType('SHOGUN')
+const tairous = getSponsorsByType('TAIROU')
+const daimyos = getSponsorsByType('DAIMYO')
+const samurais = getSponsorsByType('SAMURAI')
+const utages = getSponsorsByType('UTAGE')
+const ninjas = getSponsorsByType('NINJA')
+const bugyos = getSponsorsByType('BUGYO')
 const shuffledShoguns = computed(() => arrayShuffle(shoguns.value))
+const shuffledTairous = computed(() => arrayShuffle(tairous.value))
+const shuffledDaimyos = computed(() => arrayShuffle(daimyos.value))
+const shuffledSamurais = computed(() => arrayShuffle(samurais.value))
+const shuffledUtages = computed(() => arrayShuffle(utages.value))
+const shuffledNinjas = computed(() => arrayShuffle(ninjas.value))
+const shuffledBugyos = computed(() => arrayShuffle(bugyos.value))
 </script>
 
 <style lang="scss" scoped>
 .sponsors_title {
+  margin-top: 1em;
   font-size: 48px;
   font-weight: bold;
 }
@@ -73,20 +167,36 @@ const shuffledShoguns = computed(() => arrayShuffle(shoguns.value))
   line-height: 28px;
 }
 .sponsors_subtitle {
-  margin-top: 67px;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: normal;
-  color: #4f4c47;
-  background: -webkit-linear-gradient(0deg, #7f797f, #4f4c47);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  &-em {
-    font-size: 30px;
-    color: #f39200;
-    background: -webkit-linear-gradient(0deg, #f7d000, #f39200);
+  &-syogun {
+    font-size: 5em;
+    background: #e74e5e;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+  &-tairou {
+    font-size: 4em;
+    color: #ee892c;
+  }
+  &-daimyo {
+    font-size: 3em;
+    color: #3cad8b;
+  }
+  &-samurai {
+    font-size: 3em;
+    color: #2989cf;
+  }
+  &-inro {
+    font-size: 3em;
+    color: #2989cf;
+  }
+  &-utage {
+    font-size: 3em;
+  }
+  &-ninja {
+    font-size: 2em;
+  }
+  &-bugyo {
+    font-size: 2em;
   }
 }
 .sponsors {
@@ -110,7 +220,6 @@ const shuffledShoguns = computed(() => arrayShuffle(shoguns.value))
   width: 33%;
   max-width: 242px;
   margin-top: 20px;
-
   img {
     width: 100%;
     background: white;
@@ -120,21 +229,15 @@ const shuffledShoguns = computed(() => arrayShuffle(shoguns.value))
     font-size: 16px;
     color: #4f4c47;
   }
-}
-.inrou_sponsors_item {
-  padding: 0 10px;
-  width: 20%;
-  max-width: 100px;
-  margin-top: 20px;
-
-  img {
-    width: 100%;
-    background: white;
-  }
-  p {
-    padding-top: 6px;
-    font-size: 16px;
-    color: #4f4c47;
+  &-ninja {
+    padding: 0 10px;
+    width: 20%;
+    max-width: 100px;
+    margin-top: 20px;
+    img {
+      width: 100%;
+      background: white;
+    }
   }
 }
 </style>

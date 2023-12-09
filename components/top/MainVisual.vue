@@ -1,10 +1,12 @@
 <i18n lang="yaml">
 en:
   alt: The largest international Scala conference in Asia
-  date: on 2024
+  date: on 7th-9th June. 2024
+  venue: Tokyo International Exchange Center Plaza Heisei
 ja:
   alt: アジア最大級のScalaカンファレンス
-  date: 2024年
+  date: 2024年6月7日(金)〜9日(日)
+  venue: 東京国際交流館 プラザ平成
 </i18n>
 
 <template>
@@ -15,23 +17,29 @@ ja:
           ScalaMatsuri {{ year }}
           <p class="main__title-sub">{{ t('alt') }}</p>
           <p class="main__title-sub">{{ t('date') }}</p>
+          <p class="main__title-sub">{{ t('venue') }}</p>
         </h1>
       </div>
-      <div class="main_sponsor">
-        <ul class="main_sponsor_inner">
-          <li v-for="sponsor in shuffledShogunSponsors" :key="sponsor.logo" class="main_sponsor_item">
-            <a :href="sponsor.url"><img :src="sponsor.logo" :alt="sponsor.name" /></a>
-            {{ sponsor.name }}
-          </li>
-        </ul>
-      </div>
+      <!-- <div class="main_sponsor"> -->
+      <!-- <ul class="main_sponsor_inner"> -->
+      <!-- <li v-for="sponsor in shuffledShogunSponsors" :key="sponsor.logo" class="main_sponsor_item"> -->
+      <!-- <a :href="sponsor.url"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a> -->
+      <!-- <div v-if="locale == `en`"> -->
+      <!-- <p>{{ sponsor.en.name }}</p> -->
+      <!-- </div> -->
+      <!-- <div v-if="locale == `ja`"> -->
+      <!-- <p>{{ sponsor.ja.name }}</p> -->
+      <!-- </div> -->
+      <!-- </li> -->
+      <!-- </ul> -->
+      <!-- </div> -->
     </div>
   </main>
 </template>
 
 <script setup lang="ts">
 import { Sponsor } from '~/models/model'
-const { t } = useI18n()
+const { locale, t } = useI18n()
 const { year } = useAppConfig()
 const shogunSponsors: ComputedRef<Sponsor[]> = getSponsorsByType('SHOGUN')
 const shuffledShogunSponsors = computed(() => arrayShuffle(shogunSponsors.value))

@@ -2,7 +2,8 @@
   <!-- LazyをPrefixにつけることで遅延読み込みになる -->
   <LazyTopMainVisual />
   <TopNews />
+  <TopBanners />
   <TopEvents />
   <TopCodeOfConduct />
-  <TopSponsors />
+  <!-- <TopSponsors /> -->
 </template>
