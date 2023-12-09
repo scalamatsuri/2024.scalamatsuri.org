@@ -2,9 +2,11 @@
 en:
   alt: The largest international Scala conference in Asia
   date: on 7th-9th June. 2024
+  venue: Tokyo International Exchange Center Plaza Heisei
 ja:
   alt: アジア最大級のScalaカンファレンス
   date: 2024年6月7日(金)〜9日(日)
+  venue: 東京国際交流館 プラザ平成
 </i18n>
 
 <template>
@@ -15,6 +17,7 @@ ja:
           ScalaMatsuri {{ year }}
           <p class="main__title-sub">{{ t('alt') }}</p>
           <p class="main__title-sub">{{ t('date') }}</p>
+          <p class="main__title-sub">{{ t('venue') }}</p>
         </h1>
       </div>
       <!-- <div class="main_sponsor"> -->

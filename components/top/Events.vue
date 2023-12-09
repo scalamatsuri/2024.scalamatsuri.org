@@ -1,6 +1,38 @@
+<i18n lang="yaml">
+en:
+  alt: The largest international Scala conference in Asia
+  date: on 7th-9th June. 2024
+  event_overview: |
+    This year's Scala Matsuri will be held online.<br>
+    We are planning to hold some contents unique to online. Stay tuned!<br>
+    <br>
+    Date: on 7th-9th June. 2024
+    Venue: Tokyo International Exchange Center Plaza Heisei<br>
+    <a href="https://www.jasso.go.jp/en/ryugaku/kyoten/tiec/access.html" target="_blank">Access</a>
+ja:
+  alt: アジア最大級のScalaカンファレンス
+  date: Dates 2024年6月7日(金)〜9日(日)
+  event_overview: |
+    本年のScalaMatsuriはオンライン開催になりました。<br>
+    オンラインならではの催し物を多数実施する予定ですので、どうぞお楽しみに！<br>
+    <br>
+    Date: 2024年6月7日(金)〜9日(日)<br>
+    Venue: 東京国際交流館 プラザ平成<br>
+    <a href="https://www.jasso.go.jp/en/ryugaku/kyoten/tiec/access.html" target="_blank">アクセス</a>
+</i18n>
+
 <template>
   <section class="content">
     <h2 class="content_title">Events</h2>
+    <div class="content_text">
+      <span v-html="t('event_overview')" />
+      <div class="venue_map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1192.6185465986373!2d139.77462552719138!3d35.620152668409844!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601889fecdda55bd%3A0x6bfb5cf72565bd49!2z44CSMTM1LTAwNjQg5p2x5Lqs6YO95rGf5p2x5Yy66Z2S5rW377yS5LiB55uu77yS4oiS77yRIOODl-ODqeOCtuW5s-aIkA!5e0!3m2!1sja!2sjp!4v1702102948340!5m2!1sja!2sjp"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
     <div class="content_contents">
       <figure v-for="(image, idx) in shuffledImages" :key="image" :class="[idx === 0 ? 'content_img-big' : '', 'content_img']">
         <img class="loaded" :src="image" :alt="`ScalaMatsuri ${year}`" />
@@ -10,6 +42,7 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n()
 const { year } = useAppConfig()
 const images = [
   '/img/events/img-events1.jpg',
@@ -57,6 +90,11 @@ const shuffledImages = computed(() => arrayShuffle(images).slice(0, 13))
   font-size: 48px;
   color: #bd3844;
 }
+.content_text {
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 28px;
+}
 .content_contents {
   margin-top: 50px;
   display: grid;
@@ -64,6 +102,18 @@ const shuffledImages = computed(() => arrayShuffle(images).slice(0, 13))
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto auto auto;
 }
+
+.venue_map {
+  margin-top: 10px;
+  width: 100%;
+  height: 600px;
+  border: 0;
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+
 .content_img {
   padding-top: 1px;
   img {
