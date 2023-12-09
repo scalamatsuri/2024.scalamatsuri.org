@@ -1,15 +1,15 @@
 <i18n lang="yaml">
 en:
-  title: "Code of Conduct"
-  coc_manner_video_title: "CoC Manner Video"
-  code_of_conduct_text_01: "We showed a video for Code of conduct and referee system in ScalaMatsuri 2016 opening."
-  code_of_conduct_title: "Code of conduct"
-  preface_title: "Preface"
+  title: 'Code of Conduct'
+  coc_manner_video_title: 'CoC Manner Video'
+  code_of_conduct_text_01: 'We showed a video for Code of conduct and referee system in ScalaMatsuri 2016 opening.'
+  code_of_conduct_title: 'Code of conduct'
+  preface_title: 'Preface'
   preface_text_01: |
     ScalaMatsuri is dedicated to providing an open conference for all technologists from various regions and communities. We want to make it a fun experience for everyone, inclusive of gender, race, and many different backgrounds whom they may not meet in their daily life.
     <br><br>
     The following Code of conduct is a guideline to prevent all of us from making inconsiderate behavior, intentional or otherwise. The ScalaMaturi comittee requires all participants, including speakers and sponsors to comply with the Code of conduct as part of our active step to prevent inappropriate behaviors.
-  body_title: "Body"
+  body_title: 'Body'
   body_text_01: |
     All communication is expected to be appropriate for a technology conference with professional audience including people of many different backgrounds. ScalaMatsuri does not tolerate harassment of conference participants in any form.
     <br><br>
@@ -30,7 +30,7 @@ en:
     The code of conduct is subject to change without notice.
     <br><br>
     Similar code of conduct have been adopted by PNW Scala, NE Scala, and Scala Days to provide a harassment-free conference. We also support the cause.
-  body_text_04: "The following descibes the operational process by the conference organizers. It is subject to change without notice."
+  body_text_04: 'The following descibes the operational process by the conference organizers. It is subject to change without notice.'
   process_title: Process
   process_text_01:
     - The conference organizers are to prepare an incident reporting form both in offline and online. Upon a report, adequate actions will be taken like giving a citation or a warning to prevent from repeating the incident.
@@ -42,7 +42,7 @@ en:
   contacts_during_the_conference_text_01: |
     If you are being harassed, notice that someone else is being harassed, please report the following form or contact a nearby conference staff immediately.
     <br><br>
-    <a href="https://forms.gle/zu8x1jNBepbHZKXM8" target="_blank" rel="noopener">Harassment incidents report form.</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSftjA6961ZzzJjqq1CrWtAN9wwrqXRUGFqZI5G8x2BjmZHeWw/viewform" target="_blank" rel="noopener">Harassment incidents report form.</a>
   license_and_attribution_title: License and attribution
   license_and_attribution_text_01: |
     The text part of this policy is licensed under the <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">Creative Commons Zero license</a>. Like public domain, no credit and no open licencing of your version is required.
@@ -99,7 +99,7 @@ ja:
   contacts_during_the_conference_text_01: |
     自分や他の人がハラスメントを受けている場合には以下のフォームにてご連絡ください。
     <br/><br/>
-    <a href="https://forms.gle/zu8x1jNBepbHZKXM8" target="_blank">ハラスメント インシデント報告フォーム</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSftjA6961ZzzJjqq1CrWtAN9wwrqXRUGFqZI5G8x2BjmZHeWw/viewform" target="_blank">ハラスメント インシデント報告フォーム</a>
   license_and_attribution_title: ライセンスと帰属に関して
   license_and_attribution_text_01: |
     本規範のテキスト部分は <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">Creative Commons Zero license</a> のもとに公開します。パブリック・ドメイン同様に、派生して作られた規範に一切のクレジット表示やオープンライセンスなどを要求しません。
@@ -128,8 +128,7 @@ ja:
         src="https://www.youtube.com/embed/lIfOQNTWdxI"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      />
+        allowfullscreen />
       <figcaption class="section_figcaption">
         {{ t('code_of_conduct_text_01') }}
       </figcaption>

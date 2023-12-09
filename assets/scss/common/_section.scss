@@ -85,3 +85,8 @@
     left: 0;
   }
 }
+
+@media screen and (max-width: $viewport - 1) {
+  @import "section_sp";
+}
+
