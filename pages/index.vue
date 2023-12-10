@@ -3,6 +3,7 @@
   <LazyTopMainVisual />
   <TopNews />
   <TopBanners />
+  <TopPrograms />
   <TopEvents />
   <TopCodeOfConduct />
   <!-- <TopSponsors /> -->
