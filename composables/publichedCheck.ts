@@ -3,8 +3,8 @@ export const publichedCheck = () => {
   const { currentRoute } = useRouter()
   const { publishedPages } = pagesAPI()
   const currentPagePath = currentRoute.value.path
-  const currentPageName = currentPagePath.split(`/${locale.value}/`)[1]
-  const isPublishedPage = publishedPages.find((h) => h === currentPageName)
+  const currentPageName = currentPagePath.split(`/`)[2]
+  const isPublishedPage = publishedPages.includes(currentPageName)
   const isNotFoundPage = currentPagePath !== `/${locale.value}` && !isPublishedPage
   if (isNotFoundPage) {
     return useState('publichedCheck', () => {

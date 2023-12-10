@@ -1,6 +1,6 @@
 export default defineAppConfig({
   year: '2024',
-  // NOTE: ヘッダーを定義しています。非公開にする場合は published: false にheader:true, してください。
+  // NOTE: ヘッダーを定義しています。非公開にする場合は published: false にしてください
   pages: [
     { path: '/', published: true, header: false, order: 0 },
     { path: 'code-of-conduct', published: true, header: true, order: 1 },
