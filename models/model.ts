@@ -1,3 +1,6 @@
+/***********************************************************
+ *** Speaker Model
+ ***********************************************************/
 export type Speaker = {
   id: string // スピーカーID(一意となるように設定する)
   name: string // 名前(本名を入力するのはNG)
@@ -9,7 +12,9 @@ export type Speaker = {
   twitter?: string // [任意] X(旧Twitter) の URL
 }
 
-// スポンサータイプ
+/***********************************************************
+ *** Sponsor Model
+ ***********************************************************/
 export type SporsorType = 'SHOGUN' | 'TAIROU' | 'DAIMYO' | 'SAMURAI' | 'NINJA' | 'UTAGE' | 'BUGYO'
 
 export type Sponsor = {
@@ -27,14 +32,16 @@ export type Sponsor = {
   slideHtml?: string // スポンサーのスライド
 }
 
-export type SessionId = {
-  value: string
-  type: 'proposal' | 'sponsor' | 'omc'
+/***********************************************************
+ *** Session Model
+ ***********************************************************/
+export type Talk = {
+  title: string
+  description: string
 }
 
-export type ProposalSession = {
-  id: SessionId // セッションID
-  speakerIds: string[] // スピーカーIDs
+export type Session = {
+  speakerIds: string[] // スピーカーIds
   language: string // ja or en
   length: number // セッションの長さ
   en: Talk // 英語の場合のタイトルと概要
@@ -43,21 +50,32 @@ export type ProposalSession = {
   keywords?: string[] // キーワード
 }
 
-export type Talk = {
-  title: string
-  description: string
+export type SessionId = {
+  value: string
+  type: 'session' | 'sponsor' | 'omc'
 }
 
-export type SponsorSession = {
-  sponsorId: SessionId // スポンサーセッションID
-} & ProposalSession
+export type Speakers = {
+  speakers: Speaker[]
+}
+
+// Proposal(セッションの応募情報)
+export type Proposal = {
+  id: SessionId // セッションID
+} & Session &
+  Speakers
 
 export type AdoptedSession = {
   id: string
-  sessionId: SessionId // 採択された SponsorSession.id か ProposalSession.id を紐付ける
+  sessionId: SessionId // 採択された SponsorSession.id か Session.id を紐付ける
   startAt: string // JST
   endAt?: string // JST
   room: string
   youtubeUrl?: string
   slideUrl?: string
 }
+
+export type SponsorSession = {
+  sponsorId: SessionId // スポンサーセッションID
+} & Session &
+  Speakers
