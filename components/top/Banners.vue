@@ -13,12 +13,12 @@ ja:
 <template>
   <div class="banner">
     <div class="banner_list">
-      <nuxt-link :to="localePath('sponsorship')" class="banner_item banner_item-sponsor banner_item_two">
+      <nuxt-link :to="localePath('sponsorship')" class="banner_item banner_item-sponsor banner_item_one">
         <span>{{ t('sponsorship') }} </span>
       </nuxt-link>
-      <nuxt-link :to="localePath('call-for-proposals')" class="banner_item banner_item-staff banner_item_two">
+      <!-- <nuxt-link :to="localePath('call-for-proposals')" class="banner_item banner_item-staff banner_item_two">
         <span>{{ t('call-for-proposals') }}</span>
-      </nuxt-link>
+      </nuxt-link> -->
       <!-- <a href="https://scalaconfjp.doorkeeper.jp/" target="_blank" rel="noopener" class="banner_item banner_item_one banner_item-ticket">
         <span>Doorkeeper</span>
       </a> -->

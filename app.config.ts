@@ -1,10 +1,10 @@
 export default defineAppConfig({
   year: '2024',
-  // NOTE: ヘッダーを定義しています。非公開にする場合は published: false にheader:true, してください。
+  // NOTE: ヘッダーを定義しています。非公開にする場合は published: false にしてください
   pages: [
     { path: '/', published: true, header: false, order: 0 },
     { path: 'code-of-conduct', published: true, header: true, order: 1 },
-    { path: 'call-for-proposals', published: true, header: true, order: 20 },
+    { path: 'call-for-proposals', published: false, header: true, order: 20 },
     { path: 'proposals', published: false, header: true, order: 21 },
     { path: 'programs', published: false, header: true, order: 22 },
     { path: 'open-mic-conference', published: false, header: true, order: 23 },
