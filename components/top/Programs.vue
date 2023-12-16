@@ -15,9 +15,9 @@ ja:
   <section class="content">
     <h2 class="content_title">Programs</h2>
     <div class="content_text">
-      <NuxtLink :to="localePath('/proposals')">
+      <!-- <NuxtLink :to="localePath('/proposals')">
         {{ t('proposals') }}
-      </NuxtLink>
+      </NuxtLink> -->
       <p v-html="t('description')"></p>
     </div>
   </section>
