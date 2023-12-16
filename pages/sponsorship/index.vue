@@ -62,7 +62,7 @@ const utage_description = 'ScalaMatsuriの懇親会をスポンサードして�
 const utage_sponsor_contents: Array<PlanAddon> = [
   {
     name: '金額',
-    value: '¥250,000',
+    value: '¥200,000',
   },
   {
     name: '上限枠数',
