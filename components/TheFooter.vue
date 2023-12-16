@@ -63,6 +63,7 @@ ja:
         </dl>
         <dl class="footerNav_list">
           <dt class="footerNav_title">{{ t('past_scalamatsuri') }}</dt>
+          <dd class="footerNav_item"><a href="https://2024.scalamatsuri.org/" target="_blank" rel="noopener">ScalaMatsuri 2024</a></dd>
           <dd class="footerNav_item"><a href="https://2023.scalamatsuri.org/" target="_blank" rel="noopener">ScalaMatsuri 2023</a></dd>
           <dd class="footerNav_item"><a href="https://2022.scalamatsuri.org/" target="_blank" rel="noopener">ScalaMatsuri 2022</a></dd>
           <dd class="footerNav_item"><a href="https://2020.scalamatsuri.org/" target="_blank" rel="noopener">ScalaMatsuri 2020</a></dd>
