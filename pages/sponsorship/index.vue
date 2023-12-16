@@ -70,7 +70,7 @@ const utage_sponsor_contents: Array<PlanAddon> = [
   },
   {
     name: '特典',
-    value: '・Webサイトロゴ掲載<br>・懇親会開始、終了時の貴社名読み上げ',
+    value: '・Webサイトロゴ掲載<br>・懇親会開始、終了時の貴社名読み上げ<br>・10分間のLT実施権',
   },
 ]
 
