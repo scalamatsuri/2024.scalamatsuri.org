@@ -3,8 +3,8 @@ en:
   alt: The largest international Scala conference in Asia
   date: on 7th-9th June. 2024
   event_overview: |
-    This year's Scala Matsuri will be held online.<br>
-    We are planning to hold some contents unique to online. Stay tuned!<br>
+    This year's Scala Matsuri will be held offline.<br>
+    We are planning to hold some contents unique to offline. Stay tuned!<br>
     <br>
     Date: on 7th-9th June. 2024
     Venue: Tokyo International Exchange Center Plaza Heisei<br>
@@ -13,8 +13,8 @@ ja:
   alt: アジア最大級のScalaカンファレンス
   date: Dates 2024年6月7日(金)〜9日(日)
   event_overview: |
-    本年のScalaMatsuriはオンライン開催になりました。<br>
-    オンラインならではの催し物を多数実施する予定ですので、どうぞお楽しみに！<br>
+    本年のScalaMatsuriはオフライン開催になりました。<br>
+    オフラインならではの催し物を多数実施する予定ですので、どうぞお楽しみに！<br>
     <br>
     Date: 2024年6月7日(金)〜9日(日)<br>
     Venue: 東京国際交流館 プラザ平成<br>
