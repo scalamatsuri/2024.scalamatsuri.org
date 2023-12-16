@@ -23,6 +23,10 @@
             <td v-for="p in plans" :key="p.name_kana" v-html="p.price"></td>
           </tr>
           <tr>
+            <th colspan="2">上限枠数</th>
+            <td v-for="p in plans" :key="p.name_kana" v-html="p.maximum_number_sponsored"></td>
+          </tr>
+          <tr>
             <th colspan="2">招待枠</th>
             <td v-for="p in plans" :key="p.name_kana" v-html="p.shoutai_waku"></td>
           </tr>
@@ -36,12 +40,16 @@
             <td v-for="p in plans" :key="p.name_kana" v-html="p.web_advertisement"></td>
           </tr>
           <tr>
+            <th colspan="2">貴社ノベルティ配布</th>
+            <td v-for="p in plans" :key="p.name_kana" v-html="p.distribute_novelty_number"></td>
+          </tr>
+          <tr>
             <th rowspan="3">ロゴ・社名掲載</th>
             <th>スピーカーパネル</th>
             <td v-for="p in plans" :key="p.name_kana" v-html="p.logo_panel"></td>
           </tr>
           <tr>
-            <th>会場内装飾品</th>
+            <th>日除けのれん</th>
             <td v-for="p in plans" :key="p.name_kana" v-html="p.logo_sousyoku"></td>
           </tr>
           <tr>
@@ -63,7 +71,7 @@
           </tr>
           <tr>
             <th colspan="2">宴スポンサー (20万円)</th>
-            <td v-for="p in plans" :key="p.name_kana" v-html="p.satellite_sponsor"></td>
+            <td v-for="p in plans" :key="p.name_kana" v-html="p.utage_sponsor"></td>
           </tr>
         </tbody>
       </table>
@@ -79,13 +87,14 @@ interface Plan {
   name_kana: string
   color: string
   price: string
+  maximum_number_sponsored: string
+  distribute_novelty_number: string
   shoutai_waku: string
   web_logo_view_html: string
   web_advertisement: string
   slide_opening_html: string
   slide_cm: string
   sponser_session: string
-  read_sponser: string
   booth: string
   utage_sponsor: string
 }
