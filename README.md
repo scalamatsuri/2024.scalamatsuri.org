@@ -4,6 +4,8 @@
 
 [![Deploy to Firebase Hosting on staging](https://github.com/scalamatsuri/2024.scalamatsuri.org/actions/workflows/staging-firebase-hosting-merge.yml/badge.svg?branch=master)](https://github.com/scalamatsuri/2024.scalamatsuri.org/actions/workflows/staging-firebase-hosting-merge.yml) [![Deploy to Firebase Hosting on production](https://github.com/scalamatsuri/2024.scalamatsuri.org/actions/workflows/production-firebase-hosting-merge.yml/badge.svg?branch=production)](https://github.com/scalamatsuri/2024.scalamatsuri.org/actions/workflows/production-firebase-hosting-merge.yml)
 
+[Production environment for ScalaMatsuri2024](https://scalamatsuri.org/ja/)
+
 ## Build Setup
 
 ### Install nodenv
