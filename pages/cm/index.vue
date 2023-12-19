@@ -1,8 +1,8 @@
 <i18n lang="yaml">
 en:
-  title: 'cm en'
+  title: 'CM'
 ja:
-  title: 'cm ja'
+  title: 'CM'
 </i18n>
 
 <template>
@@ -12,5 +12,5 @@ ja:
 
 <script setup lang="ts">
 const { t } = useI18n()
-publichedCheck()
+pageMetaCheck()
 </script>

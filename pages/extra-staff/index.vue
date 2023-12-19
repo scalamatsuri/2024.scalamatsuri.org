@@ -1,8 +1,8 @@
 <i18n lang="yaml">
 en:
-  title: 'extra-staff en'
+  title: 'Extra Staff(ja)'
 ja:
-  title: 'extra-staff ja'
+  title: '当日スタッフ'
 </i18n>
 
 <template>
@@ -12,5 +12,5 @@ ja:
 
 <script setup lang="ts">
 const { t } = useI18n()
-publichedCheck()
+pageMetaCheck()
 </script>
