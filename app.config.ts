@@ -1,18 +1,28 @@
+const year = '2024'
+const scalaMatsuri = 'ScalaMatsuri 2024'
+
 export default defineAppConfig({
-  year: '2024',
+  year: year,
+  scalaMatsuri: scalaMatsuri,
   // NOTE: ヘッダーを定義しています。非公開にする場合は published: false にしてください
   pages: [
-    { path: '/', published: true, header: false, order: 0 },
-    { path: 'code-of-conduct', published: true, header: true, order: 1 },
-    { path: 'call-for-proposals', published: false, header: true, order: 20 },
-    { path: 'proposals', published: false, header: true, order: 21 },
-    { path: 'programs', published: false, header: true, order: 22 },
-    { path: 'open-mic-conference', published: false, header: true, order: 23 },
-    { path: 'sponsorship', published: true, header: true, order: 30 },
-    { path: 'sponsors', published: false, header: false, order: 31 },
-    { path: 'cm', published: false, header: true, order: 32 },
-    { path: 'ticket', published: false, header: false, order: 90 },
-    { path: 'staff', published: false, header: true, order: 100 },
-    { path: 'extra-staff', published: false, header: true, order: 101 },
+    { path: '/', title: { en: scalaMatsuri, ja: scalaMatsuri }, published: true, header: false, order: 0 },
+    { path: 'code-of-conduct', title: { en: 'Code of Conduct', ja: '行動規範' }, published: true, header: true, order: 1 },
+    {
+      path: 'call-for-proposals',
+      title: { en: 'Submit your talks for ScalaMatsuri 2024!', ja: 'ScalaMatsuriで話を聞かせてください！' },
+      published: false,
+      header: true,
+      order: 20,
+    },
+    { path: 'proposals', title: { en: 'Proposals', ja: '応募セッション一覧' }, published: false, header: true, order: 21 },
+    { path: 'programs', title: { en: 'Programs', ja: 'セッション一覧' }, published: false, header: true, order: 22 },
+    { path: 'open-mic-conference', title: { en: 'Open Mic Conference', ja: '飛び入りカンファレンス' }, published: false, header: true, order: 23 },
+    { path: 'sponsorship', title: { en: 'Sponsor Ship(ja)', ja: 'スポンサー募集' }, published: true, header: true, order: 30 },
+    { path: 'sponsors', title: { en: 'Sponsors', ja: 'スポンサー一覧' }, published: false, header: false, order: 31 },
+    { path: 'cm', title: { en: 'CM', ja: 'CM' }, published: false, header: true, order: 32 },
+    { path: 'ticket', title: { en: 'Ticket', ja: 'チケット' }, published: false, header: false, order: 90 },
+    { path: 'staff', title: { en: 'Staffs', ja: 'スタッフ一覧' }, published: false, header: true, order: 100 },
+    { path: 'extra-staff', title: { en: 'Extra Staffs(ja)', ja: '当日スタッフ募集' }, published: false, header: true, order: 101 },
   ],
 })

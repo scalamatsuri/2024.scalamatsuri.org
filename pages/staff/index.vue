@@ -12,5 +12,5 @@ ja:
 
 <script setup lang="ts">
 const { t } = useI18n()
-publichedCheck()
+pageMetaCheck()
 </script>

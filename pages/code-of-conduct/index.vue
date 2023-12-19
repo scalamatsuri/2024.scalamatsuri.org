@@ -183,5 +183,5 @@ ja:
 
 <script setup lang="ts">
 const { t, tm, rt } = useI18n()
-publichedCheck()
+pageMetaCheck()
 </script>

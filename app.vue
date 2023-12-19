@@ -29,7 +29,6 @@ ja:
 const { t } = useI18n()
 const { year } = useAppConfig()
 const title = `ScalaMatsuri ${year}`
-const snsFooterHasShown = ref(false)
 useHead({
   title: t('defaultSiteName', { year: year }),
   titleTemplate: `%s | ${t('defaultSiteSubTitle')}`,

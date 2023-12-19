@@ -102,7 +102,7 @@ ja:
 import { Proposal, Talk } from '~/models/model'
 const { locale, t } = useI18n()
 const localePath = useLocalePath()
-publichedCheck()
+pageMetaCheck()
 
 const proposals: ComputedRef<Proposal[]> = getProposals()
 const localedProposals40min = proposals.value.filter((proposal) => proposal.length === 40)
