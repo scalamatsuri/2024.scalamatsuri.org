@@ -31,11 +31,11 @@
 
 <script setup lang="ts">
 const { locale } = useI18n()
-publichedCheck()
+pageMetaCheck()
 const route = useRoute()
 const proposal = getProposalById(route.params.id as string)
 if (!proposal) {
-  useState('publichedCheck', () => {
+  useState('pageMetaCheck', () => {
     throw createError({
       statusCode: 404,
       message: '404 Resource Not Found',

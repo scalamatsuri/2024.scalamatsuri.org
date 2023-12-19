@@ -20,6 +20,7 @@ ja:
 
 <script setup lang="ts">
 const { t } = useI18n()
+pageMetaCheck()
 const shogunSponsors = getSponsorsByType('SHOGUN')
 const daimyoSponsors = getSponsorsByType('DAIMYO')
 </script>

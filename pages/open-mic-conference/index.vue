@@ -1,8 +1,8 @@
 <i18n lang="yaml">
 en:
-  title: 'open-mic-conference en'
+  title: 'Open Mic Conference'
 ja:
-  title: 'open-mic-conference ja'
+  title: '飛び入りカンファレンス'
 </i18n>
 
 <template>
@@ -12,5 +12,5 @@ ja:
 
 <script setup lang="ts">
 const { t } = useI18n()
-publichedCheck()
+pageMetaCheck()
 </script>

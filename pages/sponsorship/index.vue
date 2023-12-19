@@ -1,4 +1,9 @@
-<i18n lang="yaml"></i18n>
+<i18n lang="yaml">
+en:
+  title: スポンサー募集
+ja:
+  title: スポンサー募集
+</i18n>
 
 <template>
   <MainVisual title="スポンサー募集" />
@@ -14,7 +19,7 @@
 
 <script setup lang="ts">
 const { t } = useI18n()
-publichedCheck()
+pageMetaCheck()
 
 const sponsorship_expired = false
 const pdf_filepath = '/pdf/sponsorship.pdf'
