@@ -23,8 +23,8 @@ en:
   section3_title: Application
   section3_body: |
     <ul>
-      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfkaOCQGpMTosQIjOXm6jpUbaf8jk7QK0SKvbBR61xSjTPQbg/viewform">Submit my talk</a></li>
-      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc8qLfXH2aS1jTxN88qyxKS4iwiCmyGAcwfCFyox7q0BzNp8g/closedform">Add another speaker</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeo87lLavg6UuVbOOg2dBvg81wCQKS-MjWUNXeM5NeaaHOOCA/viewform">Submit my talk</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScqXcMgCrdETkWrpoi5X7T7ylvlOir0RPyCYEULx1zSlW2r_A/viewform">Add another speaker</a></li>
     </ul>
   section4_title: Application details
   section4_body: |
@@ -81,8 +81,8 @@ ja:
   section3_title: '応募'
   section3_body: |
     <ul>
-      <li><a href="https://docs.google.com/forms/d/1WQYtCrvfjnjUAQ79VWE8-gJgsUkxHcr7uyBL1R4cwhA/viewform?edit_requested=true">セッション応募フォーム</a></li>
-      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc8qLfXH2aS1jTxN88qyxKS4iwiCmyGAcwfCFyox7q0BzNp8g/closedform">追加講演者登録フォーム</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeyTTKTZoXS5W6HxLCPUDDU0wf6EKd8sHICBN0rhFkkH_eTpA/viewform">セッション応募フォーム</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScqXcMgCrdETkWrpoi5X7T7ylvlOir0RPyCYEULx1zSlW2r_A/viewform">追加講演者登録フォーム</a></li>
     </ul>
   section4_title: '応募要項'
   section4_body: |
