@@ -60,7 +60,7 @@ en:
       <li class="section_note_item">Outside Asia: 1000 USD</li>
     </ul><br/><br/>
     Note that the amount offered as travel grant will NOT exceed the actual travel expense.<br/>
-    Suppose you’ve been approved for the grant and the travel expense was $1500 from Europe, the maximum amount the ScalaMatsuri will reimburse will be $1000. If you started from somewhere in Asia and it cost $700, the reimbursement will be $700.<br/><br/>
+    Suppose you’ve been approved for the grant and the travel expense was $1500 from Europe, the maximum amount the ScalaMatsuri will reimburse will be $1000. If you started from somewhere in Asia and it cost $700, the reimbursement will be $500.<br/><br/>
     Your expenses will NOT be accepted in the event that you do not attend the conference. At the sole discretion of ScalaMatsuri, some expenses may be reimbursed upon a natural disaster, death or illness of the speaker or a family member. We suggest you purchase travel insurance if these terms are not sufficient.
 ja:
   title: ScalaMatsuriで話を聞かせてください！
@@ -115,7 +115,7 @@ ja:
       <li class="section_note_item">アジア圏外 1000ドル</li>
     </ul><br/>
     旅費助成金として支給する額は、実際の経費申請額を超えることはありません。例えばあなたが旅費助成金を承認されたとして、ヨーロッパから出発して旅費が $1500 かかった場合には、ScalaMatsuri が後日払い戻すのは $1000 までです。<br/>
-    アジアから出発して旅費が $700 かかった場合には、払い戻すのは $700 です。<br/><br/>
+    アジアから出発して旅費が $700 かかった場合には、払い戻すのは $500 です。<br/><br/>
     万が一、カンファレンスに出席できない場合は旅費助成金の経費は受理されませんので、ご注意ください。
     ただし、天災、講演者やご家族の死亡、病気の場合 ScalaMatsuri 実行委員会の裁量で、旅費の一部を受理する可能性があります。
     この条件で不十分な場合は、旅行総合保険をご検討ください。
