@@ -56,8 +56,8 @@ en:
     The maximum amount of the travel grant is fixed by the origin of your travel:<br/>
     <br/>
     <ul class="section_note">
-      <li class="section_note_item">Domestic: 500 USD</li>
-      <li class="section_note_item">Overseas: 1000 USD</li>
+      <li class="section_note_item">Within Asia: 500 USD</li>
+      <li class="section_note_item">Outside Asia: 1000 USD</li>
     </ul><br/><br/>
     Note that the amount offered as travel grant will NOT exceed the actual travel expense.<br/>
     Suppose you’ve been approved for the grant and the travel expense was $1500 from Europe, the maximum amount the ScalaMatsuri will reimburse will be $1000. If you started from somewhere in Asia and it cost $700, the reimbursement will be $700.<br/><br/>
@@ -111,8 +111,8 @@ ja:
     経費の申請は ScalaMatsuri 終了後の一ヶ月間のみ行うことができます。 全ての申請費用に関して航空会社からのメールの転送、もしくは領収書のスキャン/写真を必要とします。 ScalaMatsuri の事前に旅費助成金を希望する場合は、その旨ご連絡ください。<br/><br/>
     旅費助成金の最高額は出発地によって決まっています:<br/>
     <ul class="section_note">
-      <li class="section_note_item">国内 500ドル</li>
-      <li class="section_note_item">国外 1000ドル</li>
+      <li class="section_note_item">アジア圏内 500ドル</li>
+      <li class="section_note_item">アジア圏外 1000ドル</li>
     </ul><br/>
     旅費助成金として支給する額は、実際の経費申請額を超えることはありません。例えばあなたが旅費助成金を承認されたとして、ヨーロッパから出発して旅費が $1500 かかった場合には、ScalaMatsuri が後日払い戻すのは $1000 までです。<br/>
     アジアから出発して旅費が $700 かかった場合には、払い戻すのは $700 です。<br/><br/>
