@@ -28,7 +28,7 @@ ja:
       <span v-html="t('event_overview')" />
       <div class="venue_map">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1192.6185465986373!2d139.77462552719138!3d35.620152668409844!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601889fecdda55bd%3A0x6bfb5cf72565bd49!2z44CSMTM1LTAwNjQg5p2x5Lqs6YO95rGf5p2x5Yy66Z2S5rW377yS5LiB55uu77yS4oiS77yRIOODl-ODqeOCtuW5s-aIkA!5e0!3m2!1sja!2sjp!4v1702102948340!5m2!1sja!2sjp"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1621.6413002621073!2d139.7761757!3d35.6207591!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601889fec03298c3%3A0x580ab4984e28a750!2z5p2x5Lqs5Zu96Zqb5Lqk5rWB6aSoIOODl-ODqeOCtuW5s-aIkA!5e0!3m2!1sja!2sjp!4v1703073639041!5m2!1sja!2sjp"
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>

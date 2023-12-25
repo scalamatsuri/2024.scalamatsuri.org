@@ -11,7 +11,7 @@ export default defineAppConfig({
     {
       path: 'call-for-proposals',
       title: { en: 'Submit your talks for ScalaMatsuri 2024!', ja: 'ScalaMatsuriで話を聞かせてください！' },
-      published: false,
+      published: true,
       header: true,
       order: 20,
     },
