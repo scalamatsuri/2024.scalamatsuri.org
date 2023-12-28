@@ -12,7 +12,7 @@ en:
     <br><br>
     As one of largest international Scala conferences in Asia, we want to make it a fun event for both the domestic audience and those visiting Japan from overseas.
     <br/><br/>
-    We have also published a blog post about the session recruitment. <br/>Please check it out <a href="https://blog.scalamatsuri.org/entry/2023/12/25/122512">here</a>.
+    We have also published a blog post about the session recruitment. <br/>Please check it out <a href="https://blog-en.scalamatsuri.org/entry/2023/12/25/122529">here</a>.
     <br/><br/>
     Similar to ScalaMatsuri 2023, we will be hosting open mic sessions for two days this year as well.<br/>
     Therefore, even if you apply for CFP as a speaker and are not selected, attending the event gives you a chance to present at ScalaMatsuri. We hope you can join us at the event.<br/>
