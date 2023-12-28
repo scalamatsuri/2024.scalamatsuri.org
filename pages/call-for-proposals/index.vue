@@ -71,7 +71,7 @@ ja:
     ScalaMatsuri 2024 はアジア最大規模の国際的なイベントとして、日本国内だけではなく、海外からの参加者にも楽しめるイベントにしたいと考えています。<br/>
     性別や人種など多様な背景を持つ人々が互いに敬意を払って楽しい時間を過ごせるよう、当カンファレンスでは発表者や参加者、スポンサーの皆さんに<a href="%{coc_link}" target="_blank" rel="noopener"><span>行動規範</span></a>を守っていただくようにお願いしています。<br/>
     セッション募集に際してブログも公開しております。こちらも併せてご確認ください。<br/>
-    <a href="https://blog-en.scalamatsuri.org/entry/2023/12/25/122529">ScalaMatsuri 2024開催決定！CFPも募集開始！</a><br/><br/>
+    <a href="https://blog.scalamatsuri.org/entry/2023/12/25/122512">ScalaMatsuri 2024開催決定！CFPも募集開始！</a><br/><br/>
     今年度もScalaMatsuri2023と同様に、オープンマイクセッションを2日間開催します。<br/>
     そのため、スピーカーとしてCFPを応募したが当選しなかった場合でも、イベントに参加してもらうと、ScalaMatsuriで発表するチャンスがあります。ぜひイベントにご参加ください。<br/>
     <a href="https://blog.scalamatsuri.org/entry/2023/04/10/120001">ScalaMatsuri2023のオープンマイクセッションについて</a><br/>
