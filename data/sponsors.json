@@ -129,15 +129,15 @@
     "id": "DAIMYO_1",
     "type": "DAIMYO",
     "ja": {
-      "name": "大名スポンサー1"
+      "name": "Chatwork株式会社"
     },
     "en": {
-      "name": "Daimyo Sponsor1"
+      "name": "Chatwork株式会社"
     },
-    "logo": "/img/sponsors/scalamatsuri_logo.png",
-    "url": "https://scalamatsuri.org",
-    "text_html": "<p>大名スポンサー1です。</p>",
-    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/46303de9e5a44fef9c562dd3ec8ff5a9\" title=\"ScalaMatsuriFLINTERS - 会社案内資料 - We are hiring!\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
+    "logo": "/img/sponsors/chatwork.png",
+    "url": "https://corp.chatwork.com/ja/",
+    "text_html": "",
+    "slide_html": ""
   },
   {
     "id": "DAIMYO_2",
