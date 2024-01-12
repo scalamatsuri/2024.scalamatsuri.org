@@ -6,5 +6,5 @@
   <TopPrograms />
   <TopEvents />
   <TopCodeOfConduct />
-  <!-- <TopSponsors /> -->
+  <TopSponsors />
 </template>
