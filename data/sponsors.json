@@ -14,6 +14,20 @@
     "slide_html": ""
   },
   {
+    "id": "DAIMYO_2",
+    "type": "DAIMYO",
+    "ja": {
+      "name": "ファンズ株式会社"
+    },
+    "en": {
+      "name": "ファンズ株式会社"
+    },
+    "logo": "/img/sponsors/funds.png",
+    "url": "https://funds.jp/",
+    "text_html": "",
+    "slide_html": ""
+  },
+  {
     "id": "KINTONE",
     "type": "BUGYO",
     "ja": {
