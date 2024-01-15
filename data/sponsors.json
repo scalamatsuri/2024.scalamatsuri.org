@@ -56,6 +56,20 @@
     "slide_html": ""
   },
   {
+    "id": "SAMURAI_1",
+    "type": "SAMURAI",
+    "ja": {
+      "name": "合同会社ザウエル"
+    },
+    "en": {
+      "name": "合同会社ザウエル"
+    },
+    "logo": "/img/sponsors/zauel.png",
+    "url": "https://zauel.co.jp/",
+    "text_html": "",
+    "slide_html": ""
+  },
+  {
     "id": "KINTONE",
     "type": "BUGYO",
     "ja": {
