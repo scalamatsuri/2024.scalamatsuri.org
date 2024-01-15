@@ -42,6 +42,20 @@
     "slide_html": ""
   },
   {
+    "id": "DAIMYO_4",
+    "type": "DAIMYO",
+    "ja": {
+      "name": "株式会社マイクロアド"
+    },
+    "en": {
+      "name": "MicroAd, Inc."
+    },
+    "logo": "/img/sponsors/microad.svg",
+    "url": "https://www.microad.co.jp/",
+    "text_html": "",
+    "slide_html": ""
+  },
+  {
     "id": "KINTONE",
     "type": "BUGYO",
     "ja": {
