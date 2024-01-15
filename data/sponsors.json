@@ -6,10 +6,52 @@
       "name": "Chatwork株式会社"
     },
     "en": {
-      "name": "Chatwork株式会社"
+      "name": "Chatwork Co., Ltd."
     },
     "logo": "/img/sponsors/chatwork.png",
     "url": "https://corp.chatwork.com/ja/",
+    "text_html": "",
+    "slide_html": ""
+  },
+  {
+    "id": "DAIMYO_2",
+    "type": "DAIMYO",
+    "ja": {
+      "name": "ファンズ株式会社"
+    },
+    "en": {
+      "name": "ファンズ株式会社"
+    },
+    "logo": "/img/sponsors/funds.png",
+    "url": "https://funds.jp/",
+    "text_html": "",
+    "slide_html": ""
+  },
+  {
+    "id": "DAIMYO_3",
+    "type": "DAIMYO",
+    "ja": {
+      "name": "株式会社FOLIO"
+    },
+    "en": {
+      "name": "株式会社FOLIO"
+    },
+    "logo": "/img/sponsors/folio.svg",
+    "url": "https://corp.folio-sec.com/",
+    "text_html": "",
+    "slide_html": ""
+  },
+  {
+    "id": "DAIMYO_4",
+    "type": "DAIMYO",
+    "ja": {
+      "name": "株式会社マイクロアド"
+    },
+    "en": {
+      "name": "MicroAd, Inc."
+    },
+    "logo": "/img/sponsors/microad.svg",
+    "url": "https://www.microad.co.jp/",
     "text_html": "",
     "slide_html": ""
   },
