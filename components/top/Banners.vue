@@ -59,6 +59,17 @@ const { locale, t } = useI18n()
 .banner_item_two {
   width: calc(50% - 10px);
 }
+
+@media screen and (max-width: 800px) {
+  .banner_list {
+    flex-direction: column;
+  }
+  .banner_item_two {
+    width: calc(100% - 20px);
+    margin: 10px;
+  }
+}
+
 .banner_item {
   display: block;
   height: 88px;
