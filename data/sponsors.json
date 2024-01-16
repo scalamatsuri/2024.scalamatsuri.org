@@ -1,5 +1,19 @@
 [
   {
+    "id": "SHOGUN_1",
+    "type": "SHOGUN",
+    "ja": {
+      "name": "株式会社COMPASS"
+    },
+    "en": {
+      "name": "株式会社COMPASS"
+    },
+    "logo": "/img/sponsors/qubena.png",
+    "url": "https://qubena.com/",
+    "text_html": "",
+    "slide_html": ""
+  },
+  {
     "id": "DAIMYO_1",
     "type": "DAIMYO",
     "ja": {
@@ -52,6 +66,20 @@
     },
     "logo": "/img/sponsors/microad.svg",
     "url": "https://www.microad.co.jp/",
+    "text_html": "",
+    "slide_html": ""
+  },
+  {
+    "id": "DAIMYO_5",
+    "type": "DAIMYO",
+    "ja": {
+      "name": "ワンダーソフト株式会社"
+    },
+    "en": {
+      "name": "Wondersoft Co., Ltd."
+    },
+    "logo": "/img/sponsors/wondersoft.png",
+    "url": "https://wonder-soft.com/",
     "text_html": "",
     "slide_html": ""
   },
