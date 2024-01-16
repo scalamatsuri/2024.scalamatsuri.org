@@ -56,6 +56,20 @@
     "slide_html": ""
   },
   {
+    "id": "DAIMYO_5",
+    "type": "DAIMYO",
+    "ja": {
+      "name": "ワンダーソフト株式会社"
+    },
+    "en": {
+      "name": "Wondersoft Co., Ltd."
+    },
+    "logo": "/img/sponsors/wondersoft.png",
+    "url": "https://wonder-soft.com/",
+    "text_html": "",
+    "slide_html": ""
+  },
+  {
     "id": "SAMURAI_1",
     "type": "SAMURAI",
     "ja": {
