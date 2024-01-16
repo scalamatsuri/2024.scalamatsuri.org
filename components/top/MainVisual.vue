@@ -158,6 +158,7 @@ const shuffledShogunSponsors = computed(() => arrayShuffle(shogunSponsors.value)
     padding: 5vh;
     font-size: 5vh;
     text-shadow: 1px 2px 3px #560808;
+    word-break: auto-phrase;
     & > .title--pc {
       display: none;
     }

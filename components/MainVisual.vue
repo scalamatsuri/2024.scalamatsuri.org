@@ -31,5 +31,6 @@ const { title } = defineProps({
   font-weight: bold;
   letter-spacing: 0.05em;
   line-height: 68px;
+  word-break: auto-phrase;
 }
 </style>
