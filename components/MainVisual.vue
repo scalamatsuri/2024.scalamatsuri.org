@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <div class="main_inner">
-      <h1 class="main__title">
+      <h1 class="main_title">
         {{ title }}
       </h1>
     </div>
