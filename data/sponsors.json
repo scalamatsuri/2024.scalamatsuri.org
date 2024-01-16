@@ -20,7 +20,7 @@
       "name": "ファンズ株式会社"
     },
     "en": {
-      "name": "ファンズ株式会社"
+      "name": "Funds, Inc."
     },
     "logo": "/img/sponsors/funds.png",
     "url": "https://funds.jp/",
@@ -52,6 +52,20 @@
     },
     "logo": "/img/sponsors/microad.svg",
     "url": "https://www.microad.co.jp/",
+    "text_html": "",
+    "slide_html": ""
+  },
+  {
+    "id": "SAMURAI_1",
+    "type": "SAMURAI",
+    "ja": {
+      "name": "合同会社ザウエル"
+    },
+    "en": {
+      "name": "合同会社ザウエル"
+    },
+    "logo": "/img/sponsors/zauel.png",
+    "url": "https://zauel.co.jp/",
     "text_html": "",
     "slide_html": ""
   },
