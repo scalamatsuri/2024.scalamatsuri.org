@@ -21,17 +21,17 @@ ja:
         </h1>
       </div>
       <div class="main_sponsor">
-      <ul class="main_sponsor_inner">
-      <li v-for="sponsor in shuffledShogunSponsors" :key="sponsor.logo" class="main_sponsor_item">
-      <a :href="sponsor.url"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
-      <div v-if="locale == `en`">
-        <p>{{ sponsor.en.name }}</p>
-      </div>
-      <div v-if="locale == `ja`">
-        <p>{{ sponsor.ja.name }}</p>
-      </div>
-      </li>
-      </ul>
+        <ul class="main_sponsor_inner">
+          <li v-for="sponsor in shuffledShogunSponsors" :key="sponsor.logo" class="main_sponsor_item">
+            <a :href="sponsor.url"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
+            <div v-if="locale == `en`">
+              <p>{{ sponsor.en.name }}</p>
+            </div>
+            <div v-if="locale == `ja`">
+              <p>{{ sponsor.ja.name }}</p>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
   </main>
