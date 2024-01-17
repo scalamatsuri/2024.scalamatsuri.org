@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <div class="main_inner">
-      <h1 class="main__title">
+      <h1 class="main_title">
         {{ title }}
       </h1>
     </div>
@@ -31,5 +31,6 @@ const { title } = defineProps({
   font-weight: bold;
   letter-spacing: 0.05em;
   line-height: 68px;
+  word-break: auto-phrase;
 }
 </style>
