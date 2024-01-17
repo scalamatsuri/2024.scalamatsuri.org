@@ -47,6 +47,7 @@ const { locale, t } = useI18n()
   max-width: 834px;
   margin-top: 20px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 // NOTE: バナー1つのとき
@@ -57,10 +58,9 @@ const { locale, t } = useI18n()
 }
 // NOTE: バナー2つのとき
 .banner_item_two {
-  width: calc(50% - 10px);
 }
 .banner_item {
-  display: block;
+  flex: 20rem;
   height: 88px;
   color: #fff;
   font-weight: bold;
@@ -71,6 +71,8 @@ const { locale, t } = useI18n()
   text-align: center;
   position: relative;
   padding: 17px 0;
+  margin-left: 12px;
+  margin-right: 12px;
   &:after {
     content: '';
     width: 18px;
@@ -88,6 +90,7 @@ const { locale, t } = useI18n()
     display: inline-block;
     height: 54px;
     line-height: 54px;
+    color: #fff;
   }
   &-sponsor {
     background-color: #e4ae2f;
