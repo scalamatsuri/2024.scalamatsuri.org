@@ -174,7 +174,7 @@ const shuffledBugyos = computed(() => arrayShuffle(bugyos.value))
     -webkit-text-fill-color: transparent;
   }
   &-tairou {
-    font-size: 4em;
+    font-size: 3em;
     color: #ee892c;
   }
   &-daimyo {
@@ -217,8 +217,8 @@ const shuffledBugyos = computed(() => arrayShuffle(bugyos.value))
 }
 .sponsors_item {
   padding: 0 10px;
-  width: 33%;
-  max-width: 242px;
+  width: 50%;
+  max-width: 50%;
   margin-top: 20px;
   img {
     width: 100%;
