@@ -70,6 +70,20 @@
     "slide_html": ""
   },
   {
+    "id": "DAIMYO_6",
+    "type": "DAIMYO",
+    "ja": {
+      "name": "アルプ株式会社"
+    },
+    "en": {
+      "name": "Alp, Inc."
+    },
+    "logo": "/img/sponsors/alpinc.svg",
+    "url": "https://alpinc.notion.site/52af90188305440d86acf72968646054",
+    "text_html": "",
+    "slide_html": ""
+  },
+  {
     "id": "SAMURAI_1",
     "type": "SAMURAI",
     "ja": {
