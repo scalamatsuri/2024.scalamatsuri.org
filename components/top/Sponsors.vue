@@ -155,6 +155,14 @@ const shuffledBugyos = computed(() => arrayShuffle(bugyos.value))
 </script>
 
 <style lang="scss" scoped>
+.content_title {
+  display: inline-block;
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 48px;
+  color: #bd3844;
+}
+
 .sponsors_title {
   margin-top: 1em;
   font-size: 48px;
