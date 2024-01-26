@@ -42,6 +42,20 @@
     "slide_html": ""
   },
   {
+    "id": "DAIMYO_3",
+    "type": "DAIMYO",
+    "ja": {
+      "name": "株式会社FOLIO"
+    },
+    "en": {
+      "name": "株式会社FOLIO"
+    },
+    "logo": "/img/sponsors/folio.svg",
+    "url": "https://corp.folio-sec.com/",
+    "text_html": "",
+    "slide_html": ""
+  },
+  {
     "id": "DAIMYO_4",
     "type": "DAIMYO",
     "ja": {
