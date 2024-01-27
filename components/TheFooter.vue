@@ -9,6 +9,7 @@ en:
   sponsors: Sponsors(ja)
   cm: CM
   ticket: Ticket
+  travel: Travel
   staff: Staff
   extra-staff: Extra Staffs(ja)
   help: 'Help'
@@ -26,6 +27,7 @@ ja:
   sponsors: スポンサー
   cm: CM
   ticket: チケット
+  travel: トラベル情報
   staff: スタッフ
   extra-staff: スタッフ募集
   help: 'ヘルプ'
@@ -41,7 +43,7 @@ ja:
       <div class="footerNav">
         <dl class="footerNav_list">
           <p class="footer_logo">
-            <NuxtLink :to="localePath('/')"><img src="~/assets/img/common/logo.svg" :alt="`ScalaMatsuri ${year}`" width="68" height="53" /></NuxtLink>
+            <NuxtLink :to="localePath('/')"><img src="/img/common/logo.svg" :alt="`ScalaMatsuri ${year}`" width="68" height="53" /></NuxtLink>
           </p>
         </dl>
         <dl class="footerNav_list">
@@ -85,7 +87,7 @@ ja:
       </div>
     </div>
     <a href="https://github.com/scalamatsuri/2024.scalamatsuri.org" class="pullrequestBtn" target="_blank" rel="noopener">
-      <img src="~/assets/img/common/icon-octcat.svg" />Send a pull request
+      <img src="/img/common/icon-octcat.svg" />Send a pull request
     </a>
     <p class="copyright">
       <small>&copy; ScalaMatsuri Organization | Japan Scala Association</small>
@@ -129,7 +131,7 @@ useHead({
 <style lang="scss" scoped>
 /* footer */
 .footer {
-  background: url('~/assets/img/common/bg-black.png') repeat;
+  background: url('/img/common/bg-black.png') repeat;
   overflow: hidden;
   margin: 0 auto;
   position: relative;

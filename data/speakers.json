@@ -4,7 +4,7 @@
     "name": "SPEAKER_NAME_01",
     "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
     "organization": "ORGANIZATION_01",
-    "speaker_experience": ["SPEAKER_EXPERIENCE_01"],
+    "speakerExperience": ["SPEAKER_EXPERIENCE_01"],
     "contributes": ["CONTRIBUTES_01"],
     "github": "scalamatsuri",
     "twitter": "scalamatsuri"
@@ -14,7 +14,7 @@
     "name": "SPEAKER_NAME_02",
     "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
     "organization": "ORGANIZATION_02",
-    "speaker_experience": ["SPEAKER_EXPERIENCE_02"],
+    "speakerExperience": ["SPEAKER_EXPERIENCE_02"],
     "contributes": ["CONTRIBUTES_02"],
     "github": "scalamatsuri",
     "twitter": "scalamatsuri"
@@ -24,7 +24,7 @@
     "name": "SPEAKER_NAME_03",
     "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
     "organization": "ORGANIZATION_03",
-    "speaker_experience": ["SPEAKER_EXPERIENCE_03"],
+    "speakerExperience": ["SPEAKER_EXPERIENCE_03"],
     "contributes": ["CONTRIBUTES_03"],
     "github": "scalamatsuri",
     "twitter": "scalamatsuri"
@@ -34,7 +34,7 @@
     "name": "SPEAKER_NAME_04",
     "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
     "organization": "ORGANIZATION_04",
-    "speaker_experience": ["SPEAKER_EXPERIENCE_04"],
+    "speakerExperience": ["SPEAKER_EXPERIENCE_04"],
     "contributes": ["CONTRIBUTES_04"],
     "github": "scalamatsuri",
     "twitter": "scalamatsuri"
@@ -44,7 +44,7 @@
     "name": "SPEAKER_NAME_05",
     "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
     "organization": "ORGANIZATION_05",
-    "speaker_experience": ["SPEAKER_EXPERIENCE_05"],
+    "speakerExperience": ["SPEAKER_EXPERIENCE_05"],
     "contributes": ["CONTRIBUTES_05"],
     "github": "scalamatsuri",
     "twitter": "scalamatsuri"
@@ -54,7 +54,7 @@
     "name": "SPEAKER_NAME_06",
     "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
     "organization": "ORGANIZATION_06",
-    "speaker_experience": ["SPEAKER_EXPERIENCE_06"],
+    "speakerExperience": ["SPEAKER_EXPERIENCE_06"],
     "contributes": ["CONTRIBUTES_06"],
     "github": "scalamatsuri",
     "twitter": "scalamatsuri"
@@ -64,7 +64,7 @@
     "name": "SPEAKER_NAME_07",
     "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
     "organization": "ORGANIZATION_07",
-    "speaker_experience": ["SPEAKER_EXPERIENCE_07"],
+    "speakerExperience": ["SPEAKER_EXPERIENCE_07"],
     "contributes": ["CONTRIBUTES_07"],
     "github": "scalamatsuri",
     "twitter": "scalamatsuri"
@@ -74,7 +74,7 @@
     "name": "SPEAKER_NAME_08",
     "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
     "organization": "ORGANIZATION_08",
-    "speaker_experience": ["SPEAKER_EXPERIENCE_08"],
+    "speakerExperience": ["SPEAKER_EXPERIENCE_08"],
     "contributes": ["CONTRIBUTES_08"],
     "github": "scalamatsuri",
     "twitter": "scalamatsuri"
@@ -84,7 +84,7 @@
     "name": "SPEAKER_NAME_09",
     "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
     "organization": "ORGANIZATION_09",
-    "speaker_experience": ["SPEAKER_EXPERIENCE_09"],
+    "speakerExperience": ["SPEAKER_EXPERIENCE_09"],
     "contributes": ["CONTRIBUTES_09"],
     "github": "scalamatsuri",
     "twitter": "scalamatsuri"
@@ -94,7 +94,7 @@
     "name": "SPEAKER_NAME_10",
     "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
     "organization": "ORGANIZATION_10",
-    "speaker_experience": ["SPEAKER_EXPERIENCE_10"],
+    "speakerExperience": ["SPEAKER_EXPERIENCE_10"],
     "contributes": ["CONTRIBUTES_10"],
     "github": "scalamatsuri",
     "twitter": "scalamatsuri"
@@ -104,7 +104,7 @@
     "name": "SPEAKER_NAME_11",
     "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
     "organization": "ORGANIZATION_11",
-    "speaker_experience": ["SPEAKER_EXPERIENCE_11"],
+    "speakerExperience": ["SPEAKER_EXPERIENCE_11"],
     "contributes": ["CONTRIBUTES_11"],
     "github": "scalamatsuri",
     "twitter": "scalamatsuri"
@@ -114,7 +114,7 @@
     "name": "SPEAKER_NAME_12",
     "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
     "organization": "ORGANIZATION_12",
-    "speaker_experience": ["SPEAKER_EXPERIENCE_12"],
+    "speakerExperience": ["SPEAKER_EXPERIENCE_12"],
     "contributes": ["CONTRIBUTES_12"],
     "github": "scalamatsuri",
     "twitter": "scalamatsuri"
@@ -124,7 +124,7 @@
     "name": "SPEAKER_NAME_13",
     "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
     "organization": "ORGANIZATION_13",
-    "speaker_experience": ["SPEAKER_EXPERIENCE_13"],
+    "speakerExperience": ["SPEAKER_EXPERIENCE_13"],
     "contributes": ["CONTRIBUTES_13"],
     "github": "scalamatsuri",
     "twitter": "scalamatsuri"
@@ -134,7 +134,7 @@
     "name": "SPEAKER_NAME_14",
     "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
     "organization": "ORGANIZATION_14",
-    "speaker_experience": ["SPEAKER_EXPERIENCE_14"],
+    "speakerExperience": ["SPEAKER_EXPERIENCE_14"],
     "contributes": ["CONTRIBUTES_14"],
     "github": "scalamatsuri",
     "twitter": "scalamatsuri"
@@ -144,7 +144,7 @@
     "name": "SPEAKER_NAME_15",
     "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
     "organization": "ORGANIZATION_15",
-    "speaker_experience": ["SPEAKER_EXPERIENCE_15"],
+    "speakerExperience": ["SPEAKER_EXPERIENCE_15"],
     "contributes": ["CONTRIBUTES_15"],
     "github": "scalamatsuri",
     "twitter": "scalamatsuri"
@@ -154,7 +154,7 @@
     "name": "SPEAKER_NAME_16",
     "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
     "organization": "ORGANIZATION_16",
-    "speaker_experience": ["SPEAKER_EXPERIENCE_16"],
+    "speakerExperience": ["SPEAKER_EXPERIENCE_16"],
     "contributes": ["CONTRIBUTES_16"],
     "github": "scalamatsuri",
     "twitter": "scalamatsuri"
@@ -164,7 +164,7 @@
     "name": "SPEAKER_NAME_17",
     "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
     "organization": "ORGANIZATION_17",
-    "speaker_experience": ["SPEAKER_EXPERIENCE_17"],
+    "speakerExperience": ["SPEAKER_EXPERIENCE_17"],
     "contributes": ["CONTRIBUTES_17"],
     "github": "scalamatsuri",
     "twitter": "scalamatsuri"
@@ -174,7 +174,7 @@
     "name": "SPEAKER_NAME_18",
     "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
     "organization": "ORGANIZATION_18",
-    "speaker_experience": ["SPEAKER_EXPERIENCE_18"],
+    "speakerExperience": ["SPEAKER_EXPERIENCE_18"],
     "contributes": ["CONTRIBUTES_18"],
     "github": "scalamatsuri",
     "twitter": "scalamatsuri"
@@ -184,7 +184,7 @@
     "name": "SPEAKER_NAME_19",
     "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
     "organization": "ORGANIZATION_19",
-    "speaker_experience": ["SPEAKER_EXPERIENCE_19"],
+    "speakerExperience": ["SPEAKER_EXPERIENCE_19"],
     "contributes": ["CONTRIBUTES_19"],
     "github": "scalamatsuri",
     "twitter": "scalamatsuri"
@@ -194,7 +194,7 @@
     "name": "SPEAKER_NAME_20",
     "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
     "organization": "ORGANIZATION_20",
-    "speaker_experience": ["SPEAKER_EXPERIENCE_20"],
+    "speakerExperience": ["SPEAKER_EXPERIENCE_20"],
     "contributes": ["CONTRIBUTES_20"],
     "github": "scalamatsuri",
     "twitter": "scalamatsuri"

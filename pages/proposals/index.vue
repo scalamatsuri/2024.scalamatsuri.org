@@ -40,10 +40,10 @@ ja:
                 <p class="speaker_name">{{ speaker.name }}</p>
                 <p class="speaker_id">
                   <a v-if="speaker.twitter" class="modal_speaker_sns" :href="`https://twitter.com/${speaker.twitter}`">
-                    <img src="~/assets/img/common/icon-sns-tw.svg" />{{ speaker.twitter }}
+                    <img src="/img/common/icon-sns-tw.svg" />{{ speaker.twitter }}
                   </a>
                   <a v-if="speaker.github" class="modal_speaker_sns" :href="`https://github.com/${speaker.github}`">
-                    <img src="~/assets/img/common/icon-sns-git.svg" />{{ speaker.github }}
+                    <img src="/img/common/icon-sns-git.svg" />{{ speaker.github }}
                   </a>
                 </p>
               </div>
@@ -77,10 +77,10 @@ ja:
                 <p class="speaker_name">{{ speaker.name }}</p>
                 <p class="speaker_id">
                   <a v-if="speaker.twitter" class="modal_speaker_sns" :href="`https://twitter.com/${speaker.twitter}`">
-                    <img src="~/assets/img/common/icon-sns-tw.svg" />{{ speaker.twitter }}
+                    <img src="/img/common/icon-sns-tw.svg" />{{ speaker.twitter }}
                   </a>
                   <a v-if="speaker.github" class="modal_speaker_sns" :href="`https://github.com/${speaker.github}`">
-                    <img src="~/assets/img/common/icon-sns-git.svg" />{{ speaker.github }}
+                    <img src="/img/common/icon-sns-git.svg" />{{ speaker.github }}
                   </a>
                 </p>
               </div>

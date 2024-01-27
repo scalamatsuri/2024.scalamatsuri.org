@@ -30,7 +30,7 @@ const { locale, locales } = useI18n()
 const _locales = computed<{ code: string; name: string }[]>(() =>
   locales.value.map((locale) => (typeof locale === 'string' ? { code: locale, name: locale } : { code: locale.code, name: locale.name ?? '' }))
 )
-const selectedLocaleName = computed(() => _locales.value.filter((l) => l.code === locale.value)[0].name)
+const selectedLocaleName = computed(() => _locales.value.filter((l) => l.code === locale.value)[0]?.name ?? '')
 const router = useRouter()
 const _active = ref(false)
 const onClickedLocaleLink = (url: string) => {
@@ -64,7 +64,7 @@ const onClickSelectedLocaleLink = () => (_active.value = !_active.value)
   }
   &:before {
     content: '';
-    background-image: url('~/assets/img/common/icon-lang.svg');
+    background-image: url('/img/common/icon-lang.svg');
     width: 20px;
     height: 20px;
     background-size: 20px 20px;
@@ -75,7 +75,7 @@ const onClickSelectedLocaleLink = () => (_active.value = !_active.value)
   }
   &:after {
     content: '';
-    background-image: url('~/assets/img/common/arrow-bottom.svg');
+    background-image: url('/img/common/arrow-bottom.svg');
     width: 10px;
     height: 6px;
     background-size: 10px 6px;

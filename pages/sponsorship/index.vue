@@ -157,8 +157,6 @@ const plans: Array<Plan> = [
     utage_sponsor: '別売',
   },
 ]
-
-//meta: [{ name: "og:title", content: "スポンサー募集 | ScalaMatsuri 2023" }],
 </script>
 
 <style lang="scss" scoped>

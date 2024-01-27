@@ -81,11 +81,11 @@ const { locale, t } = useI18n()
     position: absolute;
     right: 5px;
     bottom: 5px;
-    background-image: url('~/assets/img/common/arrow-banner.svg');
+    background-image: url('/img/common/arrow-banner.svg');
   }
   span {
     background-position: center left;
-    background-image: url('~/assets/img/common/icon-happi.svg');
+    background-image: url('/img/common/icon-happi.svg');
     padding-left: 70px;
     display: inline-block;
     height: 54px;
@@ -95,25 +95,25 @@ const { locale, t } = useI18n()
   &-sponsor {
     background-color: #e4ae2f;
     span {
-      background-image: url('~/assets/img/common/icon-mikoshi.svg');
+      background-image: url('/img/common/icon-mikoshi.svg');
     }
   }
   &-ticket {
     background-color: #4f9ad5;
     span {
-      background-image: url('~/assets/img/common/logo.svg');
+      background-image: url('/img/common/logo.svg');
     }
   }
   &-staff {
     background-color: #4f9ad5;
     span {
-      background-image: url('~/assets/img/common/logo.svg');
+      background-image: url('/img/common/logo.svg');
     }
   }
   &-tshorts {
     background-color: #000000;
     span {
-      background-image: url('~/assets/img/common/icon-happi.svg');
+      background-image: url('/img/common/icon-happi.svg');
     }
   }
 }

@@ -10,19 +10,19 @@
 
 <script setup lang="ts">
 const { title } = defineProps({
-  title: String
+  title: String,
 })
 </script>
 
 <style scoped lang="scss">
 .main {
-  background-image: url("assets/img/common/bg-red.png");
+  background-image: url('/img/common/bg-red.png');
   background-position: bottom center;
   background-repeat: repeat;
   overflow: hidden;
   margin: 0 auto;
   position: relative;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   padding: 66px 0 66px;
 }
