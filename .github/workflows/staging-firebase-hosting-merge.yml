@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: 18
       - name: Install npm modules
-        run: yarn cache clean && yarn install
+        run: rm -rf node_modules && yarn cache clean && yarn install
       - name: Build app
         run: yarn generate
       - uses: FirebaseExtended/action-hosting-deploy@v0
