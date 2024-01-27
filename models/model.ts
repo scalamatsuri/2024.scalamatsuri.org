@@ -6,7 +6,7 @@ export type Speaker = {
   name: string // 名前(本名を入力するのはNG)
   iconUrl: string // アイコン画像のURL(Twitterのアイコン画像URLなど)
   organization?: string // [任意] 所属組織
-  speaker_experience?: string[] // [任意] 経験一覧
+  speakerExperience?: string[] // [任意] 経験一覧
   contributes?: string[] // [任意] contribution 一覧
   github?: string // [任意] GitHub の URL
   twitter?: string // [任意] X(旧Twitter) の URL
