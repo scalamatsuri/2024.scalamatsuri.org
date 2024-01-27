@@ -1,5 +1,5 @@
 <template>
-  <section class="sponsor" v-if="isVisible">
+  <section class="sponsor">
     <h2 class="sponsor_title">
       {{ title }}
     </h2>
@@ -17,7 +17,6 @@ const { title, sponsors } = defineProps({
   title: String,
   sponsors: Array<Sponsor>,
 })
-const isVisible = (sponsors?.length ?? 0) > 0 && sponsors?.find((s) => s.textHtml)
 </script>
 
 <style scoped lang="scss">

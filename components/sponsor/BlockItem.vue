@@ -1,5 +1,5 @@
 <template>
-  <section class="sponsor_item" v-if="sponsor && isVisible">
+  <section class="sponsor_item" v-if="sponsor">
     <div class="sponsor_logo">
       <a :href="sponsor.url" target="_blank" rel="noopener"><img :src="sponsor.logo" :alt="sponsor[locale].name" /></a>
     </div>
@@ -23,8 +23,6 @@ import { Sponsor } from '~/models/model'
 const { sponsor } = defineProps({
   sponsor: {} as PropType<Sponsor>,
 })
-// NOTE: textHtml か slideHtml どちらかが存在すれば表示する
-const isVisible = sponsor?.textHtml || sponsor?.slideHtml
 </script>
 
 <style lang="scss" scoped>
