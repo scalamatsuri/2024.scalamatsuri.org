@@ -5,6 +5,6 @@
   <TopBanners />
   <TopPrograms />
   <TopEvents />
-  <TopCodeOfConduct />
   <TopSponsors />
+  <TopCodeOfConduct />
 </template>
