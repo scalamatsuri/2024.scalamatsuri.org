@@ -1,7 +1,7 @@
 <template>
   <div>
     <TheHeader />
-    <quote>None get</quote>
+    <p>None get</p>
     <TheFooter />
   </div>
 </template>

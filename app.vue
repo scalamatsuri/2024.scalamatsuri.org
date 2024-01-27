@@ -4,14 +4,14 @@ en:
   defaultSiteSubTitle: 'The largest international Scala conference in Asia'
   defaultDescription: 'The largest international Scala conference in Asia.'
   defaultUrl: 'https://scalamatsuri.org/'
-  opengraphUri: 'https://2024.scalamatsuri.org/img/favicons/ogp_en.png'
+  opengraphUri: 'https://2024.scalamatsuri.org/img/favicons/ogp.png'
   twitterAccountId: "'scala_jp'"
 ja:
   defaultSiteName: 'ScalaMatsuri {year}'
   defaultSiteSubTitle: 'アジア最大級の Scala のカンファレンス'
   defaultDescription: 'Scala をテーマにアジア最大級のカンファレンスが開催されます。'
   defaultUrl: 'https://scalamatsuri.org/'
-  opengraphUri: 'https://2024.scalamatsuri.org/img/favicons/ogp_ja.png'
+  opengraphUri: 'https://2024.scalamatsuri.org/img/favicons/ogp.png'
   twitterAccountId: "'scala_jp'"
 </i18n>
 
@@ -88,7 +88,7 @@ useHead({
     { rel: 'apple-touch-icon', href: '/img/favicons/apple-touch-icon-144x144.png', sizes: '144x144' },
     { rel: 'apple-touch-icon', href: '/img/favicons/apple-touch-icon-152x152.png', sizes: '152x152' },
     { rel: 'apple-touch-icon', href: '/img/favicons/apple-touch-icon-180x180.png', sizes: '180x180' },
-    { rel: 'manifest', href: '/img/favicons/manifest.json' },
+    { rel: 'manifest', href: 'https://2024.scalamatsuri.org/img/favicons/manifest.json' },
   ],
 })
 </script>
