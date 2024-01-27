@@ -11,7 +11,7 @@ en:
   section_02_description: |
     <br/>
     Please book the hotel on your own. Here are some of the hotels near the conference venue.<br/><br/>
-    List of some hotels:<br/><br/>
+    List of some hotels:<br/>
   section_02_list:
     - Tokyo Bay Ariake Washington Hotel(Recommended)　<a href="https://tokyobay.washington-hotels.jp/" target="_blank">English</a>
     - Tokyu Stay Shimbashi　<a href="https://www.tokyustay.co.jp/e/hotel/SHI/" target="_blank">English</a>
@@ -22,10 +22,9 @@ en:
   section_03_description: |
     If you are staying at SOTETSU GRAND FRESA TOKYO-BAY ARIAKE, there's a bus every few hours operated by Airport Limousine that takes you from the terminal to the hotel.
     <br/><br/>
-    From Haneda Airport to SOTETSU GRAND FRESA TOKYO-BAY ARIAKE (towards Tokyo Waterfront)<br/>
-    From Narita Airport to SOTETSU GRAND FRESA TOKYO-BAY ARIAKE (towards Takeshiba)<br/>
+    <a href="https://webservice.limousinebus.co.jp/web/en/Top.aspx" target="_blank">webservice.limousinebus.co.jp</a>
     <br/><br/>
-    If you are coming to Japan early or staying at another hotel, check the hotel's website for access information from the airports. A common way to get to Tokyo station is by using Narita Express (N'EX). There's 33% discount if you book the roundtrip instead of buying the ticket at the station.
+    If you are coming to Japan early or staying at another hotel, check the hotel's website for access information from the airports. A common way to get to Tokyo station is by using Narita Express (N'EX).
   section_04_title: Tokyo International Exchange Center
   section_04_description: |
     ScalaMatsuri will take place at Tokyo International Exchange Center (東京国際交流館): a conference center in Tokyo that is equipped with facilities to host international conferences located in Odaiba area. This area is also called Rinkai Fukutoshin, or Tokyo Waterfront.
@@ -48,7 +47,10 @@ en:
     <a href="" target="_blank"></a>
     <a href="http://www.cnn.com/2014/04/06/travel/japan-travel-tips/" target="_blank">11 extremely practical Japan travel tips</a> is a good summary on general tips on traveling to Japan. <a href="http://www.japan-guide.com/" target="_blank">japan-guide.com</a> has more detailed guide on various topics like <a href="http://www.japan-guide.com/e/e2017.html" target="_blank">Transportation in Tokyo</a>. New York Times wrote an article <a href="https://www.nytimes.com/2015/11/01/travel/tokyo-solo-travel.html" target="_blank">Solo in Tokyo</a>, which you mind find interesting.
     <br/><br/>
-    <b>Book a data plan or a wireless router</b><br/>
+
+    <h3 style="font-size:2rem;margin-top: 20px; margin-bottom: -30px;">
+      Book a data plan or a wireless router
+    </h3><br/>
     <br/>
     <a href="https://www.google.com/maps" target="_blank">Google Maps</a> is essential for both walking around and figuring out the transits. Here's how you can get your smart phone to get connected in Japan.<br/>
     <br/>
@@ -57,52 +59,99 @@ en:
     AT&T offers international day pass for $10/day.<br/><br/>
     You can rent a wireless router, or "pocket wifi" device at the airport. This lets you use your laptops and smartphones. Check the coverage of the plan if you're venturing out of the Tokyo metro area. Read the data plan carefully to avoid exceeding daily limit as th<br/>e service provider can penalize the device by putting it on a slower connection.
     <br/><br/>
-    PuPuRu<br/>
-    Global Advanced Communications<br/>
+    <a href="https://pupuruwifi.com/" target="_blank">PuPuRu</a><br/>
+    <a href="https://globaladvancedcomm.com/" target="_blank">Global Advanced Communications</a><br/>
     <br/>
-    <b>Carry cash</b><br/>
+
+    <h3 style="font-size:2rem;margin-top: 20px; margin-bottom: -30px;">
+      Carry cash
+    </h3><br/>
     <br/>
-    Japan is mostly cash-based country. With a few exceptions like hotels, nice restaurants, train stations, and some taxi, do not expect your credit card to be accepted. Even at a department store, foreign-issued credit cards may or may not work. Carry at least 10,000<br/> JPY (around $100) at all times.
-    <br/>
-    Use your ATM card to withdraw Japanese Yen. First, contact your bank in advance to activate foreign withdrawal (otherwise they can suspend the card thinking it's hacked). There are Citibank Japan's ATM machines at both Haneda and Narita airport. Once you are in Tok<br/>yo, look for a 7 Eleven (Japanese 7 Eleven is so badass they operate their own bank) or a Japan Post (Japanese postal office use to operate one of the largest banks in the world).
+    Japan is mostly cash-based country.
+    With a few exceptions like hotels, nice restaurants, train stations, and some taxi, do not expect your credit card to be accepted. Even at a department store, foreign-issued credit cards may or may not work. Carry at least 10,000 JPY (around $100) at all times.
+    Use your ATM card to withdraw Japanese Yen. First, <i>contact your bank in advance</i> to activate foreign withdrawal (otherwise they can suspend the card thinking it's hacked). There are <a href="https://www.citibank.co.jp/en/banking/branch_atm/">Citibank Japan</a>'s ATM machines at both Haneda and Narita airport. Once you are in Tokyo, look for a <a href="http://www.sej.co.jp/in/en.html">7 Eleven</a> (Japanese 7 Eleven is so badass they operate their own bank) or a <a href="http://www.jp-bank.japanpost.jp/en/ias/en_ias_index.html">Japan Post</a> (Japanese postal office use to operate one of the largest banks in the world).
     <br/><br/>
-    <b>Buy Suica card</b><br/><br/>
-    Suica is a prepaid IC card by JR East. Suica (and other compatible cards like Pasmo and Kitaca) can be used for almost all trains and subways in major cities. They can also be used for local bus lines, but we don't recommend you take buses since they are more invol<br/>ved, with the exception of the Airport Limousine bus (Unfortunately Suica card are accepted only on the inbound routes). In addition, the IC cards can be used at convenient stores, vending machines, and coin lockers especially around train stations.
+
+    <h3 style="font-size:2rem;margin-top: 20px; margin-bottom: -30px;">
+      Buy Suica card
+    </h3><br/><br/>
+    <a href="https://www.jreast.co.jp/e/pass/suica.html" target="_blank">Suica</a> is a prepaid IC card by JR East. Suica (and other compatible cards like Pasmo and Kitaca) can be used for almost all trains and subways in major cities.
+    They can also be used for local bus lines, but we don't recommend you take buses since they are more involved, with the exception of the Airport Limousine bus (Unfortunately Suica card are accepted only on the inbound routes). In addition, the IC cards can be used at convenient stores, vending machines, and coin lockers especially around train stations.
     <br/><br/>
-    <b>Power plugs</b><br/><br/>
-    See Electricity page. Japanese power outlets are identical to ungrounded (2-pin) North American outlets, but the voltage 100V, which is different from North America (120V), Central Europe (230V). Many laptop adapters including the ones for MacBook Pro work in terms<br/> of the voltage. Even if you are coming from North America, you might still need an adapter to remove the earth pin from the extension cord.
+
+    <h3 style="font-size:2rem;margin-top: 20px; margin-bottom: -30px;">
+      Power plugs
+    </h3><br/><br/>
+    See <a href="https://www.japan-guide.com/e/e2225.html" target="_blank">Electricity</a> page. Japanese power outlets are identical to ungrounded (2-pin) North American outlets, but the voltage 100V, which is different from North America (120V), Central Europe (230V).
+    Many laptop adapters including the ones for MacBook Pro work in terms<br/> of the voltage. Even if you are coming from North America, you might still need an adapter to remove the earth pin from the extension cord.
     <br/><br/>
-    <b>Tipping</b><br/><br/>
+
+    <h3 style="font-size:2rem;margin-top: 20px; margin-bottom: -30px;">
+      Tipping
+    </h3><br/><br/>
     In Japan, the service charges are included in the price. In other words, tipping is neither required nor accepted at hotels, restaurants, taxis etc. The only exception that you might come across is if you stay at a better ryokan style inn, where you are attended to<br/> by one person for your entire visit. The protocol is to put around 1000 JPY per guest in a small envelope (sold at a convenience store) and present to your attendant at the end of the in-room check-in process. This too is completely optional.
     <br/>
-    At a restaurant, instead of tipping, a common etiquette is to thank the chef, the waitor, or the host as you walk out of the restaurant by bowing slightly and saying ごちそうさまでした (gochisousama-deshita), "thank you for the lovely meal." You can also say the sa<br/>me if someone buys you a meal.
+    At a restaurant, instead of tipping, a common etiquette is to thank the chef, the waitor, or the host as you walk out of the restaurant by bowing slightly and saying <a href="https://www.youtube.com/watch?v=I0Rp1W8-ZSM&t=76s" target="_blank">ごちそうさまでした</a> (gochisousama-deshita), "thank you for the lovely meal." You can also say the sa<br/>me if someone buys you a meal.
     <br/><br/>
-    <b>Casual dining</b><br/><br/>
+
+    <h3 style="font-size:2rem;margin-top: 20px; margin-bottom: -30px;">
+      Casual dining
+    </h3><br/><br/>
     Beyond the usual sushi and tempura, there is an array of things you could try for more casual dining on the cheap. See Restaurants page on japan-guide.com for details.<br/>
     <br/><br/>
-    <b>Coffee</b><br/><br/>
-    The coffee quality can vary, but I generally find them weaker and sour in Japan. Thankfully there are Segafredo and Starbucks chains in Tokyo (Blue Bottle Coffee too but not too many). Just type in "segafredo near odaiba" into Google Map.<br/>
+
+    <h3 style="font-size:2rem;margin-top: 20px; margin-bottom: -30px;">
+      Coffee
+    </h3><br/><br/>
+    The coffee quality can vary, but I generally find them weaker and sour in Japan. Thankfully there are <a href="https://maps.app.goo.gl/bxS4gQMXSDGiNhnv5" target="_blank">Starbucks chains in Tokyo</a> (Blue Bottle Coffee too but not too many).
     <br/><br/>
-    <b>Bakery</b><br/><br/>
+
+    <h3 style="font-size:2rem;margin-top: 20px; margin-bottom: -30px;">
+      Bakery
+    </h3><br/><br/>
     Japanese style bakery sells interesting mix of sweet and savory pastries and bread that you won't find elsewhere. Try curry bread (カレーパン), mellon bread (メロンパン), bacon pain d'epi (ベーコンエピ), or anything you think looks interesting.<br/>
     <br/><br/>
-    <b>Convenience store</b><br/><br/>
-    Convenience stores, many open 24 hours a day, sell a large range of meals, such as onigiri (rice balls), sandwiches, obento (lunch boxes), and hot foods like fried chicken. For (lacto-) vegetarians, the fact that they have bread, yogurt, and salad helps as the last<br/> resort if you can't find food.
+
+    <h3 style="font-size:2rem;margin-top: 20px; margin-bottom: -30px;">
+      Convenience store
+    </h3><br/><br/>
+    <a href="https://www.japan-guide.com/e/e2071.html" target="_blank">Convenience stores</a>, many open 24 hours a day, sell a large range of meals, such as onigiri (rice balls), sandwiches, obento (lunch boxes), and hot foods like fried chicken. For (lacto-) vegetarians, the fact that they have bread, yogurt, and salad helps as the last<br/> resort if you can't find food.
     <br/><br/>
-    <b>Soba</b><br/><br/>
+
+    <h3 style="font-size:2rem;margin-top: 20px; margin-bottom: -30px;">
+      Soba
+    </h3><br/><br/>
     Eating a lunch at a local soba shop is a truely Japanese experience for common folks, usually more reasonable than other fancier cuisine. There's usually a daily special that combines soba and one more dish.<br/>
     <br/><br/>
-    <b>Izakaya</b><br/><br/>
-    Izakaya (居酒屋) are casual drinking establishments, similar to tapas bars, where customers order a variety of small dishes of food that can be shared at the table.<br/>
+
+    <h3 style="font-size:2rem;margin-top: 20px; margin-bottom: -30px;">
+      Izakaya
+    </h3><br/><br/>
+    <a href="https://www.japan-guide.com/e/e2036_izakaya.html" target="_blank">Izakaya</a> (居酒屋) are casual drinking establishments, similar to tapas bars, where customers order a variety of small dishes of food that can be shared at the table.<br/>
     <br/><br/>
-    <b>Japanese curry</b><br/><br/>
+
+    <h3 style="font-size:2rem;margin-top: 20px; margin-bottom: -30px;">
+      Japanese curry
+    </h3><br/><br/>
     Curry rice is one of the most popular dish cooked in Japanese households. Compared to the Indian or Thai variety they are usually on more milder side.<br/>
     <br/><br/>
-    <b>Ramen</b><br/><br/>
+
+    <h3 style="font-size:2rem;margin-top: 20px; margin-bottom: -30px;">
+      Ramen
+    </h3><br/><br/>
     If you're looking for a quick meal or to top off the night after drinking, ramen could be what you want.<br/>
     <br/><br/>
-    <b>Tonkatsu</b><br/><br/>
-    Tonkatsu (とんかつ, "pork cutlet") are thick slices of pork that are breaded and deep fried in a manner similar to German schnitzel. It's a popular dinner option for dining out.<br/>
+
+    <h3 style="font-size:2rem;margin-top: 20px; margin-bottom: -30px;">
+      Tonkatsu
+    </h3><br/><br/>
+    <a href="https://www.japan-guide.com/e/e2339.html" target="_blank">Tonkatsu></a> (とんかつ, "pork cutlet") are thick slices of pork that are breaded and deep fried in a manner similar to German schnitzel. It's a popular dinner option for dining out.<br/>
+    <br/><br/>
+
+    <h3 style="font-size:2rem;margin-top: 20px; margin-bottom: -30px;">
+      Questions?
+    </h3><br/><br/>
+    If you have any questions ask us using the <a href="https://docs.google.com/forms/d/e/1FAIpQLSftjA6961ZzzJjqq1CrWtAN9wwrqXRUGFqZI5G8x2BjmZHeWw/viewform" target="_blank">inquiry form</a>.
     <br/>
 ja:
   title: トラベル情報
@@ -112,7 +161,7 @@ ja:
   section_02_description: |
     <br/>
     ホテルは各人で予約をお願いします。会場から近いホテルをピックアップしていますので参考にして下さい。<br/><br/>
-    ホテルのリスト:<br/><br/>
+    ホテルのリスト:<br/>
   section_02_list:
     - 東京ベイ有明ワシントンホテル(推奨)　<a href="https://tokyobay.washington-hotels.jp/" target="_blank">English</a>
     - 東急ステイ新橋　<a href="https://www.tokyustay.co.jp/e/hotel/SHI/" target="_blank">English</a>
@@ -212,13 +261,15 @@ ja:
     <br />
     <br />
 
-    <h2 class="section_title">
-      <span class="section_title_inner">{{ t('section_07_title') }}</span>
-    </h2>
-    <p class="section_text" v-html="t('section_07_description')" />
-    <br />
-    <br />
-    <br />
+    <div v-if="t('section_07_title')">
+      <h2 class="section_title">
+        <span class="section_title_inner">{{ t('section_07_title') }}</span>
+      </h2>
+      <p class="section_text" v-html="t('section_07_description')" />
+      <br />
+      <br />
+      <br />
+    </div>
   </div>
 </template>
 
