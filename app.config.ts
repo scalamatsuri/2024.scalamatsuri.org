@@ -19,7 +19,7 @@ export default defineAppConfig({
     { path: 'programs', title: { en: 'Programs', ja: 'セッション一覧' }, published: false, header: true, order: 22 },
     { path: 'open-mic-conference', title: { en: 'Open Mic Conference', ja: '飛び入りカンファレンス' }, published: false, header: true, order: 23 },
     { path: 'sponsorship', title: { en: 'Sponsor Ship(ja)', ja: 'スポンサー募集' }, published: true, header: true, order: 30 },
-    { path: 'sponsors', title: { en: 'Sponsors', ja: 'スポンサー一覧' }, published: false, header: false, order: 31 },
+    { path: 'sponsors', title: { en: 'Sponsors', ja: 'スポンサー一覧' }, published: true, header: true, order: 31 },
     { path: 'cm', title: { en: 'CM', ja: 'CM' }, published: false, header: true, order: 32 },
     { path: 'ticket', title: { en: 'Ticket', ja: 'チケット' }, published: false, header: false, order: 90 },
     { path: 'staff', title: { en: 'Staffs', ja: 'スタッフ一覧' }, published: false, header: true, order: 100 },

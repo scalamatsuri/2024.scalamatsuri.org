@@ -11,8 +11,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18
+      - name: yarn version stable
+        run: yarn set version stable
       - name: Install npm modules
-        run: yarn install
+        run: rm -rf node_modules && yarn cache clean && yarn install
       - name: Build app
         run: yarn generate
       - uses: FirebaseExtended/action-hosting-deploy@v0

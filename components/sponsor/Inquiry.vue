@@ -1,6 +1,6 @@
 <i18n lang="yaml">
 en:
-  title: Inquiry about Sponsorship
+  title: Inquiry about Sponsorship(ja)
   text: Posting of job postings on this page is provided to sponsor companies over Daimyo sponsors.
 ja:
   title: スポンサー申し込みはこちら

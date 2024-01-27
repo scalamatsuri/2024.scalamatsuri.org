@@ -2,7 +2,7 @@ interface PageTitle {
   en: string
   ja: string
 }
-interface Page {
+export interface Page {
   path: string
   title: PageTitle
   published: boolean
@@ -11,10 +11,7 @@ interface Page {
 }
 export const pagesAPI = () => {
   const appConfig = useAppConfig()
-  const publishedPages = computed(() => appConfig.pages.filter((h) => h.published)).value.map((h: Page) => ({
-    path: h.path,
-    title: h.title,
-  }))
+  const publishedPages = computed(() => appConfig.pages.filter((h) => h.published)).value
   return {
     publishedPages: publishedPages,
   }

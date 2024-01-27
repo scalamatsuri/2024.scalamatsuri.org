@@ -99,7 +99,7 @@ ja:
 </template>
 
 <script setup lang="ts">
-import { Proposal, Talk } from '~/models/model'
+import { type Proposal, type Talk } from '~/models/model'
 const { locale, t } = useI18n()
 const localePath = useLocalePath()
 pageMetaCheck()
