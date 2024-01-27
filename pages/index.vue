@@ -1,7 +1,9 @@
 <template>
   <!-- LazyをPrefixにつけることで遅延読み込みになる -->
   <LazyTopMainVisual />
-  <TopNews />
+  <ClientOnly fallback-tag="span" fallback="Loading comments...">
+    <TopNews />
+  </ClientOnly>
   <TopBanners />
   <TopPrograms />
   <TopEvents />

@@ -1,6 +1,7 @@
 {
   "projects": {
     "default": "scalamatsuri-2024-web",
-    "staging": "scalamatsuri-2024-web-staging"
+    "staging": "scalamatsuri-2024-web-staging",
+    "dev": "scalamatsuri-2024-web-dev"
   }
 }

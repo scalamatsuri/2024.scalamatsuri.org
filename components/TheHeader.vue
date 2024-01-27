@@ -10,6 +10,7 @@ en:
   sponsors: Sponsors(ja)
   cm: CM
   ticket: Ticket
+  travel: Travel
   staff: Staff
   extra-staff: Extra Staffs(ja)
 ja:
@@ -23,6 +24,7 @@ ja:
   sponsors: スポンサー
   cm: CM
   ticket: チケット
+  travel: トラベル情報
   staff: スタッフ
   extra-staff: スタッフ募集
 </i18n>
@@ -33,7 +35,7 @@ ja:
       <div class="header_inner">
         <p class="logo">
           <NuxtLink :to="localePath('/')">
-            <img src="~/assets/img/common/logo.svg" :alt="`ScalaMatsuri ${appConfig.year}`" width="42" height="32" />
+            <img src="/img/common/logo.svg" :alt="`ScalaMatsuri ${appConfig.year}`" width="42" height="32" />
           </NuxtLink>
         </p>
         <div class="menu">
@@ -60,11 +62,9 @@ ja:
       <div class="header_inner">
         <transition name="fade">
           <p v-if="!menuActive" class="logo">
-            <NuxtLint :to="localePath('/')">
-              <img src="~/assets/img/common/logo.svg" alt="ScalaMatsuri 2023" height="24" /><span class="logo_type">
-                ScalaMatsuri {{ appConfig.year }}
-              </span>
-            </NuxtLint>
+            <NuxtLink :to="localePath('/')">
+              <img src="/img/common/logo.svg" alt="ScalaMatsuri 2023" height="24" /><span class="logo_type"> ScalaMatsuri {{ appConfig.year }} </span>
+            </NuxtLink>
           </p>
         </transition>
         <transition name="expand-v">

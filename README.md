@@ -74,7 +74,6 @@ https://firebase.google.com/
 
 <img width="1682" alt="image" src="https://github.com/scalamatsuri/2024.scalamatsuri.org/assets/4135267/09c28bd4-074f-40c9-bb63-49b111bc8763">
 
-
 ### 3. firebase-tools を使えるようにする
 
 https://firebase.google.com/docs/cli?hl=ja
@@ -114,4 +113,36 @@ $ firebase deploy --only hosting --token "1//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 Project Console: https://console.firebase.google.com/project/my-scalamatsuri-firebase-app/overview
 Hosting URL: https://my-scalamatsuri-firebase-app.web.app
+```
+
+### その他
+
+2024 年 1 月、nuxt のバージョンアップをしたら下記エラーが発生したため、yarn v1 をやめる対応( `$ yarn set version stable` )をしました。
+
+[Slack memo](https://scalamatsuri.slack.com/archives/CBUJ2C004/p1706326231097559)
+
+```
+$ nuxt prepare
+
+[12:34:47]  ERROR  require() of ES Module ~/scalamatsuri/2024.scalamatsuri.org/node_modules/string-width/index.js from ~/scalamatsuri/2024.scalamatsuri.org/node_modules/wide-align/align.js not supported.
+Instead change the require of index.js in ~/scalamatsuri/2024.scalamatsuri.org/node_modules/wide-align/align.js to a dynamic import() which is available in all CommonJS modules.
+
+  Instead change the require of index.js in node_modules/wide-align/align.js to a dynamic import() which is available in all CommonJS modules.
+  at Object.<anonymous> (node_modules/wide-align/align.js:2:19)
+  at Object.<anonymous> (node_modules/gauge/render-template.js:2:13)
+  at Object.<anonymous> (node_modules/gauge/plumbing.js:3:22)
+  at Object.<anonymous> (node_modules/gauge/index.js:2:16)
+  at Object.<anonymous> (node_modules/npmlog/log.js:3:13)
+  at Object.<anonymous> (node_modules/@mapbox/node-pre-gyp/lib/node-pre-gyp.js:23:13)
+  at Object.<anonymous> (node_modules/@vercel/nft/out/analyze.js:22:40)
+  at Object.<anonymous> (node_modules/@vercel/nft/out/node-file-trace.js:31:35)
+  at Object.<anonymous> (node_modules/@vercel/nft/out/index.js:22:25)
+
+
+
+[12:34:47]  ERROR  require() of ES Module ~/scalamatsuri/2024.scalamatsuri.org/node_modules/string-width/index.js from ~/scalamatsuri/2024.scalamatsuri.org/node_modules/wide-align/align.js not supported.
+Instead change the require of index.js in ~/scalamatsuri/2024.scalamatsuri.org/node_modules/wide-align/align.js to a dynamic import() which is available in all CommonJS modules.
+
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
 ```
