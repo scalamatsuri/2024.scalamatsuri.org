@@ -12,7 +12,7 @@
 </template>
 
 <script setup lang="ts">
-import { Sponsor } from '~/models/model'
+import { type Sponsor } from '~/models/model'
 const { title, sponsors } = defineProps({
   title: String,
   sponsors: Array<Sponsor>,

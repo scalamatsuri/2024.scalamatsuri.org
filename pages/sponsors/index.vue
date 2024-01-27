@@ -22,7 +22,7 @@ ja:
 </template>
 
 <script setup lang="ts">
-import { Sponsor } from '~/models/model'
+import { type Sponsor } from '~/models/model'
 const { t } = useI18n()
 pageMetaCheck()
 const shogunSponsors: ComputedRef<Sponsor[]> = getSponsorsByType('SHOGUN')

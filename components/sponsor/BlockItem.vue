@@ -19,7 +19,7 @@
 
 <script setup lang="ts">
 const { locale } = useI18n()
-import { Sponsor } from '~/models/model'
+import { type Sponsor } from '~/models/model'
 const { sponsor } = defineProps({
   sponsor: {} as PropType<Sponsor>,
 })
