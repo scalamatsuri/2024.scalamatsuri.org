@@ -4,21 +4,22 @@ about: Webにスポンサーのロゴを掲載するIssue
 title: Webロゴ掲載（さま）
 labels: sponsor
 assignees: shomatan
-
 ---
 
 ## やること
+
 - [ ] リポジトリにロゴを入れる
-  - ロゴ画像: 
+  - ロゴ画像:
 - [ ] `data/sponsors.json` を変更する
-- [ ] master branchに向けてPullRequestを送る
-- [ ] staging環境で表示を確認する
-- [ ] masterからproductionに向けて自動でPullRequestが作成されるのでマージ
-- [ ] merge後、production環境のWebサイトに反映されていることを確認する
+- [ ] master branch に向けて PullRequest を送る
+- [ ] staging 環境で表示を確認する
+- [ ] master から production に向けて自動で PullRequest が作成されるのでマージ
+- [ ] merge 後、production 環境の Web サイトに反映されていることを確認する
 
 ## Template
 
 ### 将軍
+
 ```
   {
     "id": "SHOGUN_1",
@@ -31,12 +32,13 @@ assignees: shomatan
     },
     "logo": "/img/sponsors/scalamatsuri_logo.png",
     "url": "",
-    "text_html": "<p>将軍スポンサー1です。</p>",
-    "slide_html": ""
+    "textHtml": "<p>将軍スポンサー1です。</p>",
+    "slideHtml": ""
   },
 ```
 
 ### 大老
+
 ```
   {
     "id": "TAIROU_1",
@@ -49,12 +51,13 @@ assignees: shomatan
     },
     "logo": "/img/sponsors/scalamatsuri_logo.png",
     "url": "",
-    "text_html": "<p>大老スポンサー1です。</p>",
-    "slide_html": ""
+    "textHtml": "<p>大老スポンサー1です。</p>",
+    "slideHtml": ""
   },
 ```
 
 ### 大名
+
 ```
   {
     "id": "DAIMYO_1",
@@ -67,12 +70,13 @@ assignees: shomatan
     },
     "logo": "/img/sponsors/scalamatsuri_logo.png",
     "url": "",
-    "text_html": "<p>大名スポンサー1です。</p>",
-    "slide_html": ""
+    "textHtml": "<p>大名スポンサー1です。</p>",
+    "slideHtml": ""
   },
 ```
 
 ### 侍
+
 ```
   {
     "id": "SAMURAI_1",
@@ -85,12 +89,13 @@ assignees: shomatan
     },
     "logo": "/img/sponsors/scalamatsuri_logo.png",
     "url": "",
-    "text_html": "<p>侍スポンサー1です。</p>",
-    "slide_html": ""
+    "textHtml": "<p>侍スポンサー1です。</p>",
+    "slideHtml": ""
   },
 ```
 
 ### 宴
+
 ```
   {
     "id": "UTAGE_1",
@@ -103,7 +108,7 @@ assignees: shomatan
     },
     "logo": "/img/sponsors/scalamatsuri_logo.png",
     "url": "",
-    "text_html": "<p>ScalaMatsuri宴スポンサー01です。</p>",
-    "slide_html": ">"
+    "textHtml": "<p>ScalaMatsuri宴スポンサー01です。</p>",
+    "slideHtml": ">"
   },
 ```

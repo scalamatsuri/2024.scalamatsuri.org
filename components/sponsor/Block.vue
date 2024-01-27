@@ -1,10 +1,10 @@
 <template>
-  <section class="sponsor" v-if="sponsors.length > 0">
+  <section class="sponsor" v-if="isVisible">
     <h2 class="sponsor_title">
       {{ title }}
     </h2>
     <div class="sponsor_list">
-      <div v-for="sponsor in sponsors" :key="sponsor.name">
+      <div v-for="sponsor in sponsors" :key="sponsor.id">
         <SponsorBlockItem :sponsor="sponsor" />
       </div>
     </div>
@@ -17,6 +17,7 @@ const { title, sponsors } = defineProps({
   title: String,
   sponsors: Array<Sponsor>,
 })
+const isVisible = (sponsors?.length ?? 0) > 0 && sponsors?.find((s) => s.textHtml)
 </script>
 
 <style scoped lang="scss">
