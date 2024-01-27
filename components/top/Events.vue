@@ -81,7 +81,7 @@ const shuffledImages = computed(() => arrayShuffle(images).slice(0, 13))
   padding: 0 20px;
   text-align: center;
   max-width: $pcMinWidth - 40px;
-  margin: 0 auto;
+  margin: 0 auto 50px;
 }
 
 .content_title {

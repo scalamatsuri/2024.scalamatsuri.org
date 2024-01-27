@@ -13,8 +13,8 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@nuxtjs/i18n": "^8.0.0-rc.5",
-    "nuxt": "^3.7.4",
+    "@nuxtjs/i18n": "^8.0.0",
+    "nuxt": "^3.9.3",
     "vue": "^3.4.15",
     "vue-i18n": "^9.9.0",
     "vue-router": "^4.2.5"
@@ -23,5 +23,6 @@
     "nuxt-lazy-load": "^3.0.4",
     "sass": "^1.70.0",
     "xml-js": "^1.6.11"
-  }
+  },
+  "packageManager": "yarn@4.0.2"
 }

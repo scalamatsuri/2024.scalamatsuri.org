@@ -25,13 +25,10 @@
 </template>
 
 <script setup lang="ts">
-import { LocaleObject } from '@nuxtjs/i18n/dist/runtime/composables'
 const switchLocalePath = useSwitchLocalePath()
-const { locale, locales, t } = useI18n()
+const { locale, locales } = useI18n()
 const _locales = computed<{ code: string; name: string }[]>(() =>
-  locales.value.map((locale: LocaleObject | string) =>
-    typeof locale === 'string' ? { code: locale, name: locale } : { code: locale.code, name: locale.name ?? '' }
-  )
+  locales.value.map((locale) => (typeof locale === 'string' ? { code: locale, name: locale } : { code: locale.code, name: locale.name ?? '' }))
 )
 const selectedLocaleName = computed(() => _locales.value.filter((l) => l.code === locale.value)[0].name)
 const router = useRouter()

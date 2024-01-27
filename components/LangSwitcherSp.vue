@@ -9,33 +9,11 @@
 </template>
 
 <script setup lang="ts">
-import { LocaleObject } from '@nuxtjs/i18n/dist/runtime/composables'
 const switchLocalePath = useSwitchLocalePath()
-const { locale, locales, t } = useI18n()
+const { locales } = useI18n()
 const _locales = computed<{ code: string; name: string }[]>(() =>
-  locales.value.map((locale: LocaleObject | string) =>
-    typeof locale === 'string' ? { code: locale, name: locale } : { code: locale.code, name: locale.name ?? '' }
-  )
+  locales.value.map((locale) => (typeof locale === 'string' ? { code: locale, name: locale } : { code: locale.code, name: locale.name ?? '' }))
 )
-// export default {
-//   name: 'LangSwitcherSp',
-//   data() {
-//     return {
-//       active: false
-//     }
-//   },
-//   computed: {
-//     availableLocales() {
-//       return this.$i18n.locales.filter(locale => locale.code !== this.$i18n.locale)
-//     }
-//   },
-//   methods: {
-//     onClickedLocaleLink(url) {
-//       this.active = false
-//       this.$router.push(url)
-//     }
-//   }
-// }
 </script>
 
 <style scoped lang="scss">
