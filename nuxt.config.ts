@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  ssr: true,
+  ssr: false,
   css: ['~/assets/vendor/sanitize.css/sanitize.css', '~/assets/scss/main.scss'],
   vite: {
     css: {
@@ -8,33 +8,6 @@ export default defineNuxtConfig({
           additionalData: '@import "@/assets/scss/_variables.scss";',
         },
       },
-    },
-  },
-  nitro: {
-    prerender: {
-      /**
-       * FIXME: deploy 用に yarn generate すると、以下のエラーが出てしまう。
-       *
-       * ```
-       * ├─ / (63ms)
-       * │ └── Error: [500]
-       * ```
-       *
-       * ScalaMatsuri のサイトは /en, /ja というルートがあり、generate 結果も
-       *
-       * ```
-       * dist/
-       * ├─ /en
-       * | |____index.html
-       * |__/ja
-       * | |____index.html
-       * ```
-       *
-       * と生成されるが、設定が足りないためか `/` に対する index.html の出力がされずに、エラーとなる模様。
-       *
-       * `/` アクセス時は `/en` `/ja` にリダイレクトされるため、`/index.html` は存在しなくても問題ないため、エラーとなっても処理を最後まで実行する `failOnError: false` を設定している。
-       */
-      failOnError: false,
     },
   },
   modules: [
