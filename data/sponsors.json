@@ -10,8 +10,8 @@
     },
     "logo": "/img/sponsors/qubena.png",
     "url": "https://qubena.com/",
-    "text_html": "",
-    "slide_html": ""
+    "textHtml": "",
+    "slideHtml": ""
   },
   {
     "id": "DAIMYO_1",
@@ -24,8 +24,8 @@
     },
     "logo": "/img/sponsors/chatwork.png",
     "url": "https://corp.chatwork.com/ja/",
-    "text_html": "",
-    "slide_html": ""
+    "textHtml": "",
+    "slideHtml": ""
   },
   {
     "id": "DAIMYO_2",
@@ -38,8 +38,22 @@
     },
     "logo": "/img/sponsors/funds.png",
     "url": "https://funds.jp/",
-    "text_html": "",
-    "slide_html": ""
+    "textHtml": "",
+    "slideHtml": ""
+  },
+  {
+    "id": "DAIMYO_3",
+    "type": "DAIMYO",
+    "ja": {
+      "name": "株式会社FOLIO"
+    },
+    "en": {
+      "name": "株式会社FOLIO"
+    },
+    "logo": "/img/sponsors/folio.svg",
+    "url": "https://corp.folio-sec.com/",
+    "textHtml": "",
+    "slideHtml": ""
   },
   {
     "id": "DAIMYO_4",
@@ -52,8 +66,8 @@
     },
     "logo": "/img/sponsors/microad.svg",
     "url": "https://www.microad.co.jp/",
-    "text_html": "",
-    "slide_html": ""
+    "textHtml": "マイクロアドはデータとテクノロジーをかけ合わせたマーケティングプラットフォームを提供する会社です。<br>「Redesigning the Future Life」という想いを掲げ、広告やコミュニケーションだけではなく、人々の未来の暮らしそのものを再デザインしてまいります。<br><br>マイクロアドのエンジニアは、インターネット広告の配信を支える大規模なサービスを自社開発しています。<br>スピードが重要となる広告配信アプリケーションの開発、高負荷に耐えるインフラ環境の構築、機械学習を活用したアルゴリズムの開発まで、幅広い技術領域が存在しています。<br>日々変化し続ける技術、トレンドをいち早く取り入れながら、サービスの開発運用に携わる環境があります。<br><br>興味のある方は是非ご応募ください。広告配信システム、大規模データ処理、分析、Web開発など多様な領域で開発を行う事ができ、多様なスキルを求められることになりますが、社内で勉強できる環境があり、成長できる方を探しているので、これら分野の開発経験が浅い方でも歓迎しています。<br><br><a href=\"https://www.microad.co.jp/\">マイクロアド</a><br><a href=\"https://recruit.microad.co.jp/engineer/\">マイクロアド エンジニア職 採用サイト</a><br><a href=\"https://developers.microad.co.jp/\">Microad Developers Blog</a>",
+    "slideHtml": ""
   },
   {
     "id": "DAIMYO_5",
@@ -66,8 +80,8 @@
     },
     "logo": "/img/sponsors/wondersoft.png",
     "url": "https://wonder-soft.com/",
-    "text_html": "",
-    "slide_html": ""
+    "textHtml": "",
+    "slideHtml": ""
   },
   {
     "id": "DAIMYO_6",
@@ -80,8 +94,8 @@
     },
     "logo": "/img/sponsors/alpinc.svg",
     "url": "https://alpinc.notion.site/52af90188305440d86acf72968646054",
-    "text_html": "",
-    "slide_html": ""
+    "textHtml": "",
+    "slideHtml": ""
   },
   {
     "id": "SAMURAI_1",
@@ -94,8 +108,8 @@
     },
     "logo": "/img/sponsors/zauel.png",
     "url": "https://zauel.co.jp/",
-    "text_html": "",
-    "slide_html": ""
+    "textHtml": "",
+    "slideHtml": ""
   },
   {
     "id": "KINTONE",

@@ -1,11 +1,11 @@
 <template>
-  <section class="sponsor_item">
+  <section class="sponsor_item" v-if="sponsor">
     <div class="sponsor_logo">
-      <a :href="sponsor.url" target="_blank" rel="noopener"><img :src="sponsor.logo" :alt="sponsor.name" /></a>
+      <a :href="sponsor.url" target="_blank" rel="noopener"><img :src="sponsor.logo" :alt="sponsor[locale].name" /></a>
     </div>
     <section class="sponsor_content">
       <h3 class="sponsor_name">
-        {{ sponsor.name }}
+        {{ sponsor[locale].name }}
       </h3>
       <div class="sponsor_text" v-if="sponsor.textHtml">
         <span v-html="sponsor.textHtml" />
@@ -18,9 +18,10 @@
 </template>
 
 <script setup lang="ts">
+const { locale } = useI18n()
 import { Sponsor } from '~/models/model'
 const { sponsor } = defineProps({
-  sponsor: {} as Sponsor,
+  sponsor: {} as PropType<Sponsor>,
 })
 </script>
 
@@ -34,7 +35,7 @@ const { sponsor } = defineProps({
   }
 }
 .sponsor_logo {
-  padding-right: 40px;
+  padding: 10px 40px 0px 0px;
   img {
     width: 240px;
     background: white;

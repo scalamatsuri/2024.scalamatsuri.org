@@ -1,10 +1,10 @@
 <template>
-  <section class="sponsor" v-if="sponsors.length > 0">
+  <section class="sponsor">
     <h2 class="sponsor_title">
       {{ title }}
     </h2>
     <div class="sponsor_list">
-      <div v-for="sponsor in sponsors" :key="sponsor.name">
+      <div v-for="sponsor in sponsors" :key="sponsor.id">
         <SponsorBlockItem :sponsor="sponsor" />
       </div>
     </div>
