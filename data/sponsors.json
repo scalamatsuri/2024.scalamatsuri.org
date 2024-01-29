@@ -52,7 +52,7 @@
     },
     "logo": "/img/sponsors/folio.svg",
     "url": "https://corp.folio-sec.com/",
-    "textHtml": "",
+    "textHtml": "株式会社FOLIOは資産運用サービスを提供しているオンライン証券会社です。<br>現在、資産運用サービスを提供するtoC向けのプロダクト事業、資産運用サービスの仕組みを企業に提供するtoB向けのプラットフォーム(4RAP)事業の、二つの事業を柱にした事業展開を進めております。<br>スタートアップらしいスピード感と、金融機関としての堅牢性の両方を兼ね備えた開発環境で、ScalaやAWS・k8s・Datadog・ArgoCD 等を利用してシステム開発を行っております。<br><br><em>Scalaで資産運用を世の中にとってもっと身近なものにしませんか？</em><br>FOLIOでのScala開発について<br>AWS上で稼働させるScalaアプリケーション（cats, fs2, play などを採用）の開発を通じてモダンな技術のキャッチアップが可能です。<br>コーディングガイドラインや採用ライブラリのチュートリアル集の整備など、Scala未経験者も活躍しやすい環境を整えています。<br>作って終わりではなく、長く運用し改善し続けることを見据えたシステム設計・開発のノウハウが学べます。<br>資産運用をもっと身近にしたいエンジニア、Scalaで堅牢なシステムを作りたいエンジニアを積極募集中です。お気軽にご連絡ください！<br><br><a href=\"https://herp.careers/v1/folio/k3G-VR4BxV4Q\">Scalaエンジニアの採用情報</a><a href=\"https://www.docswell.com/s/folio/KERQD5-folio\">会社説明資料</a><a href=\"https://note.com/foliobackstage/\">採用Blog 『FOLIO Backstage』</a>",
     "slideHtml": ""
   },
   {
