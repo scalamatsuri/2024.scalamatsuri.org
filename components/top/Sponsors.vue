@@ -49,101 +49,87 @@ ja:
       </p>
       <h3 class="sponsors_title sponsors_subtitle-syogun">{{ t('syogun') }}</h3>
       <ul class="sponsors_list">
-        <ClientOnly>
-          <li v-for="sponsor in shuffledShoguns" :key="sponsor.logo" class="sponsors_item">
-            <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
-            <div v-if="locale == `en`">
-              <p>{{ sponsor.en.name }}</p>
-            </div>
-            <div v-if="locale == `ja`">
-              <p>{{ sponsor.ja.name }}</p>
-            </div>
-          </li>
-        </ClientOnly>
+        <li v-for="sponsor in shuffledShoguns" :key="sponsor.logo" class="sponsors_item">
+          <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
+          <div v-if="locale == `en`">
+            <p>{{ sponsor.en.name }}</p>
+          </div>
+          <div v-if="locale == `ja`">
+            <p>{{ sponsor.ja.name }}</p>
+          </div>
+        </li>
       </ul>
       <h3 class="sponsors_title sponsors_subtitle-tairou">{{ t('tairou') }}</h3>
       <ul class="sponsors_list">
-        <ClientOnly>
-          <li v-for="sponsor in shuffledTairous" :key="sponsor.logo" class="sponsors_item">
-            <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
-            <div v-if="locale == `en`">
-              <p>{{ sponsor.en.name }}</p>
-            </div>
-            <div v-if="locale == `ja`">
-              <p>{{ sponsor.ja.name }}</p>
-            </div>
-          </li>
-        </ClientOnly>
+        <li v-for="sponsor in shuffledTairous" :key="sponsor.logo" class="sponsors_item">
+          <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
+          <div v-if="locale == `en`">
+            <p>{{ sponsor.en.name }}</p>
+          </div>
+          <div v-if="locale == `ja`">
+            <p>{{ sponsor.ja.name }}</p>
+          </div>
+        </li>
       </ul>
       <h3 class="sponsors_title sponsors_subtitle-daimyo">{{ t('daimyo') }}</h3>
       <ul class="sponsors_list">
-        <ClientOnly>
-          <li v-for="sponsor in shuffledDaimyos" :key="sponsor.logo" class="sponsors_item">
-            <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
-            <div v-if="locale == `en`">
-              <p>{{ sponsor.en.name }}</p>
-            </div>
-            <div v-if="locale == `ja`">
-              <p>{{ sponsor.ja.name }}</p>
-            </div>
-          </li>
-        </ClientOnly>
+        <li v-for="sponsor in shuffledDaimyos" :key="sponsor.logo" class="sponsors_item">
+          <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
+          <div v-if="locale == `en`">
+            <p>{{ sponsor.en.name }}</p>
+          </div>
+          <div v-if="locale == `ja`">
+            <p>{{ sponsor.ja.name }}</p>
+          </div>
+        </li>
       </ul>
       <h3 class="sponsors_title sponsors_subtitle-samurai">{{ t('samurai') }}</h3>
       <ul class="sponsors_list">
-        <ClientOnly>
-          <li v-for="sponsor in shuffledSamurais" :key="sponsor.logo" class="sponsors_item">
-            <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
-            <div v-if="locale == `en`">
-              <p>{{ sponsor.en.name }}</p>
-            </div>
-            <div v-if="locale == `ja`">
-              <p>{{ sponsor.ja.name }}</p>
-            </div>
-          </li>
-        </ClientOnly>
+        <li v-for="sponsor in shuffledSamurais" :key="sponsor.logo" class="sponsors_item">
+          <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
+          <div v-if="locale == `en`">
+            <p>{{ sponsor.en.name }}</p>
+          </div>
+          <div v-if="locale == `ja`">
+            <p>{{ sponsor.ja.name }}</p>
+          </div>
+        </li>
       </ul>
       <h3 class="sponsors_title sponsors_subtitle-utage">{{ t('utage') }}</h3>
       <ul class="sponsors_list">
-        <ClientOnly>
-          <li v-for="sponsor in shuffledUtages" :key="sponsor.logo" class="sponsors_item">
-            <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
-            <div v-if="locale == `en`">
-              <p>{{ sponsor.en.name }}</p>
-            </div>
-            <div v-if="locale == `ja`">
-              <p>{{ sponsor.ja.name }}</p>
-            </div>
-          </li>
-        </ClientOnly>
+        <li v-for="sponsor in shuffledUtages" :key="sponsor.logo" class="sponsors_item">
+          <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
+          <div v-if="locale == `en`">
+            <p>{{ sponsor.en.name }}</p>
+          </div>
+          <div v-if="locale == `ja`">
+            <p>{{ sponsor.ja.name }}</p>
+          </div>
+        </li>
       </ul>
       <h3 class="sponsors_title sponsors_subtitle-ninja">{{ t('ninja') }}</h3>
       <ul class="sponsors_list">
-        <ClientOnly>
-          <li v-for="sponsor in shuffledNinjas" :key="sponsor.logo" class="sponsors_item-ninja">
-            <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
-            <div v-if="locale == `en`">
-              <p>{{ sponsor.en.name }}</p>
-            </div>
-            <div v-if="locale == `ja`">
-              <p>{{ sponsor.ja.name }}</p>
-            </div>
-          </li>
-        </ClientOnly>
+        <li v-for="sponsor in shuffledNinjas" :key="sponsor.logo" class="sponsors_item-ninja">
+          <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
+          <div v-if="locale == `en`">
+            <p>{{ sponsor.en.name }}</p>
+          </div>
+          <div v-if="locale == `ja`">
+            <p>{{ sponsor.ja.name }}</p>
+          </div>
+        </li>
       </ul>
       <h3 class="sponsors_title sponsors_subtitle-bugyo">{{ t('bugyo') }}</h3>
       <ul class="sponsors_list">
-        <ClientOnly>
-          <li v-for="sponsor in shuffledBugyos" :key="sponsor.logo" class="sponsors_item">
-            <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
-            <div v-if="locale == `en`">
-              <p>{{ sponsor.en.name }}</p>
-            </div>
-            <div v-if="locale == `ja`">
-              <p>{{ sponsor.ja.name }}</p>
-            </div>
-          </li>
-        </ClientOnly>
+        <li v-for="sponsor in shuffledBugyos" :key="sponsor.logo" class="sponsors_item">
+          <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
+          <div v-if="locale == `en`">
+            <p>{{ sponsor.en.name }}</p>
+          </div>
+          <div v-if="locale == `ja`">
+            <p>{{ sponsor.ja.name }}</p>
+          </div>
+        </li>
       </ul>
     </div>
   </section>
