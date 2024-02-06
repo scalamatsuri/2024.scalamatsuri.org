@@ -24,5 +24,5 @@
     "sass": "^1.70.0",
     "xml-js": "^1.6.11"
   },
-  "packageManager": "yarn@4.1.0"
+  "packageManager": "yarn@4.0.2"
 }
