@@ -18,7 +18,6 @@ ja:
     <br>
     Date: 2024年6月7日(金)〜9日(日)<br>
     Venue: 東京国際交流館 プラザ平成<br>
-    東京都江東区青海2-2-1<br>
     <a href="https://www.jasso.go.jp/en/ryugaku/kyoten/tiec/access.html" target="_blank">アクセス</a>
 </i18n>
 
