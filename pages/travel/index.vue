@@ -16,11 +16,11 @@ en:
     - Tokyo Bay Ariake Washington Hotel(Recommended)　<a href="https://tokyobay.washington-hotels.jp/" target="_blank">English</a>
     - Tokyu Stay Shimbashi　<a href="https://www.tokyustay.co.jp/e/hotel/SHI/" target="_blank">English</a>
     - Mitsui Garden Hotel Shiodome Italia-gai　<a href="https://www.gardenhotels.co.jp/shiodome-italiagai/eng/" target="_blank">English</a>
-    - SOTETSU GRAND FRESA TOKYO-BAY ARIAKE　<a href="https://sotetsu-hotels.com/en/grand-fresa/ariake/" target="_blank">English</a>
+    - Sotetsu Grand Fresa Tokyo-Bay Ariake　<a href="https://sotetsu-hotels.com/en/grand-fresa/ariake/" target="_blank">English</a>
     - Grand Nikko Tokyo Daiba　<a href="https://www.tokyo.grandnikko.com/eng/" target="_blank">English</a>
   section_03_title: Getting to your hotel
   section_03_description: |
-    If you are staying at SOTETSU GRAND FRESA TOKYO-BAY ARIAKE, there's a bus every few hours operated by Airport Limousine that takes you from the terminal to the hotel.
+    If you are staying at Sotetsu Grand Fresa Tokyo-Bay Ariake, there's a bus every few hours operated by Airport Limousine that takes you from the terminal to the hotel.
     <br/><br/>
     <a href="https://webservice.limousinebus.co.jp/web/en/Top.aspx" target="_blank">webservice.limousinebus.co.jp</a>
     <br/><br/>
@@ -36,9 +36,9 @@ en:
     <a href="https://www.jasso.go.jp/en/ryugaku/kyoten/tiec/access.html" target="_blank">Access</a>
   section_05_title: Getting to the venue
   section_05_description: |
-    Tokyo International Exchange Center is 2km away from SOTETSU GRAND FRESA TOKYO-BAY ARIAKE, which is walkable. Probably the easiest way to get to the venue in the morning would be taking taxi especially if you can share the ride with others. But the taxi in Tokyo can be quite expensive.
+    Tokyo International Exchange Center is 2km away from Sotetsu Grand Fresa Tokyo-Bay Ariake, which is walkable. Probably the easiest way to get to the venue in the morning would be taking taxi especially if you can share the ride with others. But the taxi in Tokyo can be quite expensive.
     <br/>
-    To take the public transportation, use Google Map to figure out what lines to take. From SOTETSU GRAND FRESA TOKYO-BAY ARIAKE for example, take <a href="http://www.yurikamome.co.jp/info/" target="_blank">Yurikamome</a> line at U11 Tokyo Big Sight (東京ビッグサイト) towards Shimbashi (新橋), and get off at U08 Tokyo International Cruise Terminal (東京国際クルーズターミナル) station.
+    To take the public transportation, use Google Map to figure out what lines to take. From Sotetsu Grand Fresa Tokyo-Bay Ariake for example, take <a href="http://www.yurikamome.co.jp/info/" target="_blank">Yurikamome</a> line at U11 Tokyo Big Sight (東京ビッグサイト) towards Shimbashi (新橋), and get off at U08 Tokyo International Cruise Terminal (東京国際クルーズターミナル) station.
   section_06_title: Odaiba / Tokyo Waterfront
   section_06_description: |
     <a href="https://www.gotokyo.org/en/index.html" target="_blank">Odaiba (お台場)</a> is a popular shopping and entertainment district on an artificial island in Tokyo Bay. There's also a life-size Gundam at a shopping mall called <a href="https://mitsui-shopping-park.com.e.act.hp.transer.com/divercity-tokyo/">DiverCity Tokyo Plaza</a>.
