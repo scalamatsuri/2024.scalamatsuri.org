@@ -11,7 +11,8 @@
     "logo": "/img/sponsors/qubena.png",
     "url": "https://qubena.com/",
     "textHtml": "",
-    "slideHtml": ""
+    "slideHtml": "",
+    "speakerdeckUrl": ""
   },
   {
     "id": "DAIMYO_1",
@@ -24,8 +25,9 @@
     },
     "logo": "/img/sponsors/chatwork.png",
     "url": "https://corp.chatwork.com/ja/",
-    "textHtml": "<br><a href=\"https://recruit.chatwork.com/mission/\">この国の経済を活性化させる。</a><br>私たちは事業上の成功ではなく、その先にある社会課題の解決をゴールに掲げています。Chatworkのメインユーザーは中小企業の従業員の方々です。日本の企業数の99.7%、雇用の7割を占める中小企業のDXは、この国の大きな課題です。そこで、コミュニケーションのインフラとしてChatworkを普及し、DX推進のきっかけをつくる。そして、日本中の中小企業の労働生産性を高めていくことで、経済を活性化させたいのです。<br><br><a href=\"https://recruit.chatwork.com/jobs/\">プロダクトに携わる方へ。</a><br>働く歴史を変えるプロダクトを、つくっていこう。<br>導入社数は毎月4000社で増え続け、累計のチャットログは65億に達し、毎月数億のメッセージが飛び交うサービスとして、いまも拡大を続けています。業界トップクラスのスキルを持ったメンバーが集い、問題解決に取り組んでいます。でもまだ、つくりたいプロダクトの20%も実現できていません。日本のあらゆる産業が使っているプロダクトをつくる。そんなメンバーの一員になりませんか。<br><br><a href=\"https://hrmos.co/pages/chatwork/jobs?category=1501423708939517952\">Chatwork株式会社 エンジニア 求人一覧</a><br><a href=\"https://hrmos.co/pages/chatwork/jobs/1020001\">Scalaエンジニア 募集要項</a><br><a href=\"https://creators-note.chatwork.com/\">Chatwork Creator’s Note（技術ブログ）</a>",
-    "slideHtml": "<div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;\"><iframe src=\"https://speakerdeck.com/player/7ede63585d124f2dadb491d7d488d55d\" style=\"top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;\" allowfullscreen scrolling=\"no\"></iframe></div>"
+    "textHtml": "<a href=\"https://recruit.chatwork.com/mission/\">この国の経済を活性化させる。</a><br>私たちは事業上の成功ではなく、その先にある社会課題の解決をゴールに掲げています。Chatworkのメインユーザーは中小企業の従業員の方々です。日本の企業数の99.7%、雇用の7割を占める中小企業のDXは、この国の大きな課題です。そこで、コミュニケーションのインフラとしてChatworkを普及し、DX推進のきっかけをつくる。そして、日本中の中小企業の労働生産性を高めていくことで、経済を活性化させたいのです。<br><br><a href=\"https://recruit.chatwork.com/jobs/\">プロダクトに携わる方へ。</a><br>働く歴史を変えるプロダクトを、つくっていこう。<br>導入社数は毎月4000社で増え続け、累計のチャットログは65億に達し、毎月数億のメッセージが飛び交うサービスとして、いまも拡大を続けています。業界トップクラスのスキルを持ったメンバーが集い、問題解決に取り組んでいます。でもまだ、つくりたいプロダクトの20%も実現できていません。日本のあらゆる産業が使っているプロダクトをつくる。そんなメンバーの一員になりませんか。<br><br><a href=\"https://hrmos.co/pages/chatwork/jobs?category=1501423708939517952\">Chatwork株式会社 エンジニア 求人一覧</a><br><a href=\"https://hrmos.co/pages/chatwork/jobs/1020001\">Scalaエンジニア 募集要項</a><br><a href=\"https://creators-note.chatwork.com/\">Chatwork Creator’s Note（技術ブログ）</a>",
+    "slideHtml": "<div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;\"><iframe src=\"https://speakerdeck.com/player/7ede63585d124f2dadb491d7d488d55d\" style=\"top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;\" allowfullscreen scrolling=\"no\"></iframe></div>",
+    "speakerdeckUrl": "https://speakerdeck.com/player/7ede63585d124f2dadb491d7d488d55d"
   },
   {
     "id": "DAIMYO_2",
@@ -38,8 +40,9 @@
     },
     "logo": "/img/sponsors/funds.png",
     "url": "https://funds.jp/",
-    "textHtml": "<p><em>未来の不安に、まだない答えを</em></p><p>ファンズ株式会社は、個人が上場企業へ間接的にお金を貸し出すことで資産形成をすることができる、<em><a href=\"https://funds.jp/\">貸付ファンドのオンラインマーケット「Funds」</a></em>を運営する企業です。 Funds では1円から投資可能で、投資未経験の方であっても、少額から資産形成を始めることができます。 「未来の不安に、まだない答えを。」というミッションのもと、従来の資産運用サービスでは実現されていない新たな投資機会の提供を通じて、国民的な資産運用サービスへと成長させ、将来の資産形成にまつわる課題の解決を目指しています。</p><p><em>Funds と Scala</em></p><p>Funds のプロダクト開発では、スタートアップながらも持続可能性のある開発を重要視しています。 Scala のもつ堅牢な型システムや表現力は、金融という複雑かつ正確性が要求されるドメインの表現に最適と考え、開発当初から Scala を採用しています。</p><p>また技術研鑽についても奨励しており、業務時間内で Scala にまつわる勉強会を実施しています。</p><p><em>エンジニアの働き方</em></p><p>エンジニアメンバーは裁量労働制となっています。オフィスへの出社も可能ですが、ほとんどのメンバーは完全リモートで働いています（日本国内であれば遠隔地での就業も可能です。）</p><p><em>ファンズではScalaエンジニアを募集しています</em></p><p>ファンズ株式会社では、 私達と一緒に課題解決に携わっていただけるサーバーサイドエンジニアを募集しています。</p><p><em><a href=\"https://open.talentio.com/r/1/c/crowdport_entry/pages/56324\">サーバサイドエンジニア（Scala） / ファンズ株式会社</a></em></p><p>少しでもご関心のある方は、 上記のページよりご応募いただくことで、まずはカジュアル面談のご案内をさせていただきます。</p><p><em><a href=\"https://www.notion.so/fundsinc/346315aa14f6464cbba91b96f5177343\">ファンズ採用特設ページ / ファンズの開発</a></em></p><p>またファンズでの開発の雰囲気が伝わる特設ページもご用意しておりますので、ぜひご覧ください。</p>",
-    "slideHtml": ""
+    "textHtml": "<p><b>未来の不安に、まだない答えを</b></p><br><br><p>ファンズ株式会社は、個人が上場企業へ間接的にお金を貸し出すことで資産形成をすることができる、<b><a href=\"https://funds.jp/\">貸付ファンドのオンラインマーケット「Funds」</a></b>を運営する企業です。 Funds では1円から投資可能で、投資未経験の方であっても、少額から資産形成を始めることができます。 「未来の不安に、まだない答えを。」というミッションのもと、従来の資産運用サービスでは実現されていない新たな投資機会の提供を通じて、国民的な資産運用サービスへと成長させ、将来の資産形成にまつわる課題の解決を目指しています。</p><br><p><b>Funds と Scala</b></p><br><p>Funds のプロダクト開発では、スタートアップながらも持続可能性のある開発を重要視しています。 Scala のもつ堅牢な型システムや表現力は、金融という複雑かつ正確性が要求されるドメインの表現に最適と考え、開発当初から Scala を採用しています。</p><p>また技術研鑽についても奨励しており、業務時間内で Scala にまつわる勉強会を実施しています。</p><br><p><b>エンジニアの働き方</b></p><br><p>エンジニアメンバーは裁量労働制となっています。オフィスへの出社も可能ですが、ほとんどのメンバーは完全リモートで働いています（日本国内であれば遠隔地での就業も可能です。）</p><br><p><b>ファンズではScalaエンジニアを募集しています</b></p><br><p>ファンズ株式会社では、 私達と一緒に課題解決に携わっていただけるサーバーサイドエンジニアを募集しています。</p><br><p><b><a href=\"https://open.talentio.com/r/1/c/crowdport_entry/pages/56324\">サーバサイドエンジニア（Scala） / ファンズ株式会社</a></b></p><p>少しでもご関心のある方は、 上記のページよりご応募いただくことで、まずはカジュアル面談のご案内をさせていただきます。</p><br><p><b><a href=\"https://www.notion.so/fundsinc/346315aa14f6464cbba91b96f5177343\">ファンズ採用特設ページ / ファンズの開発</a></b></p><p>またファンズでの開発の雰囲気が伝わる特設ページもご用意しておりますので、ぜひご覧ください。</p>",
+    "slideHtml": "",
+    "speakerdeckUrl": ""
   },
   {
     "id": "DAIMYO_3",
@@ -52,8 +55,9 @@
     },
     "logo": "/img/sponsors/folio.svg",
     "url": "https://corp.folio-sec.com/",
-    "textHtml": "<br>株式会社FOLIOは資産運用サービスを提供しているオンライン証券会社です。<br>現在、資産運用サービスを提供するtoC向けのプロダクト事業、資産運用サービスの仕組みを企業に提供するtoB向けのプラットフォーム(4RAP)事業の、二つの事業を柱にした事業展開を進めております。<br>スタートアップらしいスピード感と、金融機関としての堅牢性の両方を兼ね備えた開発環境で、ScalaやAWS・k8s・Datadog・ArgoCD 等を利用してシステム開発を行っております。<br><br><b>Scalaで資産運用を世の中にとってもっと身近なものにしませんか？</b><br><br>FOLIOでのScala開発について<br><br>AWS上で稼働させるScalaアプリケーション（cats, fs2, play などを採用）の開発を通じてモダンな技術のキャッチアップが可能です。<br>コーディングガイドラインや採用ライブラリのチュートリアル集の整備など、Scala未経験者も活躍しやすい環境を整えています。<br>作って終わりではなく、長く運用し改善し続けることを見据えたシステム設計・開発のノウハウが学べます。<br><br>資産運用をもっと身近にしたいエンジニア、Scalaで堅牢なシステムを作りたいエンジニアを積極募集中です。お気軽にご連絡ください！<br><br><a href=\"https://herp.careers/v1/folio/k3G-VR4BxV4Q\">Scalaエンジニアの採用情報</a><br><a href=\"https://www.docswell.com/s/folio/KERQD5-folio\">会社説明資料</a><br><a href=\"https://note.com/foliobackstage/\">採用Blog 『FOLIO Backstage』</a>",
-    "slideHtml": ""
+    "textHtml": "株式会社FOLIOは資産運用サービスを提供しているオンライン証券会社です。<br>現在、資産運用サービスを提供するtoC向けのプロダクト事業、資産運用サービスの仕組みを企業に提供するtoB向けのプラットフォーム(4RAP)事業の、二つの事業を柱にした事業展開を進めております。<br>スタートアップらしいスピード感と、金融機関としての堅牢性の両方を兼ね備えた開発環境で、ScalaやAWS・k8s・Datadog・ArgoCD 等を利用してシステム開発を行っております。<br><br><b>Scalaで資産運用を世の中にとってもっと身近なものにしませんか？</b><br><br>FOLIOでのScala開発について<br><br>AWS上で稼働させるScalaアプリケーション（cats, fs2, play などを採用）の開発を通じてモダンな技術のキャッチアップが可能です。<br>コーディングガイドラインや採用ライブラリのチュートリアル集の整備など、Scala未経験者も活躍しやすい環境を整えています。<br>作って終わりではなく、長く運用し改善し続けることを見据えたシステム設計・開発のノウハウが学べます。<br><br>資産運用をもっと身近にしたいエンジニア、Scalaで堅牢なシステムを作りたいエンジニアを積極募集中です。お気軽にご連絡ください！<br><br><a href=\"https://herp.careers/v1/folio/k3G-VR4BxV4Q\">Scalaエンジニアの採用情報</a><br><a href=\"https://www.docswell.com/s/folio/KERQD5-folio\">会社説明資料</a><br><a href=\"https://note.com/foliobackstage/\">採用Blog 『FOLIO Backstage』</a>",
+    "slideHtml": "",
+    "speakerdeckUrl": ""
   },
   {
     "id": "DAIMYO_4",
@@ -66,8 +70,9 @@
     },
     "logo": "/img/sponsors/microad.svg",
     "url": "https://www.microad.co.jp/",
-    "textHtml": "<br>マイクロアドはデータとテクノロジーをかけ合わせたマーケティングプラットフォームを提供する会社です。<br>「Redesigning the Future Life」という想いを掲げ、広告やコミュニケーションだけではなく、人々の未来の暮らしそのものを再デザインしてまいります。<br><br>マイクロアドのエンジニアは、インターネット広告の配信を支える大規模なサービスを自社開発しています。<br>スピードが重要となる広告配信アプリケーションの開発、高負荷に耐えるインフラ環境の構築、機械学習を活用したアルゴリズムの開発まで、幅広い技術領域が存在しています。<br>日々変化し続ける技術、トレンドをいち早く取り入れながら、サービスの開発運用に携わる環境があります。<br><br>興味のある方は是非ご応募ください。広告配信システム、大規模データ処理、分析、Web開発など多様な領域で開発を行う事ができ、多様なスキルを求められることになりますが、社内で勉強できる環境があり、成長できる方を探しているので、これら分野の開発経験が浅い方でも歓迎しています。<br><br><a href=\"https://www.microad.co.jp/\">マイクロアド</a><br><a href=\"https://recruit.microad.co.jp/engineer/\">マイクロアド エンジニア職 採用サイト</a><br><a href=\"https://developers.microad.co.jp/\">Microad Developers Blog</a>",
-    "slideHtml": ""
+    "textHtml": "マイクロアドはデータとテクノロジーをかけ合わせたマーケティングプラットフォームを提供する会社です。<br>「Redesigning the Future Life」という想いを掲げ、広告やコミュニケーションだけではなく、人々の未来の暮らしそのものを再デザインしてまいります。<br><br>マイクロアドのエンジニアは、インターネット広告の配信を支える大規模なサービスを自社開発しています。<br>スピードが重要となる広告配信アプリケーションの開発、高負荷に耐えるインフラ環境の構築、機械学習を活用したアルゴリズムの開発まで、幅広い技術領域が存在しています。<br>日々変化し続ける技術、トレンドをいち早く取り入れながら、サービスの開発運用に携わる環境があります。<br><br>興味のある方は是非ご応募ください。広告配信システム、大規模データ処理、分析、Web開発など多様な領域で開発を行う事ができ、多様なスキルを求められることになりますが、社内で勉強できる環境があり、成長できる方を探しているので、これら分野の開発経験が浅い方でも歓迎しています。<br><br><a href=\"https://www.microad.co.jp/\">マイクロアド</a><br><a href=\"https://recruit.microad.co.jp/engineer/\">マイクロアド エンジニア職 採用サイト</a><br><a href=\"https://developers.microad.co.jp/\">Microad Developers Blog</a>",
+    "slideHtml": "",
+    "speakerdeckUrl": ""
   },
   {
     "id": "DAIMYO_5",
@@ -81,7 +86,8 @@
     "logo": "/img/sponsors/wondersoft.png",
     "url": "https://wonder-soft.com/",
     "textHtml": "",
-    "slideHtml": ""
+    "slideHtml": "",
+    "speakerdeckUrl": ""
   },
   {
     "id": "DAIMYO_6",
@@ -95,7 +101,8 @@
     "logo": "/img/sponsors/alpinc.svg",
     "url": "https://alpinc.notion.site/52af90188305440d86acf72968646054",
     "textHtml": "",
-    "slideHtml": ""
+    "slideHtml": "",
+    "speakerdeckUrl": ""
   },
   {
     "id": "DAIMYO_7",
@@ -109,7 +116,8 @@
     "logo": "/img/sponsors/hatena.png",
     "url": "https://hatena.co.jp/recruit/engineer",
     "textHtml": "",
-    "slideHtml": ""
+    "slideHtml": "",
+    "speakerdeckUrl": ""
   },
   {
     "id": "DAIMYO_8",
@@ -123,7 +131,8 @@
     "logo": "/img/sponsors/recruit.jpg",
     "url": "https://www.recruit.co.jp/employment/mid-career/technology/",
     "textHtml": "",
-    "slideHtml": ""
+    "slideHtml": "",
+    "speakerdeckUrl": ""
   },
   {
     "id": "SAMURAI_1",
@@ -137,7 +146,8 @@
     "logo": "/img/sponsors/zauel.png",
     "url": "https://zauel.co.jp/",
     "textHtml": "",
-    "slideHtml": ""
+    "slideHtml": "",
+    "speakerdeckUrl": ""
   },
   {
     "id": "KINTONE",
