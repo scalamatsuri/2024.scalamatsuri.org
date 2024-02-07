@@ -15,6 +15,9 @@ assignees: shomatan
 - [ ] staging 環境で表示を確認する
 - [ ] master から production に向けて自動で PullRequest が作成されるのでマージ
 - [ ] merge 後、production 環境の Web サイトに反映されていることを確認する
+- [ ] speakerdeck のスライドが指定された場合、URL のみ切り取って `"speakerdeckUrl": ""` に指定する。
+  - 2024 年 2 月: 現在 slideHtml が機能しておらず、iframe 内部が空で表示されてしまう模様。
+  - 2024 年 2 月: speakerdeck 以外の URL を指定された場合は別途 WEB サイトチームにご相談ください。
 
 ## Template
 
@@ -33,7 +36,8 @@ assignees: shomatan
     "logo": "/img/sponsors/scalamatsuri_logo.png",
     "url": "",
     "textHtml": "<p>将軍スポンサー1です。</p>",
-    "slideHtml": ""
+    "slideHtml": "",
+    "speakerdeckUrl": ""
   },
 ```
 
@@ -52,7 +56,8 @@ assignees: shomatan
     "logo": "/img/sponsors/scalamatsuri_logo.png",
     "url": "",
     "textHtml": "<p>大老スポンサー1です。</p>",
-    "slideHtml": ""
+    "slideHtml": "",
+    "speakerdeckUrl": ""
   },
 ```
 
@@ -71,7 +76,8 @@ assignees: shomatan
     "logo": "/img/sponsors/scalamatsuri_logo.png",
     "url": "",
     "textHtml": "<p>大名スポンサー1です。</p>",
-    "slideHtml": ""
+    "slideHtml": "",
+    "speakerdeckUrl": ""
   },
 ```
 
@@ -90,7 +96,8 @@ assignees: shomatan
     "logo": "/img/sponsors/scalamatsuri_logo.png",
     "url": "",
     "textHtml": "<p>侍スポンサー1です。</p>",
-    "slideHtml": ""
+    "slideHtml": "",
+    "speakerdeckUrl": ""
   },
 ```
 

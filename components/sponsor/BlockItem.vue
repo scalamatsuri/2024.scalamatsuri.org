@@ -10,8 +10,18 @@
       <div class="sponsor_text" v-if="sponsor.textHtml">
         <span v-html="sponsor.textHtml" />
       </div>
-      <div class="sponsor_text" v-if="sponsor.slideHtml">
-        <span v-html="sponsor.slideHtml" />
+      <!-- FIXME: iframe の中身が表示されない不具合があり、speakerdeckUrl のように各サービス固定で定義することで逃げた -->
+      <!-- <div class="sponsor_text" v-if="sponsor.slideHtml"> -->
+      <!-- <span v-html="sponsor.slideHtml" /> -->
+      <!-- </div> -->
+      <div class="sponsor_text" v-if="sponsor.speakerdeckUrl">
+        <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%">
+          <iframe
+            :src="sponsor.speakerdeckUrl"
+            style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0"
+            allowfullscreen
+            scrolling="no"></iframe>
+        </div>
       </div>
     </section>
   </section>
@@ -63,6 +73,7 @@ const { sponsor } = defineProps({
   }
 }
 .sponsor_text {
+  margin-top: 20px;
   line-height: 23px;
   font-size: 14px;
   letter-spacing: 0.1em;
