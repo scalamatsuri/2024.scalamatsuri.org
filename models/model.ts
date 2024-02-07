@@ -30,6 +30,7 @@ export type Sponsor = {
   url: string // スポンサーのWEBサイト
   textHtml?: string // スポンサーの紹介文
   slideHtml?: string // スポンサーのスライド
+  speakerdeckUrl?: string // speakerdeck の URL
 }
 
 /***********************************************************
