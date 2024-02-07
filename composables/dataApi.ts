@@ -2,6 +2,7 @@ import { Proposal, Speaker, Sponsor, SporsorType } from '~/models/model'
 import proposals from '~/data/proposals.json'
 import sponsors from '~/data/sponsors.json'
 import speakers from '~/data/speakers.json'
+import staffs from '~/data/staffs.json'
 
 export const getSponsors = () => computed(() => sponsors as Sponsor[])
 export const getSponsorById = (sponsorId: string) => computed(() => sponsors.find((sponsor) => sponsor.id === sponsorId) as Sponsor)
@@ -32,3 +33,5 @@ export const getProposalById = (proposalId: string) =>
       return null
     }
   })
+
+export const getStaff = () => computed(() => staffs as Staff[] )
