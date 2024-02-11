@@ -11,7 +11,7 @@ ja:
     <!-- スタッフ ここから -->
     <div class="staff">
       <ul class="staff_list">
-        <StaffListItem v-for="staff in staffs" :key="staff.index" :staff="staff" class="staff_item" />
+        <StaffListItem v-for="staff in shuffledStaffs" :key="staff.index" :staff="staff" class="staff_item" />
       </ul>
     </div>
     <!-- スタッフ ここまで -->
@@ -24,11 +24,10 @@ const { t } = useI18n()
 pageMetaCheck()
 
 const staffs: ComputedRef<Staff[]> = getStaff()
+const shuffledStaffs = computed(() => arrayShuffle(staffs.value))
 </script>
 
 <style lang="scss" scoped>
-/* staff */
-
 .staff {
   max-width: $pcMinWidth;
   width: 100%;
