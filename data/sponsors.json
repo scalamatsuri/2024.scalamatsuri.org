@@ -115,9 +115,9 @@
     },
     "logo": "/img/sponsors/hatena.png",
     "url": "https://hatena.co.jp/recruit/engineer",
-    "textHtml": "",
+    "textHtml": "<p>はてなは「『知る』『つながる』『表現する』で新しい体験を提供し、人の生活を豊かにする」をミッションに、「<a href=\"https://b.hatena.ne.jp/\">はてなブックマーク</a>」「<a href=\"https://hatenablog.com/\">はてなブログ</a>」などのソーシャルサービスを展開してきました。20年以上のサービス開発・運用知見を活かし、サーバー監視サービス「<a href=\"https://ja.mackerel.io/\">Mackerel</a>」などビジネス向けの製品や、受託サービスの開発・運用も行っています。</p><br><p>ScalaはMackerelやはてなブックマーク、はてなブログで採用され、稼働しています（<a href=\"https://developer.hatenastaff.com/entry/2019/07/09/103000\">いかにして我々は10年もののPerlプロダクトをScalaでリプレースしたか</a>、<a href=\"https://speakerdeck.com/aereal/microservices-and-scala-at-hatena\">はてなにおけるマイクロサービスとScala</a> など）。</p><br><p>技術によってインターネットと人々の生活を[豊かにすることに情熱を持てる方、ぜひはてなで働いてみませんか？ 詳しくは以下のサイトをご覧ください。</p><br><ul><li><a href=\"https://hatena.co.jp/recruit/engineer\">エンジニア採用 - 採用情報 - 株式会社はてな</a></li><li><a href=\"https://speakerdeck.com/hatena/engineers-recruitment\">株式会社はてな エンジニア採用資料 / Engineers Recruitment - Speaker Deck</a></li><li><a href=\"https://developer.hatenastaff.com/\">Hatena Developer Blog</a></li></ul>",
     "slideHtml": "",
-    "speakerdeckUrl": ""
+    "speakerdeckUrl": "https://speakerdeck.com/player/73919842c53c4af3a7d4025702e399fc"
   },
   {
     "id": "DAIMYO_8",
