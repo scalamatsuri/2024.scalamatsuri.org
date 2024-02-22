@@ -4,7 +4,7 @@ en:
   title: Submit your talks for ScalaMatsuri 2024!
   section1_body: |
     We are excited to announce that ScalaMatsuri will be held on June 7th (Friday) to June 9th (Sunday). Please submit your talk for the general sessions.<br/><br/>
-    The CFP will close at February 29, 2024 (Thursday) at 23:59 <a href="https://time.is/ja/Anywhere%20on%20Earth">Anywhere on Earth</a> (20:59 JST on March 1).
+    The CFP will close at February 24, 2024 (Saturday) at 23:59 <a href="https://time.is/ja/Anywhere%20on%20Earth">Anywhere on Earth</a> (20:59 JST on February 25).
     <br/><br/>
     Matsuri, meaning festival, is about time and space out of the everyday.It’s about mustering up the courage to do something cool (even though we are normally shy).<br>
     We want to make it a fun experience, regardless of gender, race, and many different backgrounds.<br>
@@ -66,7 +66,7 @@ ja:
   title: ScalaMatsuriで話を聞かせてください！
   section1_body: |
     2024年6月7日(金) - 6月9日(日)に ScalaMatsuri 2024 を開催します。そこで、ScalaMatsuri 2024の一般セッションの応募を開始します。<br/>
-    締切は 2024年2月29日(木) 23:59 <a href="https://time.is/ja/Anywhere%20on%20Earth">Anywhere on Earth</a>(3月1日 20:59 JST)を予定しています。<br/><br/>
+    締切は 2024年2月24日(土) 23:59 <a href="https://time.is/ja/Anywhere%20on%20Earth">Anywhere on Earth</a>(2月25日 20:59 JST)を予定しています。<br/><br/>
     「Matsuri」はハレの日、つまり非日常の時と空間です。(普段はシャイでも) ちょっと勇気を出してトークしてみませんか。あなたのハレ舞台となるでしょう。<br/><br/>
     ScalaMatsuri 2024 はアジア最大規模の国際的なイベントとして、日本国内だけではなく、海外からの参加者にも楽しめるイベントにしたいと考えています。<br/>
     性別や人種など多様な背景を持つ人々が互いに敬意を払って楽しい時間を過ごせるよう、当カンファレンスでは発表者や参加者、スポンサーの皆さんに<a href="%{coc_link}" target="_blank" rel="noopener"><span>行動規範</span></a>を守っていただくようにお願いしています。<br/>
