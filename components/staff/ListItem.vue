@@ -8,9 +8,9 @@
       {{ staff.name }}
     </p>
     <ul class="staff_sns">
-      <li class="staff_sns_item staff_sns_item-tw">
+      <li class="staff_sns_item staff_sns_item-tw" v-if="staff.twitterUrl">
         <a :href="staff.twitterUrl" target="_blank" rel="noopener">
-          <img src="/img/common/icon-sns-tw.svg" alt="Twitter" />
+          <img src="/img/common/icon-sns-x.svg" alt="Twitter" />
         </a>
       </li>
       <li class="staff_sns_item staff_sns_item-git">
