@@ -150,6 +150,21 @@
     "speakerdeckUrl": ""
   },
   {
+    "id": "SAMURAI_2",
+    "type": "SAMURAI",
+    "ja": {
+      "name": "株式会社ギークニア"
+    },
+    "en": {
+      "name": "Geekneer, Inc."
+    },
+    "logo": "/img/sponsors/Geekneer.png",
+    "url": "https://geekneer.com/",
+    "textHtml": "",
+    "slideHtml": "",
+    "speakerdeckUrl": ""
+  },
+  {
     "id": "KINTONE",
     "type": "BUGYO",
     "ja": {
