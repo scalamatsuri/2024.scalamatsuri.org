@@ -13,15 +13,15 @@ ja:
 <template>
   <div class="banner">
     <div class="banner_list">
-      <nuxt-link :to="localePath('sponsorship')" class="banner_item banner_item-sponsor banner_item_two">
+      <nuxt-link :to="localePath('sponsorship')" class="banner_item banner_item-sponsor">
         <span>{{ t('sponsorship') }} </span>
       </nuxt-link>
-      <nuxt-link :to="localePath('call-for-proposals')" class="banner_item banner_item-staff banner_item_two">
+      <nuxt-link :to="localePath('call-for-proposals')" class="banner_item banner_item-session">
         <span>{{ t('call-for-proposals') }}</span>
       </nuxt-link>
-      <!-- <a href="https://scalaconfjp.doorkeeper.jp/" target="_blank" rel="noopener" class="banner_item banner_item_one banner_item-ticket">
-        <span>Doorkeeper</span>
-      </a> -->
+      <a href="https://scalaconfjp.doorkeeper.jp/events/168847" target="_blank" class="banner_item banner_item-ticket">
+        <span>{{ t('ticket') }}</span>
+      </a>
       <!-- <a
         href="https://scalamatsuri-online-shop.myshopify.com/"
         target="_blank"
@@ -42,22 +42,18 @@ const { locale, t } = useI18n()
 .banner {
   margin-top: 40px;
 }
-.banner_list {
-  margin: 0 auto;
-  max-width: 834px;
-  margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+@media screen and (min-width: $headerViewport) {
+  /* footer PC */
+  .banner_list {
+    display: flex;
+  }
 }
-// NOTE: バナー1つのとき
-.banner_item_one {
-  margin: 0 auto;
-  max-width: 20rem;
-  min-width: 20rem;
-}
-// NOTE: バナー2つのとき
-.banner_item_two {
+@media screen and (max-width: $headerViewport - 1) {
+  /* footer SP */
+  .banner_item {
+    display: block;
+    margin-bottom: 10px;
+  }
 }
 .banner_item {
   flex: 20rem;
@@ -85,10 +81,8 @@ const { locale, t } = useI18n()
   }
   span {
     background-position: center left;
-    background-image: url('/img/common/icon-happi.svg');
     padding-left: 70px;
     display: inline-block;
-    height: 54px;
     line-height: 54px;
     color: #fff;
   }
@@ -99,12 +93,18 @@ const { locale, t } = useI18n()
     }
   }
   &-ticket {
+    background-color: #ff2600;
+    span {
+      background-image: url('/img/common/icon-happi.svg');
+    }
+  }
+  &-staff {
     background-color: #4f9ad5;
     span {
       background-image: url('/img/common/logo.svg');
     }
   }
-  &-staff {
+  &-session {
     background-color: #4f9ad5;
     span {
       background-image: url('/img/common/logo.svg');
