@@ -80,3 +80,17 @@ export type SponsorSession = {
   sponsorId: SessionId // スポンサーセッションID
 } & Session &
   Speakers
+
+/***********************************************************
+ *** Staff Model
+ ***********************************************************/
+export type Staff = {
+  backgroundImage: string
+  name: string
+  ruby: string
+  ghAccount: string
+  githubUrl: string
+  twAccount: string 
+  twitterUrl: string
+  profile: string
+}
