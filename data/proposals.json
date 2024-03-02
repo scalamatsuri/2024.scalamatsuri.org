@@ -1,322 +1,750 @@
 [
   {
-    "id": {
-      "value": "PROPOSAL_ID_01",
-      "type": "session"
+    "proposalId": {
+      "value": "PROPOSAL_ID_01"
     },
-    "speakerIds": ["SPEAKER_ID_01", "SPEAKER_ID_02", "SPEAKER_ID_03", "SPEAKER_ID_04", "SPEAKER_ID_05"],
-    "language": "ja",
-    "length": 40,
-    "en": { "title": "TITLE", "description": "DESCRIPTION TEXTTEXTTEXTTEXTTEXTTEXTTEXT" },
     "ja": {
-      "title": "タイトル",
-      "description": "概要 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
+      "title": "ScalaMatsuri を支える技術",
+      "description": "ScalaMatsuri がどのようにして作られているかを発表します。"
     },
-    "tags": ["TAG_01", "TAG_02", "TAG_03", "TAG_04", "TAG_05", "TAG_06"],
-    "keywords": ["KEYWORDS_01", "KEYWORDS_02", "KEYWORDS_03", "KEYWORDS_04", "KEYWORDS_05", "KEYWORDS_06"]
-  },
-  {
-    "id": {
-      "value": "PROPOSAL_ID_02",
-      "type": "session"
+    "en": {
+      "title": "Technology behind ScalaMatsuri",
+      "description": "We will present how ScalaMatsuri is made."
     },
-    "speakerIds": ["SPEAKER_ID_02"],
-    "language": "ja",
-    "length": 40,
-    "en": { "title": "TITLE", "description": "DESCRIPTION TEXTTEXTTEXTTEXTTEXTTEXTTEXT" },
-    "ja": {
-      "title": "タイトル",
-      "description": "概要 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
-    },
-    "tags": ["TAG_02"],
-    "keywords": ["KEYWORDS_02"]
-  },
-  {
-    "id": {
-      "value": "PROPOSAL_ID_03",
-      "type": "session"
-    },
-    "speakerIds": ["SPEAKER_ID_03"],
-    "language": "ja",
-    "length": 40,
-    "en": { "title": "TITLE", "description": "DESCRIPTION TEXTTEXTTEXTTEXTTEXTTEXTTEXT" },
-    "ja": {
-      "title": "タイトル",
-      "description": "概要 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
-    },
-    "tags": ["TAG_03"],
-    "keywords": ["KEYWORDS_03"]
-  },
-  {
-    "id": {
-      "value": "PROPOSAL_ID_04",
-      "type": "session"
-    },
-    "speakerIds": ["SPEAKER_ID_04"],
-    "language": "ja",
-    "length": 40,
-    "en": { "title": "TITLE", "description": "DESCRIPTION TEXTTEXTTEXTTEXTTEXTTEXTTEXT" },
-    "ja": {
-      "title": "タイトル",
-      "description": "概要 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
-    },
-    "tags": ["TAG_04"],
-    "keywords": ["KEYWORDS_04"]
-  },
-  {
-    "id": {
-      "value": "PROPOSAL_ID_05",
-      "type": "session"
-    },
-    "speakerIds": ["SPEAKER_ID_05"],
-    "language": "ja",
-    "length": 40,
-    "en": { "title": "TITLE", "description": "DESCRIPTION TEXTTEXTTEXTTEXTTEXTTEXTTEXT" },
-    "ja": {
-      "title": "タイトル",
-      "description": "概要 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
-    },
-    "tags": ["TAG_05"],
-    "keywords": ["KEYWORDS_05"]
-  },
-  {
-    "id": {
-      "value": "PROPOSAL_ID_06",
-      "type": "session"
-    },
-    "speakerIds": ["SPEAKER_ID_06"],
-    "language": "ja",
-    "length": 40,
-    "en": { "title": "TITLE", "description": "DESCRIPTION TEXTTEXTTEXTTEXTTEXTTEXTTEXT" },
-    "ja": {
-      "title": "タイトル",
-      "description": "概要 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
-    },
-    "tags": ["TAG_06"],
-    "keywords": ["KEYWORDS_06"]
-  },
-  {
-    "id": {
-      "value": "PROPOSAL_ID_07",
-      "type": "session"
-    },
-    "speakerIds": ["SPEAKER_ID_07"],
-    "language": "ja",
-    "length": 40,
-    "en": { "title": "TITLE", "description": "DESCRIPTION TEXTTEXTTEXTTEXTTEXTTEXTTEXT" },
-    "ja": {
-      "title": "タイトル",
-      "description": "概要 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
-    },
-    "tags": ["TAG_07"],
-    "keywords": ["KEYWORDS_07"]
-  },
-  {
-    "id": {
-      "value": "PROPOSAL_ID_08",
-      "type": "session"
-    },
-    "speakerIds": ["SPEAKER_ID_08"],
-    "language": "ja",
-    "length": 40,
-    "en": { "title": "TITLE", "description": "DESCRIPTION TEXTTEXTTEXTTEXTTEXTTEXTTEXT" },
-    "ja": {
-      "title": "タイトル",
-      "description": "概要 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
-    },
-    "tags": ["TAG_08"],
-    "keywords": ["KEYWORDS_08"]
-  },
-  {
-    "id": {
-      "value": "PROPOSAL_ID_09",
-      "type": "session"
-    },
-    "speakerIds": ["SPEAKER_ID_09"],
-    "language": "ja",
-    "length": 40,
-    "en": { "title": "TITLE", "description": "DESCRIPTION TEXTTEXTTEXTTEXTTEXTTEXTTEXT" },
-    "ja": {
-      "title": "タイトル",
-      "description": "概要 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
-    },
-    "tags": ["TAG_09"],
-    "keywords": ["KEYWORDS_09"]
-  },
-  {
-    "id": {
-      "value": "PROPOSAL_ID_10",
-      "type": "session"
-    },
-    "speakerIds": ["SPEAKER_ID_10"],
-    "language": "ja",
-    "length": 40,
-    "en": { "title": "TITLE", "description": "DESCRIPTION TEXTTEXTTEXTTEXTTEXTTEXTTEXT" },
-    "ja": {
-      "title": "タイトル",
-      "description": "概要 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
-    },
-    "tags": ["TAG_10"],
-    "keywords": ["KEYWORDS_10"]
-  },
-  {
-    "id": {
-      "value": "PROPOSAL_ID_11",
-      "type": "session"
-    },
-    "speakerIds": ["SPEAKER_ID_11"],
     "language": "ja",
     "length": 20,
-    "en": { "title": "TITLE", "description": "DESCRIPTION TEXTTEXTTEXTTEXTTEXTTEXTTEXT" },
-    "ja": {
-      "title": "タイトル",
-      "description": "概要 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
-    },
-    "tags": ["TAG_11"],
-    "keywords": ["KEYWORDS_11"]
+    "keywords": ["Scala入門"],
+    "speakerIds": ["SPEAKER_ID_01"]
   },
   {
-    "id": {
-      "value": "PROPOSAL_ID_12",
-      "type": "session"
+    "proposalId": {
+      "value": "PROPOSAL_ID_02"
     },
-    "speakerIds": ["SPEAKER_ID_12"],
+    "ja": {
+      "title": "実務で使えるScala初心者向けTips",
+      "description": "Scalaには多くの便利なシンタックスがありますが、それらを利用するうえで注意するべきことも多くあります。この初心者向けセッションではScalaによる日々のシステム開発で培ったTipsを紹介します。"
+    },
+    "en": {
+      "title": "Scala Beginner Tips for Practical Use",
+      "description": "Scala has many useful syntaxes, but there are also many things to keep in mind when using them. In this session for beginners, we will introduce tips and tricks we have learned through daily system development in Scala."
+    },
     "language": "ja",
     "length": 20,
-    "en": { "title": "TITLE", "description": "DESCRIPTION TEXTTEXTTEXTTEXTTEXTTEXTTEXT" },
-    "ja": {
-      "title": "タイトル",
-      "description": "概要 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
-    },
-    "tags": ["TAG_12"],
-    "keywords": ["KEYWORDS_12"]
+    "keywords": ["Scala入門"],
+    "speakerIds": ["SPEAKER_ID_01"]
   },
   {
-    "id": {
-      "value": "PROPOSAL_ID_13",
-      "type": "session"
+    "proposalId": {
+      "value": "PROPOSAL_ID_03"
     },
-    "speakerIds": ["SPEAKER_ID_13"],
-    "language": "ja",
-    "length": 20,
-    "en": { "title": "TITLE", "description": "DESCRIPTION TEXTTEXTTEXTTEXTTEXTTEXTTEXT" },
     "ja": {
-      "title": "タイトル",
-      "description": "概要 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
+      "title": "Easy Plugins In Mill",
+      "description": "An overview of the mill task model followed by experiences and lessons learned while writing the docker and flyway contrib plugins for the mill build tool."
     },
-    "tags": ["TAG_13"],
-    "keywords": ["KEYWORDS_13"]
+    "en": {
+      "title": "yasashii na \"mill plugins\"",
+      "description": ""
+    },
+    "language": "en",
+    "length": 20,
+    "keywords": ["Case Studies", "DevOps & Tools", "Introduction to Scala"],
+    "speakerIds": ["SPEAKER_ID_02"]
   },
   {
-    "id": {
-      "value": "PROPOSAL_ID_14",
-      "type": "session"
+    "proposalId": {
+      "value": "PROPOSAL_ID_04"
     },
-    "speakerIds": ["SPEAKER_ID_14"],
-    "language": "ja",
-    "length": 20,
-    "en": { "title": "TITLE", "description": "DESCRIPTION TEXTTEXTTEXTTEXTTEXTTEXTTEXT" },
     "ja": {
-      "title": "タイトル",
-      "description": "概要 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
+      "title": "PHPからScalaへ：私の経験",
+      "description": "全く異なる言語からScalaのような堅牢で型安全な言語への私の旅のショー。Scalaについて過小評価されている点や、私が最も気に入っている点を強調したいと思います。Scalaの知識がない方にも楽しんでいただける内容です。"
     },
-    "tags": ["TAG_14"],
-    "keywords": ["KEYWORDS_14"]
+    "en": {
+      "title": "From PHP to Scala: my experience",
+      "description": "A show of my journey from a completely different language to a robust, type safe language as Scala. I would like to highlight aspects that we underestimate about Scala and the things which I like the most. This talk is perfect for people with no knowledge about Scala."
+    },
+    "language": "en",
+    "length": 20,
+    "keywords": ["Introduction to Scala"],
+    "speakerIds": ["SPEAKER_ID_03"]
   },
   {
-    "id": {
-      "value": "PROPOSAL_ID_15",
-      "type": "session"
+    "proposalId": {
+      "value": "PROPOSAL_ID_05"
     },
-    "speakerIds": ["SPEAKER_ID_15"],
-    "language": "ja",
-    "length": 20,
-    "en": { "title": "TITLE", "description": "DESCRIPTION TEXTTEXTTEXTTEXTTEXTTEXTTEXT" },
     "ja": {
-      "title": "タイトル",
-      "description": "概要 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
+      "title": "Scalaに磨きをかけよう！",
+      "description": "洗練された型ライブラリーのパワーと、実際の便利なアプリケーションを紹介する簡単なライブ・コーディング。"
     },
-    "tags": ["TAG_15"],
-    "keywords": ["KEYWORDS_15"]
+    "en": {
+      "title": "Let's refine Scala!",
+      "description": "A quick live coding showing the power of the refined types library and some real and useful applications."
+    },
+    "language": "en",
+    "length": 20,
+    "keywords": ["Case Studies", "Functional programming in general and sphere theory", "Introduction to Scala"],
+    "speakerIds": ["SPEAKER_ID_03"]
   },
   {
-    "id": {
-      "value": "PROPOSAL_ID_16",
-      "type": "session"
+    "proposalId": {
+      "value": "PROPOSAL_ID_06"
     },
-    "speakerIds": ["SPEAKER_ID_16"],
-    "language": "ja",
-    "length": 20,
-    "en": { "title": "TITLE", "description": "DESCRIPTION TEXTTEXTTEXTTEXTTEXTTEXTTEXT" },
     "ja": {
-      "title": "タイトル",
-      "description": "概要 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
+      "title": "Scala 3 Journey: Unveiling Thorium, Our Web App Framework",
+      "description": "Anticipating Scala 3, we transitioned our internal Scala 2 libraries, a challenging journey. Despite hurdles, migrating to Scala 3 was mind-bending. However, a setback emerged when the existing Web App framework, not Scala 3-compatible, led to Thorium's inception—an alternative framework enabling seamless migration of our apps."
     },
-    "tags": ["TAG_16"],
-    "keywords": ["KEYWORDS_16"]
+    "en": {
+      "title": "Scala 3 Journey: Unveiling Thorium, Our Web App Framework",
+      "description": "Anticipating Scala 3, we transitioned our internal Scala 2 libraries, a challenging journey. Despite hurdles, migrating to Scala 3 was mind-bending. However, a setback emerged when the existing Web App framework, not Scala 3-compatible, led to Thorium's inception—an alternative framework enabling seamless migration of our apps."
+    },
+    "language": "en",
+    "length": 40,
+    "keywords": ["Scala3", "Web Application Framework"],
+    "speakerIds": ["SPEAKER_ID_04"]
   },
   {
-    "id": {
-      "value": "PROPOSAL_ID_17",
-      "type": "session"
+    "proposalId": {
+      "value": "PROPOSAL_ID_07"
     },
-    "speakerIds": ["SPEAKER_ID_17"],
-    "language": "ja",
-    "length": 20,
-    "en": { "title": "TITLE", "description": "DESCRIPTION TEXTTEXTTEXTTEXTTEXTTEXTTEXT" },
     "ja": {
-      "title": "タイトル",
-      "description": "概要 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
+      "title": "Resource Management Made Easy: Introducing Resource from cats-effect Library",
+      "description": "This presentation addresses the common issue of forgetting to close resources such as files or HTTP clients, and the resulting challenges when faced with exceptions or interruptions during processing."
     },
-    "tags": ["TAG_17"],
-    "keywords": ["KEYWORDS_17"]
+    "en": {
+      "title": "Resource Management Made Easy: Introducing Resource from cats-effect Library",
+      "description": "This presentation addresses the common issue of forgetting to close resources such as files or HTTP clients, and the resulting challenges when faced with exceptions or interruptions during processing."
+    },
+    "language": "en",
+    "length": 40,
+    "keywords": ["Effect System (Cats Effect / Monix / ZIO / eff etc.)", "Software Design and Architecture"],
+    "speakerIds": ["SPEAKER_ID_05"]
   },
   {
-    "id": {
-      "value": "PROPOSAL_ID_18",
-      "type": "session"
+    "proposalId": {
+      "value": "PROPOSAL_ID_08"
     },
-    "speakerIds": ["SPEAKER_ID_18"],
-    "language": "ja",
-    "length": 20,
-    "en": { "title": "TITLE", "description": "DESCRIPTION TEXTTEXTTEXTTEXTTEXTTEXTTEXT" },
     "ja": {
-      "title": "タイトル",
-      "description": "概要 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
+      "title": "Easy Scala with the com.lihaoyi Ecosystem",
+      "description": "The com.lihaoyi ecosystem is a set of libraries that aims to make Scala concise and easy,<br/>rather than flexible and powerful. This talk explores how just a few com.lihaoyi libraries<br/>is enough to let you use the Scala language to accomplish many real-world tasks in a tiny<br/>amount of effort and code."
     },
-    "tags": ["TAG_18"],
-    "keywords": ["KEYWORDS_18"]
+    "en": {
+      "title": "Easy Scala with the com.lihaoyi Ecosystem",
+      "description": "The com.lihaoyi ecosystem is a set of libraries that aims to make Scala concise and easy,<br/>rather than flexible and powerful. This talk explores how just a few com.lihaoyi libraries<br/>is enough to let you use the Scala language to accomplish many real-world tasks in a tiny<br/>amount of effort and code."
+    },
+    "language": "en",
+    "length": 40,
+    "keywords": ["DevOps & Tools", "Introduction to Scala", "Software Design and Architecture"],
+    "speakerIds": ["SPEAKER_ID_06"]
   },
   {
-    "id": {
-      "value": "PROPOSAL_ID_19",
-      "type": "session"
+    "proposalId": {
+      "value": "PROPOSAL_ID_09"
     },
-    "speakerIds": ["SPEAKER_ID_19"],
-    "language": "ja",
-    "length": 20,
-    "en": { "title": "TITLE", "description": "DESCRIPTION TEXTTEXTTEXTTEXTTEXTTEXTTEXT" },
     "ja": {
-      "title": "タイトル",
-      "description": "概要 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
+      "title": "Direct-style Scala using Ox",
+      "description": "Explore concurrency and resiliency in Scala in the Java 21+ era with Ox. Offering a direct-style approach, Ox seamlessly integrates structured concurrency, high-level concurrency operators, and Go-like channels with a stream-like API, ensuring safety and a developer-friendly coding experience."
     },
-    "tags": ["TAG_19"],
-    "keywords": ["KEYWORDS_19"]
+    "en": {
+      "title": "Direct-style Scala using Ox",
+      "description": "Explore concurrency and resiliency in Scala in the Java 21+ era with Ox. Offering a direct-style approach, Ox seamlessly integrates structured concurrency, high-level concurrency operators, and Go-like channels with a stream-like API, ensuring safety and a developer-friendly coding experience."
+    },
+    "language": "en",
+    "length": 20,
+    "keywords": ["Effect System (Cats Effect / Monix / ZIO / eff etc.)", "Scala3", "Concurrency", "Reactive Systems", "Compiler", "JVM"],
+    "speakerIds": ["SPEAKER_ID_07"]
   },
   {
-    "id": {
-      "value": "PROPOSAL_ID_20",
-      "type": "session"
+    "proposalId": {
+      "value": "PROPOSAL_ID_10"
     },
-    "speakerIds": ["SPEAKER_ID_20"],
+    "ja": {
+      "title": "Project Loom の概要と Scala での有用性",
+      "description": "Javaプラットフォームで動作し、使いやすくスループットの高い軽量同時実行および新プログラミング・モデルの実現を目指す OpenJDK のプロジェクト Project Loom。<br/><br/>本セッションでは Java21 および JDK 21 から利用できるようになった仮想スレッドといった Project Loom 関連機能を詳解し、Scala での有用性について考察していきます。"
+    },
+    "en": {
+      "title": "Usefulness of Project Loom in Scala",
+      "description": "Project Loom, an OpenJDK project that runs on the Java platform and aims to provide an easy-to-use, high-throughput, lightweight concurrency and new programming model.<br/><br/>In this session, we will discuss Project Loom-related features such as virtual threads available in Java 21 and JDK 21 in detail, and discuss their usefulness in Scala."
+    },
     "language": "ja",
     "length": 20,
-    "en": { "title": "TITLE", "description": "DESCRIPTION TEXTTEXTTEXTTEXTTEXTTEXTTEXT" },
-    "ja": {
-      "title": "タイトル",
-      "description": "概要 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
+    "keywords": ["Scala3", "Concurrency"],
+    "speakerIds": ["SPEAKER_ID_08"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_11"
     },
-    "tags": ["TAG_20"],
-    "keywords": ["KEYWORDS_20"]
+    "ja": {
+      "title": "Generative Art with Scala, No AI Required",
+      "description": "Math is beautiful, sometimes very literally. In this talk, we will demonstrate some elegant applications of functional programming in Scala, with even more elegant visual results - all with live code and real-time output."
+    },
+    "en": {
+      "title": "Generative Art with Scala, No AI Required",
+      "description": "Math is beautiful, sometimes very literally. In this talk, we will demonstrate some elegant applications of functional programming in Scala, with even more elegant visual results - all with live code and real-time output."
+    },
+    "language": "en",
+    "length": 20,
+    "keywords": ["Case Studies, Functional programming in general and sphere theory"],
+    "speakerIds": ["SPEAKER_ID_09-01"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_12"
+    },
+    "ja": {
+      "title": "Extreme Type-Safety in Scala",
+      "description": "In this talk, we will take the type system of Scala to its limits, and show techniques on how to prove type relationships at compile time, for real-life problems."
+    },
+    "en": {
+      "title": "Extreme Type-Safety in Scala",
+      "description": "In this talk, we will take the type system of Scala to its limits, and show techniques on how to prove type relationships at compile time, for real-life problems."
+    },
+    "language": "en",
+    "length": 20,
+    "keywords": ["Case Studies", "Scala3"],
+    "speakerIds": ["SPEAKER_ID_09-02"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_13"
+    },
+    "ja": {
+      "title": "Scala3とscala-cliでデータプロジェクトの生産性を向上させる方法",
+      "description": "Data projects face rapidly changing business requirements, and the technology landscape is constantly evolving. This talk demonstrates how Scala3, in combination with scala-cli, effectively navigates these challenges by presenting representative examples from my experience with client projects."
+    },
+    "en": {
+      "title": "The productivity booster for your Data Projects with Scala3 & scala-cli",
+      "description": "Data projects face rapidly changing business requirements, and the technology landscape is constantly evolving. This talk demonstrates how Scala3, in combination with scala-cli, effectively navigates these challenges by presenting representative examples from my experience with client projects."
+    },
+    "language": "en",
+    "length": 20,
+    "keywords": ["Big Data / Fast Data / Data Science", "Scala3"],
+    "speakerIds": ["SPEAKER_ID_10"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_14"
+    },
+    "ja": {
+      "title": "構造の音",
+      "description": "Can you compose and produce music with Scala? I’m a platinum selling recording artist and producer, now turned Scala developer. In this talk I’ll present how I used Scala & Scala.js to model music, write songs with Scala, and build simple web audio applications."
+    },
+    "en": {
+      "title": "Sounds of Structure - Music Modelling with ADTs",
+      "description": "Can you compose and produce music with Scala? I’m a platinum selling recording artist and producer, now turned Scala developer. In this talk I’ll present how I used Scala & Scala.js to model music, write songs with Scala, and build simple web audio applications."
+    },
+    "language": "en",
+    "length": 40,
+    "keywords": ["Case Studies", "Functional programming in general and sphere theory", "Scala3", "Scala.js"],
+    "speakerIds": ["SPEAKER_ID_11"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_15"
+    },
+    "ja": {
+      "title": "Turbocharging web socket integration for Tapir",
+      "description": "We love to use Tapir for the rapid development of Web APIs. Recently, we noticed it considerably impacted the performance of a web socket server. We managed to alleviate the slowdown almost entirely (less latency and CPU usage, greater throughput - performance rivalling a plain cats-effect/http4s/fs2 stack). The journey towards this goal was quite insightful, and we would like to share it with you. In particular, we will cover async-profiler, introduce some high-level concurrency combinators of the fs2 library and show surprising benchmarks."
+    },
+    "en": {
+      "title": "Turbocharging web socket integration for Tapir",
+      "description": "We love to use Tapir for the rapid development of Web APIs. Recently, we noticed it considerably impacted the performance of a web socket server. We managed to alleviate the slowdown almost entirely (less latency and CPU usage, greater throughput - performance rivalling a plain cats-effect/http4s/fs2 stack). The journey towards this goal was quite insightful, and we would like to share it with you. In particular, we will cover async-profiler, introduce some high-level concurrency combinators of the fs2 library and show surprising benchmarks."
+    },
+    "language": "en",
+    "length": 20,
+    "keywords": ["Effect System (Cats Effect / Monix / ZIO / eff etc.)", "Concurrency", "Compiler", "JVM"],
+    "speakerIds": ["SPEAKER_ID_12"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_16"
+    },
+    "ja": {
+      "title": "ScalaについてChatGPTに聞いてみた",
+      "description": "ChatGPTはOpenAIによってリリースされた、大規模言語モデル（LLM）をベースとしたチャットボットです。このセッションでは、Scala 2について色々な質問、特に言語の構文、型システム、意味論などについてChatGPTに聞いてみた結果を共有し、ChatGPTがどのくらいの精度で「Scalaを理解」しているかについて考察します。"
+    },
+    "en": {
+      "title": "Asked ChatGPT about Scala",
+      "description": "ChatGPT is a chatbot based on a large language model (LLM), released by OpenAI. In this session, we will share the results of various questions asked to ChatGPT about Scala 2, particularly focusing on its syntax, type system, and semantics, to evaluate how accurately ChatGPT understands Scala."
+    },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["事例紹介", "コンパイラ、JVM"],
+    "speakerIds": ["SPEAKER_ID_13"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_17"
+    },
+    "ja": {
+      "title": " Talking to your build tool - a worthwhile conversation.",
+      "description": "Most people heard of Language Server Protocol, but probably much less of Build Server Protocol. They most likely do not realize why they are needed or what they allow for. With even mainstream corporations picking up BSP to use in their tools, I think it’s high time to discuss how it came to be, what the advantages of using it are, current implementations, and how they can be used. I will go over all the the BSP capable tools. I will discuss their maturity and how to set them up. I will mostly focus on the integration with Metals Scala language server as I know it best.<br/><br/>"
+    },
+    "en": {
+      "title": " Talking to your build tool - a worthwhile conversation.",
+      "description": "Most people heard of Language Server Protocol, but probably much less of Build Server Protocol. They most likely do not realize why they are needed or what they allow for. With even mainstream corporations picking up BSP to use in their tools, I think it’s high time to discuss how it came to be, what the advantages of using it are, current implementations, and how they can be used. I will go over all the the BSP capable tools. I will discuss their maturity and how to set them up. I will mostly focus on the integration with Metals Scala language server as I know it best.<br/><br/>"
+    },
+    "language": "en",
+    "length": 20,
+    "keywords": ["DevOps & Tools"],
+    "speakerIds": ["SPEAKER_ID_14"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_18"
+    },
+    "ja": {
+      "title": "Scala tooling ecosystem",
+      "description": "Tooling is one of the topics most discussed in the Scala community. We often complain about its issues or have to deal with its’ imperfect solutions. However, I believe we have gone a really long way during the last few years and we are consistently improving with most Scala core teams being highly conscious of the current imperfections. I would like to go over the most relevant tools and changes that can improve your developer experience."
+    },
+    "en": {
+      "title": "Scala tooling ecosystem",
+      "description": "Tooling is one of the topics most discussed in the Scala community. We often complain about its issues or have to deal with its’ imperfect solutions. However, I believe we have gone a really long way during the last few years and we are consistently improving with most Scala core teams being highly conscious of the current imperfections. I would like to go over the most relevant tools and changes that can improve your developer experience."
+    },
+    "language": "en",
+    "length": 20,
+    "keywords": ["DevOps & Tools"],
+    "speakerIds": ["SPEAKER_ID_14"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_19"
+    },
+    "ja": {
+      "title": "ArkTwin：多様なシミュレータ・VRを繋いで街をシミュレーション",
+      "description": "トヨタ自動車では街規模のシミュレーションを行うため、人流シミュレータ・交通シミュレータ・VRなどをリアルタイムに繋ぐ分散メッセージングフレームワークArkTwinを研究開発しています。本セッションでは、異なる時空を生きているシミュレータ・VRを一つの世界にまとめるためのアーキテクチャや、Scala 2 & AkkaからScala 3 & Pekkoに移行した際のポイントなどを紹介します。"
+    },
+    "en": {
+      "title": "ArkTwin: Simulate a city by connecting various simulators and VR",
+      "description": "Toyota Motor Corporation is experimentally developing ArkTwin, a distributed multi-agent simulation messaging framework to connect human flow simulators, traffic simulators, VR, etc.<br/>We will introduce the architecture of ArkTwin, and migration points from Scala 2 & Akka to Scala 3 & Pekko."
+    },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["事例紹介", "Scala3", "Concurrency"],
+    "speakerIds": ["SPEAKER_ID_15"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_20"
+    },
+    "ja": {
+      "title": "A compiler for Funky Trees",
+      "description": "SimplePlanes is a fascinating game where you build planes from modular pieces and then fly them. The game also supports controlling inputs to the plane via math expressions. This expression language, however, is primitive, not intended for programming complicated behavior.<br/><br/>In this talk, I'll demo a pet project of mine of a library that compiles Scala to this expressions language, dramatically extending the range of the behaviors you can express. I'll showcase a Scala 3 macro-based compiler that transforms a Scala function into an XML file with a program to drive the in-game plane."
+    },
+    "en": {
+      "title": "A compiler for Funky Trees",
+      "description": "SimplePlanes is a fascinating game where you build planes from modular pieces and then fly them. The game also supports controlling inputs to the plane via math expressions. This expression language, however, is primitive, not intended for programming complicated behavior.<br/><br/>In this talk, I'll demo a pet project of mine of a library that compiles Scala to this expressions language, dramatically extending the range of the behaviors you can express. I'll showcase a Scala 3 macro-based compiler that transforms a Scala function into an XML file with a program to drive the in-game plane."
+    },
+    "language": "en",
+    "length": 40,
+    "keywords": ["Case Studies", "Scala3", "Compiler", "JVM"],
+    "speakerIds": ["SPEAKER_ID_16"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_21"
+    },
+    "ja": {
+      "title": "COVID-19のときに、わたしは日本語の勉強をする代わりに、スカラの本を書こうと決めました。",
+      "description": "２０２０年、わたしは初めての本を書くことを決めました。どうしてそれは起こったのか。なぜ私は（それを）受け入れたのか。私は編集スタッフたちの関係や、何度も遅れたこと、初日から最終納品までのプロセスなどを話すつもりです。しかし何よりも、なぜ私はこれを今後しないのかを説明します。"
+    },
+    "en": {
+      "title": "Instead of learning Japanese, I decided to write a book about Scala during COVID",
+      "description": "In 2020, I decided to write my very first book: how did it happen? Why did I accept? I'll be talking about relationships between the editorial staff, multiple delays, process from day 1 to the final delivery. But most and foremost I'll explain why I'll never do this again."
+    },
+    "language": "en",
+    "length": 20,
+    "keywords": ["Introduction to Scala"],
+    "speakerIds": ["SPEAKER_ID_17"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_22"
+    },
+    "ja": {
+      "title": "Scala to WebAssembly: Exploring the How and Why",
+      "description": "WebAssembly(Wasm)はブラウザで実行可能なプログラム形式で、近年ではブラウザに限らず様々な用途で利用され多くの言語がWasmに変換されています。<br/>ScalaでもWasmへの変換は過去に何度か模索されてきましたが、現時点ではWasmに直接変換することはできません。<br/>この発表ではなぜWasmが重要か、開発中のScalaからWasmへのコンパイラについて紹介し、その将来について議論します。"
+    },
+    "en": {
+      "title": "Scala to WebAssembly: Exploring the How and Why",
+      "description": "WebAssembly (Wasm) is a program format executable in browsers and now widely used beyond browsers. While Scala had explored Wasm conversion, direct conversion isn't possible yet. This presentation discusses Wasm's significance, introduces the ongoing Scala-to-Wasm compiler, and debates its future."
+    },
+    "language": "en",
+    "length": 40,
+    "keywords": ["Scala.js", "Scala Native", "コンパイラ、JVM"],
+    "speakerIds": ["SPEAKER_ID_18"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_23"
+    },
+    "ja": {
+      "title": "Property-based testing - let your testing library work for you",
+      "description": "Don't ask what you can do for your testing library, ask what it can do for you! It turns out that much more than displaying a nice green and red report. What if we make the library generate the test data? And maybe it could also think of the edge cases for which our code is wrong? And repeat that a thousand times, just to be sure. Sounds good? That's exactly what property-based testing has to offer. I'll show how to get started with this kind of testing in Scala, using ScalaTest and ScalaCheck. I'll also cover the fine print and challenges."
+    },
+    "en": {
+      "title": "Property-based testing - let your testing library work for you",
+      "description": "Don't ask what you can do for your testing library, ask what it can do for you! It turns out that much more than displaying a nice green and red report. What if we make the library generate the test data? And maybe it could also think of the edge cases for which our code is wrong? And repeat that a thousand times, just to be sure. Sounds good? That's exactly what property-based testing has to offer. I'll show how to get started with this kind of testing in Scala, using ScalaTest and ScalaCheck. I'll also cover the fine print and challenges."
+    },
+    "language": "en",
+    "length": 20,
+    "keywords": ["Functional programming in general and category theory, Organization"],
+    "speakerIds": ["SPEAKER_ID_19"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_24"
+    },
+    "ja": {
+      "title": "Get more clarity with opaque types in Scala 3",
+      "description": "Types are a programmer's best friend. In the pursuit of a perfect world, we try to model our domains in such a way that the type system makes incorrect data impossible. In Scala 2, we have tools like type aliases, value classes or Refined Types. In Scala 3, there's something new for this purpose - opaque type aliases. What do they bring to the table? Will they make our life easier? Do they have any drawbacks? Join this live demo session to learn all that and add this new tool to your modelling toolbox!"
+    },
+    "en": {
+      "title": "Get more clarity with opaque types in Scala 3",
+      "description": "Types are a programmer's best friend. In the pursuit of a perfect world, we try to model our domains in such a way that the type system makes incorrect data impossible. In Scala 2, we have tools like type aliases, value classes or Refined Types. In Scala 3, there's something new for this purpose - opaque type aliases. What do they bring to the table? Will they make our life easier? Do they have any drawbacks? Join this live demo session to learn all that and add this new tool to your modelling toolbox!"
+    },
+    "language": "en",
+    "length": 20,
+    "keywords": ["Functional programming in general and category theory", "Introduction to Scala", "Scala3"],
+    "speakerIds": ["SPEAKER_ID_19"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_25"
+    },
+    "ja": {
+      "title": "Scalaを使用したナレッジベース構築と仮説推論",
+      "description": "Linked Ideal LLCは、主にScalaを使用したナレッジベース構築プラットフォーム「Toposoid」の開発を進めてOSSとして公開しています。https://github.com/toposoid/toposoid　<br/>「Toposoid」では、LLMも統合してテキストだけでなく画像も含めて仮説推論を行うことができます。「Toposoid」では、Play Frameworkでマイクロサービスを作成して、Akkaでマイクロサービスを連携しています。今回Scalaを使用することでどのように推論を行なっているのか紹介致します。<br/><br/>"
+    },
+    "en": {
+      "title": "Knowledgebase Construction And Abduction Using Scala",
+      "description": "Linked Ideal LLC is developing Toposoid, a knowledge base construction platform mainly using Scala, and releasing it as OSS. https://github.com/toposoid/toposoid　<br/>\"Toposoid\" also integrates LLM and can perform abduction not only on text but also on images. \"Toposoid\" creates microservices with Play Framework and links them with Akka. This time I will introduce how to perform inference using Scala."
+    },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["事例紹介", "Webアプリケーションフレームワーク", "リアクティブシステム"],
+    "speakerIds": ["SPEAKER_ID_20"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_26"
+    },
+    "ja": {
+      "title": "Structured logging with cats",
+      "description": "A detailed look at structured logging in Scala with Cats. It's focused on the technical aspects - implementation nuances and limitations of ReaderT and StateT approaches."
+    },
+    "en": {
+      "title": "Structured logging with cats",
+      "description": "A detailed look at structured logging in Scala with Cats. It's focused on the technical aspects - implementation nuances and limitations of ReaderT and StateT approaches."
+    },
+    "language": "en",
+    "length": 20,
+    "keywords": ["Effect System (Cats Effect / Monix / ZIO / eff etc.)", "Functional programming in general and category theory"],
+    "speakerIds": ["SPEAKER_ID_21"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_27"
+    },
+    "ja": {
+      "title": "データ表現の冒険: Scala における OOP と FP の間のギャップを埋める",
+      "description": "私たちはデータ表現への旅に乗り出し、基準に挑戦し、オブジェクト指向プログラミング (OOP) と関数型プログラミング (FP) パラダイム間の微妙な違いを探求します。 ゲーム アクターを使用することで、単に教義に従うのではなく、実際的で情報に基づいたコンテキスト駆動型のアプローチを採用して問題を解決します。 楽しく実践的な例を通じて、FP の柔軟性と OOP の構造上の優雅さを調和させる Scala の力を明らかにします。 ソフトウェア設計の視野を広げ、ソフトウェア エンジニアリングのダイナミックな世界をナビゲートするための貴重な洞察が期待できます。"
+    },
+    "en": {
+      "title": "Adventures in Data Representation: Bridging the Gap Between OOP and FP in Scala",
+      "description": "We embark on a journey into data representation, challenging norms and exploring the subtle distinctions between Object-Oriented Programming (OOP) and Functional Programming (FP) paradigms. Using game actor, we take a pragmatic, informed and context-driven approach to solving problems rather than just following doctrine. Through fun and practical examples, we'll unveil the power of Scala to harmonize the flexibility of FP with the structural elegance of OOP. Expect invaluable insights for expanding the horizons of software design and navigating the dynamic world of software engineering."
+    },
+    "language": "en",
+    "length": 20,
+    "keywords": ["Software Design and Architecture"],
+    "speakerIds": ["SPEAKER_ID_22"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_28"
+    },
+    "ja": {
+      "title": "数値ライブラリで始める安全なプログラミング",
+      "description": "料金計算はアプリケーションにおける普遍的な関心事であり数値型の精度の考慮が重要です。私達のチームでは複雑な料金計算において段階的に計算式・端数処理・シリアライズを適用するケースに対して、typelevel/spireを導入し課題の解決にトライしています。本セッションでは実例を元に数値をより安全に扱う方法を紹介し、最小限のテストでバグの少ないプログラミングを明日から実践できるようにします。"
+    },
+    "en": {
+      "title": "Introduction to safe programming with numeric library",
+      "description": "Calculating charges is a universal concern in application, accuracy of numeric type is critical. This session introduce practice of typelevel/spire to solve complex calculations where formula, rounding, serialization are applied."
+    },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["関数型プログラミング一般や圏論", "Scala入門"],
+    "speakerIds": ["SPEAKER_ID_23"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_29"
+    },
+    "ja": {
+      "title": "build full-stack Scala web app with Korolev",
+      "description": "Is it possible to write frontend code in Scala the same way we do backend? <br/><br/>Yes! With Korolev, the open source sever side rendering framework for Scala, we don't even need to use ScalaJS. <br/><br/>In this talk, we will see how easy it is to build a Match 3 game using Korolev for frontend, and Akka (or Pekko) for backend. <br/>We will include a live demo for more fun.<br/>"
+    },
+    "en": {
+      "title": "build full-stack Scala web app with Korolev",
+      "description": "Is it possible to write frontend code in Scala the same way we do backend? <br/><br/>Yes! With Korolev, the open source sever side rendering framework for Scala, we don't even need to use ScalaJS. <br/><br/>In this talk, we will see how easy it is to build a Match 3 game using Korolev for frontend, and Akka (or Pekko) for backend. <br/>We will include a live demo for more fun.<br/>"
+    },
+    "language": "en",
+    "length": 20,
+    "keywords": ["Web Application Framework"],
+    "speakerIds": ["SPEAKER_ID_24"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_30"
+    },
+    "ja": {
+      "title": "reproducible and pain-free dev environment setup with Nix",
+      "description": "It is not uncommon that a developer needs to work with multiple JDK and Scala versions on a job. <br/><br/>Nix is a perfect tool to provide reproducible and sandboxed dev environments for different Scala projects. With it, it is easy to jump between projects or even do the dev work on multiple projects at the same time. We start with a demo to show how this works in reality. <br/><br/>After the demo, we will give a beginner-friendly Scala-focused introduction to Nix and Nix flakes."
+    },
+    "en": {
+      "title": "reproducible and pain-free dev environment setup with Nix",
+      "description": "It is not uncommon that a developer needs to work with multiple JDK and Scala versions on a job. <br/><br/>Nix is a perfect tool to provide reproducible and sandboxed dev environments for different Scala projects. With it, it is easy to jump between projects or even do the dev work on multiple projects at the same time. We start with a demo to show how this works in reality. <br/><br/>After the demo, we will give a beginner-friendly Scala-focused introduction to Nix and Nix flakes."
+    },
+    "language": "en",
+    "length": 20,
+    "keywords": ["DevOps & Tools"],
+    "speakerIds": ["SPEAKER_ID_24"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_31"
+    },
+    "ja": {
+      "title": "Ironライブラリで守られた型安全性",
+      "description": "IronというScalaライブラリを発見しましょう。これはゼロコストで型制約を実現します。賢くデータをモデル化し、APIからDBまでの制約を強制し、バグを排除する方法を学びます。Ironの機能を探究し、Scala 3の高度なプログラミング能力を活用した制約強制アプリケーションを紹介します。"
+    },
+    "en": {
+      "title": "Armored Type Safety with Iron",
+      "description": "Discover Iron, a Scala library for type constraints with zero cost. Learn to model data smartly, enforce constraints from API to DB, and eliminate bugs. We'll explore Iron's features and showcase a constraint-enforced application, leveraging Scala 3's advanced programming capabilities."
+    },
+    "language": "en",
+    "length": 20,
+    "keywords": ["Scala3", "Software Design and Architecture"],
+    "speakerIds": ["SPEAKER_ID_25"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_32"
+    },
+    "ja": {
+      "title": "Transforming large and complex biological data with Gallia: a case study using the GeneMania dataset",
+      "description": "Expanding on my recent talks at Scala Days and Scala IO, I'll present a case study of applying Gallia data transformations to large+complex biological data (see gallia-genemania). It will use Scala 3 and leverage the new \"OSWO\" performance optimization (see oswo.md in gallia-docs) atop Apache Spark"
+    },
+    "en": {
+      "title": "Transforming large and complex biological data with Gallia: a case study using the GeneMania dataset",
+      "description": "Expanding on my recent talks at Scala Days and Scala IO, I'll present a case study of applying Gallia data transformations to large+complex biological data (see gallia-genemania). It will use Scala 3 and leverage the new \"OSWO\" performance optimization (see oswo.md in gallia-docs) atop Apache Spark"
+    },
+    "language": "en",
+    "length": 20,
+    "keywords": ["Big Data / Fast Data / Data Science", "Case Studies", "Scala3"],
+    "speakerIds": ["SPEAKER_ID_26"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_33"
+    },
+    "ja": {
+      "title": "Presenting Aptus: a KISS-principled utility library for common tasks",
+      "description": "I will showcase Aptus, my utility library heavily used in Gallia (and most of my projects). It aims to simplify common tasks and provide out of the box functionality when performance is not most important. It may also serve as a starting point and reference for more involved use cases."
+    },
+    "en": {
+      "title": "Presenting Aptus: a KISS-principled utility library for common tasks",
+      "description": "I will showcase Aptus, my utility library heavily used in Gallia (and most of my projects). It aims to simplify common tasks and provide out of the box functionality when performance is not most important. It may also serve as a starting point and reference for more involved use cases."
+    },
+    "language": "en",
+    "length": 20,
+    "keywords": ["DevOps & Tools", "Introduction to Scala", "Scala3"],
+    "speakerIds": ["SPEAKER_ID_26"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_34"
+    },
+    "ja": {
+      "title": "How do we optimise Scala build times?",
+      "description": "Build tools for Scala help you to compile projects as fast as possible. Let's take an in depth look at new improvements in active development to improve build times, from pipelined compilation, more efficient scheduling, to even fine-grained parallel compilation."
+    },
+    "en": {
+      "title": "How do we optimise Scala build times?",
+      "description": "Build tools for Scala help you to compile projects as fast as possible. Let's take an in depth look at new improvements in active development to improve build times, from pipelined compilation, more efficient scheduling, to even fine-grained parallel compilation."
+    },
+    "language": "en",
+    "length": 40,
+    "keywords": ["Scala3", "Compiler", "JVM"],
+    "speakerIds": ["SPEAKER_ID_27"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_35"
+    },
+    "ja": {
+      "title": "Unlock productivity with Scala 3 macros",
+      "description": "Learn metaprogramming fundamentals with a pattern extractor for parsing interview-style problem inputs, for example solving the Advent of Code. We cover quotes and splices, custom pattern extractors, code transformation, validation and more."
+    },
+    "en": {
+      "title": "Unlock productivity with Scala 3 macros",
+      "description": "Learn metaprogramming fundamentals with a pattern extractor for parsing interview-style problem inputs, for example solving the Advent of Code. We cover quotes and splices, custom pattern extractors, code transformation, validation and more."
+    },
+    "language": "en",
+    "length": 20,
+    "keywords": ["Scala3", "Software Design and Architecture"],
+    "speakerIds": ["SPEAKER_ID_27"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_36"
+    },
+    "ja": {
+      "title": "Build tool from scratch",
+      "description": "What does it take to build Scala code fast? Let's explore the fundamentals by creating our own build tool from scratch, and demonstrate how we can improve build performance by progressively updating the build definition."
+    },
+    "en": {
+      "title": "Build tool from scratch",
+      "description": "What does it take to build Scala code fast? Let's explore the fundamentals by creating our own build tool from scratch, and demonstrate how we can improve build performance by progressively updating the build definition."
+    },
+    "language": "en",
+    "length": 20,
+    "keywords": ["DevOps & Tools", "Software Design and Architecture"],
+    "speakerIds": ["SPEAKER_ID_27"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_37"
+    },
+    "ja": {
+      "title": "JVM, JS, Native環境で動作するJDBCをScala3で開発している話",
+      "description": "Scala3で作成を行なっているMySQL用のデータベースライブラリをJVM, JS, Native環境で動作させるために、Scala3でJDBCを作成しています。(わかりやすさのためにJDBCと記載していますが、MySQL専用です)<br/>まだ完成していませんが、途中経過としてクロスプラットフォーム対応と0 -> 1で作成を行う大変さなどを話せたらと考えています。"
+    },
+    "en": {
+      "title": "A story about developing JDBC that works in JVM, JS, and Native environments with Scala3",
+      "description": "We are creating JDBC in Scala3 in order to run the database library for MySQL in JVM, JS, and Native environment.(JDBC is used for clarity, but this is for MySQL only.)<br/>It's not finished yet, but I'd like to talk about the cross-platform support and the difficulties of creating a 0 -> 1 project as a work in progress."
+    },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["Scala3", "Scala.js", "Scala Native"],
+    "speakerIds": ["SPEAKER_ID_28"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_38"
+    },
+    "ja": {
+      "title": "record4s --- Scala 3のための拡張可能レコード、そして構造的型によるドメインモデリング",
+      "description": "Scala 3向けの拙作の拡張可能レコードのライブラリ\"record4s\"を紹介します。JVM・JS・ネイティブのどのプラットフォームでも動作し、型安全なレコード型を提供するものです。Scala 3のマクロを用いて効率的に実装されている点や、Scala 3でリフレクションを必要としなくなった構造的型として表現されたレコード型がドメインモデリングにどう役立つかなどを説明します。"
+    },
+    "en": {
+      "title": "record4s --- Extensible Records for Scala 3, and Domain Modelling with Structural Types",
+      "description": "In this talk, we learn about the basics of my library called \"record4s\", which provides type-safe extensible records for Scala 3.  It runs on JVM, JS, and Native platforms.  You will see how it is implemented efficiently by using Scala 3 macros, and how record types as structural types, which work without reflection in Scala 3, are helpful in domain modeling."
+    },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["Scala3", "Software Design and Architecture", "Scala.js"],
+    "speakerIds": ["SPEAKER_ID_29"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_39"
+    },
+    "ja": {
+      "title": "日本語埋め込みモデルを Scala から使うには何が必要か.",
+      "description": "最近の自然言語処理(NLP)では、埋め込みモデルがよく使われています。この分野では、Pythonで書かれたサンプルコードは山ほどありますが、他のプログラミング言語で書かれたものはほとんどありません。<br/><br/>埋め込みモデルのサンプルコードを実行したとき、裏で何が起こっているか想像したことがありますか？Scala(あるいは他のJVM言語)から、これらのモデル、特に日本語エンベッディングモデルを利用するにはどうしたらよいでしょうか？<br/>本セッションでは、日本語埋め込みモデルの概要と、Scala(や他のJVM言語)からこれらのモデルを呼び出す方法を説明します。"
+    },
+    "en": {
+      "title": "Embedding under the hood: What we need to use Japanese Embedding Model in Scala",
+      "description": "Recent natural language processing(NLP) often uses embedding models. In this area, there are tons of sample codes written in Python, but there are few, if any, of them in other programming languages.<br/><br/>Have you imagine what happens behind the scene when you run those sample codes of embedding models? How can we use these models, in particular Japanese embedding models, from Scala(or other JVM languages)?<br/>In this session, I will give you overview of Japanese embedding models and explain how to call these models from Scala(and other JVM languages)."
+    },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["Big Data / Fast Data / Data Science", "Scala3"],
+    "speakerIds": ["SPEAKER_ID_30"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_40"
+    },
+    "ja": {
+      "title": "作って学ぶ Extensible Effects",
+      "description": "Eff (Extensible eFFects) は、アプリケーションの中で独自のプログラミング言語を構築するための強力なツールです。この講演では、聴講者が Eff の簡単な実装を一つ作れることを目標とし、（特定の Eff 実装を解説するのではなく）コンパイラやインタプリタといったプログラミング言語処理系の比喩を用いて、Eff の原理や背景にある考え方をお話しします。"
+    },
+    "en": {
+      "title": "Learning Extensible Effects by Building One",
+      "description": "Eff (Extensible eFFects) is a powerful tool that allows you to build programming languages within your application. Instead of explaining a specific Eff library, this talk dives into the principles of Eff using an analogy to compilers and interpreters, so that you can build a simple version of them."
+    },
+    "language": "en",
+    "length": 40,
+    "keywords": ["Effect System (Cats Effect / Monix / ZIO / eff etc.)", "関数型プログラミング一般や圏論", "Software Design and Architecture"],
+    "speakerIds": ["SPEAKER_ID_31-01", "SPEAKER_ID_31-02"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_41"
+    },
+    "ja": {
+      "title": "強くてニューゲーム！Scala で高速にゼロからサービスを開発する N 個のコツ",
+      "description": "アルプ株式会社ではこれまで長年に渡り Scala アプリケーション開発に携わってきた経験豊富なメンバーが揃い、2023年7月、新たに Scalebase ペイメントというサービスを正式リリースしました。本セッションでは当該サービスの開発を通して得られた知見、Scala を用いてごく少人数で高速に業務アプリケーション開発を続けるためのいくつかの Tips を紹介します。"
+    },
+    "en": {
+      "title": "NewGame+! Tips for Developing a Service from Scratch with Scala",
+      "description": "In July 2023, Alp, Inc., home to members experienced in Scala development, launched Scalebase Payment. This session shares insights from its development and tips for rapid business application development with Scala in a small team."
+    },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["事例紹介", "関数型プログラミング一般や圏論", "Software Design and Architecture"],
+    "speakerIds": ["SPEAKER_ID_32"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_42"
+    },
+    "ja": {
+      "title": "いつ継承を使い、いつ使わないのか",
+      "description": "安易な継承の危険性が認知されるようになり、「継承よりも委譲」と叫ばれて久しくなりました。<br/>またScalaを始め昨今の言語ではsealedなどの言語機構により代数的データ型も表現できるようになっています。<br/>このセッションでは、従来のサブタイプによるモデル表現と代数的データ型によるモデル表現を比較し、どの様な時にどちらを選択するかの指針を皆さんにお伝えしたいと思います。"
+    },
+    "en": {
+      "title": "When to use subtyping & when not to use it",
+      "description": "It has long been said that \"Composition over inheritance\".<br/>In recent languages(Scala, Java, Kotlin, etc), we can use Algebraic Data Types by language mechanisms such as sealed.<br/>In this session, I would like to compare a subtyping and algebraic data types, and give you some guidelines on when to choose between the two."
+    },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["関数型プログラミング一般や圏論", "Scala入門", "Software Design and Architecture"],
+    "speakerIds": ["SPEAKER_ID_33"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_43"
+    },
+    "ja": {
+      "title": "opaque types 入門",
+      "description": "Scala 3ではopaque typesという新機能が追加されました。 <br/>opaque typesを使う事で、パフォーマンス低下の懸念なしにDomain Primitiveを定義できるようになります。<br/>このセッションではopaque typesの活用法を示し、より安全で高パフォーマンスなプログラムを皆さんが書けるように支援します。"
+    },
+    "en": {
+      "title": "opaque types introduction",
+      "description": "Scala 3 adds a new feature called opaque types. <br/>Using opaque types, you can define Domain Primitives without worrying about performance degradation.<br/>This session will show how to take advantage of opaque types and help you write safer and higher performance programs."
+    },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["Scala入門", "Scala3", "Software Design and Architecture"],
+    "speakerIds": ["SPEAKER_ID_33"]
+  },
+  {
+    "proposalId": {
+      "value": "PROPOSAL_ID_44"
+    },
+    "ja": {
+      "title": "How Scala Native shaped the future of Cats Effect",
+      "description": "Porting Cats Effect to Scala Native impelled us to reimagine our runtime. In this talk we will learn about how effect systems support concurrency and I/O without multi-threading and how we implement this in Cats Effect. Then we will discover that these ideas translate to multi-threaded runtimes too."
+    },
+    "en": {
+      "title": "How Scala Native shaped the future of Cats Effect",
+      "description": "Porting Cats Effect to Scala Native impelled us to reimagine our runtime. In this talk we will learn about how effect systems support concurrency and I/O without multi-threading and how we implement this in Cats Effect. Then we will discover that these ideas translate to multi-threaded runtimes too."
+    },
+    "language": "en",
+    "length": 20,
+    "keywords": ["Effect System (Cats Effect / Monix / ZIO / eff etc.)", "Concurrency", "Scala Native"],
+    "speakerIds": ["SPEAKER_ID_34"]
   }
 ]
