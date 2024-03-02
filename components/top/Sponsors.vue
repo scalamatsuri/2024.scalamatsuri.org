@@ -121,8 +121,10 @@ ja:
       </ul>
       <h3 class="sponsors_title sponsors_subtitle-bugyo">{{ t('bugyo') }}</h3>
       <ul class="sponsors_list">
-        <li v-for="sponsor in shuffledBugyos" :key="sponsor.logo" class="sponsors_item">
-          <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
+        <li v-for="sponsor in shuffledBugyos" :key="sponsor.logo" class="sponsors_item-bugyo">
+          <a :href="sponsor.url" target="_blank">
+            <img :src="sponsor.logo" :alt="sponsor.en.name" />
+          </a>
           <div v-if="locale == `en`">
             <p>{{ sponsor.en.name }}</p>
           </div>
@@ -221,8 +223,6 @@ const shuffledBugyos = computed(() => arrayShuffle(bugyos.value))
   margin: 0 auto;
   padding: 0 10px;
 }
-.sponsors_inner {
-}
 .sponsors_item {
   padding: 0 10px;
   width: 50%;
@@ -239,8 +239,17 @@ const shuffledBugyos = computed(() => arrayShuffle(bugyos.value))
   }
   &-ninja {
     padding: 0 10px;
-    width: 20%;
+    width: 30%;
     max-width: 100px;
+    margin-top: 20px;
+    img {
+      width: 100%;
+      background: white;
+    }
+  }
+  &-bugyo {
+    padding: 0 10px;
+    width: 30%;
     margin-top: 20px;
     img {
       width: 100%;
