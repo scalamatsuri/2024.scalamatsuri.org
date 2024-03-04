@@ -135,6 +135,21 @@
     "speakerdeckUrl": ""
   },
   {
+    "id": "DAIMYO_9",
+    "type": "DAIMYO",
+    "ja": {
+      "name": "JetBrains s.r.o."
+    },
+    "en": {
+      "name": "JetBrains s.r.o."
+    },
+    "logo": "/img/sponsors/jetbrains.png",
+    "url": "https://www.jetbrains.com/ja-jp/",
+    "textHtml": "",
+    "slideHtml": "",
+    "speakerdeckUrl": ""
+  },
+  {
     "id": "SAMURAI_1",
     "type": "SAMURAI",
     "ja": {
