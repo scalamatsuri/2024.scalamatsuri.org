@@ -150,6 +150,21 @@
     "speakerdeckUrl": ""
   },
   {
+    "id": "DAIMYO_10",
+    "type": "DAIMYO",
+    "ja": {
+      "name": "株式会社リブセンス（転職ドラフト事業部）"
+    },
+    "en": {
+      "name": "株式会社リブセンス（転職ドラフト事業部）"
+    },
+    "logo": "/img/sponsors/livesense.png",
+    "url": "https://job-draft.jp/",
+    "textHtml": "",
+    "slideHtml": "",
+    "speakerdeckUrl": ""
+  },
+  {
     "id": "SAMURAI_1",
     "type": "SAMURAI",
     "ja": {
