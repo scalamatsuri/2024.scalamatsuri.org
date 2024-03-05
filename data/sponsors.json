@@ -135,6 +135,36 @@
     "speakerdeckUrl": ""
   },
   {
+    "id": "DAIMYO_9",
+    "type": "DAIMYO",
+    "ja": {
+      "name": "JetBrains s.r.o."
+    },
+    "en": {
+      "name": "JetBrains s.r.o."
+    },
+    "logo": "/img/sponsors/jetbrains.png",
+    "url": "https://www.jetbrains.com/ja-jp/",
+    "textHtml": "",
+    "slideHtml": "",
+    "speakerdeckUrl": ""
+  },
+  {
+    "id": "DAIMYO_10",
+    "type": "DAIMYO",
+    "ja": {
+      "name": "株式会社リブセンス（転職ドラフト事業部）"
+    },
+    "en": {
+      "name": "株式会社リブセンス（転職ドラフト事業部）"
+    },
+    "logo": "/img/sponsors/livesense.png",
+    "url": "https://job-draft.jp/",
+    "textHtml": "",
+    "slideHtml": "",
+    "speakerdeckUrl": ""
+  },
+  {
     "id": "SAMURAI_1",
     "type": "SAMURAI",
     "ja": {
