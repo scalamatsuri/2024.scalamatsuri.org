@@ -16,9 +16,11 @@ ja:
       <nuxt-link :to="localePath('sponsorship')" class="banner_item banner_item-sponsor">
         <span>{{ t('sponsorship') }} </span>
       </nuxt-link>
+      <!--
       <nuxt-link :to="localePath('call-for-proposals')" class="banner_item banner_item-session">
         <span>{{ t('call-for-proposals') }}</span>
       </nuxt-link>
+      -->
       <a href="https://scalaconfjp.doorkeeper.jp/events/168847" target="_blank" class="banner_item banner_item-ticket">
         <span>{{ t('ticket') }}</span>
       </a>
