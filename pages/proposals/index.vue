@@ -4,112 +4,105 @@ en:
   slide_notation: 'Talking languages are as shown below. All slides will be in English.'
   cfp_notation: |
     CFP is still open now. You can submit from <a href="/en/cfp/">here</a> by 23:59, 1st Feb Anywhere on Earth.
-  en_100: '100-minute sessions in English'
   en_40: '40-minute sessions in English'
-  ja_100: '100-minute sessions in Japanese'
+  en_20: '20-minute sessions in English'
   ja_40: '40-minute sessions in Japanese'
+  ja_20: '20-minute sessions in Japanese'
 ja:
   title: '応募セッション一覧'
   slide_notation: '発表言語ごとに表示しています。スライドの言語は全て英語の予定です.'
   cfp_notation: |
     セッション募集(CFP) 期間中です。ご応募は<a href="/ja/cfp/">こちら</a>。2/1 23:59 AoE (2/2 20:59 JST)締切です。
-  en_100: '100分英語'
   en_40: '40分英語'
-  ja_100: '100分日本語'
+  en_20: '20分英語'
   ja_40: '40分日本語'
+  ja_20: '20分日本語'
 </i18n>
 
 <template>
-  <MainVisual :title="t('title')" />
-  <div class="page">
-    <h2 class="page_title">{{ t('en_40') }}</h2>
-    <div class="proposals">
-      <div v-for="proposal in localedProposals40min" :key="proposal.id.value">
-        <div :id="proposal.id.value" class="proposal" data-target="proposal.id.value">
-          <div class="detail">
-            <p class="title">
-              <NuxtLink :to="localePath(`/proposals/${proposal.id.value}`)">
-                {{ proposal[locale].title }}
-              </NuxtLink>
-            </p>
-            <p v-if="proposal.language == 'en'">English</p>
-            <p v-if="proposal.language == 'ja'">Japanese</p>
-            <div class="speakers">
-              <div v-for="speaker in proposal.speakers" :key="speaker.name" class="speaker">
-                <img :src="speaker.iconUrl" class="speaker_icon" />
-                <p class="speaker_name">{{ speaker.name }}</p>
-                <p class="speaker_id">
-                  <a v-if="speaker.twitter" class="modal_speaker_sns" :href="`https://twitter.com/${speaker.twitter}`">
-                    <img src="/img/common/icon-sns-tw.svg" />{{ speaker.twitter }}
-                  </a>
-                  <a v-if="speaker.github" class="modal_speaker_sns" :href="`https://github.com/${speaker.github}`">
-                    <img src="/img/common/icon-sns-git.svg" />{{ speaker.github }}
-                  </a>
-                </p>
-              </div>
-            </div>
-            <p class="description">{{ proposal[locale].description }}</p>
-            <div class="tags">
-              <div v-for="kw in proposal.keywords" :key="kw" class="tag" data-tag="tag">
-                <span>{{ kw }}</span>
-              </div>
-            </div>
+  <ClientOnly>
+    <MainVisual :title="t('title')" />
+    <h3 class="sub_header_link">
+      <NuxtLink v-if="localedProposalsEn40min.length > 0" to="#en_40" class="sub_header_link_item">{{ t('en_40') }}</NuxtLink>
+      <NuxtLink v-if="localedProposalsJa40min.length > 0" to="#ja_40" class="sub_header_link_item">{{ t('ja_40') }}</NuxtLink>
+      <NuxtLink v-if="localedProposalsEn20min.length > 0" to="#en_20" class="sub_header_link_item">{{ t('en_20') }}</NuxtLink>
+      <NuxtLink v-if="localedProposalsJa20min.length > 0" to="#ja_20" class="sub_header_link_item">{{ t('ja_20') }}</NuxtLink>
+    </h3>
+    <div class="page">
+      <div v-if="localedProposalsEn40min.length > 0">
+        <h2 id="en_40" class="page_title">{{ t('en_40') }}</h2>
+        <div class="proposals">
+          <div v-for="proposal in localedProposalsEn40min" :key="proposal.proposalId.value">
+            <ProposalDetail :proposal="proposal" />
           </div>
         </div>
       </div>
-    </div>
 
-    <h2 class="page_title">{{ t('en_20') }}</h2>
-    <div class="proposals">
-      <div v-for="proposal in localedProposals20min" :key="proposal.id.value">
-        <div :id="proposal.id.value" class="proposal" data-target="proposal.id.value">
-          <div class="detail">
-            <p class="title">
-              <NuxtLink :to="localePath(`/proposals/${proposal.id.value}`)">
-                {{ proposal[locale].title }}
-              </NuxtLink>
-            </p>
-            <p v-if="proposal.language == 'en'">English</p>
-            <p v-if="proposal.language == 'ja'">Japanese</p>
-            <div class="speakers">
-              <div v-for="speaker in proposal.speakers" :key="speaker.name" class="speaker">
-                <img :src="speaker.iconUrl" class="speaker_icon" />
-                <p class="speaker_name">{{ speaker.name }}</p>
-                <p class="speaker_id">
-                  <a v-if="speaker.twitter" class="modal_speaker_sns" :href="`https://twitter.com/${speaker.twitter}`">
-                    <img src="/img/common/icon-sns-tw.svg" />{{ speaker.twitter }}
-                  </a>
-                  <a v-if="speaker.github" class="modal_speaker_sns" :href="`https://github.com/${speaker.github}`">
-                    <img src="/img/common/icon-sns-git.svg" />{{ speaker.github }}
-                  </a>
-                </p>
-              </div>
-            </div>
-            <p class="description">{{ proposal[locale].description }}</p>
-            <div class="tags">
-              <div v-for="kw in proposal.keywords" :key="kw" class="tag" data-tag="tag">
-                <span>{{ kw }}</span>
-              </div>
-            </div>
+      <div v-if="localedProposalsJa40min.length > 0">
+        <h2 id="ja_40" class="page_title">{{ t('ja_40') }}</h2>
+        <div class="proposals">
+          <div v-for="proposal in localedProposalsJa40min" :key="proposal.proposalId.value">
+            <ProposalDetail :proposal="proposal" />
+          </div>
+        </div>
+      </div>
+
+      <div v-if="localedProposalsEn20min.length > 0">
+        <h2 id="en_20" class="page_title">{{ t('en_20') }}</h2>
+        <div class="proposals">
+          <div v-for="proposal in localedProposalsEn20min" :key="proposal.proposalId.value">
+            <ProposalDetail :proposal="proposal" />
+          </div>
+        </div>
+      </div>
+
+      <div v-if="localedProposalsJa20min.length > 0">
+        <h2 id="ja_20" class="page_title">{{ t('ja_20') }}</h2>
+        <div class="proposals">
+          <div v-for="proposal in localedProposalsJa20min" :key="proposal.proposalId.value">
+            <ProposalDetail :proposal="proposal" />
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </ClientOnly>
 </template>
 
 <script setup lang="ts">
-import { type Proposal, type Talk } from '~/models/model'
+import { type ProposalWithSpeakers } from '~/models/model'
 const { locale, t } = useI18n()
 const localePath = useLocalePath()
 pageMetaCheck()
 
-const proposals: ComputedRef<Proposal[]> = getProposals()
-const localedProposals40min = proposals.value.filter((proposal) => proposal.length === 40)
-const localedProposals20min = proposals.value.filter((proposal) => proposal.length === 20)
+const proposals: ComputedRef<ProposalWithSpeakers[]> = getProposals()
+const shuffledProposals = computed(() => arrayShuffle(proposals.value))
+const localedProposalsEn40min = shuffledProposals.value.filter((proposal) => proposal.length === 40 && proposal.language === 'en')
+const localedProposalsJa40min = shuffledProposals.value.filter((proposal) => proposal.length === 40 && proposal.language === 'ja')
+const localedProposalsEn20min = shuffledProposals.value.filter((proposal) => proposal.length === 20 && proposal.language === 'en')
+const localedProposalsJa20min = shuffledProposals.value.filter((proposal) => proposal.length === 20 && proposal.language === 'ja')
 </script>
 
 <style scoped lang="scss">
+.sub_header_link {
+  margin-top: 60px;
+  text-align: center;
+  padding: 40px;
+  background-color: #f1f1f1;
+}
+/* footer PC */
+@media screen and (min-width: $headerViewport) {
+  .sub_header_link_item {
+    display: inline-block;
+    margin: 0 20px;
+  }
+}
+/* footer SP */
+@media screen and (max-width: $headerViewport - 1) {
+  .sub_header_link_item {
+    display: block;
+    margin: 20px 0;
+  }
+}
 .page {
   text-align: center;
   margin: 0 auto;
@@ -134,85 +127,5 @@ const localedProposals20min = proposals.value.filter((proposal) => proposal.leng
   border-top: 1px solid #eee;
   margin: 60px auto 0;
   max-width: 1200px;
-}
-.proposal {
-  border-bottom: 1px solid #eee;
-  padding: 20px 0;
-}
-.detail {
-  text-align: left;
-  padding: 0px 30px;
-}
-.title {
-  font-weight: bold;
-  font-size: 2em;
-}
-.description {
-  margin-top: 10px;
-  letter-spacing: 0.1em;
-}
-
-.speakers {
-  // padding: 0px 30px;
-  display: flex;
-  flex-wrap: wrap;
-}
-.speaker {
-  width: calc(33.3% - 10px);
-  text-align: left;
-  margin-top: 10px;
-  min-width: 300px;
-}
-.speaker_icon {
-  width: 40px;
-  height: 40px;
-  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1) inset;
-  background-size: cover;
-  border-radius: 20px;
-  float: left;
-}
-.speaker_name {
-  margin-left: 50px;
-  font-weight: bold;
-  line-height: 20px;
-  font-size: 12px;
-  letter-spacing: 0.1em;
-}
-.speaker_id {
-  margin-left: 50px;
-  line-height: 20px;
-  font-size: 12px;
-  > a {
-    margin-right: 10px;
-  }
-  > a > img {
-    width: 16px;
-    height: 16px;
-    margin: 4px 3px 0 0;
-  }
-}
-
-.tags {
-  display: inline;
-  font-weight: bold;
-  line-height: normal;
-  font-size: 12px;
-  letter-spacing: 0.1em;
-}
-.tag {
-  display: inline;
-  color: rgba(0, 0, 0, 0.5);
-  > span {
-    display: inline-block;
-    line-height: 20px;
-    font-size: 12px;
-    letter-spacing: 0.05em;
-    font-weight: normal;
-  }
-  + .tag {
-    &:before {
-      content: ' | ';
-    }
-  }
 }
 </style>

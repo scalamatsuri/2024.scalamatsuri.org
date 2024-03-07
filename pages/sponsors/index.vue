@@ -14,11 +14,13 @@ ja:
 </i18n>
 
 <template>
-  <MainVisual :title="t('title')" />
-  <SponsorInquiry />
-  <SponsorBlock :title="t('sponsorType.syogun')" :sponsors="shuffledShogunSponsors" />
-  <SponsorBlock :title="t('sponsorType.tairou')" :sponsors="shuffledTairouSponsors" />
-  <SponsorBlock :title="t('sponsorType.daimyo')" :sponsors="shuffledDaimyoSponsors" />
+  <ClientOnly>
+    <MainVisual :title="t('title')" />
+    <SponsorInquiry />
+    <SponsorBlock :title="t('sponsorType.syogun')" :sponsors="shuffledShogunSponsors" />
+    <SponsorBlock :title="t('sponsorType.tairou')" :sponsors="shuffledTairouSponsors" />
+    <SponsorBlock :title="t('sponsorType.daimyo')" :sponsors="shuffledDaimyoSponsors" />
+  </ClientOnly>
 </template>
 
 <script setup lang="ts">

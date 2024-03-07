@@ -1,14 +1,21 @@
 <template>
-  <MainVisual :title="proposal[locale].title" />
-  <div class="proposal">
+  <div :id="proposal.proposalId.value" class="proposal" data-target="proposal.proposalId.value">
     <div class="detail">
+      <p class="title">
+        <NuxtLink :to="localePath(`/proposals/${proposal.proposalId.value}`)" target="_blank">
+          {{ proposal[locale].title }}
+        </NuxtLink>
+      </p>
+      <p v-if="proposal.language == 'en'">English</p>
+      <p v-if="proposal.language == 'ja'">Japanese</p>
       <div class="speakers">
-        <div v-for="speaker in proposal.speakers" :key="speaker[locale].name" class="speaker">
-          <img :src="speaker.iconUrl" class="speaker_icon" />
+        <div v-for="speaker in proposal.speakers" :key="speaker.name" class="speaker">
+          <img v-if="speaker.iconUrl" :src="speaker.iconUrl" class="speaker_icon" />
+          <img v-if="!speaker.iconUrl" src="/img/common/logo.svg" class="speaker_icon" />
           <p class="speaker_name">{{ speaker[locale].name }}</p>
           <p class="speaker_id">
             <a v-if="speaker.twitter" class="modal_speaker_sns" :href="`https://twitter.com/${speaker.twitter}`">
-              <img src="/img/common/icon-sns-tw.svg" />{{ speaker.twitter }}
+              <img src="/img/common/icon-sns-x.svg" />{{ speaker.twitter }}
             </a>
             <a v-if="speaker.github" class="modal_speaker_sns" :href="`https://github.com/${speaker.github}`">
               <img src="/img/common/icon-sns-git.svg" />{{ speaker.github }}
@@ -16,9 +23,6 @@
           </p>
         </div>
       </div>
-      <p>{{ proposal.length }} min</p>
-      <p v-if="proposal.language == 'en'">Talking in English</p>
-      <p v-if="proposal.language == 'ja'">Talking in Japanese</p>
       <p class="description" v-html="proposal[locale].description" />
       <div class="tags">
         <div v-for="kw in proposal.keywords" :key="kw" class="tag" data-tag="tag">
@@ -31,50 +35,14 @@
 
 <script setup lang="ts">
 import { type ProposalWithSpeakers } from '~/models/model'
-const { locale } = useI18n()
-pageMetaCheck()
-const route = useRoute()
-let proposal = {} as ProposalWithSpeakers
-const maybeProposal: ComputedRef<ProposalWithSpeakers | null> = getProposalById(route.params.id as string)
-if (maybeProposal) {
-  proposal = maybeProposal.value
-} else {
-  useState('pageMetaCheck', () => {
-    throw createError({
-      statusCode: 404,
-      message: '404 Resource Not Found',
-      fatal: true,
-    })
-  })
-}
+const { locale, t } = useI18n()
+const localePath = useLocalePath()
+const { proposal } = defineProps({
+  proposal: {} as PropType<ProposalWithSpeakers>,
+})
 </script>
 
 <style scoped lang="scss">
-.page {
-  text-align: center;
-  margin: 0 auto;
-  &.is_disabled {
-    display: none;
-  }
-}
-.page_title {
-  margin-top: 100px;
-  padding: 10px 59px;
-  font-weight: bold;
-  line-height: 49px;
-  font-size: 30px;
-  text-align: center;
-  letter-spacing: 0.05em;
-  color: #fff;
-  background: #333;
-  display: inline-block;
-}
-
-.proposals {
-  border-top: 1px solid #eee;
-  margin: 60px auto 0;
-  max-width: 1200px;
-}
 .proposal {
   border-bottom: 1px solid #eee;
   padding: 20px 0;

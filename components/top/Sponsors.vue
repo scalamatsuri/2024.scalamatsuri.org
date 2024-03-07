@@ -38,18 +38,18 @@ ja:
 </i18n>
 
 <template>
-  <section class="sponsors">
-    <div class="sponsors_inner">
-      <h2 class="content_title">{{ t('sponsor_title') }}</h2>
-      <p class="sponsors_content_text">
-        <span v-html="t('sponsor_overview1')" />
-        <br />
-        <span v-html="t('sponsor_overview2')" />
-        <a :href="localePath('sponsorship')">{{ t('sponsor_recruitment_page') }}</a>
-      </p>
-      <h3 class="sponsors_title sponsors_subtitle-syogun">{{ t('syogun') }}</h3>
-      <ul class="sponsors_list">
-        <ClientOnly>
+  <ClientOnly>
+    <section class="sponsors">
+      <div class="sponsors_inner">
+        <h2 class="content_title">{{ t('sponsor_title') }}</h2>
+        <p class="sponsors_content_text">
+          <span v-html="t('sponsor_overview1')" />
+          <br />
+          <span v-html="t('sponsor_overview2')" />
+          <a :href="localePath('sponsorship')">{{ t('sponsor_recruitment_page') }}</a>
+        </p>
+        <h3 class="sponsors_title sponsors_subtitle-syogun">{{ t('syogun') }}</h3>
+        <ul class="sponsors_list">
           <li v-for="sponsor in shuffledShoguns" :key="sponsor.logo" class="sponsors_item">
             <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
             <div v-if="locale == `en`">
@@ -59,11 +59,9 @@ ja:
               <p>{{ sponsor.ja.name }}</p>
             </div>
           </li>
-        </ClientOnly>
-      </ul>
-      <h3 class="sponsors_title sponsors_subtitle-tairou">{{ t('tairou') }}</h3>
-      <ul class="sponsors_list">
-        <ClientOnly>
+        </ul>
+        <h3 class="sponsors_title sponsors_subtitle-tairou">{{ t('tairou') }}</h3>
+        <ul class="sponsors_list">
           <li v-for="sponsor in shuffledTairous" :key="sponsor.logo" class="sponsors_item">
             <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
             <div v-if="locale == `en`">
@@ -73,11 +71,9 @@ ja:
               <p>{{ sponsor.ja.name }}</p>
             </div>
           </li>
-        </ClientOnly>
-      </ul>
-      <h3 class="sponsors_title sponsors_subtitle-daimyo">{{ t('daimyo') }}</h3>
-      <ul class="sponsors_list">
-        <ClientOnly>
+        </ul>
+        <h3 class="sponsors_title sponsors_subtitle-daimyo">{{ t('daimyo') }}</h3>
+        <ul class="sponsors_list">
           <li v-for="sponsor in shuffledDaimyos" :key="sponsor.logo" class="sponsors_item">
             <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
             <div v-if="locale == `en`">
@@ -87,11 +83,9 @@ ja:
               <p>{{ sponsor.ja.name }}</p>
             </div>
           </li>
-        </ClientOnly>
-      </ul>
-      <h3 class="sponsors_title sponsors_subtitle-samurai">{{ t('samurai') }}</h3>
-      <ul class="sponsors_list">
-        <ClientOnly>
+        </ul>
+        <h3 class="sponsors_title sponsors_subtitle-samurai">{{ t('samurai') }}</h3>
+        <ul class="sponsors_list">
           <li v-for="sponsor in shuffledSamurais" :key="sponsor.logo" class="sponsors_item">
             <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
             <div v-if="locale == `en`">
@@ -101,11 +95,9 @@ ja:
               <p>{{ sponsor.ja.name }}</p>
             </div>
           </li>
-        </ClientOnly>
-      </ul>
-      <h3 class="sponsors_title sponsors_subtitle-utage">{{ t('utage') }}</h3>
-      <ul class="sponsors_list">
-        <ClientOnly>
+        </ul>
+        <h3 class="sponsors_title sponsors_subtitle-utage">{{ t('utage') }}</h3>
+        <ul class="sponsors_list">
           <li v-for="sponsor in shuffledUtages" :key="sponsor.logo" class="sponsors_item">
             <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
             <div v-if="locale == `en`">
@@ -115,11 +107,9 @@ ja:
               <p>{{ sponsor.ja.name }}</p>
             </div>
           </li>
-        </ClientOnly>
-      </ul>
-      <h3 class="sponsors_title sponsors_subtitle-ninja">{{ t('ninja') }}</h3>
-      <ul class="sponsors_list">
-        <ClientOnly>
+        </ul>
+        <h3 class="sponsors_title sponsors_subtitle-ninja">{{ t('ninja') }}</h3>
+        <ul class="sponsors_list">
           <li v-for="sponsor in shuffledNinjas" :key="sponsor.logo" class="sponsors_item-ninja">
             <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
             <div v-if="locale == `en`">
@@ -129,13 +119,13 @@ ja:
               <p>{{ sponsor.ja.name }}</p>
             </div>
           </li>
-        </ClientOnly>
-      </ul>
-      <h3 class="sponsors_title sponsors_subtitle-bugyo">{{ t('bugyo') }}</h3>
-      <ul class="sponsors_list">
-        <ClientOnly>
-          <li v-for="sponsor in shuffledBugyos" :key="sponsor.logo" class="sponsors_item">
-            <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
+        </ul>
+        <h3 class="sponsors_title sponsors_subtitle-bugyo">{{ t('bugyo') }}</h3>
+        <ul class="sponsors_list">
+          <li v-for="sponsor in shuffledBugyos" :key="sponsor.logo" class="sponsors_item-bugyo">
+            <a :href="sponsor.url" target="_blank">
+              <img :src="sponsor.logo" :alt="sponsor.en.name" />
+            </a>
             <div v-if="locale == `en`">
               <p>{{ sponsor.en.name }}</p>
             </div>
@@ -143,10 +133,10 @@ ja:
               <p>{{ sponsor.ja.name }}</p>
             </div>
           </li>
-        </ClientOnly>
-      </ul>
-    </div>
-  </section>
+        </ul>
+      </div>
+    </section>
+  </ClientOnly>
 </template>
 
 <script setup lang="ts">
@@ -235,8 +225,6 @@ const shuffledBugyos = computed(() => arrayShuffle(bugyos.value))
   margin: 0 auto;
   padding: 0 10px;
 }
-.sponsors_inner {
-}
 .sponsors_item {
   padding: 0 10px;
   width: 50%;
@@ -253,8 +241,17 @@ const shuffledBugyos = computed(() => arrayShuffle(bugyos.value))
   }
   &-ninja {
     padding: 0 10px;
-    width: 20%;
+    width: 30%;
     max-width: 100px;
+    margin-top: 20px;
+    img {
+      width: 100%;
+      background: white;
+    }
+  }
+  &-bugyo {
+    padding: 0 10px;
+    width: 30%;
     margin-top: 20px;
     img {
       width: 100%;

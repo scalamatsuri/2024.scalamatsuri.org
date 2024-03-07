@@ -3,13 +3,17 @@
  ***********************************************************/
 export type Speaker = {
   id: string // スピーカーID(一意となるように設定する)
-  name: string // 名前(本名を入力するのはNG)
+  en: {
+    name: string // 名前(本名を入力するのはNG)
+  }
+  ja: {
+    name: string // 名前(本名を入力するのはNG)
+  }
   iconUrl: string // アイコン画像のURL(Twitterのアイコン画像URLなど)
-  organization?: string // [任意] 所属組織
-  speakerExperience?: string[] // [任意] 経験一覧
-  contributes?: string[] // [任意] contribution 一覧
+  contributes: string[] // [任意] contribution 一覧
   github?: string // [任意] GitHub の URL
   twitter?: string // [任意] X(旧Twitter) の URL
+  otherSnsUrls: string[] // [任意] その他の URL
 }
 
 /***********************************************************
@@ -30,24 +34,29 @@ export type Sponsor = {
   url: string // スポンサーのWEBサイト
   textHtml?: string // スポンサーの紹介文
   slideHtml?: string // スポンサーのスライド
+  speakerdeckUrl?: string // speakerdeck の URL
 }
 
 /***********************************************************
  *** Session Model
  ***********************************************************/
-export type Talk = {
+export type Detail = {
   title: string
   description: string
 }
 
-export type Session = {
-  speakerIds: string[] // スピーカーIds
+export type Proposal = {
+  proposalId: ProposalId // プロポーザルID
+  en: Detail // 英語の場合のタイトルと概要
+  ja: Detail // 日本語の場合のタイトルと概要
   language: string // ja or en
   length: number // セッションの長さ
-  en: Talk // 英語の場合のタイトルと概要
-  ja: Talk // 日本語の場合のタイトルと概要
-  tags?: string[] // タグ
   keywords?: string[] // キーワード
+  speakerIds: string[] // スピーカーIds
+}
+
+export type ProposalId = {
+  value: string
 }
 
 export type SessionId = {
@@ -60,14 +69,11 @@ export type Speakers = {
 }
 
 // Proposal(セッションの応募情報)
-export type Proposal = {
-  id: SessionId // セッションID
-} & Session &
-  Speakers
+export type ProposalWithSpeakers = Proposal & Speakers
 
-export type AdoptedSession = {
-  id: string
-  sessionId: SessionId // 採択された SponsorSession.id か Session.id を紐付ける
+export type Session = {
+  id: SessionId
+  proposalId: ProposalId
   startAt: string // JST
   endAt?: string // JST
   room: string
@@ -77,5 +83,18 @@ export type AdoptedSession = {
 
 export type SponsorSession = {
   sponsorId: SessionId // スポンサーセッションID
-} & Session &
-  Speakers
+} & Session
+
+/***********************************************************
+ *** Staff Model
+ ***********************************************************/
+export type Staff = {
+  backgroundImage: string
+  name: string
+  ruby: string
+  ghAccount: string
+  githubUrl: string
+  twAccount: string
+  twitterUrl: string
+  profile: string
+}
