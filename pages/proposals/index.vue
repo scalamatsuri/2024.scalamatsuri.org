@@ -20,50 +20,52 @@ ja:
 </i18n>
 
 <template>
-  <MainVisual :title="t('title')" />
-  <h3 class="sub_header_link">
-    <NuxtLink v-if="localedProposalsEn40min.length > 0" to="#en_40" class="sub_header_link_item">{{ t('en_40') }}</NuxtLink>
-    <NuxtLink v-if="localedProposalsJa40min.length > 0" to="#ja_40" class="sub_header_link_item">{{ t('ja_40') }}</NuxtLink>
-    <NuxtLink v-if="localedProposalsEn20min.length > 0" to="#en_20" class="sub_header_link_item">{{ t('en_20') }}</NuxtLink>
-    <NuxtLink v-if="localedProposalsJa20min.length > 0" to="#ja_20" class="sub_header_link_item">{{ t('ja_20') }}</NuxtLink>
-  </h3>
-  <div class="page">
-    <div v-if="localedProposalsEn40min.length > 0">
-      <h2 id="en_40" class="page_title">{{ t('en_40') }}</h2>
-      <div class="proposals">
-        <div v-for="proposal in localedProposalsEn40min" :key="proposal.proposalId.value">
-          <ProposalDetail :proposal="proposal" />
+  <ClientOnly>
+    <MainVisual :title="t('title')" />
+    <h3 class="sub_header_link">
+      <NuxtLink v-if="localedProposalsEn40min.length > 0" to="#en_40" class="sub_header_link_item">{{ t('en_40') }}</NuxtLink>
+      <NuxtLink v-if="localedProposalsJa40min.length > 0" to="#ja_40" class="sub_header_link_item">{{ t('ja_40') }}</NuxtLink>
+      <NuxtLink v-if="localedProposalsEn20min.length > 0" to="#en_20" class="sub_header_link_item">{{ t('en_20') }}</NuxtLink>
+      <NuxtLink v-if="localedProposalsJa20min.length > 0" to="#ja_20" class="sub_header_link_item">{{ t('ja_20') }}</NuxtLink>
+    </h3>
+    <div class="page">
+      <div v-if="localedProposalsEn40min.length > 0">
+        <h2 id="en_40" class="page_title">{{ t('en_40') }}</h2>
+        <div class="proposals">
+          <div v-for="proposal in localedProposalsEn40min" :key="proposal.proposalId.value">
+            <ProposalDetail :proposal="proposal" />
+          </div>
         </div>
       </div>
-    </div>
 
-    <div v-if="localedProposalsJa40min.length > 0">
-      <h2 id="ja_40" class="page_title">{{ t('ja_40') }}</h2>
-      <div class="proposals">
-        <div v-for="proposal in localedProposalsJa40min" :key="proposal.proposalId.value">
-          <ProposalDetail :proposal="proposal" />
+      <div v-if="localedProposalsJa40min.length > 0">
+        <h2 id="ja_40" class="page_title">{{ t('ja_40') }}</h2>
+        <div class="proposals">
+          <div v-for="proposal in localedProposalsJa40min" :key="proposal.proposalId.value">
+            <ProposalDetail :proposal="proposal" />
+          </div>
         </div>
       </div>
-    </div>
 
-    <div v-if="localedProposalsEn20min.length > 0">
-      <h2 id="en_20" class="page_title">{{ t('en_20') }}</h2>
-      <div class="proposals">
-        <div v-for="proposal in localedProposalsEn20min" :key="proposal.proposalId.value">
-          <ProposalDetail :proposal="proposal" />
+      <div v-if="localedProposalsEn20min.length > 0">
+        <h2 id="en_20" class="page_title">{{ t('en_20') }}</h2>
+        <div class="proposals">
+          <div v-for="proposal in localedProposalsEn20min" :key="proposal.proposalId.value">
+            <ProposalDetail :proposal="proposal" />
+          </div>
         </div>
       </div>
-    </div>
 
-    <div v-if="localedProposalsJa20min.length > 0">
-      <h2 id="ja_20" class="page_title">{{ t('ja_20') }}</h2>
-      <div class="proposals">
-        <div v-for="proposal in localedProposalsJa20min" :key="proposal.proposalId.value">
-          <ProposalDetail :proposal="proposal" />
+      <div v-if="localedProposalsJa20min.length > 0">
+        <h2 id="ja_20" class="page_title">{{ t('ja_20') }}</h2>
+        <div class="proposals">
+          <div v-for="proposal in localedProposalsJa20min" :key="proposal.proposalId.value">
+            <ProposalDetail :proposal="proposal" />
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </ClientOnly>
 </template>
 
 <script setup lang="ts">

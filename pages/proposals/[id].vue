@@ -3,9 +3,9 @@
   <div class="proposal">
     <div class="detail">
       <div class="speakers">
-        <div v-for="speaker in proposal.speakers" :key="speaker.name" class="speaker">
+        <div v-for="speaker in proposal.speakers" :key="speaker[locale].name" class="speaker">
           <img :src="speaker.iconUrl" class="speaker_icon" />
-          <p class="speaker_name">{{ speaker.name }}</p>
+          <p class="speaker_name">{{ speaker[locale].name }}</p>
           <p class="speaker_id">
             <a v-if="speaker.twitter" class="modal_speaker_sns" :href="`https://twitter.com/${speaker.twitter}`">
               <img src="/img/common/icon-sns-tw.svg" />{{ speaker.twitter }}
