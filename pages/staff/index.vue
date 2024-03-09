@@ -7,15 +7,22 @@ ja:
 
 <template>
   <MainVisual :title="t('title')" />
-  <div id="staff">
-    <!-- スタッフ ここから -->
-    <div class="staff">
-      <ul class="staff_list">
-        <StaffListItem v-for="staff in shuffledStaffs" :key="staff.index" :staff="staff" class="staff_item" />
-      </ul>
+  <ClientOnly>
+    <div id="staff">
+      <div class="staff">
+        <ul class="staff_list">
+          <StaffListItem v-for="staff in shuffledChairmans" :key="staff.index" :staff="staff" class="staff_item" />
+        </ul>
+      </div>
+      <!-- スタッフ ここから -->
+      <div class="staff">
+        <ul class="staff_list">
+          <StaffListItem v-for="staff in shuffledStaffs" :key="staff.index" :staff="staff" class="staff_item" />
+        </ul>
+      </div>
+      <!-- スタッフ ここまで -->
     </div>
-    <!-- スタッフ ここまで -->
-  </div>
+  </ClientOnly>
 </template>
 
 <script setup lang="ts">
@@ -24,7 +31,8 @@ const { t } = useI18n()
 pageMetaCheck()
 
 const staffs: ComputedRef<Staff[]> = getStaff()
-const shuffledStaffs = computed(() => arrayShuffle(staffs.value))
+const shuffledChairmans = computed(() => arrayShuffle(staffs.value.filter((s) => s.role === 'CHAIRMAN')))
+const shuffledStaffs = computed(() => arrayShuffle(staffs.value.filter((s) => s.role === 'STAFF')))
 </script>
 
 <style lang="scss" scoped>

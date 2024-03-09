@@ -7,7 +7,8 @@
     "githubUrl": "https://github.com/omiend",
     "twAccount": "omiend",
     "twitterUrl": "https://x.com/omiend",
-    "profile": "座長チーム、プログラム、PR、会場"
+    "profile": "座長チーム、プログラム、PR、会場",
+    "role": "CHAIRMAN"
   },
   {
     "backgroundImage": "https://avatars.githubusercontent.com/u/17427345?v=4",
@@ -17,7 +18,8 @@
     "githubUrl": "https://github.com/shomatan",
     "twAccount": "",
     "twitterUrl": "",
-    "profile": "座長チーム、会場、スポンサー"
+    "profile": "座長チーム、会場、スポンサー",
+    "role": "CHAIRMAN"
   },
   {
     "backgroundImage": "https://avatars.githubusercontent.com/u/21272619?v=4",
@@ -27,7 +29,8 @@
     "githubUrl": "https://github.com/taketora26",
     "twAccount": "taket0ra1",
     "twitterUrl": "https://x.com/taket0ra1",
-    "profile": "座長チーム、プログラム、会場"
+    "profile": "座長チーム、プログラム、会場",
+    "role": "CHAIRMAN"
   },
   {
     "backgroundImage": "https://avatars.githubusercontent.com/u/156619?v=4",
@@ -37,7 +40,8 @@
     "githubUrl": "https://github.com/pishen",
     "twAccount": "pishen",
     "twitterUrl": "https://x.com/pishen",
-    "profile": "プログラム"
+    "profile": "プログラム",
+    "role": "STAFF"
   },
   {
     "backgroundImage": "https://avatars.githubusercontent.com/u/915731?v=4",
@@ -47,7 +51,8 @@
     "githubUrl": "https://github.com/krrrr38",
     "twAccount": "krrrr38",
     "twitterUrl": "https://x.com/krrrr38",
-    "profile": "PR"
+    "profile": "PR",
+    "role": "STAFF"
   },
   {
     "backgroundImage": "https://avatars.githubusercontent.com/u/3018584?v=4",
@@ -57,7 +62,8 @@
     "githubUrl": "https://github.com/foresta",
     "twAccount": "kz_morita",
     "twitterUrl": "https://x.com/kz_morita",
-    "profile": "PR"
+    "profile": "PR",
+    "role": "STAFF"
   },
   {
     "backgroundImage": "https://avatars.githubusercontent.com/u/828709?v=4",
@@ -67,7 +73,8 @@
     "githubUrl": "https://github.com/rysh",
     "twAccount": "cactaceae",
     "twitterUrl": "https://x.com/cactaceae",
-    "profile": "オープンマイク"
+    "profile": "オープンマイク",
+    "role": "STAFF"
   },
   {
     "backgroundImage": "https://avatars.githubusercontent.com/u/160923?v=4",
@@ -77,7 +84,8 @@
     "githubUrl": "https://github.com/kazup0n",
     "twAccount": "kazup0n",
     "twitterUrl": "https://x.com/kazup0n",
-    "profile": "会場"
+    "profile": "会場",
+    "role": "STAFF"
   },
   {
     "backgroundImage": "https://avatars.githubusercontent.com/u/304296?v=4",
@@ -87,7 +95,8 @@
     "githubUrl": "https://github.com/takezoux2",
     "twAccount": "takezoux2",
     "twitterUrl": "https://x.com/takezoux2",
-    "profile": "会場"
+    "profile": "会場",
+    "role": "STAFF"
   },
   {
     "backgroundImage": "https://avatars.githubusercontent.com/u/42737560?v=4",
@@ -97,7 +106,8 @@
     "githubUrl": "https://github.com/stoneream",
     "twAccount": "",
     "twitterUrl": "",
-    "profile": "PR"
+    "profile": "PR",
+    "role": "STAFF"
   },
   {
     "backgroundImage": "https://avatars.githubusercontent.com/u/1401147?v=4",
@@ -107,7 +117,8 @@
     "githubUrl": "https://github.com/ik11235",
     "twAccount": "",
     "twitterUrl": "",
-    "profile": "PR"
+    "profile": "PR",
+    "role": "STAFF"
   },
   {
     "backgroundImage": "https://avatars.githubusercontent.com/u/9353584?v=4",
@@ -117,7 +128,8 @@
     "githubUrl": "https://github.com/tanishiking",
     "twAccount": "",
     "twitterUrl": "",
-    "profile": "プログラム"
+    "profile": "プログラム",
+    "role": "STAFF"
   },
   {
     "backgroundImage": "https://avatars.githubusercontent.com/u/184683?v=4",
@@ -127,7 +139,8 @@
     "githubUrl": "https://github.com/eed3si9n",
     "twAccount": "",
     "twitterUrl": "",
-    "profile": "プログラム"
+    "profile": "プログラム",
+    "role": "STAFF"
   },
   {
     "backgroundImage": "https://avatars.githubusercontent.com/u/41095651?v=4",
@@ -137,7 +150,8 @@
     "githubUrl": "https://github.com/Iwaji",
     "twAccount": "",
     "twitterUrl": "",
-    "profile": "バックオフィス"
+    "profile": "バックオフィス",
+    "role": "STAFF"
   },
   {
     "backgroundImage": "https://avatars.githubusercontent.com/u/19513765?v=4",
@@ -147,7 +161,8 @@
     "githubUrl": "https://github.com/tomoco95",
     "twAccount": "",
     "twitterUrl": "",
-    "profile": "バックオフィス"
+    "profile": "バックオフィス",
+    "role": "STAFF"
   },
   {
     "backgroundImage": "https://avatars.githubusercontent.com/u/14007481?v=4",
@@ -157,6 +172,7 @@
     "githubUrl": "https://github.com/nottyuki",
     "twAccount": "",
     "twitterUrl": "",
-    "profile": "会場"
+    "profile": "会場",
+    "role": "STAFF"
   }
 ]
