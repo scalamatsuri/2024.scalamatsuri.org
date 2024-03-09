@@ -88,6 +88,7 @@ export type SponsorSession = {
 /***********************************************************
  *** Staff Model
  ***********************************************************/
+export type StaffRole = 'CHAIRMAN' | 'STAFF' | 'EXTRA_STAFF'
 export type Staff = {
   backgroundImage: string
   name: string
@@ -97,4 +98,5 @@ export type Staff = {
   twAccount: string
   twitterUrl: string
   profile: string
+  role: StaffRole
 }
