@@ -165,6 +165,21 @@
     "speakerdeckUrl": ""
   },
   {
+    "id": "DAIMYO_11",
+    "type": "DAIMYO",
+    "ja": {
+      "name": "株式会社ネクストビート"
+    },
+    "en": {
+      "name": "nextbeat Co., Ltd."
+    },
+    "logo": "/img/sponsors/nextbeat.png",
+    "url": "https://www.nextbeat.co.jp/",
+    "textHtml": "",
+    "slideHtml": "",
+    "speakerdeckUrl": ""
+  },
+  {
     "id": "SAMURAI_1",
     "type": "SAMURAI",
     "ja": {
