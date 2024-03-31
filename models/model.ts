@@ -61,7 +61,7 @@ export type ProposalId = {
 
 export type SessionId = {
   value: string
-  type: 'session' | 'sponsor' | 'omc'
+  type: 'SESSION' | 'SPONSOR' | 'OMC'
 }
 
 export type Speakers = {
@@ -71,8 +71,9 @@ export type Speakers = {
 // Proposal(セッションの応募情報)
 export type ProposalWithSpeakers = Proposal & Speakers
 
-export type Session = {
-  id: SessionId
+// 採択を意味するモデル
+export type Adoption = {
+  sessionId: SessionId
   proposalId: ProposalId
   startAt: string // JST
   endAt?: string // JST
@@ -81,9 +82,10 @@ export type Session = {
   slideUrl?: string
 }
 
-export type SponsorSession = {
-  sponsorId: SessionId // スポンサーセッションID
-} & Session
+// プロポーザルとスピーカーの組み合わせに対して、採択されたデータを紐づけたものがセッションとなる
+export type Session = Adoption & {
+  proposalWithSpeakers: ProposalWithSpeakers
+}
 
 /***********************************************************
  *** Staff Model

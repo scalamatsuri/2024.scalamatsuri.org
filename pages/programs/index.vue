@@ -6,11 +6,48 @@ ja:
 </i18n>
 
 <template>
-  <MainVisual :title="t('title')" />
-  {{ $route.fullPath }}
+  <ClientOnly>
+    <MainVisual :title="t('title')" />
+    <div class="page">
+      <div class="proposals">
+        <!--TODO: タイムテーブルを表現する-->
+        <div v-for="session in sessions" :key="session.sessionId.value">
+          <ProgramDetail :session="session" />
+        </div>
+      </div>
+    </div>
+  </ClientOnly>
 </template>
 
 <script setup lang="ts">
 const { t } = useI18n()
 pageMetaCheck()
+const sessions = getSessions()
 </script>
+
+<style scoped lang="scss">
+.page {
+  text-align: center;
+  margin: 0 auto;
+  &.is_disabled {
+    display: none;
+  }
+}
+.page_title {
+  margin-top: 100px;
+  padding: 10px 59px;
+  font-weight: bold;
+  line-height: 49px;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #fff;
+  background: #333;
+  display: inline-block;
+}
+.proposals {
+  border-top: 1px solid #eee;
+  margin: 60px auto 0;
+  max-width: 1200px;
+}
+</style>

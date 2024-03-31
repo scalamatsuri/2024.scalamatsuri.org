@@ -1,0 +1,16 @@
+[
+  {
+    "sessionId": {
+      "value": "SESSION_DAY_2_03",
+      "type": "SESSION"
+    },
+    "proposalId": {
+      "value": "PROPOSAL_ID_02"
+    },
+    "startAt": "2024-06-09T13:30:00Z",
+    "endAt": "2024-06-09T13:50:00Z",
+    "room": "A",
+    "youtubeUrl": "",
+    "slideUrl": ""
+  }
+]
