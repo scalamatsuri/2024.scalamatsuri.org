@@ -3,7 +3,8 @@ en:
   code-of-conduct: Code of Conduct
   call-for-proposals: Call for Proposals
   proposals: Proposals
-  programs: Programss
+  programs: Programs
+  training-day: Training Day(ja)
   open-mic-conference: Open Mic Conference
   sponsorship: Sponsor Ship(ja)
   sponsors: Sponsors(ja)
@@ -22,6 +23,7 @@ ja:
   call-for-proposals: セッション募集
   proposals: セッション候補
   programs: プログラム
+  training-day: トレーニング・デイ
   open-mic-conference: 飛び入りカンファレンス
   sponsorship: スポンサー募集
   sponsors: スポンサー
@@ -100,7 +102,7 @@ import appConfig from '~/app.config'
 const { t } = useI18n()
 const localePath = useLocalePath()
 const { year } = useAppConfig()
-const headers = appConfig.pages.filter((h) => h.published && h.header).sort((h1, h2) => h1.order - h2.order)
+const headers = appConfig.pages.filter((h) => h.published && h.footer).sort((h1, h2) => h1.order - h2.order)
 
 // お問い合わせフォーム(JIRA)
 const jira = {

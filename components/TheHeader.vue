@@ -4,7 +4,8 @@ en:
   code-of-conduct: Code of Conduct
   call-for-proposals: Call for Proposals
   proposals: Proposals
-  programs: Programss
+  programs: Programs
+  training-day: Training Day(ja)
   open-mic-conference: Open Mic Conference
   sponsorship: Sponsor Ship(ja)
   sponsors: Sponsors(ja)
@@ -19,6 +20,7 @@ ja:
   call-for-proposals: セッション募集
   proposals: セッション候補
   programs: プログラム
+  training-day: トレーニング・デイ
   open-mic-conference: 飛び入りカンファレンス
   sponsorship: スポンサー募集
   sponsors: スポンサー
