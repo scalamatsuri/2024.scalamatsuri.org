@@ -50,14 +50,29 @@ const language = languageMap[session.proposalWithSpeakers.language] ?? ""
 <style scoped lang="scss">
 .session {
   padding: 20px 0;
+ 
+  /* for SP */
+  @media screen and (max-width: $headerViewport - 1) {
+    padding: 10px 0;
+  }
 }
 .detail {
   text-align: left;
   padding: 0px 30px;
+
+
+  @media screen and (max-width: $headerViewport - 1) {
+    padding: 0px 15px;
+  }
 }
 .title {
   font-weight: bold;
   font-size: 28px;
+
+
+  @media screen and (max-width: $headerViewport - 1) {
+    font-size: 20px;
+  }
 }
 .description {
   margin-top: 10px;
@@ -65,15 +80,17 @@ const language = languageMap[session.proposalWithSpeakers.language] ?? ""
 }
 
 .speakers {
-  // padding: 0px 30px;
   display: flex;
   flex-wrap: wrap;
 }
 .speaker {
-  width: calc(33.3% - 10px);
   text-align: left;
   margin-top: 10px;
-  min-width: 300px;
+
+  @media screen and (min-width: $headerViewport) {
+    width: calc(33.3% - 10px);
+    min-width: 300px;
+  }
 }
 .speaker_icon {
   width: 40px;
@@ -106,6 +123,10 @@ const language = languageMap[session.proposalWithSpeakers.language] ?? ""
 
 .meta {
   color: #888;
+  @media screen and (max-width: $headerViewport - 1) {
+    font-size: 16px;
+  }
+
 }
 
 .tags {
@@ -114,6 +135,12 @@ const language = languageMap[session.proposalWithSpeakers.language] ?? ""
   line-height: normal;
   font-size: 12px;
   letter-spacing: 0.1em;
+
+  @media screen and (max-width: $headerViewport - 1) {
+    line-height: 10px;
+    font-size: 10px;
+  }
+
 }
 .tag {
   display: inline;
@@ -124,6 +151,12 @@ const language = languageMap[session.proposalWithSpeakers.language] ?? ""
     font-size: 12px;
     letter-spacing: 0.05em;
     font-weight: normal;
+
+    @media screen and (max-width: $headerViewport - 1) {
+      font-size: 10px;
+      line-height: 10px;
+    }
+
   }
   + .tag {
     &:before {

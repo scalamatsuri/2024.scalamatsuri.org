@@ -1,24 +1,26 @@
 <template>
-  <h2 class="section_title">
-    <span class="section_title_inner">{{ timetable.title[locale] }}</span>
-  </h2>
+  <div :id="timetable.timetableId">
+    <h2 class="section_title">
+      <span class="section_title_inner">{{ timetable.title[locale] }}</span>
+    </h2>
 
-  <div class="timetable">
-    <div v-for="content in timetable.contents" :key="contentsId(content)" :set="session = getSession(content)" class="timetable-column">
-      <div class="time">
-        {{displayDateAndHour(content.startAt)}}
-        <br />
-        (GMT+9)
+    <div class="timetable">
+      <div v-for="content in timetable.contents" :key="contentsId(content)" :set="session = getSession(content)" class="timetable-column">
+        <div class="time">
+          {{displayDateAndHour(content.startAt)}}
+          <br />
+          (GMT+9)
+        </div>
+        <div class="contents" v-if="content.type === 'EVENT'">
+          <ProgramEvent :event="getEvent(content)" :content="content" />
+        </div>
+        <div class="contents" v-if="content.type === 'SESSION'">
+          <ProgramSession :session="getSession(content)" :content="content" />
+        </div> 
+        <div class="contents" v-if="content.type === 'WORKSHOP'">
+          <ProgramWorkshop :content="getWorkshopContnt(content)" />
+        </div> 
       </div>
-      <div class="contents" v-if="content.type === 'EVENT'">
-        <ProgramEvent :event="getEvent(content)" :content="content" />
-      </div>
-      <div class="contents" v-if="content.type === 'SESSION'">
-        <ProgramSession :session="getSession(content)" :content="content" />
-      </div> 
-      <div class="contents" v-if="content.type === 'WORKSHOP'">
-        <ProgramWorkshop :content="getWorkshopContnt(content)" />
-      </div> 
     </div>
   </div>
 </template>
@@ -67,6 +69,11 @@ const getWorkshopContnt = (content) => { return content as TimeTableWorkshopCont
   border-right: 1px solid #eee;
   flex: 0 0 200px;
   padding: 20px 30px;
+
+  @media screen and (max-width: $headerViewport - 1) {
+    flex: 0 0 20%;
+    font-size: 14px;
+  }
 }
 
 .contents {

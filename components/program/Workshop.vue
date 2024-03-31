@@ -15,18 +15,26 @@ const { locale } = useI18n()
 const { session, timetable } = defineProps({
   content: {} as PropType<TimeTableWorkshopContents>,
 })
-
-console.log(event)
 </script>
 
 <style scoped lang="scss">
 .workshop {
   text-align: left;
-  padding: 24px;
+  padding: 24px;  
+
+  @media screen and (max-width: $headerViewport - 1) {
+    padding: 24px 16px;
+  }
+
 }
 .name {
   font-weight: bold;
   font-size: 20px;
+
+  @media screen and (max-width: $headerViewport - 1) {
+    font-size: 16px;
+  }
+
 }
 
 .meta {

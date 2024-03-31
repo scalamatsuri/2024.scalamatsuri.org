@@ -16,8 +16,6 @@ const { session, timetable } = defineProps({
   content: {} as PropType<TimeTableContents>,
   event: {} as PropType<TimeTableEvent>
 })
-
-console.log(event)
 </script>
 
 <style scoped lang="scss">
@@ -25,10 +23,17 @@ console.log(event)
   text-align: center;
   text-align: left;
   padding: 24px;
+
+  @media screen and (max-width: $headerViewport - 1) {
+    padding: 24px 16px;
+  }
 }
 .name {
   font-weight: bold;
   font-size: 20px;
+  @media screen and (max-width: $headerViewport - 1) {
+    font-size: 16px;
+  }
 }
 
 .meta {
