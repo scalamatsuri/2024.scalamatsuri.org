@@ -7,7 +7,7 @@
         </NuxtLink>
       </p>
       <p class="meta">
-        {{ displayHour(session.startAt) }} - {{ displayHour(session.endAt) }} | {{ language }}
+        {{ displayHour(content.startAt) }} - {{ displayHour(content.endAt) }} | {{ language }}
      </p>
       <div class="tags">
         <div v-for="kw in session.proposalWithSpeakers.keywords" :key="kw" class="tag" data-tag="tag">
@@ -57,7 +57,7 @@ const language = languageMap[session.proposalWithSpeakers.language] ?? ""
 }
 .title {
   font-weight: bold;
-  font-size: 2em;
+  font-size: 28px;
 }
 .description {
   margin-top: 10px;
@@ -105,7 +105,7 @@ const language = languageMap[session.proposalWithSpeakers.language] ?? ""
 }
 
 .meta {
-  color: #666;
+  color: #888;
 }
 
 .tags {

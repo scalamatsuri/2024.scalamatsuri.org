@@ -11,59 +11,20 @@
         (GMT+9)
       </div>
       <div class="contents" v-if="content.type === 'EVENT'">
-        Event
+        <ProgramEvent :event="getEvent(content)" :content="content" />
       </div>
       <div class="contents" v-if="content.type === 'SESSION'">
         <ProgramSession :session="getSession(content)" :content="content" />
       </div> 
       <div class="contents" v-if="content.type === 'WORKSHOP'">
-        Workshop
+        <ProgramWorkshop :content="getWorkshopContnt(content)" />
       </div> 
     </div>
   </div>
-
-  <!--
-  <div :id="timetable.sessionId.value" class="session" data-target="session.sessionId.value">
-    <div class="detail">
-      <p class="time">
-        {{ displayDateAndHour(session.startAt) }} 
-      </p>
-      <p class="title">
-        <NuxtLink :to="localePath(`/programs/${session.sessionId.value}`)" target="_blank">
-          {{ session.proposalWithSpeakers[locale].title }}
-        </NuxtLink>
-      </p>
-      <p class="meta">
-        {{ displayHour(session.startAt) }} - {{ displayHour(session.endAt) }} | {{ language }}
-     </p>
-     <div class="speakers">
-        <div v-for="speaker in session.proposalWithSpeakers.speakers" :key="speaker.name" class="speaker">
-          <img v-if="speaker.iconUrl" :src="speaker.iconUrl" class="speaker_icon" />
-          <img v-if="!speaker.iconUrl" src="/img/common/logo.svg" class="speaker_icon" />
-          <p class="speaker_name">{{ speaker[locale].name }}</p>
-          <p class="speaker_id">
-            <a v-if="speaker.twitter" class="modal_speaker_sns" :href="`https://twitter.com/${speaker.twitter}`">
-              <img src="/img/common/icon-sns-x.svg" />{{ speaker.twitter }}
-            </a>
-            <a v-if="speaker.github" class="modal_speaker_sns" :href="`https://github.com/${speaker.github}`">
-              <img src="/img/common/icon-sns-git.svg" />{{ speaker.github }}
-            </a>
-          </p>
-        </div>
-      </div>
-      <p class="description" v-html="session?.proposalWithSpeakers[locale].description" />
-      <div class="tags">
-        <div v-for="kw in session.proposalWithSpeakers.keywords" :key="kw" class="tag" data-tag="tag">
-          <span>{{ kw }}</span>
-        </div>
-      </div>
-    </div>
-  </div>
-  -->
 </template>
 
 <script setup lang="ts">
-import { type Session, type TimeTable, type TimeTableEvents, type TimeTableContents } from '~/models/model'
+import { type Session, type TimeTable, type TimeTableEvents, type TimeTableContents, type TimeTableWorkshopContents } from '~/models/model'
 const { locale, t } = useI18n()
 const localePath = useLocalePath()
 const { sessions, events, timetable } = defineProps({
@@ -84,7 +45,8 @@ const contentsId = (content: TimeTableContents) => {
 }
 
 const getSession = (content) => { return sessions.find(s => s.sessionId.value === content.sessionId) }
-const getEvent = (content) => { events.find(e => e.eventId === content.eventId) }
+const getEvent = (content) => { return events.find(e => e.eventId === content.eventId) }
+const getWorkshopContnt = (content) => { return content as TimeTableWorkshopContents }
 </script>
 
 <style scoped lang="scss">
@@ -101,13 +63,13 @@ const getEvent = (content) => { events.find(e => e.eventId === content.eventId) 
 }
 
 .time {
-  font-size: 24px;
+  font-size: 20px;
   border-right: 1px solid #eee;
   flex: 0 0 200px;
   padding: 20px 30px;
 }
 
 .contents {
-  flex: 0 2 auto;
+  flex: 1 1 auto;
 }
 </style>

@@ -1,8 +1,8 @@
 <i18n lang="yaml">
 en:
-  title: 'program en'
+  title: 'Program'
 ja:
-  title: 'program ja'
+  title: 'プログラム'
 </i18n>
 
 <template>

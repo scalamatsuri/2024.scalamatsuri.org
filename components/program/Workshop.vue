@@ -1,7 +1,7 @@
 <template>
-  <div class="event">
+  <div class="workshop">
     <div class="name">
-      {{ event.name[locale] }}
+      {{ content.name[locale] }}
     </div>
     <div class="meta">
       {{ displayHour(content.startAt) }} - {{ displayHour(content.endAt) }}
@@ -10,19 +10,17 @@
 </template>
 
 <script setup lang="ts">
-import { type TimeTableEvent, type TimeTableContents } from '~/models/model'
+import { type TimeTableWorkshopContents } from '~/models/model'
 const { locale } = useI18n()
 const { session, timetable } = defineProps({
-  content: {} as PropType<TimeTableContents>,
-  event: {} as PropType<TimeTableEvent>
+  content: {} as PropType<TimeTableWorkshopContents>,
 })
 
 console.log(event)
 </script>
 
 <style scoped lang="scss">
-.event {
-  text-align: center;
+.workshop {
   text-align: left;
   padding: 24px;
 }
