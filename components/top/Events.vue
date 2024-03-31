@@ -3,9 +3,9 @@ en:
   alt: The largest international Scala conference in Asia
   date: on 7th-9th June. 2024
   ticket_info: |
-    Early Bird tickets are now on sale!<br/>
-    The sale will end on March 16th, 12:00 (JST), so get yours early.<br/>
-    <a href="https://scalaconfjp.doorkeeper.jp/events/168847" target="_blank">Click here to get ScalaMatsuri 2024 tickets</a>
+    The sale of Early Bird tickets has ended!<br>
+    The sale of general tickets is scheduled for early April.<br>
+    Please wait for the announcement.
   event_overview: |
     This year's Scala Matsuri will be held offline.<br>
     We are planning to hold some contents unique to offline. Stay tuned!<br>
@@ -17,9 +17,9 @@ ja:
   alt: アジア最大級のScalaカンファレンス
   date: Dates 2024年6月7日(金)〜9日(日)
   ticket_info: |
-    Early Birdのチケットが発売されました！<br/>
-    3月16日 12:00(JST)までとなりますので、お早めにお求めください。<br/>
-    <a href="https://scalaconfjp.doorkeeper.jp/events/168847" target="_blank">ScalaMatsuri 2024 チケットはこちら</a>
+    Early Birdのチケット販売は終了しました！<br/>
+    一般チケットの販売は4月上旬を予定しています。<br/>
+    開始まで今しばらくお待ち下さい。
   event_overview: |
     本年のScalaMatsuriはオフライン開催になりました。<br>
     オフラインならではの催し物を多数実施する予定ですので、どうぞお楽しみに！<br>
