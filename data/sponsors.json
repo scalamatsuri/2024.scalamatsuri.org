@@ -135,6 +135,51 @@
     "speakerdeckUrl": ""
   },
   {
+    "id": "DAIMYO_9",
+    "type": "DAIMYO",
+    "ja": {
+      "name": "JetBrains s.r.o."
+    },
+    "en": {
+      "name": "JetBrains s.r.o."
+    },
+    "logo": "/img/sponsors/jetbrains.png",
+    "url": "https://www.jetbrains.com/ja-jp/",
+    "textHtml": "JetBrains はソフトウェア開発者とチームの生産性向上に役立つインテリジェントなツールの制作を専門とするグローバルソフトウェア企業です。JetBrains の各ツールは定期的なチェックと修正を自動化することにより、生産を加速させ、開発者の成長、発見、そして創造を支援します。<br><br>過去 24 年間にわたり、ソフトウェア開発サイクル全体のみならず、主要テクノロジー、プログラミング言語、および教育プロセスに対応した製品カタログを構築してきました。製品群には IntelliJ IDEA、ReSharper、PhpStorm、PyCharm、Rider、TeamCity や YouTrackといった受賞歴のあるツールが含まれます。<br><br>220 の国と地域の 1280 万人以上のクリエイティブなプロの開発者が JetBrains のツールを使用し、信頼しています。JetBrains の社員数は 1,900 人を超え、チェコ共和国、ドイツ、オランダ、アメリカ、そして中国に営業拠点を置いています。<br><a href=\"https://www.jetbrains.com/ja-jp/\">JetBrains日本語公式サイト</a><br><a href=\"https://blog.jetbrains.com/ja/\">JetBrainsのブログ</a>",
+    "slideHtml": "",
+    "speakerdeckUrl": ""
+  },
+  {
+    "id": "DAIMYO_10",
+    "type": "DAIMYO",
+    "ja": {
+      "name": "転職ドラフト"
+    },
+    "en": {
+      "name": "転職ドラフト"
+    },
+    "logo": "/img/sponsors/livesense.png",
+    "url": "https://job-draft.jp/",
+    "textHtml": "<p><b>「エンジニアの価値は世界が決める」</b></p><p>転職ドラフトは、レジュメを登録すると企業から年収付きで指名が届く、ITエンジニア向けの転職サービスです。 <br>入札結果を匿名で閲覧できるので、キャリアにおけるリアルな市場価値が把握できるようになります。</p><p>ITエンジニアが「自身の客観的な市場価値」を判断する機会はきわめて限られています。<br>社内における評価は、あくまでその会社の評価基準や年収水準に沿ったものに過ぎず、<br>転職活動は市場価値を測る数少ない機会のひとつですが、そこでも「現年収」を参考に年収提示がされることが少なくありません。<br>転職ドラフトは、このような評価におけるバイアスを排除し、「エンジニアが実力によって正当に評価され、実力に見合った報酬を得られる」シンプルな世界の実現を目指しています。</p><p>大手・メガベンチャー・スタートアップなど利用企業数は累計700社以上。毎月600人超のITエンジニアが参加。<br>挑戦的なキャリア形成の登竜門としてご利用いただけるよう、日々提供価値を拡充しています。</p><p><a href=\"https://job-draft.jp?utm_source=promotext&utm_medium=conference&utm_campaign=allconference\">転職ドラフト公式サイト</a><br><a href=\"https://job-draft.jp/company_service_inquiry?utm_source=promotext&utm_medium=conference&utm_campaign=allconference\">転職ドラフトを検討中の採用担当者の方はこちら</a></p><p>転職ドラフトを運営している株式会社リブセンスでは、エンジニア採用強化中です。<br>フルリモート勤務OK・地方で働いている社員も多くいます。<br>「エンジニアが正当に評価される世界」を一緒に作っていただける仲間をお待ちしています。</p><p><a href=\"https://hrmos.co/pages/livesense/jobs?category=1817049821195808768?utm_source=promotext&utm_medium=conference&utm_campaign=allconference\">株式会社リブセンスのエンジニア求人一覧</a><br><a href=\"https://made.livesense.co.jp/?utm_source=promotext&utm_medium=conference&utm_campaign=allconference\">LIVESENSE ENGINEER BLOG</a><br><a href=\"https://livesense-inc.gitbook.io/livesense-engineering-handbook/?utm_source=promotext&utm_medium=conference&utm_campaign=allconference\">Livesense Engineering Handbook</a></p>",
+    "slideHtml": "",
+    "speakerdeckUrl": ""
+  },
+  {
+    "id": "DAIMYO_11",
+    "type": "DAIMYO",
+    "ja": {
+      "name": "株式会社ネクストビート"
+    },
+    "en": {
+      "name": "nextbeat Co., Ltd."
+    },
+    "logo": "/img/sponsors/nextbeat.png",
+    "url": "https://www.nextbeat.co.jp/",
+    "textHtml": "<p>■ミッションは「<em>人口減少社会において必要とされるインターネット事業を創造し、ニッポンを元気にする。</em>」<br>株式会社ネクストビートは、2023年10月で10年目を迎えた自社プロダクト開発を行うベンチャー企業です。<br>ミッションの実現に向けて、プロダクトを一緒に作ってくれる<a href=\"https://www.nextbeat.co.jp/recruit/engineer\">Scalaエンジニア・アーキテクト・プラットフォームエンジニアなど</a>を募集しています。<br></p><p>■解決したい課題と、Scalaで開発しているプロダクトの例<br><ul><li><a href=\"https://kidsna-connect.com/site/\"> SaaS：手作業が多い保育施設職員の業務効率化を支援【保育士バンク！コネクト】</a></li><li><a href=\"https://sitter.kidsna.com/\"> CtoC：業界初！保育士・幼稚園教諭100％で安心・安全のシッターマッチングサービス【KIDSNAシッター】</a></li><li>保育士バンク！プラットフォーム化、KIDSNAプラットフォーム化に向けた基盤開発</li></ul></p><p>■Tech Vision<br>Tech Visionとして、「全員CTO」を掲げています。新しい技術を積極的に取り入れたり、全員が「技術的な意思決定」に挑戦できる環境を作るなど、Developer Experienceも大切にしたいと考えています。たとえば、以下のように学習する組織を目指して仕組み化し、エンジニアの技術成長へのサポートにもチカラを入れています。<br><ul><li>夕学(せきがく) : 業務時間内に2時間の個人・チームでの学習時間</li><li>開発定例会 : Lightning Talksで、各個人・各事業の知識・知見を流通</li></ul></p><p>転職をすぐに考えていなくても構いません。少しでもご興味をお持ちの方は、<a href=\"https://hrmos.co/pages/nextbeat/jobs/1000002?_ga=2.217849942.1727330956.1678338745-1229119637.1617865805\">カジュアル面談でお話しましょう。</del></a><br><a href=\"https://www.nextbeat.co.jp/\">その他詳細につきましては、コーポレートサイトをご覧ください。</a></p>",
+    "slideHtml": "",
+    "speakerdeckUrl": "https://speakerdeck.com/player/c86d0d41b0f245d580796fc608a43e6d?slide=1"
+  },
+  {
     "id": "SAMURAI_1",
     "type": "SAMURAI",
     "ja": {

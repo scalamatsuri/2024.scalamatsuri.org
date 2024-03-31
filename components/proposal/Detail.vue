@@ -12,7 +12,7 @@
         <div v-for="speaker in proposal.speakers" :key="speaker.name" class="speaker">
           <img v-if="speaker.iconUrl" :src="speaker.iconUrl" class="speaker_icon" />
           <img v-if="!speaker.iconUrl" src="/img/common/logo.svg" class="speaker_icon" />
-          <p class="speaker_name">{{ speaker.name }}</p>
+          <p class="speaker_name">{{ speaker[locale].name }}</p>
           <p class="speaker_id">
             <a v-if="speaker.twitter" class="modal_speaker_sns" :href="`https://twitter.com/${speaker.twitter}`">
               <img src="/img/common/icon-sns-x.svg" />{{ speaker.twitter }}

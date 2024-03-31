@@ -8,7 +8,7 @@ en:
   preface_text_01: |
     ScalaMatsuri is dedicated to providing an open conference for all technologists from various regions and communities. We want to make it a fun experience for everyone, inclusive of gender, race, and many different backgrounds whom they may not meet in their daily life.
     <br><br>
-    The following Code of conduct is a guideline to prevent all of us from making inconsiderate behavior, intentional or otherwise. The ScalaMaturi comittee requires all participants, including speakers and sponsors to comply with the Code of conduct as part of our active step to prevent inappropriate behaviors.
+    The following Code of conduct is a guideline to prevent all of us from making inconsiderate behavior, intentional or otherwise. The ScalaMatsuri comittee requires all participants, including speakers and sponsors to comply with the Code of conduct as part of our active step to prevent inappropriate behaviors.
   body_title: 'Body'
   body_text_01: |
     All communication is expected to be appropriate for a technology conference with professional audience including people of many different backgrounds. ScalaMatsuri does not tolerate harassment of conference participants in any form.
