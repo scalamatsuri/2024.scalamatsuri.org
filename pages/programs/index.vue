@@ -16,7 +16,6 @@ ja:
 
     <div class="page">
       <div class="proposals">
-        <!--TODO: タイムテーブルを表現する-->
         <div v-for="timetable in timetables" :key="timetable.timetableId">
           <ProgramDetail :sessions="sessions" :events="timetableEvents" :timetable="timetable" />
         </div>

@@ -22,7 +22,7 @@ const { session, timetable } = defineProps({
 .event {
   text-align: center;
   text-align: left;
-  padding: 24px;
+  padding: 24px 30px;
 
   @media screen and (max-width: $headerViewport - 1) {
     padding: 24px 16px;
@@ -31,6 +31,7 @@ const { session, timetable } = defineProps({
 .name {
   font-weight: bold;
   font-size: 20px;
+
   @media screen and (max-width: $headerViewport - 1) {
     font-size: 16px;
   }

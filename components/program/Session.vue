@@ -29,7 +29,6 @@
           </p>
         </div>
       </div>
-      <!--<p class="description" v-html="session?.proposalWithSpeakers[locale].description" /> -->
    </div>
   </div>
 </template>

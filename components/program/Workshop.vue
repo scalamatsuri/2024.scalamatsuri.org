@@ -20,7 +20,7 @@ const { session, timetable } = defineProps({
 <style scoped lang="scss">
 .workshop {
   text-align: left;
-  padding: 24px;  
+  padding: 24px 30px;  
 
   @media screen and (max-width: $headerViewport - 1) {
     padding: 24px 16px;
