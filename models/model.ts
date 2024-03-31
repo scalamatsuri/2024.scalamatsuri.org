@@ -87,6 +87,45 @@ export type Session = Adoption & {
   proposalWithSpeakers: ProposalWithSpeakers
 }
 
+export type TimeTableContents = {
+  type: 'EVENT' | 'SESSION' | 'WORKSHOP'
+  startAt: string // JST
+  endAt?: string // JST
+}
+
+export type TimeTableEvent = {
+  eventId: string,
+  name: {
+    en: string,
+    ja: string
+  }
+}
+
+export type TimeTableSessionContents = TimeTableContents & {
+  sessionId: string
+}
+
+export type TimeTableEventContents = TimeTableContents & {
+  eventId: string
+}
+
+export type TimeTableWorkshopContents = TimeTableContents & {
+  name: {
+    en: string,
+    ja: string
+  }
+}
+
+export type TimeTable = {
+  date: string,
+  timetableId: string,
+  title: {
+    en: string,
+    ja: string
+  }
+  contents: Array<TimeTableSessionContents | TimeTableEventContents | TimeTableWorkshopContents>
+}
+
 /***********************************************************
  *** Staff Model
  ***********************************************************/
@@ -102,3 +141,4 @@ export type Staff = {
   profile: string
   role: StaffRole
 }
+

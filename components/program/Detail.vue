@@ -1,14 +1,42 @@
 <template>
-  <div :id="session.sessionId.value" class="session" data-target="session.sessionId.value">
+  <h2 class="section_title">
+    <span class="section_title_inner">{{ timetable.title[locale] }}</span>
+  </h2>
+
+  <div class="timetable">
+    <div v-for="content in timetable.contents" :key="contentsId(content)" :set="session = getSession(content)" class="timetable-column">
+      <div class="time">
+        {{displayDateAndHour(content.startAt)}}
+        <br />
+        (GMT+9)
+      </div>
+      <div class="contents" v-if="content.type === 'EVENT'">
+        Event
+      </div>
+      <div class="contents" v-if="content.type === 'SESSION'">
+        <ProgramSession :session="getSession(content)" :content="content" />
+      </div> 
+      <div class="contents" v-if="content.type === 'WORKSHOP'">
+        Workshop
+      </div> 
+    </div>
+  </div>
+
+  <!--
+  <div :id="timetable.sessionId.value" class="session" data-target="session.sessionId.value">
     <div class="detail">
+      <p class="time">
+        {{ displayDateAndHour(session.startAt) }} 
+      </p>
       <p class="title">
         <NuxtLink :to="localePath(`/programs/${session.sessionId.value}`)" target="_blank">
           {{ session.proposalWithSpeakers[locale].title }}
         </NuxtLink>
       </p>
-      <p v-if="session.proposalWithSpeakers.language == 'en'">English</p>
-      <p v-if="session.proposalWithSpeakers.language == 'ja'">Japanese</p>
-      <div class="speakers">
+      <p class="meta">
+        {{ displayHour(session.startAt) }} - {{ displayHour(session.endAt) }} | {{ language }}
+     </p>
+     <div class="speakers">
         <div v-for="speaker in session.proposalWithSpeakers.speakers" :key="speaker.name" class="speaker">
           <img v-if="speaker.iconUrl" :src="speaker.iconUrl" class="speaker_icon" />
           <img v-if="!speaker.iconUrl" src="/img/common/logo.svg" class="speaker_icon" />
@@ -31,96 +59,55 @@
       </div>
     </div>
   </div>
+  -->
 </template>
 
 <script setup lang="ts">
-import { type Session } from '~/models/model'
+import { type Session, type TimeTable, type TimeTableEvents, type TimeTableContents } from '~/models/model'
 const { locale, t } = useI18n()
 const localePath = useLocalePath()
-const { session } = defineProps({
-  session: {} as PropType<Session>,
+const { sessions, events, timetable } = defineProps({
+  sessions: {} as PropType<Session[]>,
+  events: {} as PropType<TimeTableEvent[]>,
+  timetable: {} as PropType<TimeTable>
 })
+
+const contentsId = (content: TimeTableContents) => {
+  switch (content.type) {
+    case 'WORKSHOP':
+      return content.workshipId
+    case 'EVENT':
+      return content.eventId 
+    case 'SESSION':
+      return content.sessionId
+  }
+}
+
+const getSession = (content) => { return sessions.find(s => s.sessionId.value === content.sessionId) }
+const getEvent = (content) => { events.find(e => e.eventId === content.eventId) }
 </script>
 
 <style scoped lang="scss">
-.session {
-  border-bottom: 1px solid #eee;
-  padding: 20px 0;
+.timetable {
+  width: 100%;
+  margin: 40px auto 80px;
+  border-top: 1px solid #eee;
 }
-.detail {
-  text-align: left;
-  padding: 0px 30px;
-}
-.title {
-  font-weight: bold;
-  font-size: 2em;
-}
-.description {
-  margin-top: 10px;
-  letter-spacing: 0.1em;
-}
-
-.speakers {
-  // padding: 0px 30px;
+.timetable-column {
   display: flex;
-  flex-wrap: wrap;
-}
-.speaker {
-  width: calc(33.3% - 10px);
-  text-align: left;
-  margin-top: 10px;
-  min-width: 300px;
-}
-.speaker_icon {
-  width: 40px;
-  height: 40px;
-  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1) inset;
-  background-size: cover;
-  border-radius: 20px;
-  float: left;
-}
-.speaker_name {
-  margin-left: 50px;
-  font-weight: bold;
-  line-height: 20px;
-  font-size: 12px;
-  letter-spacing: 0.1em;
-}
-.speaker_id {
-  margin-left: 50px;
-  line-height: 20px;
-  font-size: 12px;
-  > a {
-    margin-right: 10px;
-  }
-  > a > img {
-    width: 16px;
-    height: 16px;
-    margin: 4px 3px 0 0;
-  }
+  align-items: stretch;
+  width: 100%;
+  border-bottom: 1px solid #eee;
 }
 
-.tags {
-  display: inline;
-  font-weight: bold;
-  line-height: normal;
-  font-size: 12px;
-  letter-spacing: 0.1em;
+.time {
+  font-size: 24px;
+  border-right: 1px solid #eee;
+  flex: 0 0 200px;
+  padding: 20px 30px;
 }
-.tag {
-  display: inline;
-  color: rgba(0, 0, 0, 0.5);
-  > span {
-    display: inline-block;
-    line-height: 20px;
-    font-size: 12px;
-    letter-spacing: 0.05em;
-    font-weight: normal;
-  }
-  + .tag {
-    &:before {
-      content: ' | ';
-    }
-  }
+
+.contents {
+  flex: 0 2 auto;
 }
 </style>

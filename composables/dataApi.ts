@@ -1,9 +1,10 @@
-import type { Proposal, Speaker, ProposalWithSpeakers, Sponsor, SporsorType, Staff, Session } from '~/models/model'
+import type { Proposal, Speaker, ProposalWithSpeakers, Sponsor, SporsorType, Staff, Session, TimeTableEvent, TimeTable } from '~/models/model'
 import proposals from '~/data/proposals.json'
 import adoptions from '~/data/adoptions.json'
 import sponsors from '~/data/sponsors.json'
 import speakers from '~/data/speakers.json'
 import staffs from '~/data/staffs.json'
+import timetables from '~/data/timetables.json'
 
 export const getSponsors = () => computed(() => sponsors as Sponsor[])
 export const getSponsorById = (sponsorId: string) => computed(() => sponsors.find((sponsor) => sponsor.id === sponsorId) as Sponsor)
@@ -52,6 +53,21 @@ export const getProposalById = (proposalId: string) =>
       return null
     }
   })
+
+const _timetableEvents = timetables.events.map((event) => {
+  return {
+    ...event
+  } as TimeTableEvent
+})
+export const getTimetableEvents = () => computed(() => _timetableEvents)
+
+const _timetables = timetables.timetables.map((timetable) => {
+  return {
+    ...timetable
+  } as TimeTable
+})
+
+export const getTimetables = () => computed(() => _timetables)
 
 export const getSessions = () => computed(() => _sessions)
 export const getSessionById = (sessionId: string) => computed(() => _sessions.find((session) => session.sessionId.value === sessionId) ?? null)

@@ -11,8 +11,8 @@ ja:
     <div class="page">
       <div class="proposals">
         <!--TODO: タイムテーブルを表現する-->
-        <div v-for="session in sessions" :key="session.sessionId.value">
-          <ProgramDetail :session="session" />
+        <div v-for="timetable in timetables" :key="timetable.timetableId">
+          <ProgramDetail :sessions="sessions" :events="timetableEvents" :timetable="timetable" />
         </div>
       </div>
     </div>
@@ -23,6 +23,8 @@ ja:
 const { t } = useI18n()
 pageMetaCheck()
 const sessions = getSessions()
+const timetableEvents = getTimetableEvents()
+const timetables = getTimetables()
 </script>
 
 <style scoped lang="scss">
@@ -46,7 +48,6 @@ const sessions = getSessions()
   display: inline-block;
 }
 .proposals {
-  border-top: 1px solid #eee;
   margin: 60px auto 0;
   max-width: 1200px;
 }
