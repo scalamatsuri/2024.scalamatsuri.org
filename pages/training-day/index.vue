@@ -48,7 +48,7 @@
       </p>
       <p class="speaker_id">
         <a class="modal_speaker_sns" href="https://twitter.com/gakuzzzz" target="_blank">
-          <img src="/img/common/icon-sns-tw.svg" />
+          <img src="/img/common/icon-sns-x.svg" />
         </a>
         <a class="modal_speaker_sns" href="https://github.com/gakuzzzz" target="_blank">
           <img src="/img/common/icon-sns-git.svg" />
