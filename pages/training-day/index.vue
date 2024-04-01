@@ -41,10 +41,9 @@
       <p class="speaker_name">がくぞ(gakuzzzz)</p>
       <br />
       <p>
-        株式会社Tech to Value 代表 / アルプ株式会社 テックリード<br />
-        ScalaMatsuri の前身となる Scala Conference in Japan 2013 より登壇し続けている Scala コミュニティの重鎮。<br />
-        ScalaMatsuri や<a href="https://www.scala-training.jp/" target="_blank">ScalaTraining</a>
-        を通じて、日本のScala業界を牽引、普及に尽力している。
+        株式会社Tech to Value 代表 / アルプ株式会社 テックリード / Japan Scala Association 役員<br />
+        様々なSaaS企業においてサービス開発から運用、開発組織のリードに従事。<br />
+        Scalaにおいては2011年から利用しており、ScalaMatsuri を始め様々なイベントで登壇。日頃から Scala の普及に尽力している。
       </p>
       <p class="speaker_id">
         <a class="modal_speaker_sns" href="https://twitter.com/gakuzzzz" target="_blank">
