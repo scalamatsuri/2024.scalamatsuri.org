@@ -1,6 +1,6 @@
 <template>
   <MainVisual :title="proposal[locale].title" />
-  <div class="proposal">
+  <div class="proposals page">
     <div class="detail">
       <div class="speakers">
         <div v-for="speaker in proposal.speakers" :key="speaker[locale].name" class="speaker">
