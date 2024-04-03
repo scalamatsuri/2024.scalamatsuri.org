@@ -123,7 +123,7 @@
       "value": "PROPOSAL_ID_08"
     },
     "ja": {
-      "title": "Easy Scala with the com.lihaoyi Ecosystem",
+      "title": "com.lihaoyi エコシステムによる簡単Scalaプログラミング",
       "description": "The com.lihaoyi ecosystem is a set of libraries that aims to make Scala concise and easy,<br/>rather than flexible and powerful. This talk explores how just a few com.lihaoyi libraries<br/>is enough to let you use the Scala language to accomplish many real-world tasks in a tiny<br/>amount of effort and code."
     },
     "en": {
@@ -140,7 +140,7 @@
       "value": "PROPOSAL_ID_09"
     },
     "ja": {
-      "title": "Direct-style Scala using Ox",
+      "title": "Ox を用いた Direct-Style Scala",
       "description": "Explore concurrency and resiliency in Scala in the Java 21+ era with Ox. Offering a direct-style approach, Ox seamlessly integrates structured concurrency, high-level concurrency operators, and Go-like channels with a stream-like API, ensuring safety and a developer-friendly coding experience."
     },
     "en": {
@@ -293,7 +293,7 @@
       "value": "PROPOSAL_ID_18"
     },
     "ja": {
-      "title": "Scala tooling ecosystem",
+      "title": "Scalaの開発者ツールエコシステム",
       "description": "Tooling is one of the topics most discussed in the Scala community. We often complain about its issues or have to deal with its’ imperfect solutions. However, I believe we have gone a really long way during the last few years and we are consistently improving with most Scala core teams being highly conscious of the current imperfections. I would like to go over the most relevant tools and changes that can improve your developer experience."
     },
     "en": {
@@ -361,7 +361,7 @@
       "value": "PROPOSAL_ID_22"
     },
     "ja": {
-      "title": "Scala to WebAssembly: Exploring the How and Why",
+      "title": "Scala to WebAssembly: 動機と方法",
       "description": "WebAssembly(Wasm)はブラウザで実行可能なプログラム形式で、近年ではブラウザに限らず様々な用途で利用され多くの言語がWasmに変換されています。<br/>ScalaでもWasmへの変換は過去に何度か模索されてきましたが、現時点ではWasmに直接変換することはできません。<br/>この発表ではなぜWasmが重要か、開発中のScalaからWasmへのコンパイラについて紹介し、その将来について議論します。"
     },
     "en": {
@@ -378,7 +378,7 @@
       "value": "PROPOSAL_ID_23"
     },
     "ja": {
-      "title": "Property-based testing - let your testing library work for you",
+      "title": "Property-based testing - テストライブラリにやらせよう",
       "description": "Don't ask what you can do for your testing library, ask what it can do for you! It turns out that much more than displaying a nice green and red report. What if we make the library generate the test data? And maybe it could also think of the edge cases for which our code is wrong? And repeat that a thousand times, just to be sure. Sounds good? That's exactly what property-based testing has to offer. I'll show how to get started with this kind of testing in Scala, using ScalaTest and ScalaCheck. I'll also cover the fine print and challenges."
     },
     "en": {
@@ -565,7 +565,7 @@
       "value": "PROPOSAL_ID_34"
     },
     "ja": {
-      "title": "How do we optimise Scala build times?",
+      "title": "Scala ビルド時間の最適化",
       "description": "Build tools for Scala help you to compile projects as fast as possible. Let's take an in depth look at new improvements in active development to improve build times, from pipelined compilation, more efficient scheduling, to even fine-grained parallel compilation."
     },
     "en": {

@@ -3,7 +3,7 @@ en:
   code-of-conduct: Code of Conduct
   call-for-proposals: Call for Proposals
   proposals: Proposals
-  programs: Programss
+  programs: Programs
   open-mic-conference: Open Mic Conference
   sponsorship: Sponsor Ship(ja)
   sponsors: Sponsors(ja)

@@ -17,7 +17,7 @@ export default defineAppConfig({
       order: 20,
     },
     { path: 'proposals', title: { en: 'Proposals', ja: '応募セッション一覧' }, published: true, header: true, order: 21 },
-    { path: 'programs', title: { en: 'Programs', ja: 'セッション一覧' }, published: false, header: true, order: 22 },
+    { path: 'programs', title: { en: 'Programs', ja: 'セッション一覧' }, published: true, header: true, order: 22 },
     { path: 'open-mic-conference', title: { en: 'Open Mic Conference', ja: '飛び入りカンファレンス' }, published: false, header: true, order: 23 },
     { path: 'sponsorship', title: { en: 'Sponsor Ship(ja)', ja: 'スポンサー募集' }, published: true, header: true, order: 30 },
     { path: 'sponsors', title: { en: 'Sponsors', ja: 'スポンサー一覧' }, published: true, header: true, order: 31 },
