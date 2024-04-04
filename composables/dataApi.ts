@@ -61,7 +61,7 @@ const _timetableEvents = timetables.events.map((event) => {
 })
 export const getTimetableEvents = () => computed(() => _timetableEvents)
 
-const _timetables = timetables.timetables.filter((timetable) => timetable.timetableId != 'DAY_1').map((timetable) => {
+const _timetables = timetables.timetables.filter((timetable) => timetable.timetableId != 'WORK_DAY').map((timetable) => {
   return {
     ...timetable
   } as TimeTable
