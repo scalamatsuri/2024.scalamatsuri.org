@@ -60,7 +60,7 @@
   "timetables": [
     {
       "date": "2024-06-07",
-      "timetableId": "DAY_1",
+      "timetableId": "WORK_DAY",
       "title": {
         "en": "6/7 (JST) Workshop Day",
         "ja": "6/7 (JST) ワークショップ Day"
@@ -148,7 +148,7 @@
     },
     {
       "date": "2024-06-08",
-      "timetableId": "DAY_2",
+      "timetableId": "CONF_DAY_1",
       "title": {
         "en": "6/8 (JST) Conference Day 1",
         "ja": "6/8 (JST) カンファレンス Day 1"
@@ -272,7 +272,7 @@
     },
     {
       "date": "2024-06-09",
-      "timetableId": "DAY_3",
+      "timetableId": "CONF_DAY_2",
       "title": {
         "en": "6/9 (JST) Conference Day 2",
         "ja": "6/9 (JST) カンファレンス Day 2"
