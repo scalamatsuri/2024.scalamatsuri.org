@@ -4,7 +4,7 @@ en:
   date: on 7th-9th June. 2024
   ticket_info: |
     Admission tickets are now on sale!<br/>
-    The sale will end on June 9th, 20:45 (JST), so get yours early.<br/>
+    The sale will end on June 7th, 23:59 (JST), so get yours early.<br/>
     <a href="https://scalaconfjp.doorkeeper.jp/events/168847" target="_blank">Click here to get ScalaMatsuri 2024 tickets</a>
   event_overview: |
     This year's Scala Matsuri will be held offline.<br>
@@ -18,7 +18,7 @@ ja:
   date: Dates 2024年6月7日(金)〜9日(日)
   ticket_info: |
     一般チケットが発売されました！<br/>
-    6月9日 20:45(JST)までとなりますので、お早めにお求めください。<br/>
+    6月7日 23:59(JST)までとなりますので、お早めにお求めください。<br/>
     <a href="https://scalaconfjp.doorkeeper.jp/events/168847" target="_blank">ScalaMatsuri 2024 チケットはこちら</a>
   event_overview: |
     本年のScalaMatsuriはオフライン開催になりました。<br>
