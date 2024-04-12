@@ -7,16 +7,16 @@ export const arrayShuffle = (array: any[]) => {
   return array
 }
 
-const zeroPadding = (num: number) => {
-  return num.toString().padStart(2, '0')
-}
-
+const locale: Intl.LocalesArgument = 'en-US'
+const timeZone = 'Asia/Tokyo'
 export const displayHour = (datetimeString: string) => {
   const d = new Date(datetimeString)
-  return `${zeroPadding(d.getHours())}:${zeroPadding(d.getMinutes())}`
+  return d.toLocaleTimeString(locale, { hour: '2-digit', minute: '2-digit', hour12: false, timeZone })
 }
 
 export const displayDateAndHour = (datetimeString: string) => {
   const d = new Date(datetimeString)
-  return `${zeroPadding(d.getMonth() + 1)}/${zeroPadding(d.getDate())} ${displayHour(datetimeString)}`
+  const date = d.toLocaleDateString(locale, { month: '2-digit', day: '2-digit', timeZone })
+  const time = d.toLocaleTimeString(locale, { hour: '2-digit', minute: '2-digit', hour12: false, timeZone })
+  return `${date} ${time}`
 }
