@@ -103,7 +103,7 @@ const shuffledShogunSponsors = computed(() => arrayShuffle(shogunSponsors.value)
     }
   }
   .main_sponsor_inner {
-    max-width: 1100px;
+    // max-width: 1100px;
     width: 100%;
     margin: 0 auto;
     display: flex;

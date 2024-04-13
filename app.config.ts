@@ -25,6 +25,6 @@ export default defineAppConfig({
     { path: 'ticket', title: { en: 'Ticket', ja: 'チケット' }, published: false, header: false, order: 90 },
     { path: 'travel', title: { en: 'Travel', ja: 'トラベル情報' }, published: true, header: true, order: 91 },
     { path: 'staff', title: { en: 'Staffs', ja: 'スタッフ一覧' }, published: true, header: true, order: 100 },
-    { path: 'extra-staff', title: { en: 'Extra Staffs(ja)', ja: '当日スタッフ募集' }, published: false, header: false, order: 101 },
+    { path: 'extra-staff', title: { en: 'Extra Staffs(ja)', ja: '当日スタッフ募集' }, published: true, header: false, order: 101 },
   ],
 })
