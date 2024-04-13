@@ -1,3 +1,5 @@
+import path from 'path'
+
 export default defineNuxtConfig({
   // SEO目的でCSRではなくSSG相当とするため、ssr=trueとすることでnext generateで各種ページを生成させる
   ssr: true,
@@ -9,6 +11,9 @@ export default defineNuxtConfig({
     },
   },
   css: ['~/assets/vendor/sanitize.css/sanitize.css', '~/assets/scss/main.scss'],
+  alias: {
+    $image: path.resolve('public/img'),
+  },
   vite: {
     css: {
       preprocessorOptions: {

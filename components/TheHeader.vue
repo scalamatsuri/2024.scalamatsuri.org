@@ -35,7 +35,7 @@ ja:
       <div class="header_inner">
         <p class="logo">
           <NuxtLink :to="localePath('/')">
-            <img src="/img/common/logo.svg" :alt="`ScalaMatsuri ${appConfig.year}`" width="42" height="32" />
+            <img src="$image/common/logo.svg" :alt="`ScalaMatsuriaa ${appConfig.year}`" width="42" height="32" />
           </NuxtLink>
         </p>
         <div class="menu">
@@ -63,7 +63,9 @@ ja:
         <transition name="fade">
           <p v-if="!menuActive" class="logo">
             <NuxtLink :to="localePath('/')">
-              <img src="/img/common/logo.svg" alt="ScalaMatsuri 2023" height="24" /><span class="logo_type"> ScalaMatsuri {{ appConfig.year }} </span>
+              <img src="$image/common/logo.svg" :alt="`ScalaMatsuri ${appConfig.year}`" height="24" /><span class="logo_type">
+                ScalaMatsuri {{ appConfig.year }}
+              </span>
             </NuxtLink>
           </p>
         </transition>

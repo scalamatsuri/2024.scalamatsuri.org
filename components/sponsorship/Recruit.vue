@@ -1,5 +1,4 @@
-<i18n lang="yaml">
-</i18n>
+<i18n lang="yaml"></i18n>
 
 <template>
   <section v-if="has_recruits" class="section recruit">
@@ -22,7 +21,7 @@
 const { t } = useI18n()
 
 const { recruits } = defineProps({
-  recruits: Array<Recruit>
+  recruits: Array<Recruit>,
 })
 
 interface Recruit {
@@ -35,7 +34,6 @@ const has_recruits = recruits.length > 0
 </script>
 
 <style lang="scss" scoped>
-
 .recruit_recruit {
   margin-top: 60px;
   max-width: 1200px;
@@ -58,7 +56,7 @@ const has_recruits = recruits.length > 0
 
 $viewport: 820px;
 @media screen and (max-width: $viewport - 1) {
- .recruit_recruit {
+  .recruit_recruit {
     margin-top: 20px;
     display: block;
     li {

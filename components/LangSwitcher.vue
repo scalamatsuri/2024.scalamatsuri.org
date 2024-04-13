@@ -64,7 +64,7 @@ const onClickSelectedLocaleLink = () => (_active.value = !_active.value)
   }
   &:before {
     content: '';
-    background-image: url('/img/common/icon-lang.svg');
+    background-image: url('$image/common/icon-lang.svg');
     width: 20px;
     height: 20px;
     background-size: 20px 20px;
@@ -75,7 +75,7 @@ const onClickSelectedLocaleLink = () => (_active.value = !_active.value)
   }
   &:after {
     content: '';
-    background-image: url('/img/common/arrow-bottom.svg');
+    background-image: url('$image/common/arrow-bottom.svg');
     width: 10px;
     height: 6px;
     background-size: 10px 6px;
