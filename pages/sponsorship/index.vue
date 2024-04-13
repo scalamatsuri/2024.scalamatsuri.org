@@ -28,17 +28,17 @@ const inquiry_form = 'https://docs.google.com/forms/d/e/1FAIpQLSftjA6961ZzzJjqq1
 
 const recruits: Array<Recruit> = [
   {
-    image: '$image/sponsorship/img-recruit2.jpg',
+    image: '/img/sponsorship/img-recruit2.jpg',
     url: 'https://blog.scalamatsuri.org/entry/2017/10/30/150859',
     title: '株式会社FLINTERSさまへ転職された 河内崇さん（@kawachi）',
   },
   {
-    image: '$image/sponsorship/img-recruit1.png',
+    image: '/img/sponsorship/img-recruit1.png',
     url: 'https://blog.scalamatsuri.org/entry/2022/03/01/093656',
     title: '株式会社アットウェアさまへ転職された オヤマさん',
   },
   {
-    image: '$image/sponsorship/img-recruit3.jpg',
+    image: '/img/sponsorship/img-recruit3.jpg',
     url: 'https://blog.scalamatsuri.org/entry/2020/05/01/155020',
     title: 'アルプ株式会社さまへ転職された オミさん(@omiend)',
   },
