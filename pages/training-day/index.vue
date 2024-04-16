@@ -10,7 +10,7 @@
       </div>
     </div>
     <p class="section_text">
-      「ScalaMatsuri 2024 トレーニング」をリクルート様と共同開催することとなりました！<br />
+      「ScalaMatsuri 2024 トレーニング」を株式会社リクルート様と共同開催することとなりました！<br />
       講師には <a href="https://twitter.com/gakuzzzz" target="_blank">がくぞ</a>氏をお招きし、ScalaMatsuri 2024 を楽しむための Scala
       の基礎を学ぶことができます。<br />
       是非この機会に Scala の基礎知識を学び、ScalaMatsuri 2024 を存分にお楽しみください！
