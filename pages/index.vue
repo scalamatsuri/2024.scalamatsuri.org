@@ -5,7 +5,6 @@
     <TopNews />
   </ClientOnly>
   <TopBanners />
-  <TopPrograms />
   <TopEvents />
   <TopSponsors />
   <TopCodeOfConduct />
