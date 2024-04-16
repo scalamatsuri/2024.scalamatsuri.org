@@ -16,7 +16,7 @@ const { title } = defineProps({
 
 <style scoped lang="scss">
 .main {
-  background-image: url('/img/common/bg-red.png');
+  background-image: url('$image/common/bg-red.png');
   background-position: bottom center;
   background-repeat: repeat;
   overflow: hidden;

@@ -25,7 +25,7 @@
     },
     "logo": "/img/sponsors/chatwork.png",
     "url": "https://corp.chatwork.com/ja/",
-    "textHtml": "<a href=\"https://recruit.chatwork.com/mission/\">この国の経済を活性化させる。</a><br>私たちは事業上の成功ではなく、その先にある社会課題の解決をゴールに掲げています。Chatworkのメインユーザーは中小企業の従業員の方々です。日本の企業数の99.7%、雇用の7割を占める中小企業のDXは、この国の大きな課題です。そこで、コミュニケーションのインフラとしてChatworkを普及し、DX推進のきっかけをつくる。そして、日本中の中小企業の労働生産性を高めていくことで、経済を活性化させたいのです。<br><br><a href=\"https://recruit.chatwork.com/jobs/\">プロダクトに携わる方へ。</a><br>働く歴史を変えるプロダクトを、つくっていこう。<br>導入社数は毎月4000社で増え続け、累計のチャットログは65億に達し、毎月数億のメッセージが飛び交うサービスとして、いまも拡大を続けています。業界トップクラスのスキルを持ったメンバーが集い、問題解決に取り組んでいます。でもまだ、つくりたいプロダクトの20%も実現できていません。日本のあらゆる産業が使っているプロダクトをつくる。そんなメンバーの一員になりませんか。<br><br><a href=\"https://hrmos.co/pages/chatwork/jobs?category=1501423708939517952\">Chatwork株式会社 エンジニア 求人一覧</a><br><a href=\"https://hrmos.co/pages/chatwork/jobs/1020001\">Scalaエンジニア 募集要項</a><br><a href=\"https://creators-note.chatwork.com/\">Chatwork Creator’s Note（技術ブログ）</a>",
+    "textHtml": "<b>2024年7月、Chatwork株式会社は、株式会社kubellへ社名を変更します。</b><br><br><a href=\"https://recruit.chatwork.com/mission/\">この国の経済を活性化させる。</a><br>私たちは事業上の成功ではなく、その先にある社会課題の解決をゴールに掲げています。 Chatworkのメインユーザーは中小企業の従業員の方々です。日本の企業数の99.7%、雇用の7割を占める中小企業のDXは、この国の大きな課題です。そこで、コミュニケーションのインフラとしてChatworkを普及し、DX推進のきっかけをつくる。そして、日本中の中小企業の労働生産性を高めていくことで、経済を活性化させたいのです。<br><br><a href=\"https://recruit.chatwork.com/jobs/\">プロダクトに携わる方へ。</a><br>働く歴史を変えるプロダクトを、つくっていこう。<br>導入社数は毎月4000社で増え続け、累計のチャットログは65億に達し、毎月数億のメッセージが飛び交うサービスとして、いまも拡大を続けています。業界トップクラスのスキルを持ったメンバーが集い、問題解決に取り組んでいます。でもまだ、つくりたいプロダクトの20%も実現できていません。日本のあらゆる産業が使っているプロダクトをつくる。そんなメンバーの一員になりませんか。<br><br><a href=\"https://recruit.chatwork.com/engineer/\">Chatwork株式会社 エンジニア採用ページ</a><br><a href=\"https://hrmos.co/pages/chatwork/jobs/1020001\">Scalaエンジニア 募集要項</a><br><a href=\"https://creators-note.chatwork.com/search?q=scala\">Chatwork Creator’s Note（技術ブログ）</a>",
     "slideHtml": "<div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;\"><iframe src=\"https://speakerdeck.com/player/7ede63585d124f2dadb491d7d488d55d\" style=\"top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;\" allowfullscreen scrolling=\"no\"></iframe></div>",
     "speakerdeckUrl": "https://speakerdeck.com/player/7ede63585d124f2dadb491d7d488d55d"
   },
@@ -175,9 +175,25 @@
     },
     "logo": "/img/sponsors/nextbeat.png",
     "url": "https://www.nextbeat.co.jp/",
-    "textHtml": "<p>■ミッションは「<em>人口減少社会において必要とされるインターネット事業を創造し、ニッポンを元気にする。</em>」<br>株式会社ネクストビートは、2023年10月で10年目を迎えた自社プロダクト開発を行うベンチャー企業です。<br>ミッションの実現に向けて、プロダクトを一緒に作ってくれる<a href=\"https://www.nextbeat.co.jp/recruit/engineer\">Scalaエンジニア・アーキテクト・プラットフォームエンジニアなど</a>を募集しています。<br></p><p>■解決したい課題と、Scalaで開発しているプロダクトの例<br><ul><li><a href=\"https://kidsna-connect.com/site/\"> SaaS：手作業が多い保育施設職員の業務効率化を支援【保育士バンク！コネクト】</a></li><li><a href=\"https://sitter.kidsna.com/\"> CtoC：業界初！保育士・幼稚園教諭100％で安心・安全のシッターマッチングサービス【KIDSNAシッター】</a></li><li>保育士バンク！プラットフォーム化、KIDSNAプラットフォーム化に向けた基盤開発</li></ul></p><p>■Tech Vision<br>Tech Visionとして、「全員CTO」を掲げています。新しい技術を積極的に取り入れたり、全員が「技術的な意思決定」に挑戦できる環境を作るなど、Developer Experienceも大切にしたいと考えています。たとえば、以下のように学習する組織を目指して仕組み化し、エンジニアの技術成長へのサポートにもチカラを入れています。<br><ul><li>夕学(せきがく) : 業務時間内に2時間の個人・チームでの学習時間</li><li>開発定例会 : Lightning Talksで、各個人・各事業の知識・知見を流通</li></ul></p><p>転職をすぐに考えていなくても構いません。少しでもご興味をお持ちの方は、<a href=\"https://hrmos.co/pages/nextbeat/jobs/1000002?_ga=2.217849942.1727330956.1678338745-1229119637.1617865805\">カジュアル面談でお話しましょう。</del></a><br><a href=\"https://www.nextbeat.co.jp/\">その他詳細につきましては、コーポレートサイトをご覧ください。</a></p>",
+    "textHtml": "<p>■ミッション<br>「<em>人口減少社会において必要とされるインターネット事業を創造し、ニッポンを元気にする。</em>」<br>株式会社ネクストビートは、2023年10月で10年目を迎えた自社プロダクト開発を行うベンチャー企業です。<br>ミッションの実現に向けて、プロダクトを一緒に作ってくれる<a href=\"https://www.nextbeat.co.jp/recruit/engineer\">Scalaエンジニア</a>を募集中。<br></p><br><p>■Tech Vision＝「全員CTO」<br>新しい技術を積極的に取り入れたり、全員が「技術的な意思決定」に挑戦できる環境を作るなど、<br>Developer Experienceも大切にしています。例えば、学習する組織を目指して仕組み化しています。<br></p><ul><li>・夕学(せきがく) : 業務時間内に2時間の個人・チームでの学習時間</li><li>・開発定例会 : Lightning Talksで、各個人・各事業の知識・気づきなどを流通</li></ul><br><p>■解決したい課題と、Scala開発プロダクト例<br></p><ul><li><a href=\"https://kidsna-connect.com/site/\">・SaaS：手作業が多い保育施設職員の業務効率化を支援【保育士バンク！コネクト】</a></li><li><a href=\"https://sitter.kidsna.com/\">・CtoC：業界初！保育士・幼稚園教諭100％で安心・安全のシッターマッチング【KIDSNAシッター】</a></li></ul><p><br></p><p>■応募に関して<br>転職をすぐに考えていなくても構いません。少しでもご興味をお持ちの方は、以下でお話しましょう。<br><a href=\"https://hrmos.co/pages/nextbeat/jobs/1000002?_ga=2.217849942.1727330956.1678338745-1229119637.1617865805\">・カジュアル面談</a><br><a href=\"https://www.nextbeat.co.jp/\">・コーポレートサイト</a></p>",
+    "slide_html": "※前回と同じなため割愛します。",
     "slideHtml": "",
     "speakerdeckUrl": "https://speakerdeck.com/player/c86d0d41b0f245d580796fc608a43e6d?slide=1"
+  },
+  {
+    "id": "DAIMYO_12",
+    "type": "DAIMYO",
+    "ja": {
+      "name": "株式会社ヌーラボ"
+    },
+    "en": {
+      "name": "Nulab, Inc."
+    },
+    "logo": "/img/sponsors/nulab.png",
+    "url": "https://nulab.com/ja/",
+    "textHtml": "",
+    "slideHtml": "",
+    "speakerdeckUrl": ""
   },
   {
     "id": "SAMURAI_1",

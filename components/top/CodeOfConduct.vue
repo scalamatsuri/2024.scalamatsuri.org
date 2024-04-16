@@ -39,7 +39,7 @@ const { t } = useI18n()
 
 <style lang="scss" scoped>
 .info {
-  background-image: url('/img/top/bg-info_pc.jpg');
+  background-image: url('$image/top/bg-info_pc.jpg');
   background-size: cover;
   background-position: center;
   color: #fff;

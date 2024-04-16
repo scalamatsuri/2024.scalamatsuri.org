@@ -6,16 +6,16 @@
   height: 120px;
   position: absolute;
   z-index: 2;
-  background-color: #FFF;
+  background-color: #fff;
   top: -120px;
   &.is_fixed {
     position: fixed;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   }
   &.is_active {
     top: 0;
     display: block;
-    transition-property: background-color,height,top;
+    transition-property: background-color, height, top;
     transition-duration: 0.2s;
     transition-timing-function: ease;
   }
@@ -54,17 +54,18 @@
         display: block;
         width: 100%;
         height: 3px;
-        background-color: #BD3844;
+        background-color: #bd3844;
         border-radius: 3px;
         position: absolute;
         bottom: 0;
         left: 0;
       }
     }
-    &:hover, &.nuxt-link-exact-active {
+    &:hover,
+    &.nuxt-link-exact-active {
       span {
         &:after {
-          content: "";
+          content: '';
         }
       }
     }
@@ -85,18 +86,17 @@
     font-weight: bold;
     width: 140px;
     height: 44px;
-    background-color: #EBA80A;
+    background-color: #eba80a;
     border-radius: 22px;
     text-align: center;
     line-height: 44px;
-    color: #FFF;
-
+    color: #fff;
   }
   &-userIcon {
   }
   &-application {
     a {
-      background-color: #BD3844;
+      background-color: #bd3844;
     }
   }
 }
@@ -119,11 +119,11 @@
   font-size: 14px;
   line-height: 22px;
   &:hover {
-    opacity: .3;
+    opacity: 0.3;
   }
   &:before {
-    content: "";
-    background-image: url('~assets/img/common/icon-lang.svg');
+    content: '';
+    background-image: url('$image/common/icon-lang.svg');
     width: 20px;
     height: 20px;
     background-size: 20px 20px;
@@ -133,8 +133,8 @@
     top: 2px;
   }
   &:after {
-    content: "";
-    background-image: url('~assets/img/common/arrow-bottom.svg');
+    content: '';
+    background-image: url('$image/common/arrow-bottom.svg');
     width: 10px;
     height: 6px;
     background-size: 10px 6px;
@@ -148,7 +148,7 @@
   position: absolute;
   top: 30px;
   left: 20px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   width: 100%;
@@ -176,7 +176,7 @@
   position: absolute;
   top: 40px;
   right: 0;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   width: 224px;
@@ -202,9 +202,9 @@
   height: 44px;
   background-size: cover;
   border-radius: 22px;
-  box-shadow:0px 0px 1px 1px rgba(0,0,0,0.1) inset;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1) inset;
   &:after {
-    content: "";
+    content: '';
     background-image: url('~assets/img/common/arrow-bottom.svg');
     width: 10px;
     height: 6px;

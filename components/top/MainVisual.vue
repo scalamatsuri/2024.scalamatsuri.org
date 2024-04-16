@@ -38,7 +38,7 @@ ja:
 </template>
 
 <script setup lang="ts">
-import { Sponsor } from '~/models/model'
+import { type Sponsor } from '~/models/model'
 const { locale, t } = useI18n()
 const { year } = useAppConfig()
 const shogunSponsors: ComputedRef<Sponsor[]> = getSponsorsByType('SHOGUN')
@@ -77,10 +77,10 @@ const shuffledShogunSponsors = computed(() => arrayShuffle(shogunSponsors.value)
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    background-image: url('/img/top/img-main.jpg'), linear-gradient(180deg, #cf5335 0%, #b81d26 100%);
+    background-image: url('$image/top/img-main.jpg'), linear-gradient(180deg, #cf5335 0%, #b81d26 100%);
   }
   .main_sponsor {
-    background-image: url('/img/top/bg-main-sponsor_body.png');
+    background-image: url('$image/top/bg-main-sponsor_body.png');
     background-size: 100% 100%;
     background-repeat: repeat-y;
     background-position: bottom center;
@@ -91,7 +91,7 @@ const shuffledShogunSponsors = computed(() => arrayShuffle(shogunSponsors.value)
     &:before {
       content: '';
       display: block;
-      background-image: url('/img/top/bg-main-sponsor_head.png');
+      background-image: url('$image/top/bg-main-sponsor_head.png');
       background-size: 100% auto;
       background-repeat: no-repeat;
       background-position: bottom -1px center;
@@ -134,7 +134,7 @@ const shuffledShogunSponsors = computed(() => arrayShuffle(shogunSponsors.value)
 }
 @media screen and (max-width: $viewport - 1) {
   .main {
-    background-image: url('/img/common/bg-red.png');
+    background-image: url('$image/common/bg-red.png');
     background-position: bottom center;
     background-repeat: repeat;
     overflow: hidden;
@@ -145,7 +145,7 @@ const shuffledShogunSponsors = computed(() => arrayShuffle(shogunSponsors.value)
     padding: 66px 0 66px;
   }
   .main {
-    background-image: url('/img/top/img-main_sp.jpg');
+    background-image: url('$image/top/img-main_sp.jpg');
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: top center;
@@ -186,7 +186,7 @@ const shuffledShogunSponsors = computed(() => arrayShuffle(shogunSponsors.value)
     &:before {
       content: '';
       display: block;
-      background-image: url('/img/top/bg-main-sponsor_head_sp.png');
+      background-image: url('$image/top/bg-main-sponsor_head_sp.png');
       background-size: 100% auto;
       background-repeat: no-repeat;
       background-position: center bottom -1px;

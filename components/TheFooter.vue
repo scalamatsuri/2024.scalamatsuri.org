@@ -45,7 +45,7 @@ ja:
       <div class="footerNav">
         <dl class="footerNav_list">
           <p class="footer_logo">
-            <NuxtLink :to="localePath('/')"><img src="/img/common/logo.svg" :alt="`ScalaMatsuri ${year}`" width="68" height="53" /></NuxtLink>
+            <NuxtLink :to="localePath('/')"><img src="$image/common/logo.svg" :alt="`ScalaMatsuri ${year}`" width="68" height="53" /></NuxtLink>
           </p>
         </dl>
         <dl class="footerNav_list">
@@ -133,7 +133,7 @@ useHead({
 <style lang="scss" scoped>
 /* footer */
 .footer {
-  background: url('/img/common/bg-black.png') repeat;
+  background: url('$image/common/bg-black.png') repeat;
   overflow: hidden;
   margin: 0 auto;
   position: relative;

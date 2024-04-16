@@ -78,7 +78,7 @@ const { is_sponsorship_expired, hidden_form_btn, pdf_filepath, application_form 
     padding-left: 30px;
     &:before {
       content: '';
-      background-image: url('/img/common/icon-pdf.svg');
+      background-image: url('$image/common/icon-pdf.svg');
       width: 24px;
       height: 24px;
       display: block;
