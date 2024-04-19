@@ -61,15 +61,14 @@
     </h2>
     <br />
     <br />
-    <p>現在、トレーニング・デイのチケット販売時期を調整中です。今しばらくお待ち下さい。</p>
-    <!-- <p class="section_text">チケットは下記よりお求めください。</p>
+    <p class="section_text">チケットは下記よりお求めください。</p>
     <div class="banner">
       <div class="banner_list">
         <a href="https://scalaconfjp.doorkeeper.jp/events/169208" target="_blank" class="banner_item banner_item-ticket">
           <span>トレーニング・デイ</span>
         </a>
       </div>
-    </div> -->
+    </div>
   </div>
 </template>
 
