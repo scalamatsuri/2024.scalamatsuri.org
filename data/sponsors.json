@@ -15,6 +15,21 @@
     "speakerdeckUrl": "https://speakerdeck.com/player/35d1c6c17ce8487bb0498febcf88a569"
   },
   {
+    "id": "SHOGUN_2",
+    "type": "SHOGUN",
+    "ja": {
+      "name": "株式会社ギブリー"
+    },
+    "en": {
+      "name": "Givery, Inc."
+    },
+    "logo": "/img/sponsors/track.png",
+    "url": "https://tracks.run/",
+    "textHtml": "",
+    "slideHtml": "",
+    "speakerdeckUrl": ""
+  },
+  {
     "id": "DAIMYO_1",
     "type": "DAIMYO",
     "ja": {
