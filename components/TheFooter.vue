@@ -6,7 +6,7 @@ en:
   programs: Programs
   training-day: Training Day(ja)
   open-mic-conference: Open Mic Conference
-  sponsorship: Sponsor Ship(ja)
+  sponsorship: Sponsorship(ja)
   sponsors: Sponsors(ja)
   cm: CM
   ticket: Ticket
