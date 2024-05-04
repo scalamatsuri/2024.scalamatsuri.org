@@ -69,7 +69,7 @@ ja:
 
 <script setup lang="ts">
 pageMetaCheck()
-const application_form = 'https://docs.google.com/forms/d/e/1FAIpQLScKsUTWMWJRRtdI6M0YmMfLYIVhZCZvFS9hO77FWCEoj7OZgA/closedform'
+const application_form = 'https://docs.google.com/forms/d/e/1FAIpQLSftX-dgKQI3ukIwdfYdPjnuBIhWmGyoDYnynHJLE5t197SFLg/viewform'
 </script>
 
 <style lang="scss" scoped>
