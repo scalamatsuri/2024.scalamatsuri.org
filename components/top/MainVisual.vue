@@ -10,31 +10,33 @@ ja:
 </i18n>
 
 <template>
-  <main class="main">
-    <div class="main_inner">
-      <div class="main__container">
-        <h1 class="main__title">
-          ScalaMatsuri {{ year }}
-          <p class="main__title-sub">{{ t('alt') }}</p>
-          <p class="main__title-sub">{{ t('date') }}</p>
-          <p class="main__title-sub">{{ t('venue') }}</p>
-        </h1>
+  <ClientOnly>
+    <main class="main">
+      <div class="main_inner">
+        <div class="main__container">
+          <h1 class="main__title">
+            ScalaMatsuri {{ year }}
+            <p class="main__title-sub">{{ t('alt') }}</p>
+            <p class="main__title-sub">{{ t('date') }}</p>
+            <p class="main__title-sub">{{ t('venue') }}</p>
+          </h1>
+        </div>
+        <div class="main_sponsor">
+          <ul class="main_sponsor_inner">
+            <li v-for="sponsor in shuffledShogunSponsors" :key="sponsor.logo" class="main_sponsor_item">
+              <a :href="sponsor.url"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
+              <div v-if="locale == `en`">
+                <p>{{ sponsor.en.name }}</p>
+              </div>
+              <div v-if="locale == `ja`">
+                <p>{{ sponsor.ja.name }}</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="main_sponsor">
-        <ul class="main_sponsor_inner">
-          <li v-for="sponsor in shuffledShogunSponsors" :key="sponsor.logo" class="main_sponsor_item">
-            <a :href="sponsor.url"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
-            <div v-if="locale == `en`">
-              <p>{{ sponsor.en.name }}</p>
-            </div>
-            <div v-if="locale == `ja`">
-              <p>{{ sponsor.ja.name }}</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </main>
+    </main>
+  </ClientOnly>
 </template>
 
 <script setup lang="ts">
@@ -103,7 +105,7 @@ const shuffledShogunSponsors = computed(() => arrayShuffle(shogunSponsors.value)
     }
   }
   .main_sponsor_inner {
-    max-width: 1100px;
+    // max-width: 1100px;
     width: 100%;
     margin: 0 auto;
     display: flex;
