@@ -226,6 +226,21 @@
     "speakerdeckUrl": ""
   },
   {
+    "id": "DAIMYO_14",
+    "type": "DAIMYO",
+    "ja": {
+      "name": "株式会社アシュアード"
+    },
+    "en": {
+      "name": "Assured, Inc."
+    },
+    "logo": "/img/sponsors/assured.png",
+    "url": "https://careers.assured.jp/engineering",
+    "textHtml": "",
+    "slideHtml": "",
+    "speakerdeckUrl": ""
+  },
+  {
     "id": "SAMURAI_1",
     "type": "SAMURAI",
     "ja": {
