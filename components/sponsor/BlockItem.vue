@@ -23,6 +23,12 @@
             scrolling="no"></iframe>
         </div>
       </div>
+      <div v-if="sponsor.youtubeIFrame1">
+        <iframe class="sponsor_youtube_frame" :src="sponsor.youtubeIFrame1" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div v-if="sponsor.youtubeIFrame2">
+        <iframe class="sponsor_youtube_frame" :src="sponsor.youtubeIFrame2" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
     </section>
   </section>
 </template>
@@ -91,5 +97,10 @@ const { sponsor } = defineProps({
     font-weight: bold;
     color: #00a4de;
   }
+}
+.sponsor_youtube_frame {
+  margin-top: 20px;
+  width: 100%;
+  height: 350px;
 }
 </style>

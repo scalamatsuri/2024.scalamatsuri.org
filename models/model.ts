@@ -35,6 +35,8 @@ export type Sponsor = {
   textHtml?: string // スポンサーの紹介文
   slideHtml?: string // スポンサーのスライド
   speakerdeckUrl?: string // speakerdeck の URL
+  youtubeIFrame1?: string // speakerdeck の URL
+  youtubeIFrame2?: string // speakerdeck の URL
 }
 
 /***********************************************************
@@ -94,9 +96,9 @@ export type TimeTableContents = {
 }
 
 export type TimeTableEvent = {
-  eventId: string,
+  eventId: string
   name: {
-    en: string,
+    en: string
     ja: string
   }
 }
@@ -111,16 +113,16 @@ export type TimeTableEventContents = TimeTableContents & {
 
 export type TimeTableWorkshopContents = TimeTableContents & {
   name: {
-    en: string,
+    en: string
     ja: string
   }
 }
 
 export type TimeTable = {
-  date: string,
-  timetableId: string,
+  date: string
+  timetableId: string
   title: {
-    en: string,
+    en: string
     ja: string
   }
   contents: Array<TimeTableSessionContents | TimeTableEventContents | TimeTableWorkshopContents>
@@ -141,4 +143,3 @@ export type Staff = {
   profile: string
   role: StaffRole
 }
-
