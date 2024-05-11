@@ -55,6 +55,8 @@ export type Proposal = {
   length: number // セッションの長さ
   keywords?: string[] // キーワード
   speakerIds: string[] // スピーカーIds
+  youtubeUrl?: string
+  slideUrl?: string
 }
 
 export type ProposalId = {
@@ -77,11 +79,7 @@ export type ProposalWithSpeakers = Proposal & Speakers
 export type Adoption = {
   sessionId: SessionId
   proposalId: ProposalId
-  startAt: string // JST
-  endAt?: string // JST
   room: string
-  youtubeUrl?: string
-  slideUrl?: string
 }
 
 // プロポーザルとスピーカーの組み合わせに対して、採択されたデータを紐づけたものがセッションとなる

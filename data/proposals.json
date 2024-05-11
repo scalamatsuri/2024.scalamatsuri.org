@@ -14,7 +14,9 @@
     "language": "ja",
     "length": 20,
     "keywords": ["Scala入門"],
-    "speakerIds": ["SPEAKER_ID_01"]
+    "speakerIds": ["SPEAKER_ID_01"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -31,7 +33,9 @@
     "language": "ja",
     "length": 20,
     "keywords": ["Scala入門"],
-    "speakerIds": ["SPEAKER_ID_01"]
+    "speakerIds": ["SPEAKER_ID_01"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -48,7 +52,9 @@
     "language": "en",
     "length": 20,
     "keywords": ["Case Studies", "DevOps & Tools", "Introduction to Scala"],
-    "speakerIds": ["SPEAKER_ID_02"]
+    "speakerIds": ["SPEAKER_ID_02"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -65,7 +71,9 @@
     "language": "en",
     "length": 20,
     "keywords": ["Introduction to Scala"],
-    "speakerIds": ["SPEAKER_ID_03"]
+    "speakerIds": ["SPEAKER_ID_03"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -82,7 +90,9 @@
     "language": "en",
     "length": 20,
     "keywords": ["Case Studies", "Functional programming in general and sphere theory", "Introduction to Scala"],
-    "speakerIds": ["SPEAKER_ID_03"]
+    "speakerIds": ["SPEAKER_ID_03"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -99,7 +109,9 @@
     "language": "en",
     "length": 40,
     "keywords": ["Scala3", "Web Application Framework"],
-    "speakerIds": ["SPEAKER_ID_04"]
+    "speakerIds": ["SPEAKER_ID_04"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -116,7 +128,9 @@
     "language": "en",
     "length": 40,
     "keywords": ["Effect System (Cats Effect / Monix / ZIO / eff etc.)", "Software Design and Architecture"],
-    "speakerIds": ["SPEAKER_ID_05"]
+    "speakerIds": ["SPEAKER_ID_05"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -133,7 +147,9 @@
     "language": "en",
     "length": 40,
     "keywords": ["DevOps & Tools", "Introduction to Scala", "Software Design and Architecture"],
-    "speakerIds": ["SPEAKER_ID_06"]
+    "speakerIds": ["SPEAKER_ID_06"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -150,7 +166,9 @@
     "language": "en",
     "length": 20,
     "keywords": ["Effect System (Cats Effect / Monix / ZIO / eff etc.)", "Scala3", "Concurrency", "Reactive Systems", "Compiler", "JVM"],
-    "speakerIds": ["SPEAKER_ID_07"]
+    "speakerIds": ["SPEAKER_ID_07"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -167,7 +185,9 @@
     "language": "ja",
     "length": 20,
     "keywords": ["Scala3", "Concurrency"],
-    "speakerIds": ["SPEAKER_ID_08"]
+    "speakerIds": ["SPEAKER_ID_08"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -184,7 +204,9 @@
     "language": "en",
     "length": 20,
     "keywords": ["Case Studies, Functional programming in general and sphere theory"],
-    "speakerIds": ["SPEAKER_ID_09-01"]
+    "speakerIds": ["SPEAKER_ID_09-01"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -201,7 +223,9 @@
     "language": "en",
     "length": 20,
     "keywords": ["Case Studies", "Scala3"],
-    "speakerIds": ["SPEAKER_ID_09-02"]
+    "speakerIds": ["SPEAKER_ID_09-02"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -218,7 +242,9 @@
     "language": "en",
     "length": 20,
     "keywords": ["Big Data / Fast Data / Data Science", "Scala3"],
-    "speakerIds": ["SPEAKER_ID_10"]
+    "speakerIds": ["SPEAKER_ID_10"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -235,7 +261,9 @@
     "language": "en",
     "length": 40,
     "keywords": ["Case Studies", "Functional programming in general and sphere theory", "Scala3", "Scala.js"],
-    "speakerIds": ["SPEAKER_ID_11"]
+    "speakerIds": ["SPEAKER_ID_11"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -243,16 +271,18 @@
     },
     "ja": {
       "title": "Turbocharging web socket integration for Tapir",
-      "description": "We love to use Tapir for the rapid development of Web APIs. Recently, we noticed it considerably impacted the performance of a web socket server. We managed to alleviate the slowdown almost entirely (less latency and CPU usage, greater throughput - performance rivalling a plain cats-effect/http4s/fs2 stack). The journey towards this goal was quite insightful, and we would like to share it with you. In particular, we will cover async-profiler, introduce some high-level concurrency combinators of the fs2 library and show surprising benchmarks."
+      "description": "We love to use Tapir for the rapid development of Web APIs. Recently, we noticed it considerably impacted the performance of a web socket server. We managed to alleviate the slowdown almost entirely (less latency and CPU usage, greater throughput - performance rivalling a plain cats-effect/http4s/fs2 stack). The journey towards this goal was quite insightful, and we would like to share it with you.In particular, we will cover async-profiler, introduce some high-level concurrency combinators of the fs2 library and show surprising benchmarks."
     },
     "en": {
       "title": "Turbocharging web socket integration for Tapir",
-      "description": "We love to use Tapir for the rapid development of Web APIs. Recently, we noticed it considerably impacted the performance of a web socket server. We managed to alleviate the slowdown almost entirely (less latency and CPU usage, greater throughput - performance rivalling a plain cats-effect/http4s/fs2 stack). The journey towards this goal was quite insightful, and we would like to share it with you. In particular, we will cover async-profiler, introduce some high-level concurrency combinators of the fs2 library and show surprising benchmarks."
+      "description": "We love to use Tapir for the rapid development of Web APIs. Recently, we noticed it considerably impacted the performance of a web socket server. We managed to alleviate the slowdown almost entirely (less latency and CPU usage, greater throughput - performance rivalling a plain cats-effect/http4s/fs2 stack). The journey towards this goal was quite insightful, and we would like to share it with you.In particular, we will cover async-profiler, introduce some high-level concurrency combinators of the fs2 library and show surprising benchmarks."
     },
     "language": "en",
     "length": 20,
     "keywords": ["Effect System (Cats Effect / Monix / ZIO / eff etc.)", "Concurrency", "Compiler", "JVM"],
-    "speakerIds": ["SPEAKER_ID_12"]
+    "speakerIds": ["SPEAKER_ID_12"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -269,7 +299,9 @@
     "language": "ja",
     "length": 20,
     "keywords": ["事例紹介", "コンパイラ、JVM"],
-    "speakerIds": ["SPEAKER_ID_13"]
+    "speakerIds": ["SPEAKER_ID_13"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -286,7 +318,9 @@
     "language": "en",
     "length": 20,
     "keywords": ["DevOps & Tools"],
-    "speakerIds": ["SPEAKER_ID_14"]
+    "speakerIds": ["SPEAKER_ID_14"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -303,7 +337,9 @@
     "language": "en",
     "length": 20,
     "keywords": ["DevOps & Tools"],
-    "speakerIds": ["SPEAKER_ID_14"]
+    "speakerIds": ["SPEAKER_ID_14"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -320,7 +356,9 @@
     "language": "ja",
     "length": 20,
     "keywords": ["事例紹介", "Scala3", "Concurrency"],
-    "speakerIds": ["SPEAKER_ID_15"]
+    "speakerIds": ["SPEAKER_ID_15"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -337,7 +375,9 @@
     "language": "en",
     "length": 40,
     "keywords": ["Case Studies", "Scala3", "Compiler", "JVM"],
-    "speakerIds": ["SPEAKER_ID_16"]
+    "speakerIds": ["SPEAKER_ID_16"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -354,7 +394,9 @@
     "language": "en",
     "length": 20,
     "keywords": ["Introduction to Scala"],
-    "speakerIds": ["SPEAKER_ID_17"]
+    "speakerIds": ["SPEAKER_ID_17"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -371,7 +413,9 @@
     "language": "en",
     "length": 40,
     "keywords": ["Scala.js", "Scala Native", "コンパイラ、JVM"],
-    "speakerIds": ["SPEAKER_ID_18"]
+    "speakerIds": ["SPEAKER_ID_18"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -388,7 +432,9 @@
     "language": "en",
     "length": 20,
     "keywords": ["Functional programming in general and category theory, Organization"],
-    "speakerIds": ["SPEAKER_ID_19"]
+    "speakerIds": ["SPEAKER_ID_19"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -405,7 +451,9 @@
     "language": "en",
     "length": 20,
     "keywords": ["Functional programming in general and category theory", "Introduction to Scala", "Scala3"],
-    "speakerIds": ["SPEAKER_ID_19"]
+    "speakerIds": ["SPEAKER_ID_19"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -422,7 +470,9 @@
     "language": "ja",
     "length": 20,
     "keywords": ["事例紹介", "Webアプリケーションフレームワーク", "リアクティブシステム"],
-    "speakerIds": ["SPEAKER_ID_20"]
+    "speakerIds": ["SPEAKER_ID_20"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -439,7 +489,9 @@
     "language": "en",
     "length": 20,
     "keywords": ["Effect System (Cats Effect / Monix / ZIO / eff etc.)", "Functional programming in general and category theory"],
-    "speakerIds": ["SPEAKER_ID_21"]
+    "speakerIds": ["SPEAKER_ID_21"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -456,7 +508,9 @@
     "language": "en",
     "length": 20,
     "keywords": ["Software Design and Architecture"],
-    "speakerIds": ["SPEAKER_ID_22"]
+    "speakerIds": ["SPEAKER_ID_22"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -473,7 +527,9 @@
     "language": "ja",
     "length": 20,
     "keywords": ["関数型プログラミング一般や圏論", "Scala入門"],
-    "speakerIds": ["SPEAKER_ID_23"]
+    "speakerIds": ["SPEAKER_ID_23"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -490,7 +546,9 @@
     "language": "en",
     "length": 20,
     "keywords": ["Web Application Framework"],
-    "speakerIds": ["SPEAKER_ID_24"]
+    "speakerIds": ["SPEAKER_ID_24"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -507,7 +565,9 @@
     "language": "en",
     "length": 20,
     "keywords": ["DevOps & Tools"],
-    "speakerIds": ["SPEAKER_ID_24"]
+    "speakerIds": ["SPEAKER_ID_24"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -524,7 +584,9 @@
     "language": "en",
     "length": 20,
     "keywords": ["Scala3", "Software Design and Architecture"],
-    "speakerIds": ["SPEAKER_ID_25"]
+    "speakerIds": ["SPEAKER_ID_25"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -541,7 +603,9 @@
     "language": "en",
     "length": 20,
     "keywords": ["Big Data / Fast Data / Data Science", "Case Studies", "Scala3"],
-    "speakerIds": ["SPEAKER_ID_26"]
+    "speakerIds": ["SPEAKER_ID_26"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -558,7 +622,9 @@
     "language": "en",
     "length": 20,
     "keywords": ["DevOps & Tools", "Introduction to Scala", "Scala3"],
-    "speakerIds": ["SPEAKER_ID_26"]
+    "speakerIds": ["SPEAKER_ID_26"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -575,7 +641,9 @@
     "language": "en",
     "length": 40,
     "keywords": ["Scala3", "Compiler", "JVM"],
-    "speakerIds": ["SPEAKER_ID_27"]
+    "speakerIds": ["SPEAKER_ID_27"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -592,7 +660,9 @@
     "language": "en",
     "length": 20,
     "keywords": ["Scala3", "Software Design and Architecture"],
-    "speakerIds": ["SPEAKER_ID_27"]
+    "speakerIds": ["SPEAKER_ID_27"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -609,7 +679,9 @@
     "language": "en",
     "length": 20,
     "keywords": ["DevOps & Tools", "Software Design and Architecture"],
-    "speakerIds": ["SPEAKER_ID_27"]
+    "speakerIds": ["SPEAKER_ID_27"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -626,7 +698,9 @@
     "language": "ja",
     "length": 20,
     "keywords": ["Scala3", "Scala.js", "Scala Native"],
-    "speakerIds": ["SPEAKER_ID_28"]
+    "speakerIds": ["SPEAKER_ID_28"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -643,7 +717,9 @@
     "language": "ja",
     "length": 20,
     "keywords": ["Scala3", "Software Design and Architecture", "Scala.js"],
-    "speakerIds": ["SPEAKER_ID_29"]
+    "speakerIds": ["SPEAKER_ID_29"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -660,7 +736,9 @@
     "language": "ja",
     "length": 20,
     "keywords": ["Big Data / Fast Data / Data Science", "Scala3"],
-    "speakerIds": ["SPEAKER_ID_30"]
+    "speakerIds": ["SPEAKER_ID_30"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -677,7 +755,9 @@
     "language": "en",
     "length": 40,
     "keywords": ["Effect System (Cats Effect / Monix / ZIO / eff etc.)", "関数型プログラミング一般や圏論", "Software Design and Architecture"],
-    "speakerIds": ["SPEAKER_ID_31-01", "SPEAKER_ID_31-02"]
+    "speakerIds": ["SPEAKER_ID_31-01", "SPEAKER_ID_31-02"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -694,7 +774,9 @@
     "language": "ja",
     "length": 20,
     "keywords": ["事例紹介", "関数型プログラミング一般や圏論", "Software Design and Architecture"],
-    "speakerIds": ["SPEAKER_ID_32"]
+    "speakerIds": ["SPEAKER_ID_32"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -711,7 +793,9 @@
     "language": "ja",
     "length": 20,
     "keywords": ["関数型プログラミング一般や圏論", "Scala入門", "Software Design and Architecture"],
-    "speakerIds": ["SPEAKER_ID_33"]
+    "speakerIds": ["SPEAKER_ID_33"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -728,7 +812,9 @@
     "language": "ja",
     "length": 20,
     "keywords": ["Scala入門", "Scala3", "Software Design and Architecture"],
-    "speakerIds": ["SPEAKER_ID_33"]
+    "speakerIds": ["SPEAKER_ID_33"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
     "proposalId": {
@@ -745,6 +831,8 @@
     "language": "en",
     "length": 20,
     "keywords": ["Effect System (Cats Effect / Monix / ZIO / eff etc.)", "Concurrency", "Scala Native"],
-    "speakerIds": ["SPEAKER_ID_34"]
+    "speakerIds": ["SPEAKER_ID_34"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   }
 ]
