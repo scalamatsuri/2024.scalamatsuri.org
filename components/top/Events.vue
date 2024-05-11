@@ -24,6 +24,11 @@ en:
     Date: on 7th-9th June. 2024
     Venue: Tokyo International Exchange Center Plaza Heisei<br />
     <a href="https://www.jasso.go.jp/en/ryugaku/kyoten/tiec/access.html" target="_blank">Access</a>
+  travel: |
+    <br /><br />
+    <b>Travel info</b><br />
+    We are introducing travel information in the area.<br />
+    <a href="/travel" target="_blank">Travel info</a>
 ja:
   alt: アジア最大級のScalaカンファレンス
   date: Dates 2024年6月7日(金)〜9日(日)
@@ -50,6 +55,11 @@ ja:
     Venue: 東京国際交流館 プラザ平成<br />
     東京都江東区青海2-2-1<br />
     <a href="https://www.jasso.go.jp/en/ryugaku/kyoten/tiec/access.html" target="_blank">アクセス</a>
+  travel: |
+    <br /><br />
+    <b>トラベル情報</b><br />
+    周辺のトラベル情報をご紹介しています。<br />
+    <a href="/travel" target="_blank">トラベル情報</a>
 </i18n>
 
 <template>
@@ -62,6 +72,7 @@ ja:
     <div class="content_text">
       <span v-html="t('event_overview_1')" />
       <span v-html="t('event_overview_2')" />
+      <span v-html="t('travel')" />
       <div class="venue_map">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1621.6413002621073!2d139.7761757!3d35.6207591!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601889fec03298c3%3A0x580ab4984e28a750!2z5p2x5Lqs5Zu96Zqb5Lqk5rWB6aSoIOODl-ODqeOCtuW5s-aIkA!5e0!3m2!1sja!2sjp!4v1703073639041!5m2!1sja!2sjp"
