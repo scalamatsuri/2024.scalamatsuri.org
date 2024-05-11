@@ -90,7 +90,7 @@ export type Session = Adoption & {
 }
 
 export type TimeTableContents = {
-  type: 'EVENT' | 'SESSION' | 'WORKSHOP'
+  type: 'EVENT' | 'SESSION'
   startAt: string // JST
   endAt?: string // JST
 }
@@ -111,13 +111,6 @@ export type TimeTableEventContents = TimeTableContents & {
   eventId: string
 }
 
-export type TimeTableWorkshopContents = TimeTableContents & {
-  name: {
-    en: string
-    ja: string
-  }
-}
-
 export type TimeTable = {
   date: string
   timetableId: string
@@ -125,7 +118,7 @@ export type TimeTable = {
     en: string
     ja: string
   }
-  contents: Array<TimeTableSessionContents | TimeTableEventContents | TimeTableWorkshopContents>
+  contents: Array<TimeTableSessionContents | TimeTableEventContents>
 }
 
 /***********************************************************

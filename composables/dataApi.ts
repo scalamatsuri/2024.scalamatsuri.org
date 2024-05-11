@@ -56,14 +56,14 @@ export const getProposalById = (proposalId: string) =>
 
 const _timetableEvents = timetables.events.map((event) => {
   return {
-    ...event
+    ...event,
   } as TimeTableEvent
 })
 export const getTimetableEvents = () => computed(() => _timetableEvents)
 
-const _timetables = timetables.timetables.filter((timetable) => timetable.timetableId != 'WORK_DAY').map((timetable) => {
+const _timetables = timetables.timetables.map((timetable) => {
   return {
-    ...timetable
+    ...timetable,
   } as TimeTable
 })
 
