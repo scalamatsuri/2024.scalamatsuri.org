@@ -23,7 +23,7 @@
 </template>
 
 <script setup lang="ts">
-import { type Session, type TimeTable, type TimeTableEvents, type TimeTableContents } from '~/models/model'
+import { type Session, type TimeTable, type TimeTableEvent, type TimeTableContents } from '~/models/model'
 const { locale, t } = useI18n()
 const localePath = useLocalePath()
 const { sessions, events, timetable } = defineProps({
