@@ -128,6 +128,7 @@ ja:
       {{ timetable.title[locale] }}
     </NuxtLink>
   </h3>
+
   <div class="section">
     <h2 class="section_title">
       <span class="section_title_inner">{{ t('what_is_an_open_mic_conference_title') }}</span>
@@ -174,9 +175,11 @@ ja:
   </div>
   <!-- TimeTable -->
   <ClientOnly>
-    <div class="proposals">
-      <div v-for="timetable in timetables" :key="timetable.timetableId">
-        <ProgramDetail :sessions="sessions" :events="timetableEvents" :timetable="timetable" />
+    <div class="page">
+      <div class="proposals">
+        <div v-for="timetable in timetables" :key="timetable.timetableId">
+          <ProgramDetail :sessions="sessions" :events="timetableEvents" :timetable="timetable" />
+        </div>
       </div>
     </div>
   </ClientOnly>
@@ -184,11 +187,12 @@ ja:
 
 <script setup lang="ts">
 import { type TimeTableEvent } from '~/models/model'
-const { t } = useI18n()
+const { t, locale } = useI18n()
 pageMetaCheck()
 const sessions = getOMCSessions()
 const timetableEvents: Array<TimeTableEvent> = []
 const timetables = getOMCTimetables()
+console.log(timetables)
 </script>
 
 <style scoped lang="scss">
@@ -212,26 +216,13 @@ const timetables = getOMCTimetables()
     margin: 20px 0;
   }
 }
-
-// .page {
-//   text-align: center;
-//   margin: 0 auto;
-//   &.is_disabled {
-//     display: none;
-//   }
-// }
-// .page_title {
-//   margin-top: 100px;
-//   padding: 10px 59px;
-//   font-weight: bold;
-//   line-height: 49px;
-//   font-size: 30px;
-//   text-align: center;
-//   letter-spacing: 0.05em;
-//   color: #fff;
-//   background: #333;
-//   display: inline-block;
-// }
+.page {
+  text-align: center;
+  margin: 0 auto;
+  &.is_disabled {
+    display: none;
+  }
+}
 .proposals {
   margin: 60px auto 0;
   max-width: 1200px;

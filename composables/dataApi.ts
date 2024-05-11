@@ -81,7 +81,7 @@ const _timetableEvents = timetables.events.map((event) => {
 export const getTimetableEvents = () => computed(() => _timetableEvents)
 
 const _timetables = timetables.timetables
-  .filter((timetable) => timetable.timetableId != 'OPEN_MIC_CONFERENCE')
+  .filter((timetable) => timetable.timetableId === 'CONFERENCE_DAY_1' || timetable.timetableId === 'CONFERENCE_DAY_2')
   .map((timetable) => {
     return {
       ...timetable,
@@ -118,7 +118,7 @@ const _omcSessions = omcAdoptions.map((adoption) => {
 })
 
 const _omcTimetables = timetables.timetables
-  .filter((timetable) => timetable.timetableId != 'CONFERENCE')
+  .filter((timetable) => timetable.timetableId === 'OPEN_MIC_CONFERENCE_DAY_1' || timetable.timetableId === 'OPEN_MIC_CONFERENCE_DAY_2')
   .map((timetable) => {
     return {
       ...timetable,
