@@ -1,5 +1,15 @@
 [
   {
+    "id": "DUMMY_SPEAKER_ID",
+    "en": { "name": "ScalaMatsuri" },
+    "ja": { "name": "ScalaMatsuri" },
+    "iconUrl": "https://pbs.twimg.com/profile_images/475203226057187328/mojnXp1g_400x400.png",
+    "contributes": ["ScalaMatsuri"],
+    "github": "scalajp",
+    "twitter": "scala_jp",
+    "otherSnsUrls": []
+  },
+  {
     "id": "SPEAKER_ID_01",
     "en": { "name": "omiend" },
     "ja": { "name": "omiend" },
