@@ -63,8 +63,8 @@ en:
     Sessions like  anonymous questionnaires about salaries, and CTO masquerade panels were also hold in the past.<br />
     Any trivial idea is fine, so let us see your ideas!
 ja:
-  title: オープン・マイク・カンファレンス
-  what_is_an_open_mic_conference_title: オープン・マイク・カンファレンスとは？
+  title: 飛び入りカンファレンス
+  what_is_an_open_mic_conference_title: 飛び入りカンファレンスとは？
   what_is_an_open_mic_conference_text_01: |
     <a href="http://blog.scalamatsuri.org/entry/2015/09/29/023812" target="_blank" rel="noopener">番外編 Scala World 2015レポート その2 アンカンファレンス編</a>にも 紹介されているとおり、<b>参加者が全員でつくりあげる</b>カンファレンスです。
   what_is_an_open_mic_conference_text_02: |
@@ -72,9 +72,9 @@ ja:
     発表したい人が、カンファレンス中に発表内容を提案し、参加者の投票によってプログラムが決まります。
     <a href="http://d.hatena.ne.jp/keyword/%a5%a2%a5%f3%a5%ab%a5%f3%a5%d5%a5%a1%a5%ec%a5%f3%a5%b9" target="_blank" rel="noopener">Hatena Keyword</a>より
   what_is_an_open_mic_conference_text_03: |
-    オープン・マイク・カンファレンスのタイムテーブルが<b>TBD</b>で埋まっていて、作りかけなんじゃないかと感じたあなた、正解です。
-    では、ScalaMatsuriのオープン・マイク・カンファレンスがどのように作られていくを説明します。
-  flow_title: オープン・マイク・カンファレンス登壇方法
+    飛び入りカンファレンスのタイムテーブルが<b>TBD</b>で埋まっていて、作りかけなんじゃないかと感じたあなた、正解です。
+    では、ScalaMatsuriの飛び入りカンファレンスがどのように作られていくを説明します。
+  flow_title: 飛び入りカンファレンス登壇方法
   flow_text_01: |
     思い思いにセッションのアイディアを <a href="https://docs.google.com/forms/d/e/1FAIpQLSfAMtRJfErO8T6xXFGTdZLGXNQO0vKDkPg3KmO2LZpm0JWnTA/viewform" target="_blank" rel="noopener">Welcome to ScalaMatsuri 2024 Open Mic Conference(Google Forms)</a> から登録してください！
     <br />
@@ -87,7 +87,7 @@ ja:
     - スライドの<a href="https://scalamatsuri.org/en/code-of-conduct" target="_blank">CoCチェック</a><br/>
     時間になったら登壇者はステージに上がり、セッションを開始してください。<br /><br />
     さらに 🎉<br/>
-    今年のオープン・マイク・カンファレンスに登壇してくれた方には、ScalaMatsuri 2024 オープン・マイク・カンファレンス開催記念特製オリジナルアクリルスタンドをプレゼントします！<br />
+    今年の飛び入りカンファレンスに登壇してくれた方には、ScalaMatsuri 2024 飛び入りカンファレンス開催記念特製オリジナルアクリルスタンドをプレゼントします！<br />
     是非ふるってご参加ください！<br />
     <br/>
   flow_of_the_day_title: 当日の流れ
@@ -96,18 +96,18 @@ ja:
   flow_of_the_day_text_02: |
     1日目のオープニングの後、前日までに集まったネタを元に朝から来てくれた参加者のみんなでタイムテーブルのプランニングを行い、どの時間帯で開催するかを決めます。<br />
     2日目も同様に、朝会にて参加者のみんなでタイムテーブルのプランニングを行います。<br /><br />
-    タイムテーブルが決まったらオープン・マイク・カンファレンスのセッションが始まります！<br />
+    タイムテーブルが決まったら飛び入りカンファレンスのセッションが始まります！<br />
     面白いセッションが目白押しで、聞きたいセッションがかぶることも多いので、途中参加、途中退出は自由です。<br />
-    オープン・マイク・カンファレンスでは、日本語や英語のセッションが入り混じります。<br />
+    飛び入りカンファレンスでは、日本語や英語のセッションが入り混じります。<br />
     口頭での同時通訳はありませんが、日英話者間でのコミュニケーションをお楽しみください。<br /><br />
-    また、朝会・おやつ会以外でもオープン・マイク・カンファレンスのセッション追加は可能です。ゲリラ的にセッションを始めていただいても構いません。<br /><br />
+    また、朝会・おやつ会以外でも飛び入りカンファレンスのセッション追加は可能です。ゲリラ的にセッションを始めていただいても構いません。<br /><br />
     タイムテーブルに掲載したい場合は、運営にお声がけください。<br /><br />
     当日のスケジュールは随時このページに反映されますので、興味を惹かれるセッションがあったら是非途中からでもご参加ください。
   themes_title: ネタ出し
   themes_text_01: |
     Scalaが使われている分野や業種は、幅広くなりました。
     自分たちが困っていたり知っていることは、実は他の人が既に知っていたり、他の人からすると喉から手がでるほど欲しい情報だったりします。<br />
-    それらが全てオープン・マイク・カンファレンスのネタになります！
+    それらが全て飛び入りカンファレンスのネタになります！
     <br /><br />
     - ○○について知ってるけどなんか知りたいことある？<br/>
     - ○○について知りたい！<br/>
@@ -145,7 +145,7 @@ ja:
     <div class="open-mic-conference">
       <img
         src="/img/open-mic-conference/OpenMicConferencePresent.png"
-        alt="ScalaMatsuri 2024 オープン・マイク・カンファレンス開催記念特製オリジナルアクリルスタンド"
+        alt="ScalaMatsuri 2024 飛び入りカンファレンス開催記念特製オリジナルアクリルスタンド"
         width="100%" />
     </div>
   </div>

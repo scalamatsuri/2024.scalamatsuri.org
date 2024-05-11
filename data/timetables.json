@@ -60,7 +60,7 @@
     {
       "date": "2024-06-08",
       "timetableId": "OPEN_MIC_CONFERENCE_DAY_1",
-      "title": { "en": "6/8 (JST) Open Mic Conference Day 1", "ja": "6/8 (JST) オープン・マイク・カンファレンス Day 1" },
+      "title": { "en": "6/8 (JST) Open Mic Conference Day 1", "ja": "6/8 (JST) 飛び入りカンファレンス Day 1" },
       "contents": [
         { "type": "SESSION", "sessionId": "OPEN_MIC_SESSION_DAY_1_01", "startAt": "2024-06-08T13:00:00+0900", "endAt": "2024-06-08T13:30:00+0900" },
         { "type": "SESSION", "sessionId": "OPEN_MIC_SESSION_DAY_1_02", "startAt": "2024-06-08T13:30:00+0900", "endAt": "2024-06-08T14:00:00+0900" },
@@ -76,7 +76,7 @@
     {
       "date": "2024-06-09",
       "timetableId": "OPEN_MIC_CONFERENCE_DAY_2",
-      "title": { "en": "6/9 (JST) Open Mic Conference Day 2", "ja": "6/9 (JST) オープン・マイク・カンファレンス Day 2" },
+      "title": { "en": "6/9 (JST) Open Mic Conference Day 2", "ja": "6/9 (JST) 飛び入りカンファレンス Day 2" },
       "contents": [
         { "type": "SESSION", "sessionId": "OPEN_MIC_SESSION_DAY_2_01", "startAt": "2024-06-09T11:00:00+0900", "endAt": "2024-06-08T11:30:00+0900" },
         { "type": "SESSION", "sessionId": "OPEN_MIC_SESSION_DAY_2_02", "startAt": "2024-06-09T11:30:00+0900", "endAt": "2024-06-08T12:00:00+0900" },
