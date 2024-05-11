@@ -25,8 +25,10 @@
     },
     "logo": "/img/sponsors/track.png",
     "url": "https://tracks.run/",
-    "textHtml": "",
+    "textHtml": "<p><a href=\"https://tracks.run/aboutus/\" target=\"_blank\">テクノロジースキルを経営資源に</a></p><br><p>私たちギブリーでは、ソフトウェアを創造し続けるエンジニアをアスリートになぞらえ、彼らの成長を支援するような、エンジニアにとっての陸上競技場を目指したいという思いで、<a href=\"https://tracks.run/\" target=\"_blank\">「Track」</a>というプロダクトを開発し、企業におけるエンジニアの採用や育成の支援をしています。</p><br><p>エンジニア採用においては、Track Test が国内で最も使われているコーディングテストツールとなっており、これまでの累計受験数は65万回を超える規模まで成長しています。またエンジニア育成においては、Track Training を通じて、ベンチャーから大手企業まで、これまで累計3.5万人を超える若手エンジニアのスキルアップを支援して来ました。</p><br><p>しかし、私たちの目指している先にはさらに大きなビジョンがあり、まだまだ仲間が足りません！<br>プロダクトの開発はScalaを中心としており、半数以上が外国籍のエンジニアというグローバルなチームで行っています。</p><br><ul><li>エンジニアの教育や育成、スキルの評価に興味がある！</li><li>グローバルを目指すプロダクト開発に挑戦したい！</li><li>ダイバーシティ（多国籍）のあるプロフェッショナルなエンジニアリングチームで働きたい！</li><li>自らのスキルアップにつながるような技術的にチャレンジングな仕事がしたい！</li></ul><br><p>これらの想いや情熱に共感していただける方は、ぜひ一度お話をさせてください！</p><p><a href=\"https://hrmos.co/pages/givery/jobs?category=1688060102702190592\" target=\"_blank\">株式会社ギブリー エンジニアの求人一覧</a></p><p><a href=\"https://givery.co.jp/\" target=\"_blank\">株式会社ギブリー</a></p>",
     "slideHtml": "",
+    "youtubeIFrame1": "https://www.youtube.com/embed/0FyXRpY_2g0?si=pkY83mAjZCafHuy4",
+    "youtubeIFrame2": "https://www.youtube.com/embed/vTtHS8o_q58?si=ozYbVp4_qxa0ndvz",
     "speakerdeckUrl": ""
   },
   {
@@ -221,6 +223,21 @@
     },
     "logo": "/img/sponsors/atware.svg",
     "url": "https://www.atware.co.jp/",
+    "textHtml": "",
+    "slideHtml": "",
+    "speakerdeckUrl": ""
+  },
+  {
+    "id": "DAIMYO_14",
+    "type": "DAIMYO",
+    "ja": {
+      "name": "株式会社アシュアード"
+    },
+    "en": {
+      "name": "Assured, Inc."
+    },
+    "logo": "/img/sponsors/assured.png",
+    "url": "https://careers.assured.jp/engineering",
     "textHtml": "",
     "slideHtml": "",
     "speakerdeckUrl": ""
