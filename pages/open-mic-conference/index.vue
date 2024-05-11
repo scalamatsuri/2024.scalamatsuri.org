@@ -178,7 +178,7 @@ ja:
     <div class="page">
       <div class="proposals">
         <div v-for="timetable in timetables" :key="timetable.timetableId">
-          <ProgramDetail :sessions="sessions" :events="timetableEvents" :timetable="timetable" />
+          <OpenMicConferenceDetail :sessions="sessions" :events="timetableEvents" :timetable="timetable" />
         </div>
       </div>
     </div>

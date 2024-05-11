@@ -11,11 +11,8 @@
           <br />
           (GMT+9)
         </div>
-        <div class="contents" v-if="content.type === 'EVENT'">
-          <ProgramEvent :event="getEvent(content)" :content="content" />
-        </div>
         <div class="contents" v-if="content.type === 'SESSION'">
-          <ProgramSession :session="getSession(content)" :content="content" />
+          <OpenMicConferenceSession :session="getSession(content)" :content="content" />
         </div>
       </div>
     </div>

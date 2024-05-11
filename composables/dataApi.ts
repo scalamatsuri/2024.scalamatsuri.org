@@ -126,3 +126,4 @@ const _omcTimetables = timetables.timetables
   })
 export const getOMCTimetables = () => computed(() => _omcTimetables)
 export const getOMCSessions = () => computed(() => _omcSessions)
+export const getOMCSessionById = (sessionId: string) => computed(() => _omcSessions.find((session) => session.sessionId.value === sessionId) ?? null)

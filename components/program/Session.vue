@@ -33,7 +33,7 @@
 
 <script setup lang="ts">
 import { type Session, type TimeTableContents } from '~/models/model'
-const { locale, t } = useI18n()
+const { locale } = useI18n()
 const localePath = useLocalePath()
 const { session, timetable } = defineProps({
   session: {} as PropType<Session>,
