@@ -62,6 +62,8 @@ en:
     Also, this Open mic conference can be a wide variety of themes, such as themes that were not accepted,  your hobby projects, even or your lifestyle / career as a Scala engineer.<br />
     Sessions like  anonymous questionnaires about salaries, and CTO masquerade panels were also hold in the past.<br />
     Any trivial idea is fine, so let us see your ideas!
+  form_title: Jump in and join the conference!
+  submit_my_talk: Submit my talk
 ja:
   title: 飛び入りカンファレンス
   what_is_an_open_mic_conference_title: 飛び入りカンファレンスとは？
@@ -76,7 +78,7 @@ ja:
     では、ScalaMatsuriの飛び入りカンファレンスがどのように作られていくを説明します。
   flow_title: 飛び入りカンファレンス登壇方法
   flow_text_01: |
-    思い思いにセッションのアイディアを <a href="https://docs.google.com/forms/d/e/1FAIpQLSfAMtRJfErO8T6xXFGTdZLGXNQO0vKDkPg3KmO2LZpm0JWnTA/viewform" target="_blank" rel="noopener">Welcome to ScalaMatsuri 2024 Open Mic Conference(Google Forms)</a> から登録してください！
+    思い思いにセッションのアイディアを <a href="{application_form}" target="_blank" rel="noopener">Welcome to ScalaMatsuri 2024 Open Mic Conference(Google Forms)</a> から登録してください！
     <br />
     後述の「当日の流れ」に記載の方法で採択を行います。
     <br /><br />
@@ -119,15 +121,25 @@ ja:
     また、カンファレンスでは惜しくも選考されなかったネタや、誰得だよというマニアックなネタ、更にはScalaエンジニアとしての生き方などまで、多種多様なネタもウェルカムです。<br />
     過去には、みんなに年収を聞くセッションや、CTO仮面座談会なども開催されています。<br />
     どんな些細なネタでもいいので出して見て下さい。
+  form_title: 飛び入りカンファレンスに参加しよう！
+  submit_my_talk: 応募フォーム
 </i18n>
 
 <template>
   <MainVisual :title="t('title')" />
+
   <h3 class="sub_header_link">
     <NuxtLink v-for="timetable in timetables" :key="'l_' + timetable.timetableId" :to="'#' + timetable.timetableId" class="sub_header_link_item">
       {{ timetable.title[locale] }}
     </NuxtLink>
   </h3>
+
+  <div class="application_form">
+    <h2 class="application_form_title">{{ t('form_title') }}</h2>
+    <div class="application_form_btn_area">
+      <a :href="application_form" class="application_form_btn" target="_blank" rel="noopener">{{ t('submit_my_talk') }}</a>
+    </div>
+  </div>
 
   <div class="section">
     <h2 class="section_title">
@@ -141,11 +153,11 @@ ja:
     <h2 class="section_title">
       <span class="section_title_inner">{{ t('flow_title') }}</span>
     </h2>
-    <p class="section_text" v-html="t('flow_text_01')" />
-    <div class="open-mic-conference">
+    <p class="section_text" v-html="t('flow_text_01', { application_form: application_form })" />
+    <div class="acrylic_stand">
       <img
         src="/img/open-mic-conference/OpenMicConferencePresent.png"
-        alt="ScalaMatsuri 2024 飛び入りカンファレンス開催記念特製オリジナルアクリルスタンド"
+        alt="Special commemorative original acrylic stands for ScalaMatsuri 2024 Open Mic Conference"
         width="100%" />
     </div>
   </div>
@@ -183,6 +195,16 @@ ja:
       </div>
     </div>
   </ClientOnly>
+  <div class="application_form">
+    <div class="application_form_btn_area">
+      <a :href="application_form" class="application_form_btn application_form_btn-form" target="_blank" rel="noopener">{{ t('submit_my_talk') }}</a>
+    </div>
+  </div>
+  <h3 class="sub_header_link">
+    <NuxtLink v-for="timetable in timetables" :key="'l_' + timetable.timetableId" :to="'#' + timetable.timetableId" class="sub_header_link_item">
+      {{ timetable.title[locale] }}
+    </NuxtLink>
+  </h3>
 </template>
 
 <script setup lang="ts">
@@ -192,7 +214,7 @@ pageMetaCheck()
 const sessions = getOMCSessions()
 const timetableEvents: Array<TimeTableEvent> = []
 const timetables = getOMCTimetables()
-console.log(timetables)
+const application_form = 'https://docs.google.com/forms/d/e/1FAIpQLSfAMtRJfErO8T6xXFGTdZLGXNQO0vKDkPg3KmO2LZpm0JWnTA/viewform'
 </script>
 
 <style scoped lang="scss">
@@ -227,7 +249,66 @@ console.log(timetables)
   margin: 60px auto 0;
   max-width: 1200px;
 }
-.open-mic-conference img {
-  width: 50rem;
+.acrylic_stand {
+  margin-top: 20px;
+  text-align: center;
+  img {
+    width: 50rem;
+  }
+}
+
+.application_form {
+  max-width: 80%;
+  margin: 100px auto 0;
+  padding: 50px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+.application_form_title {
+  font-weight: bold;
+  line-height: 59px;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin-bottom: 40px;
+}
+.application_form_btn {
+  padding: 1rem 5rem;
+  font-weight: bold;
+  line-height: 60px;
+  font-size: 25px;
+  letter-spacing: 0.1em;
+  border-radius: 30px;
+  position: relative;
+  background-color: #00a4de;
+  color: #fff;
+}
+@media screen and (max-width: $viewport - 1) {
+  .application_form {
+    margin-top: 30px;
+    padding: 30px 20px;
+  }
+  .application_form_title {
+    font-size: 6.5vw;
+    line-height: 1.5;
+  }
+  .application_form_btn_area {
+    margin-top: 20px;
+    display: block;
+  }
+  .application_form_btn {
+    width: 100%;
+    margin: 15px auto 0;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+  }
+  .acrylic_stand {
+    margin-top: 20px;
+    text-align: center;
+    img {
+      width: 30rem;
+    }
+  }
 }
 </style>

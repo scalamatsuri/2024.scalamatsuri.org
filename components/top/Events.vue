@@ -12,7 +12,8 @@ en:
     <br />
     <b>Conference Sessions and Open Mic Sessions</b><br />
     Conference sessions and open mic sessions will be held on the same day, Saturday, June 8 - Sunday, June 9, 2024! <br />
-    Please see <a href="/programs" target="_blank">here</a> for the timetable.
+    Please see <a href="/programs" target="_blank">here</a> for the timetable.<br />
+    For details on the Open Mic Conference, please refer to <a href="/open-mic-conference" target="_blank">here</a>
     <br />
     <br />
     <b>Training day</b><br />
@@ -42,7 +43,8 @@ ja:
     <br />
     <b>カンファレンスセッション、飛び入りカンファレンス</b><br />
     2024年6月8日(土)〜9日(日)には、カンファレンスセッションと飛び入りカンファレンスを同日開催する予定です！<br />
-    タイムテーブルは<a href="/programs" target="_blank">こちら</a>をご参照ください。
+    カンファレンスセッションのタイムテーブルは<a href="/programs" target="_blank">こちら</a>をご参照ください。<br />
+    飛び入りカンファレンスの詳細は<a href="/open-mic-conference" target="_blank">こちら</a>をご参照ください。
     <br />
     <br />
     <b>トレーニング・デイ</b><br />
