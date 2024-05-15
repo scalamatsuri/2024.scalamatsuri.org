@@ -61,18 +61,6 @@ const timetables = getTimetables()
     display: none;
   }
 }
-.page_title {
-  margin-top: 100px;
-  padding: 10px 59px;
-  font-weight: bold;
-  line-height: 49px;
-  font-size: 30px;
-  text-align: center;
-  letter-spacing: 0.05em;
-  color: #fff;
-  background: #333;
-  display: inline-block;
-}
 .proposals {
   margin: 60px auto 0;
   max-width: 1200px;

@@ -1,28 +1,189 @@
 [
   {
-    "id": {
-      "value": "OPEN_MIC_CONFERENCE_ID_1",
-      "type": "omc"
-    },
-    "speakerIds": ["SPEAKER_ID_1"],
+    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_01" },
+    "ja": { "title": "TBD", "description": "TBD" },
+    "en": { "title": "TBD", "description": "TBD" },
     "language": "ja",
-    "length": 40,
-    "en": { "title": "TITLE", "description": "DESCRIPTION" },
-    "ja": { "title": "タイトル", "description": "概要" },
-    "tags": ["TAG_1"],
-    "keywords": ["KEYWORDS_1,KEYWORDS_2"]
+    "length": 20,
+    "keywords": ["Scala入門"],
+    "speakerIds": ["DUMMY_SPEAKER_ID"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   },
   {
-    "id": {
-      "value": "OPEN_MIC_CONFERENCE_ID_2",
-      "type": "omc"
-    },
-    "speakerIds": ["SPEAKER_ID_2", "SPEAKER_ID_3"],
+    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_02" },
+    "ja": { "title": "TBD", "description": "TBD" },
+    "en": { "title": "TBD", "description": "TBD" },
     "language": "ja",
-    "length": 40,
-    "en": { "title": "TITLE", "description": "DESCRIPTION" },
-    "ja": { "title": "タイトル", "description": "概要" },
-    "tags": ["TAG_1"],
-    "keywords": ["KEYWORDS_1,KEYWORDS_2"]
+    "length": 20,
+    "keywords": ["Scala入門"],
+    "speakerIds": ["DUMMY_SPEAKER_ID"],
+    "youtubeUrl": "",
+    "slideUrl": ""
+  },
+  {
+    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_03" },
+    "ja": { "title": "TBD", "description": "TBD" },
+    "en": { "title": "TBD", "description": "TBD" },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["Scala入門"],
+    "speakerIds": ["DUMMY_SPEAKER_ID"],
+    "youtubeUrl": "",
+    "slideUrl": ""
+  },
+  {
+    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_04" },
+    "ja": { "title": "TBD", "description": "TBD" },
+    "en": { "title": "TBD", "description": "TBD" },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["Scala入門"],
+    "speakerIds": ["DUMMY_SPEAKER_ID"],
+    "youtubeUrl": "",
+    "slideUrl": ""
+  },
+  {
+    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_05" },
+    "ja": { "title": "TBD", "description": "TBD" },
+    "en": { "title": "TBD", "description": "TBD" },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["Scala入門"],
+    "speakerIds": ["DUMMY_SPEAKER_ID"],
+    "youtubeUrl": "",
+    "slideUrl": ""
+  },
+  {
+    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_06" },
+    "ja": { "title": "TBD", "description": "TBD" },
+    "en": { "title": "TBD", "description": "TBD" },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["Scala入門"],
+    "speakerIds": ["DUMMY_SPEAKER_ID"],
+    "youtubeUrl": "",
+    "slideUrl": ""
+  },
+  {
+    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_07" },
+    "ja": { "title": "TBD", "description": "TBD" },
+    "en": { "title": "TBD", "description": "TBD" },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["Scala入門"],
+    "speakerIds": ["DUMMY_SPEAKER_ID"],
+    "youtubeUrl": "",
+    "slideUrl": ""
+  },
+  {
+    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_08" },
+    "ja": { "title": "TBD", "description": "TBD" },
+    "en": { "title": "TBD", "description": "TBD" },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["Scala入門"],
+    "speakerIds": ["DUMMY_SPEAKER_ID"],
+    "youtubeUrl": "",
+    "slideUrl": ""
+  },
+  {
+    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_09" },
+    "ja": { "title": "TBD", "description": "TBD" },
+    "en": { "title": "TBD", "description": "TBD" },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["Scala入門"],
+    "speakerIds": ["DUMMY_SPEAKER_ID"],
+    "youtubeUrl": "",
+    "slideUrl": ""
+  },
+  {
+    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_10" },
+    "ja": { "title": "TBD", "description": "TBD" },
+    "en": { "title": "TBD", "description": "TBD" },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["Scala入門"],
+    "speakerIds": ["DUMMY_SPEAKER_ID"],
+    "youtubeUrl": "",
+    "slideUrl": ""
+  },
+  {
+    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_11" },
+    "ja": { "title": "TBD", "description": "TBD" },
+    "en": { "title": "TBD", "description": "TBD" },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["Scala入門"],
+    "speakerIds": ["DUMMY_SPEAKER_ID"],
+    "youtubeUrl": "",
+    "slideUrl": ""
+  },
+  {
+    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_12" },
+    "ja": { "title": "TBD", "description": "TBD" },
+    "en": { "title": "TBD", "description": "TBD" },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["Scala入門"],
+    "speakerIds": ["DUMMY_SPEAKER_ID"],
+    "youtubeUrl": "",
+    "slideUrl": ""
+  },
+  {
+    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_13" },
+    "ja": { "title": "TBD", "description": "TBD" },
+    "en": { "title": "TBD", "description": "TBD" },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["Scala入門"],
+    "speakerIds": ["DUMMY_SPEAKER_ID"],
+    "youtubeUrl": "",
+    "slideUrl": ""
+  },
+  {
+    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_14" },
+    "ja": { "title": "TBD", "description": "TBD" },
+    "en": { "title": "TBD", "description": "TBD" },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["Scala入門"],
+    "speakerIds": ["DUMMY_SPEAKER_ID"],
+    "youtubeUrl": "",
+    "slideUrl": ""
+  },
+  {
+    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_15" },
+    "ja": { "title": "TBD", "description": "TBD" },
+    "en": { "title": "TBD", "description": "TBD" },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["Scala入門"],
+    "speakerIds": ["DUMMY_SPEAKER_ID"],
+    "youtubeUrl": "",
+    "slideUrl": ""
+  },
+  {
+    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_16" },
+    "ja": { "title": "TBD", "description": "TBD" },
+    "en": { "title": "TBD", "description": "TBD" },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["Scala入門"],
+    "speakerIds": ["DUMMY_SPEAKER_ID"],
+    "youtubeUrl": "",
+    "slideUrl": ""
+  },
+  {
+    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_17" },
+    "ja": { "title": "TBD", "description": "TBD" },
+    "en": { "title": "TBD", "description": "TBD" },
+    "language": "ja",
+    "length": 20,
+    "keywords": ["Scala入門"],
+    "speakerIds": ["DUMMY_SPEAKER_ID"],
+    "youtubeUrl": "",
+    "slideUrl": ""
   }
 ]
