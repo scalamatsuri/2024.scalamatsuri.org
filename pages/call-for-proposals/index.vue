@@ -72,9 +72,9 @@ ja:
     性別や人種など多様な背景を持つ人々が互いに敬意を払って楽しい時間を過ごせるよう、当カンファレンスでは発表者や参加者、スポンサーの皆さんに<a href="%{coc_link}" target="_blank" rel="noopener"><span>行動規範</span></a>を守っていただくようにお願いしています。<br/>
     セッション募集に際してブログも公開しております。こちらも併せてご確認ください。<br/>
     <a href="https://blog.scalamatsuri.org/entry/2023/12/25/122512">ScalaMatsuri 2024開催決定！CFPも募集開始！</a><br/><br/>
-    今年度もScalaMatsuri2023と同様に、オープンマイクセッションを2日間開催します。<br/>
+    今年度もScalaMatsuri2023と同様に、飛び入りカンファレンスを2日間開催します。<br/>
     そのため、スピーカーとしてCFPを応募したが当選しなかった場合でも、イベントに参加してもらうと、ScalaMatsuriで発表するチャンスがあります。ぜひイベントにご参加ください。<br/>
-    <a href="https://blog.scalamatsuri.org/entry/2023/04/10/120001">ScalaMatsuri2023のオープンマイクセッションについて</a><br/>
+    <a href="https://blog.scalamatsuri.org/entry/2023/04/10/120001">ScalaMatsuri2023の飛び入りカンファレンスについて</a><br/>
   section2_title: '講演者の決定'
   section2_body: |
     アンケート結果を参考に、ScalaMatsuri 2024 運営にて選考会を開催し講演者を決定します。<br/>

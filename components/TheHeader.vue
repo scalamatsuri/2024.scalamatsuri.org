@@ -52,7 +52,9 @@ ja:
                 <span>{{ t(_header.path) }}</span>
               </NuxtLink>
             </li>
-            <LangSwitcher />
+            <li class="gnav_item">
+              <LangSwitcher />
+            </li>
           </ul>
         </div>
       </div>

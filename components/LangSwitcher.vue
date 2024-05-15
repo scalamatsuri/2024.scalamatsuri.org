@@ -1,27 +1,25 @@
 <template>
-  <li class="gnav_item">
-    <div class="selectArea">
-      <select id="" name="" class="js-select selectArea_select">
-        <option v-for="locale in _locales" :key="locale.name" value="日本語">
-          {{ locale.name }}
-        </option>
-      </select>
-      <div class="selectArea_label" :class="{ active: _active }" @click="onClickSelectedLocaleLink">
-        {{ selectedLocaleName }}
-      </div>
-      <ul class="selectArea_list js-selectArea_list">
-        <li
-          v-if="_active"
-          v-for="locale in _locales"
-          :key="locale.name"
-          class="selectArea_list_item"
-          rel="locale.code"
-          @click="onClickedLocaleLink(switchLocalePath(locale.code))">
-          {{ locale.name }}
-        </li>
-      </ul>
+  <div class="selectArea">
+    <select id="" name="" class="js-select selectArea_select">
+      <option v-for="locale in _locales" :key="locale.name" value="日本語">
+        {{ locale.name }}
+      </option>
+    </select>
+    <div class="selectArea_label" :class="{ active: _active }" @click="onClickSelectedLocaleLink">
+      {{ selectedLocaleName }}
     </div>
-  </li>
+    <ul class="selectArea_list js-selectArea_list">
+      <li
+        v-if="_active"
+        v-for="locale in _locales"
+        :key="locale.name"
+        class="selectArea_list_item"
+        rel="locale.code"
+        @click="onClickedLocaleLink(switchLocalePath(locale.code))">
+        {{ locale.name }}
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script setup lang="ts">

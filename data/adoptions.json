@@ -1,195 +1,66 @@
 [
   {
-    "sessionId": {
-      "value": "SESSION_DAY_1_01",
-      "type": "SESSION"
-    },
-    "proposalId": {
-      "value": "PROPOSAL_ID_08"
-    },
-    "room": "A",
-    "language": "English",
-    "youtubeUrl": "",
-    "slideUrl": ""
+    "sessionId": { "value": "SESSION_DAY_1_01", "type": "SESSION" },
+    "proposalId": { "value": "PROPOSAL_ID_08" }
   },
   {
-    "sessionId": {
-      "value": "SESSION_DAY_1_02",
-      "type": "SESSION"
-    },
-    "proposalId": {
-      "value": "PROPOSAL_ID_22"
-    },
-    "room": "A",
-    "youtubeUrl": "",
-    "slideUrl": ""
+    "sessionId": { "value": "SESSION_DAY_1_02", "type": "SESSION" },
+    "proposalId": { "value": "PROPOSAL_ID_22" }
   },
   {
-    "sessionId": {
-      "value": "SESSION_DAY_1_03",
-      "type": "SESSION"
-    },
-    "proposalId": {
-      "value": "PROPOSAL_ID_10"
-    },
-    "room": "A",
-    "youtubeUrl": "",
-    "slideUrl": ""
+    "sessionId": { "value": "SESSION_DAY_1_03", "type": "SESSION" },
+    "proposalId": { "value": "PROPOSAL_ID_10" }
   },
   {
-    "sessionId": {
-      "value": "SESSION_DAY_1_04",
-      "type": "SESSION"
-    },
-    "proposalId": {
-      "value": "PROPOSAL_ID_13"
-    },
-    "room": "A",
-    "youtubeUrl": "",
-    "slideUrl": ""
+    "sessionId": { "value": "SESSION_DAY_1_04", "type": "SESSION" },
+    "proposalId": { "value": "PROPOSAL_ID_13" }
   },
   {
-    "sessionId": {
-      "value": "SESSION_DAY_1_05",
-      "type": "SESSION"
-    },
-    "proposalId": {
-      "value": "PROPOSAL_ID_38"
-    },
-    "room": "A",
-    "youtubeUrl": "",
-    "slideUrl": ""
+    "sessionId": { "value": "SESSION_DAY_1_05", "type": "SESSION" },
+    "proposalId": { "value": "PROPOSAL_ID_38" }
   },
   {
-    "sessionId": {
-      "value": "SESSION_DAY_1_06",
-      "type": "SESSION"
-    },
-    "proposalId": {
-      "value": "PROPOSAL_ID_39"
-    },
-    "room": "A",
-    "youtubeUrl": "",
-    "slideUrl": ""
+    "sessionId": { "value": "SESSION_DAY_1_06", "type": "SESSION" },
+    "proposalId": { "value": "PROPOSAL_ID_39" }
   },
   {
-    "sessionId": {
-      "value": "SESSION_DAY_1_07",
-      "type": "SESSION"
-    },
-    "proposalId": {
-      "value": "PROPOSAL_ID_31"
-    },
-    "room": "A",
-    "youtubeUrl": "",
-    "slideUrl": ""
+    "sessionId": { "value": "SESSION_DAY_1_07", "type": "SESSION" },
+    "proposalId": { "value": "PROPOSAL_ID_31" }
   },
   {
-    "sessionId": {
-      "value": "SESSION_DAY_1_08",
-      "type": "SESSION"
-    },
-    "proposalId": {
-      "value": "PROPOSAL_ID_28"
-    },
-    "room": "A",
-    "youtubeUrl": "",
-    "slideUrl": ""
+    "sessionId": { "value": "SESSION_DAY_1_08", "type": "SESSION" },
+    "proposalId": { "value": "PROPOSAL_ID_28" }
   },
   {
-    "sessionId": {
-      "value": "SESSION_DAY_1_09",
-      "type": "SESSION"
-    },
-    "proposalId": {
-      "value": "PROPOSAL_ID_04"
-    },
-    "room": "A",
-    "youtubeUrl": "",
-    "slideUrl": ""
+    "sessionId": { "value": "SESSION_DAY_1_09", "type": "SESSION" },
+    "proposalId": { "value": "PROPOSAL_ID_04" }
   },
   {
-    "sessionId": {
-      "value": "SESSION_DAY_1_10",
-      "type": "SESSION"
-    },
-    "proposalId": {
-      "value": "PROPOSAL_ID_18"
-    },
-    "room": "A",
-    "youtubeUrl": "",
-    "slideUrl": ""
+    "sessionId": { "value": "SESSION_DAY_1_10", "type": "SESSION" },
+    "proposalId": { "value": "PROPOSAL_ID_18" }
   },
   {
-    "sessionId": {
-      "value": "SESSION_DAY_2_01",
-      "type": "SESSION"
-    },
-    "proposalId": {
-      "value": "PROPOSAL_ID_34"
-    },
-    "room": "A",
-    "youtubeUrl": "",
-    "slideUrl": ""
+    "sessionId": { "value": "SESSION_DAY_2_01", "type": "SESSION" },
+    "proposalId": { "value": "PROPOSAL_ID_34" }
   },
   {
-    "sessionId": {
-      "value": "SESSION_DAY_2_02",
-      "type": "SESSION"
-    },
-    "proposalId": {
-      "value": "PROPOSAL_ID_23"
-    },
-    "room": "A",
-    "youtubeUrl": "",
-    "slideUrl": ""
+    "sessionId": { "value": "SESSION_DAY_2_02", "type": "SESSION" },
+    "proposalId": { "value": "PROPOSAL_ID_23" }
   },
   {
-    "sessionId": {
-      "value": "SESSION_DAY_2_03",
-      "type": "SESSION"
-    },
-    "proposalId": {
-      "value": "PROPOSAL_ID_02"
-    },
-    "room": "A",
-    "youtubeUrl": "",
-    "slideUrl": ""
+    "sessionId": { "value": "SESSION_DAY_2_03", "type": "SESSION" },
+    "proposalId": { "value": "PROPOSAL_ID_02" }
   },
   {
-    "sessionId": {
-      "value": "SESSION_DAY_2_04",
-      "type": "SESSION"
-    },
-    "proposalId": {
-      "value": "PROPOSAL_ID_40"
-    },
-    "room": "A",
-    "youtubeUrl": "",
-    "slideUrl": ""
+    "sessionId": { "value": "SESSION_DAY_2_04", "type": "SESSION" },
+    "proposalId": { "value": "PROPOSAL_ID_40" }
   },
   {
-    "sessionId": {
-      "value": "SESSION_DAY_2_05",
-      "type": "SESSION"
-    },
-    "proposalId": {
-      "value": "PROPOSAL_ID_09"
-    },
-    "room": "A",
-    "youtubeUrl": "",
-    "slideUrl": ""
+    "sessionId": { "value": "SESSION_DAY_2_05", "type": "SESSION" },
+    "proposalId": { "value": "PROPOSAL_ID_09" }
   },
   {
-    "sessionId": {
-      "value": "SESSION_DAY_2_06",
-      "type": "SESSION"
-    },
-    "proposalId": {
-      "value": "PROPOSAL_ID_42"
-    },
-    "room": "A",
-    "youtubeUrl": "",
-    "slideUrl": ""
+    "sessionId": { "value": "SESSION_DAY_2_06", "type": "SESSION" },
+    "proposalId": { "value": "PROPOSAL_ID_42" }
   }
 ]

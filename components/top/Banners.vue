@@ -24,13 +24,13 @@ ja:
       <a href="https://scalaconfjp.doorkeeper.jp/events/168847" target="_blank" class="banner_item banner_item-ticket">
         <span>{{ t('ticket') }}</span>
       </a>
-      <!-- <a
+      <a
         href="https://scalamatsuri-online-shop.myshopify.com/"
         target="_blank"
         rel="noopener"
         class="banner_item banner_item_two banner_item-tshorts">
         <span>{{ t('tshirt') }} </span>
-      </a> -->
+      </a>
     </div>
   </div>
 </template>

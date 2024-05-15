@@ -55,6 +55,8 @@ export type Proposal = {
   length: number // セッションの長さ
   keywords?: string[] // キーワード
   speakerIds: string[] // スピーカーIds
+  youtubeUrl?: string
+  slideUrl?: string
 }
 
 export type ProposalId = {
@@ -77,11 +79,7 @@ export type ProposalWithSpeakers = Proposal & Speakers
 export type Adoption = {
   sessionId: SessionId
   proposalId: ProposalId
-  startAt: string // JST
-  endAt?: string // JST
   room: string
-  youtubeUrl?: string
-  slideUrl?: string
 }
 
 // プロポーザルとスピーカーの組み合わせに対して、採択されたデータを紐づけたものがセッションとなる
@@ -90,7 +88,7 @@ export type Session = Adoption & {
 }
 
 export type TimeTableContents = {
-  type: 'EVENT' | 'SESSION' | 'WORKSHOP'
+  type: 'EVENT' | 'SESSION'
   startAt: string // JST
   endAt?: string // JST
 }
@@ -111,13 +109,6 @@ export type TimeTableEventContents = TimeTableContents & {
   eventId: string
 }
 
-export type TimeTableWorkshopContents = TimeTableContents & {
-  name: {
-    en: string
-    ja: string
-  }
-}
-
 export type TimeTable = {
   date: string
   timetableId: string
@@ -125,7 +116,7 @@ export type TimeTable = {
     en: string
     ja: string
   }
-  contents: Array<TimeTableSessionContents | TimeTableEventContents | TimeTableWorkshopContents>
+  contents: Array<TimeTableSessionContents | TimeTableEventContents>
 }
 
 /***********************************************************
