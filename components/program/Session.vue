@@ -6,15 +6,13 @@
           {{ session.proposalWithSpeakers[locale].title }}
         </NuxtLink>
       </p>
-      <p class="meta">
-        {{ displayHour(content.startAt) }} - {{ displayHour(content.endAt) }} | {{ language }}
-     </p>
+      <p class="meta">{{ displayHour(content.startAt) }} - {{ displayHour(content.endAt) }} | {{ language }}</p>
       <div class="tags">
         <div v-for="kw in session.proposalWithSpeakers.keywords" :key="kw" class="tag" data-tag="tag">
           <span>{{ kw }}</span>
         </div>
       </div>
-     <div class="speakers">
+      <div class="speakers">
         <div v-for="speaker in session.proposalWithSpeakers.speakers" :key="speaker.name" class="speaker">
           <img v-if="speaker.iconUrl" :src="speaker.iconUrl" class="speaker_icon" />
           <img v-if="!speaker.iconUrl" src="/img/common/logo.svg" class="speaker_icon" />
@@ -29,27 +27,27 @@
           </p>
         </div>
       </div>
-   </div>
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import { type Session, type TimeTableContents } from '~/models/model'
-const { locale, t } = useI18n()
+const { locale } = useI18n()
 const localePath = useLocalePath()
 const { session, timetable } = defineProps({
   session: {} as PropType<Session>,
-  content: {} as PropType<TimeTableContents>
+  content: {} as PropType<TimeTableContents>,
 })
 
-const languageMap = { "en": "English", "ja": "Japanese" }
-const language = languageMap[session.proposalWithSpeakers.language] ?? ""
+const languageMap = { en: 'English', ja: 'Japanese' }
+const language = languageMap[session.proposalWithSpeakers.language] ?? ''
 </script>
 
 <style scoped lang="scss">
 .session {
   padding: 20px 0;
- 
+
   /* for SP */
   @media screen and (max-width: $headerViewport - 1) {
     padding: 10px 0;
@@ -59,7 +57,6 @@ const language = languageMap[session.proposalWithSpeakers.language] ?? ""
   text-align: left;
   padding: 0px 30px;
 
-
   @media screen and (max-width: $headerViewport - 1) {
     padding: 0px 15px;
   }
@@ -67,7 +64,6 @@ const language = languageMap[session.proposalWithSpeakers.language] ?? ""
 .title {
   font-weight: bold;
   font-size: 28px;
-
 
   @media screen and (max-width: $headerViewport - 1) {
     font-size: 20px;
@@ -125,7 +121,6 @@ const language = languageMap[session.proposalWithSpeakers.language] ?? ""
   @media screen and (max-width: $headerViewport - 1) {
     font-size: 16px;
   }
-
 }
 
 .tags {
@@ -139,7 +134,6 @@ const language = languageMap[session.proposalWithSpeakers.language] ?? ""
     line-height: 10px;
     font-size: 10px;
   }
-
 }
 .tag {
   display: inline;
@@ -155,7 +149,6 @@ const language = languageMap[session.proposalWithSpeakers.language] ?? ""
       font-size: 10px;
       line-height: 10px;
     }
-
   }
   + .tag {
     &:before {
@@ -164,4 +157,3 @@ const language = languageMap[session.proposalWithSpeakers.language] ?? ""
   }
 }
 </style>
-
