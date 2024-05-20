@@ -28,14 +28,6 @@
     "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_07" }
   },
   {
-    "sessionId": { "value": "OPEN_MIC_SESSION_DAY_1_08", "type": "SESSION" },
-    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_08" }
-  },
-  {
-    "sessionId": { "value": "OPEN_MIC_SESSION_DAY_1_09", "type": "SESSION" },
-    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_09" }
-  },
-  {
     "sessionId": { "value": "OPEN_MIC_SESSION_DAY_2_01", "type": "SESSION" },
     "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_10" }
   },
