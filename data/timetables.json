@@ -62,15 +62,13 @@
       "timetableId": "OPEN_MIC_CONFERENCE_DAY_1",
       "title": { "en": "6/8 (JST) Open Mic Conference Day 1", "ja": "6/8 (JST) 飛び入りカンファレンス Day 1" },
       "contents": [
-        { "type": "SESSION", "sessionId": "OPEN_MIC_SESSION_DAY_1_01", "startAt": "2024-06-08T13:00:00+0900", "endAt": "2024-06-08T13:30:00+0900" },
-        { "type": "SESSION", "sessionId": "OPEN_MIC_SESSION_DAY_1_02", "startAt": "2024-06-08T13:30:00+0900", "endAt": "2024-06-08T14:00:00+0900" },
-        { "type": "SESSION", "sessionId": "OPEN_MIC_SESSION_DAY_1_03", "startAt": "2024-06-08T14:00:00+0900", "endAt": "2024-06-08T14:30:00+0900" },
-        { "type": "SESSION", "sessionId": "OPEN_MIC_SESSION_DAY_1_04", "startAt": "2024-06-08T14:30:00+0900", "endAt": "2024-06-08T15:00:00+0900" },
-        { "type": "SESSION", "sessionId": "OPEN_MIC_SESSION_DAY_1_05", "startAt": "2024-06-08T15:00:00+0900", "endAt": "2024-06-08T15:30:00+0900" },
-        { "type": "SESSION", "sessionId": "OPEN_MIC_SESSION_DAY_1_06", "startAt": "2024-06-08T15:30:00+0900", "endAt": "2024-06-08T16:00:00+0900" },
-        { "type": "SESSION", "sessionId": "OPEN_MIC_SESSION_DAY_1_07", "startAt": "2024-06-08T16:00:00+0900", "endAt": "2024-06-08T16:30:00+0900" },
-        { "type": "SESSION", "sessionId": "OPEN_MIC_SESSION_DAY_1_08", "startAt": "2024-06-08T16:30:00+0900", "endAt": "2024-06-08T17:00:00+0900" },
-        { "type": "SESSION", "sessionId": "OPEN_MIC_SESSION_DAY_1_09", "startAt": "2024-06-08T17:00:00+0900", "endAt": "2024-06-08T17:30:00+0900" }
+        { "type": "SESSION", "sessionId": "OPEN_MIC_SESSION_DAY_1_01", "startAt": "2024-06-08T14:00:00+0900", "endAt": "2024-06-08T14:30:00+0900" },
+        { "type": "SESSION", "sessionId": "OPEN_MIC_SESSION_DAY_1_02", "startAt": "2024-06-08T14:30:00+0900", "endAt": "2024-06-08T15:00:00+0900" },
+        { "type": "SESSION", "sessionId": "OPEN_MIC_SESSION_DAY_1_03", "startAt": "2024-06-08T15:00:00+0900", "endAt": "2024-06-08T15:30:00+0900" },
+        { "type": "SESSION", "sessionId": "OPEN_MIC_SESSION_DAY_1_04", "startAt": "2024-06-08T15:30:00+0900", "endAt": "2024-06-08T16:00:00+0900" },
+        { "type": "SESSION", "sessionId": "OPEN_MIC_SESSION_DAY_1_05", "startAt": "2024-06-08T16:00:00+0900", "endAt": "2024-06-08T16:30:00+0900" },
+        { "type": "SESSION", "sessionId": "OPEN_MIC_SESSION_DAY_1_06", "startAt": "2024-06-08T16:30:00+0900", "endAt": "2024-06-08T17:00:00+0900" },
+        { "type": "SESSION", "sessionId": "OPEN_MIC_SESSION_DAY_1_07", "startAt": "2024-06-08T17:00:00+0900", "endAt": "2024-06-08T17:30:00+0900" }
       ]
     },
     {
