@@ -43,7 +43,7 @@ en:
     You are free to join in or leave during the session, as there are a lot of interesting sessions and sessions you want to listen to often overlap.<br /><br />
     The fly-in conference will feature a mixture of Japanese and English sessions.<br />
     There is no simultaneous oral interpretation, but enjoy communication between Japanese and English speakers.<br /><br />
-    You can also jump in and add conference sessions outside of the morning and snack sessions. You may start a session in a guerrilla style.<br />
+    You can also jump in and add conference sessions outside of the morning sessions. You may start a session in a guerrilla style.<br />
     If you would like to be included in the timetable, please contact the management.<br />
     The schedule for the day will be reflected on this page as soon as possible, so if you find a session that interests you, please feel free to join us even in the middle of the day.
   themes_title: Call for sessions
@@ -102,7 +102,7 @@ ja:
     面白いセッションが目白押しで、聞きたいセッションがかぶることも多いので、途中参加、途中退出は自由です。<br />
     飛び入りカンファレンスでは、日本語や英語のセッションが入り混じります。<br />
     口頭での同時通訳はありませんが、日英話者間でのコミュニケーションをお楽しみください。<br /><br />
-    また、朝会・おやつ会以外でも飛び入りカンファレンスのセッション追加は可能です。ゲリラ的にセッションを始めていただいても構いません。<br /><br />
+    また、朝会以外でも飛び入りカンファレンスのセッション追加は可能です。ゲリラ的にセッションを始めていただいても構いません。<br /><br />
     タイムテーブルに掲載したい場合は、運営にお声がけください。<br /><br />
     当日のスケジュールは随時このページに反映されますので、興味を惹かれるセッションがあったら是非途中からでもご参加ください。
   themes_title: ネタ出し
