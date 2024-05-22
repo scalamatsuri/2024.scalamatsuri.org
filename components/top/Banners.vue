@@ -13,9 +13,9 @@ ja:
 <template>
   <div class="banner">
     <div class="banner_list">
-      <nuxt-link :to="localePath('sponsorship')" class="banner_item banner_item-sponsor">
+      <!-- <nuxt-link :to="localePath('sponsorship')" class="banner_item banner_item-sponsor">
         <span>{{ t('sponsorship') }} </span>
-      </nuxt-link>
+      </nuxt-link> -->
       <!--
       <nuxt-link :to="localePath('call-for-proposals')" class="banner_item banner_item-session">
         <span>{{ t('call-for-proposals') }}</span>
