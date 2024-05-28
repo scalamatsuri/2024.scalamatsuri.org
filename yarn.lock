@@ -993,9 +993,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/devtools-kit@npm:1.3.1":
-  version: 1.3.1
-  resolution: "@nuxt/devtools-kit@npm:1.3.1"
+"@nuxt/devtools-kit@npm:1.3.2":
+  version: 1.3.2
+  resolution: "@nuxt/devtools-kit@npm:1.3.2"
   dependencies:
     "@nuxt/kit": "npm:^3.11.2"
     "@nuxt/schema": "npm:^3.11.2"
@@ -1003,13 +1003,13 @@ __metadata:
   peerDependencies:
     nuxt: ^3.9.0
     vite: "*"
-  checksum: 10c0/e855544030bfff0d74669c2f2ccc7fb338bb9f9950b80d825b060bbc610f7bf56655cb546aea4431340c9cd73778bb5fedf535b35268b07d5f08e085d7997be5
+  checksum: 10c0/de6929b4461788c76829ed0d9593eb06a51513d509f74388fe38555b0d879b36488b3146d692cf11f21ab647a221ee890ee57480fd00faddb7ef066150f1aa2c
   languageName: node
   linkType: hard
 
-"@nuxt/devtools-wizard@npm:1.3.1":
-  version: 1.3.1
-  resolution: "@nuxt/devtools-wizard@npm:1.3.1"
+"@nuxt/devtools-wizard@npm:1.3.2":
+  version: 1.3.2
+  resolution: "@nuxt/devtools-wizard@npm:1.3.2"
   dependencies:
     consola: "npm:^3.2.3"
     diff: "npm:^5.2.0"
@@ -1023,17 +1023,17 @@ __metadata:
     semver: "npm:^7.6.2"
   bin:
     devtools-wizard: cli.mjs
-  checksum: 10c0/acdb7ff9345fc0d9f8df74e80152bbece318ba037697353de092f230f3ad2f366c344fec7933934915d970dfa71937bdf359d34ffdf59ac4d4a7752aa0735b79
+  checksum: 10c0/9797574d930ce6ed8758736a6c3004534642c4a3a9bcf828b6caf087297959ce2bd12ef16434b22e193beee655c1c889db093a44b08bfc4a3d37bda3b0654efd
   languageName: node
   linkType: hard
 
 "@nuxt/devtools@npm:^1.1.5, @nuxt/devtools@npm:latest":
-  version: 1.3.1
-  resolution: "@nuxt/devtools@npm:1.3.1"
+  version: 1.3.2
+  resolution: "@nuxt/devtools@npm:1.3.2"
   dependencies:
     "@antfu/utils": "npm:^0.7.8"
-    "@nuxt/devtools-kit": "npm:1.3.1"
-    "@nuxt/devtools-wizard": "npm:1.3.1"
+    "@nuxt/devtools-kit": "npm:1.3.2"
+    "@nuxt/devtools-wizard": "npm:1.3.2"
     "@nuxt/kit": "npm:^3.11.2"
     "@vue/devtools-applet": "npm:^7.1.3"
     "@vue/devtools-core": "npm:^7.1.3"
@@ -1074,7 +1074,7 @@ __metadata:
     vite: "*"
   bin:
     devtools: cli.mjs
-  checksum: 10c0/481f23f54ee2ec1205424efab477ec492ceb2661c51b37ee660b0e2cd280ba1ae74aef5c6d09c2dca9d500ebcbe381a740a57990efa825d7bf8149bad1bac501
+  checksum: 10c0/ddb4f87770894b134d7ef681e3e5c941c3908262004ad3b30a18791db88defeb09705bf0cd91a6e86673c14bbe449333b49349c69985cbb01ed5e619ac2dcb51
   languageName: node
   linkType: hard
 
