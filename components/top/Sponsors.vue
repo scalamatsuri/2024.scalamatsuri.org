@@ -58,6 +58,14 @@ ja:
             <div v-if="locale == `ja`"><p>{{ sponsor.ja.name }}</p></div>
           </li>
         </ul>
+        <!-- <h3 class="sponsors_title sponsors_subtitle-tairou">{{ t('tairou') }}</h3>
+        <ul class="sponsors_list">
+          <li v-for="sponsor in shuffledTairous" :key="sponsor.logo" class="sponsors_item">
+            <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
+            <div v-if="locale == `en`"><p>{{ sponsor.en.name }}</p></div>
+            <div v-if="locale == `ja`"><p>{{ sponsor.ja.name }}</p></div>
+          </li>
+        </ul> -->
         <h3 class="sponsors_title sponsors_subtitle-daimyo">{{ t('daimyo') }}</h3>
         <ul class="sponsors_list">
           <li v-for="sponsor in shuffledDaimyos" :key="sponsor.logo" class="sponsors_item">
@@ -74,6 +82,14 @@ ja:
             <div v-if="locale == `ja`"><p>{{ sponsor.ja.name }}</p></div>
           </li>
         </ul>
+        <!-- <h3 class="sponsors_title sponsors_subtitle-utage">{{ t('utage') }}</h3>
+        <ul class="sponsors_list">
+          <li v-for="sponsor in shuffledUtages" :key="sponsor.logo" class="sponsors_item">
+            <a :href="sponsor.url" target="_blank"><img :src="sponsor.logo" :alt="sponsor.en.name" /></a>
+            <div v-if="locale == `en`"><p>{{ sponsor.en.name }}</p></div>
+            <div v-if="locale == `ja`"><p>{{ sponsor.ja.name }}</p></div>
+          </li>
+        </ul> -->
         <h3 class="sponsors_title sponsors_subtitle-ninja">{{ t('ninja') }}</h3>
         <ul class="sponsors_list">
           <li v-for="sponsor in shuffledNinjas" :key="sponsor.logo" class="sponsors_item-ninja">
