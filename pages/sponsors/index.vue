@@ -18,7 +18,6 @@ ja:
     <MainVisual :title="t('title')" />
     <SponsorInquiry />
     <SponsorBlock :title="t('sponsorType.syogun')" :sponsors="shuffledShogunSponsors" />
-    <SponsorBlock :title="t('sponsorType.tairou')" :sponsors="shuffledTairouSponsors" />
     <SponsorBlock :title="t('sponsorType.daimyo')" :sponsors="shuffledDaimyoSponsors" />
   </ClientOnly>
 </template>
@@ -30,7 +29,6 @@ pageMetaCheck()
 const shogunSponsors: ComputedRef<Sponsor[]> = getSponsorsByType('SHOGUN')
 const shuffledShogunSponsors = computed(() => arrayShuffle(shogunSponsors.value))
 const tairouSponsors: ComputedRef<Sponsor[]> = getSponsorsByType('TAIROU')
-const shuffledTairouSponsors = computed(() => arrayShuffle(tairouSponsors.value))
 const daimyoSponsors: ComputedRef<Sponsor[]> = getSponsorsByType('DAIMYO')
 const shuffledDaimyoSponsors = computed(() => arrayShuffle(daimyoSponsors.value))
 </script>
