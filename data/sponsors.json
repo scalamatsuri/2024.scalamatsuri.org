@@ -273,6 +273,21 @@
     "speakerdeckUrl": ""
   },
   {
+    "id": "SAMURAI_3",
+    "type": "SAMURAI",
+    "ja": {
+      "name": "株式会社サムライズム"
+    },
+    "en": {
+      "name": "Samuraism Inc."
+    },
+    "logo": "/img/sponsors/samuraism.png",
+    "url": "https://samuraism.com/",
+    "textHtml": "",
+    "slideHtml": "",
+    "speakerdeckUrl": ""
+  },
+  {
     "id": "KINTONE",
     "type": "BUGYO",
     "ja": {
