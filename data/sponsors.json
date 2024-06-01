@@ -238,9 +238,9 @@
     },
     "logo": "/img/sponsors/assured.png",
     "url": "https://careers.assured.jp/engineering",
-    "textHtml": "",
+    "textHtml": "<p><b>■ミッション、ビジョン</b></p><p>Assuredの、何を胸に進むかをまとめたミッションのキーワードは、「ワクワクするコラボレーション」です。</p><p>Assuredは、新しい可能性が次々生まれ続けるような、未来に希望をもてる社会をつくりたいと考えています。</p><p>サービスを通して「取引に確信を与える、 セキュリティの星つきガイドへ。」 というビジョンの実現を目指し、まずは取引先のなかでも、クラウドサービスの安全性の可視化に挑みます。</p><br /><p><b>■Assuredについて</b></p><p>セキュリティ評価プラットフォーム『<a href=\"https://assured.jp/\" target=\"_blank\">Assured</a>』は、企業やクラウドサービス等に潜むセキュリティリスクを可視化したデータベースを構築し、企業様にご提供するサービスです。</p><p>クラウドサービスの利用企業と提供企業を繋ぎ、これまでエクセルで運用されてきた非効率なセキュリティ調査のプロセスを刷新することで、新たなセキュリティ管理の形を提供したいと考えています。国内ではまだ類似サービスもなく、まさにこれから新しい市場を作っていくフェーズです。</p><br /><p><b>■ScalaMatsuriへお越しの方へのメッセージ</b></p><p>セキュリティ調査のプロセスは複雑なものですが、これを表現する上でScalaが活用されています。</p><p>AssuredにおけるScalaの考え方、使い方もぜひご覧ください！</p><br /><ul><li><a href=\"https://tech.assured.jp/entry/2022/06/13/090500\" target=\"_blank\">Assuredの技術スタック紹介（アプリ編）</a></li><li><a href=\"https://speakerdeck.com/iwamatsu0430/scalafalsexin-gui-shi-ye-descalafalsewei-jing-yan-zhe-woonbodeingu\" target=\"_blank\">Scalaの新規事業でScalaの未経験者をオンボーディング</a></li></ul><p>ご興味をお持ちいただけた方はぜひ、<a href=\"https://careers.assured.jp/hello\" target=\"_blank\">カジュアル面談ページ</a>からご応募ください！</p><br /><p><b>■採用情報</b></p><ul><li><a href=\"https://careers.assured.jp/engineering\" target=\"_blank\">エンジニア採用ページ</a></li><li><a href=\"https://tech.assured.jp/\" target=\"_blan\">Assured Tech Blog</a></li>",
     "slideHtml": "",
-    "speakerdeckUrl": ""
+    "speakerdeckUrl": "https://speakerdeck.com/player/a9a284c961754055b12df5d4d3de4957"
   },
   {
     "id": "SAMURAI_1",
