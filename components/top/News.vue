@@ -29,7 +29,11 @@ const blogDomain = {
 const { data: postsXmlStr } = await useFetch<Blob>(`https://${blogDomain}/rss/category/${category}`)
 const body = await postsXmlStr.value?.text()
 const converted = xmlConverter.xml2js(body, { compact: true })
-const posts = [].concat(converted.rss.channel.item || [])
+
+const ignore_news_urls = [
+  'https://blog.scalamatsuri.org/entry/2024/01/26/135742',
+]
+const posts = [].concat(converted.rss.channel.item || []).filter((post: any) => !ignore_news_urls.includes(post.link._text))
 
 const currentPostIdx = useState<number>('currentPostIdx', () => 0)
 let updatePostInterval: NodeJS.Timeout | undefined
