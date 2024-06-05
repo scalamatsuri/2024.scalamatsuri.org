@@ -5,12 +5,14 @@ en:
     syogun: Shogun Sponsor
     tairou: Tairou Sponsor
     daimyo: Daimyo Sponsor
+    samurai: Samurai Sponsor
 ja:
   title: スポンサー
   sponsorType:
     syogun: 将軍スポンサー
     tairou: 大老スポンサー
     daimyo: 大名スポンサー
+    samurai: 侍スポンサー
 </i18n>
 
 <template>
@@ -20,6 +22,7 @@ ja:
     <SponsorBlock :title="t('sponsorType.syogun')" :sponsors="shuffledShogunSponsors" />
     <!-- <SponsorBlock :title="t('sponsorType.tairou')" :sponsors="shuffledTairouSponsors" /> -->
     <SponsorBlock :title="t('sponsorType.daimyo')" :sponsors="shuffledDaimyoSponsors" />
+    <SponsorBlock :title="t('sponsorType.samurai')" :sponsors="shuffledSamuraiSponsors" />
   </ClientOnly>
 </template>
 
@@ -33,4 +36,6 @@ const shuffledShogunSponsors = computed(() => arrayShuffle(shogunSponsors.value)
 // const shuffledTairouSponsors = computed(() => arrayShuffle(tairouSponsors.value))
 const daimyoSponsors: ComputedRef<Sponsor[]> = getSponsorsByType('DAIMYO')
 const shuffledDaimyoSponsors = computed(() => arrayShuffle(daimyoSponsors.value))
+const samuraiSponsors: ComputedRef<Sponsor[]> = getSponsorsByType('SAMURAI')
+const shuffledSamuraiSponsors = computed(() => arrayShuffle(samuraiSponsors.value))
 </script>
