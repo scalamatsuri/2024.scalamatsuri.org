@@ -42,7 +42,7 @@ en:
   contacts_during_the_conference_text_01: |
     If you are being harassed, notice that someone else is being harassed, please report the following form or contact a nearby conference staff immediately.
     <br><br>
-    <a href="https://forms.gle/wGgsr2x4ggfkqk8T6" target="_blank" rel="noopener">Harassment incidents report form.</a>
+    <a href="https://forms.gle/Jo41Tm4HM8WjbYpq6" target="_blank" rel="noopener">Harassment incidents report form.</a>
   license_and_attribution_title: License and attribution
   license_and_attribution_text_01: |
     The text part of this policy is licensed under the <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">Creative Commons Zero license</a>. Like public domain, no credit and no open licencing of your version is required.
@@ -99,7 +99,7 @@ ja:
   contacts_during_the_conference_text_01: |
     自分や他の人がハラスメントを受けている場合には以下のフォームにてご連絡ください。
     <br/><br/>
-    <a href="https://forms.gle/wGgsr2x4ggfkqk8T6" target="_blank">ハラスメント インシデント報告フォーム</a>
+    <a href="https://forms.gle/Jo41Tm4HM8WjbYpq6" target="_blank">ハラスメント インシデント報告フォーム</a>
   license_and_attribution_title: ライセンスと帰属に関して
   license_and_attribution_text_01: |
     本規範のテキスト部分は <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">Creative Commons Zero license</a> のもとに公開します。パブリック・ドメイン同様に、派生して作られた規範に一切のクレジット表示やオープンライセンスなどを要求しません。
