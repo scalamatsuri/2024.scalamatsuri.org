@@ -9,6 +9,7 @@ import type {
   TimeTableEvent,
   TimeTable,
   Adoption,
+  TimeTableSessionContents,
 } from '~/models/model'
 import proposals from '~/data/proposals.json'
 import adoptions from '~/data/adoptions.json'
@@ -60,7 +61,15 @@ export const getProposalById = (proposalId: string) =>
  * for Conference
  * ------------------------------------------------------------------
  */
+const _timetables = timetables.timetables
+  .filter((timetable) => timetable.timetableId === 'CONFERENCE_DAY_1' || timetable.timetableId === 'CONFERENCE_DAY_2')
+  .map((timetable) => {
+    return {
+      ...timetable,
+    } as TimeTable
+  })
 // adoptions を起点に ProposalWithSpeakers を結合し、Session として返却
+const timtableSessionContentsOnly = _timetables.flatMap((timetable) => timetable.contents.filter((content) => content.type === 'SESSION').map((content) => content as TimeTableSessionContents));
 const _sessions = adoptions.map((adoption) => {
   const proposalWithSpeaker = _proposalsWithSpeakers.find((proposal) => proposal.proposalId.value === adoption.proposalId.value)
   if (!proposalWithSpeaker) {
@@ -69,6 +78,7 @@ const _sessions = adoptions.map((adoption) => {
     return {
       ...adoption,
       proposalWithSpeakers: proposalWithSpeaker,
+      timetable: timtableSessionContentsOnly.find((timetable) => timetable.sessionId === adoption.sessionId.value),
     } as Session
   }
 })
@@ -79,15 +89,6 @@ const _timetableEvents = timetables.events.map((event) => {
   } as TimeTableEvent
 })
 export const getTimetableEvents = () => computed(() => _timetableEvents)
-
-const _timetables = timetables.timetables
-  .filter((timetable) => timetable.timetableId === 'CONFERENCE_DAY_1' || timetable.timetableId === 'CONFERENCE_DAY_2')
-  .map((timetable) => {
-    return {
-      ...timetable,
-    } as TimeTable
-  })
-
 export const getTimetables = () => computed(() => _timetables)
 export const getSessions = () => computed(() => _sessions)
 export const getSessionById = (sessionId: string) => computed(() => _sessions.find((session) => session.sessionId.value === sessionId) ?? null)
