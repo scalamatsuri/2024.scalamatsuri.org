@@ -32,6 +32,8 @@ const converted = xmlConverter.xml2js(body, { compact: true })
 
 const ignore_news_urls = [
   'https://blog.scalamatsuri.org/entry/2024/01/26/135742',
+  'https://blog.scalamatsuri.org/entry/2023/12/25/122512',
+  'https://blog-en.scalamatsuri.org/entry/2023/12/25/122529',
 ]
 const posts = [].concat(converted.rss.channel.item || []).filter((post: any) => !ignore_news_urls.includes(post.link._text))
 

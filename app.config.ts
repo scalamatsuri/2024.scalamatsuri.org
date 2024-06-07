@@ -37,7 +37,7 @@ export default defineAppConfig({
     },
     { path: 'sponsorship', title: { en: 'Sponsorship(ja)', ja: 'スポンサー募集' }, published: true, header: false, footer: false, order: 30 },
     { path: 'sponsors', title: { en: 'Sponsors', ja: 'スポンサー一覧' }, published: true, header: true, footer: true, order: 31 },
-    { path: 'cm', title: { en: 'CM', ja: 'CM' }, published: false, header: true, footer: true, order: 32 },
+    { path: 'cm', title: { en: 'CM', ja: 'CM' }, published: true, header: true, footer: true, order: 32 },
     { path: 'travel', title: { en: 'Travel', ja: 'トラベル情報' }, published: true, header: false, footer: true, order: 91 },
     { path: 'staff', title: { en: 'Staffs', ja: 'スタッフ一覧' }, published: true, header: true, footer: true, order: 100 },
     { path: 'extra-staff', title: { en: 'Extra Staffs(ja)', ja: '当日スタッフ募集' }, published: true, header: false, footer: true, order: 101 },
