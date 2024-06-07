@@ -85,6 +85,7 @@ export type Adoption = {
 // プロポーザルとスピーカーの組み合わせに対して、採択されたデータを紐づけたものがセッションとなる
 export type Session = Adoption & {
   proposalWithSpeakers: ProposalWithSpeakers
+  timetable?: TimeTableSessionContents
 }
 
 export type TimeTableContents = {
