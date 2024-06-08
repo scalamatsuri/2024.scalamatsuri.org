@@ -193,6 +193,12 @@ ja:
           <OpenMicConferenceDetail :sessions="sessions" :events="timetableEvents" :timetable="timetable" />
         </div>
       </div>
+      <div class="proposals">
+        <h2 class="section_title"><span class="section_title_inner">Proposals</span></h2>
+        <div v-for="proposal in notAdaptionProposals" :key="proposal.proposalId.value">
+          <OpenMicConferenceProposal :proposal="proposal" />
+        </div>
+      </div>
     </div>
   </ClientOnly>
   <div class="application_form">
