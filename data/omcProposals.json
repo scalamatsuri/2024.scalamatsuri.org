@@ -16,7 +16,7 @@
     "en": { "title": "TBD", "description": "TBD" },
     "language": "ja",
     "length": 20,
-    "keywords": ["Scala入門"],
+    "keywords": [],
     "speakerIds": ["DUMMY_SPEAKER_ID"],
     "youtubeUrl": "",
     "slideUrl": ""
@@ -27,7 +27,7 @@
     "en": { "title": "TBD", "description": "TBD" },
     "language": "ja",
     "length": 20,
-    "keywords": ["Scala入門"],
+    "keywords": [],
     "speakerIds": ["DUMMY_SPEAKER_ID"],
     "youtubeUrl": "",
     "slideUrl": ""
@@ -38,7 +38,7 @@
     "en": { "title": "TBD", "description": "TBD" },
     "language": "ja",
     "length": 20,
-    "keywords": ["Scala入門"],
+    "keywords": [],
     "speakerIds": ["DUMMY_SPEAKER_ID"],
     "youtubeUrl": "",
     "slideUrl": ""
@@ -49,7 +49,7 @@
     "en": { "title": "TBD", "description": "TBD" },
     "language": "ja",
     "length": 20,
-    "keywords": ["Scala入門"],
+    "keywords": [],
     "speakerIds": ["DUMMY_SPEAKER_ID"],
     "youtubeUrl": "",
     "slideUrl": ""
@@ -60,19 +60,19 @@
     "en": { "title": "TBD", "description": "TBD" },
     "language": "ja",
     "length": 20,
-    "keywords": ["Scala入門"],
+    "keywords": [],
     "speakerIds": ["DUMMY_SPEAKER_ID"],
     "youtubeUrl": "",
     "slideUrl": ""
   },
   {
     "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_07" },
-    "ja": { "title": "TBD", "description": "TBD" },
-    "en": { "title": "TBD", "description": "TBD" },
+    "ja": { "title": "Scalaプロジェクトのビルド速度改善", "description": "ビルドツールでの設定の話や、CIの設定の話、テストの話など、単なるcompile速度以外の広い話を含めて、どうやって速度改善すればいいのか？などを話したいと思います" },
+    "en": { "title": "Improving the build speed of Scala projects", "description": "How can we improve the speed of our builds, including talking about configurations in build tools, CI configurations, testing, and other broader topics than just compile speed? I would like to talk about the following topics" },
     "language": "ja",
     "length": 20,
-    "keywords": ["Scala入門"],
-    "speakerIds": ["DUMMY_SPEAKER_ID"],
+    "keywords": [],
+    "speakerIds": ["OMC_SPEAKER_ID_07"],
     "youtubeUrl": "",
     "slideUrl": ""
   },
@@ -82,7 +82,7 @@
     "en": { "title": "TBD", "description": "TBD" },
     "language": "ja",
     "length": 20,
-    "keywords": ["Scala入門"],
+    "keywords": [],
     "speakerIds": ["DUMMY_SPEAKER_ID"],
     "youtubeUrl": "",
     "slideUrl": ""
@@ -93,7 +93,7 @@
     "en": { "title": "TBD", "description": "TBD" },
     "language": "ja",
     "length": 20,
-    "keywords": ["Scala入門"],
+    "keywords": [],
     "speakerIds": ["DUMMY_SPEAKER_ID"],
     "youtubeUrl": "",
     "slideUrl": ""
@@ -104,7 +104,7 @@
     "en": { "title": "TBD", "description": "TBD" },
     "language": "ja",
     "length": 20,
-    "keywords": ["Scala入門"],
+    "keywords": [],
     "speakerIds": ["DUMMY_SPEAKER_ID"],
     "youtubeUrl": "",
     "slideUrl": ""
@@ -115,7 +115,7 @@
     "en": { "title": "TBD", "description": "TBD" },
     "language": "ja",
     "length": 20,
-    "keywords": ["Scala入門"],
+    "keywords": [],
     "speakerIds": ["DUMMY_SPEAKER_ID"],
     "youtubeUrl": "",
     "slideUrl": ""
@@ -126,7 +126,7 @@
     "en": { "title": "TBD", "description": "TBD" },
     "language": "ja",
     "length": 20,
-    "keywords": ["Scala入門"],
+    "keywords": [],
     "speakerIds": ["DUMMY_SPEAKER_ID"],
     "youtubeUrl": "",
     "slideUrl": ""
@@ -137,7 +137,7 @@
     "en": { "title": "TBD", "description": "TBD" },
     "language": "ja",
     "length": 20,
-    "keywords": ["Scala入門"],
+    "keywords": [],
     "speakerIds": ["DUMMY_SPEAKER_ID"],
     "youtubeUrl": "",
     "slideUrl": ""
@@ -148,7 +148,7 @@
     "en": { "title": "TBD", "description": "TBD" },
     "language": "ja",
     "length": 20,
-    "keywords": ["Scala入門"],
+    "keywords": [],
     "speakerIds": ["DUMMY_SPEAKER_ID"],
     "youtubeUrl": "",
     "slideUrl": ""
@@ -159,7 +159,7 @@
     "en": { "title": "TBD", "description": "TBD" },
     "language": "ja",
     "length": 20,
-    "keywords": ["Scala入門"],
+    "keywords": [],
     "speakerIds": ["DUMMY_SPEAKER_ID"],
     "youtubeUrl": "",
     "slideUrl": ""
@@ -170,7 +170,7 @@
     "en": { "title": "TBD", "description": "TBD" },
     "language": "ja",
     "length": 20,
-    "keywords": ["Scala入門"],
+    "keywords": [],
     "speakerIds": ["DUMMY_SPEAKER_ID"],
     "youtubeUrl": "",
     "slideUrl": ""
@@ -181,7 +181,7 @@
     "en": { "title": "TBD", "description": "TBD" },
     "language": "ja",
     "length": 20,
-    "keywords": ["Scala入門"],
+    "keywords": [],
     "speakerIds": ["DUMMY_SPEAKER_ID"],
     "youtubeUrl": "",
     "slideUrl": ""
