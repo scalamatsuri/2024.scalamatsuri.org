@@ -422,7 +422,7 @@
       "value": "PROPOSAL_ID_23"
     },
     "ja": {
-      "title": "Property-based testing - テストライブラリにやらせよう",
+      "title": "Property-based testing: テストライブラリ活用方法",
       "description": "Don't ask what you can do for your testing library, ask what it can do for you! It turns out that much more than displaying a nice green and red report. What if we make the library generate the test data? And maybe it could also think of the edge cases for which our code is wrong? And repeat that a thousand times, just to be sure. Sounds good? That's exactly what property-based testing has to offer. I'll show how to get started with this kind of testing in Scala, using ScalaTest and ScalaCheck. I'll also cover the fine print and challenges."
     },
     "en": {
