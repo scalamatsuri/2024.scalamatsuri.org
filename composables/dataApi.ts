@@ -129,4 +129,4 @@ const _omcSessions = omcAdoptions.map((adoption) => {
 export const getOMCTimetables = () => computed(() => _omcTimetables)
 export const getOMCSessions = () => computed(() => _omcSessions)
 export const getOMCSessionById = (sessionId: string) => computed(() => _omcSessions.find((session) => session.sessionId.value === sessionId) ?? null)
-export const getOmcProposals = () => computed(() => _omcProposalsWithSpeakers)
+export const getOMCNotAdaptionProposals = () => computed(() =>  _omcProposalsWithSpeakers.filter((proposal) => !omcAdoptions.some((adoption) => adoption.proposalId.value === proposal.proposalId.value) && proposal.proposalId.value !== "DUMMY_OPEN_MIC_CONFERENCE_ID"))
