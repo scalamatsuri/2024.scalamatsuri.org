@@ -16,6 +16,7 @@
           </p>
         </div>
       </div>
+      <p>{{ displayDateAndHour(session.timetable?.startAt ?? "") }} ~ {{ displayHour(session.timetable?.endAt ?? "") }} (GMT+9)</p>
       <p>{{ session.proposalWithSpeakers.length }} min</p>
       <p v-if="session.proposalWithSpeakers.language == 'en'">Talking in English</p>
       <p v-if="session.proposalWithSpeakers.language == 'ja'">Talking in Japanese</p>

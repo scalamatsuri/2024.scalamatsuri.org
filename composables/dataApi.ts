@@ -69,7 +69,7 @@ const _timetables = timetables.timetables
     } as TimeTable
   })
 // adoptions を起点に ProposalWithSpeakers を結合し、Session として返却
-const timtableSessionContentsOnly = _timetables.flatMap((timetable) => timetable.contents.filter((content) => content.type === 'SESSION').map((content) => content as TimeTableSessionContents));
+const _timeTableSessionContentsOnly = _timetables.flatMap((timetable) => timetable.contents.filter((content) => content.type === 'SESSION').map((content) => content as TimeTableSessionContents));
 const _sessions = adoptions.map((adoption) => {
   const proposalWithSpeaker = _proposalsWithSpeakers.find((proposal) => proposal.proposalId.value === adoption.proposalId.value)
   if (!proposalWithSpeaker) {
@@ -78,7 +78,7 @@ const _sessions = adoptions.map((adoption) => {
     return {
       ...adoption,
       proposalWithSpeakers: proposalWithSpeaker,
-      timetable: timtableSessionContentsOnly.find((timetable) => timetable.sessionId === adoption.sessionId.value),
+      timetable: _timeTableSessionContentsOnly.find((timetable) => timetable.sessionId === adoption.sessionId.value),
     } as Session
   }
 })
@@ -98,6 +98,13 @@ export const getSessionById = (sessionId: string) => computed(() => _sessions.fi
  * for Open Mic Conference
  * ------------------------------------------------------------------
  */
+const _omcTimetables = timetables.timetables
+  .filter((timetable) => timetable.timetableId === 'OPEN_MIC_CONFERENCE_DAY_1' || timetable.timetableId === 'OPEN_MIC_CONFERENCE_DAY_2')
+  .map((timetable) => {
+    return {
+      ...timetable,
+    } as TimeTable
+  })
 const _omcProposalsWithSpeakers = omcProposals.map((proposal) => {
   const proposalSpeakers: Speaker[] = speakers.filter((speaker: Speaker) => proposal.speakerIds.includes(speaker.id)) ?? []
   return {
@@ -105,7 +112,7 @@ const _omcProposalsWithSpeakers = omcProposals.map((proposal) => {
     speakers: proposalSpeakers,
   } as ProposalWithSpeakers
 })
-
+const _omcTimeTableSessionContentsOnly = _omcTimetables.flatMap((timetable) => timetable.contents.filter((content) => content.type === 'SESSION').map((content) => content as TimeTableSessionContents));
 const _omcSessions = omcAdoptions.map((adoption) => {
   const proposalWithSpeaker = _omcProposalsWithSpeakers.find((proposal) => proposal.proposalId.value === adoption.proposalId.value)
   if (!proposalWithSpeaker) {
@@ -114,17 +121,12 @@ const _omcSessions = omcAdoptions.map((adoption) => {
     return {
       ...adoption,
       proposalWithSpeakers: proposalWithSpeaker,
+      timetable: _omcTimeTableSessionContentsOnly.find((timetable) => timetable.sessionId === adoption.sessionId.value),
     } as Session
   }
 })
 
-const _omcTimetables = timetables.timetables
-  .filter((timetable) => timetable.timetableId === 'OPEN_MIC_CONFERENCE_DAY_1' || timetable.timetableId === 'OPEN_MIC_CONFERENCE_DAY_2')
-  .map((timetable) => {
-    return {
-      ...timetable,
-    } as TimeTable
-  })
 export const getOMCTimetables = () => computed(() => _omcTimetables)
 export const getOMCSessions = () => computed(() => _omcSessions)
 export const getOMCSessionById = (sessionId: string) => computed(() => _omcSessions.find((session) => session.sessionId.value === sessionId) ?? null)
+export const getOmcProposals = () => computed(() => _omcProposalsWithSpeakers)
