@@ -386,5 +386,14 @@
     "contributes": [],
     "github": "",
     "otherSnsUrls": []
+  },
+  {
+    "id": "OMC_SPEAKER_ID_07",
+    "en": { "name": "xuwei-k" },
+    "ja": { "name": "xuwei-k" },
+    "iconUrl": "https://avatars.githubusercontent.com/u/389787",
+    "contributes": [],
+    "github": "",
+    "otherSnsUrls": []
   }
 ]
