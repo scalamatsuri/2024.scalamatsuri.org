@@ -377,5 +377,14 @@
     "contributes": ["Cats Effect", "FS2 ", "Scala Native"],
     "github": "armanbilge",
     "otherSnsUrls": []
+  },
+  {
+    "id": "OMC_SPEAKER_ID_01",
+    "en": { "name": "kmizu" },
+    "ja": { "name": "kmizu" },
+    "iconUrl": "https://pbs.twimg.com/profile_images/1317276037617655808/Sz4gOLLl_400x400.png",
+    "contributes": [],
+    "github": "",
+    "otherSnsUrls": []
   }
 ]

@@ -215,6 +215,8 @@ const sessions = getOMCSessions()
 const timetableEvents: Array<TimeTableEvent> = []
 const timetables = getOMCTimetables()
 const application_form = 'https://docs.google.com/forms/d/e/1FAIpQLSfAMtRJfErO8T6xXFGTdZLGXNQO0vKDkPg3KmO2LZpm0JWnTA/viewform'
+// const getOmcProposals = getOmcProposals()
+// console.dir(getOmcProposals);
 </script>
 
 <style scoped lang="scss">

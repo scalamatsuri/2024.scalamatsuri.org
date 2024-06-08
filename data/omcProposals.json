@@ -1,12 +1,12 @@
 [
   {
     "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_01" },
-    "ja": { "title": "TBD", "description": "TBD" },
-    "en": { "title": "TBD", "description": "TBD" },
+    "ja": { "title": "ScalaMatsuri非公式後夜祭について+Scala近畿（仮）について", "description": "ScalaMatsuri非公式後夜祭 https://nextbeat.connpass.com/event/315988/ を来週金曜日に開催予定なので、よければ宣伝させてください。加えて、近畿圏在住者のためのScalaコミュニティScala近畿（仮）を立ち上げようと考えていますが、どういう形がいいかわからないので妙案いただけると嬉しいです。" },
+    "en": { "title": "About the ScalaMatsuri unofficial post-festival + Scala Kinki (tentative)", "description": "We are planning to hold a ScalaMatsuri informal after party https://nextbeat.connpass.com/event/315988/ next Friday, so please let us advertise it if you like. In addition, I'm thinking of setting up a Scala community for people living in the Kinki region, Scala Kinki (tentative), but I'm not sure what form it should take, so I'd be happy to hear your ideas." },
     "language": "ja",
     "length": 20,
-    "keywords": ["Scala入門"],
-    "speakerIds": ["DUMMY_SPEAKER_ID"],
+    "keywords": [],
+    "speakerIds": ["OMC_SPEAKER_ID_01"],
     "youtubeUrl": "",
     "slideUrl": ""
   },
