@@ -388,10 +388,28 @@
     "otherSnsUrls": []
   },
   {
-    "id": "OMC_SPEAKER_ID_07",
+    "id": "OMC_SPEAKER_ID_02",
     "en": { "name": "xuwei-k" },
     "ja": { "name": "xuwei-k" },
     "iconUrl": "https://avatars.githubusercontent.com/u/389787",
+    "contributes": [],
+    "github": "",
+    "otherSnsUrls": []
+  },
+  {
+    "id": "OMC_SPEAKER_ID_03",
+    "en": { "name": "nomadblacky" },
+    "ja": { "name": "nomadblacky" },
+    "iconUrl": "https://pbs.twimg.com/profile_images/1110501048559390720/UmgRho9s_400x400.jpg",
+    "contributes": [],
+    "github": "",
+    "otherSnsUrls": []
+  },
+  {
+    "id": "OMC_SPEAKER_ID_04",
+    "en": { "name": "吉村 優" },
+    "ja": { "name": "Hikaru Yoshimura" },
+    "iconUrl": "https://avatars.githubusercontent.com/u/612043?v=4",
     "contributes": [],
     "github": "",
     "otherSnsUrls": []

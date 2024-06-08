@@ -5,58 +5,58 @@
   },
   {
     "sessionId": { "value": "OPEN_MIC_SESSION_DAY_1_02", "type": "SESSION" },
-    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_02" }
+    "proposalId": { "value": "DUMMY_OPEN_MIC_CONFERENCE_ID" }
   },
   {
     "sessionId": { "value": "OPEN_MIC_SESSION_DAY_1_03", "type": "SESSION" },
-    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_03" }
+    "proposalId": { "value": "DUMMY_OPEN_MIC_CONFERENCE_ID" }
   },
   {
     "sessionId": { "value": "OPEN_MIC_SESSION_DAY_1_04", "type": "SESSION" },
-    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_04" }
+    "proposalId": { "value": "DUMMY_OPEN_MIC_CONFERENCE_ID" }
   },
   {
     "sessionId": { "value": "OPEN_MIC_SESSION_DAY_1_05", "type": "SESSION" },
-    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_05" }
+    "proposalId": { "value": "DUMMY_OPEN_MIC_CONFERENCE_ID" }
   },
   {
     "sessionId": { "value": "OPEN_MIC_SESSION_DAY_1_06", "type": "SESSION" },
-    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_06" }
+    "proposalId": { "value": "DUMMY_OPEN_MIC_CONFERENCE_ID" }
   },
   {
     "sessionId": { "value": "OPEN_MIC_SESSION_DAY_1_07", "type": "SESSION" },
-    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_07" }
+    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_02" }
   },
   {
     "sessionId": { "value": "OPEN_MIC_SESSION_DAY_2_01", "type": "SESSION" },
-    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_10" }
+    "proposalId": { "value": "DUMMY_OPEN_MIC_CONFERENCE_ID" }
   },
   {
     "sessionId": { "value": "OPEN_MIC_SESSION_DAY_2_02", "type": "SESSION" },
-    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_11" }
+    "proposalId": { "value": "DUMMY_OPEN_MIC_CONFERENCE_ID" }
   },
   {
     "sessionId": { "value": "OPEN_MIC_SESSION_DAY_2_03", "type": "SESSION" },
-    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_12" }
+    "proposalId": { "value": "DUMMY_OPEN_MIC_CONFERENCE_ID" }
   },
   {
     "sessionId": { "value": "OPEN_MIC_SESSION_DAY_2_04", "type": "SESSION" },
-    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_13" }
+    "proposalId": { "value": "DUMMY_OPEN_MIC_CONFERENCE_ID" }
   },
   {
     "sessionId": { "value": "OPEN_MIC_SESSION_DAY_2_05", "type": "SESSION" },
-    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_14" }
+    "proposalId": { "value": "DUMMY_OPEN_MIC_CONFERENCE_ID" }
   },
   {
     "sessionId": { "value": "OPEN_MIC_SESSION_DAY_2_06", "type": "SESSION" },
-    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_15" }
+    "proposalId": { "value": "DUMMY_OPEN_MIC_CONFERENCE_ID" }
   },
   {
     "sessionId": { "value": "OPEN_MIC_SESSION_DAY_2_07", "type": "SESSION" },
-    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_16" }
+    "proposalId": { "value": "DUMMY_OPEN_MIC_CONFERENCE_ID" }
   },
   {
     "sessionId": { "value": "OPEN_MIC_SESSION_DAY_2_08", "type": "SESSION" },
-    "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_17" }
+    "proposalId": { "value": "DUMMY_OPEN_MIC_CONFERENCE_ID" }
   }
 ]
