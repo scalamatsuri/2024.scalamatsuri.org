@@ -421,5 +421,15 @@
     "github": "",
     "twitter": "_yyu_",
     "otherSnsUrls": []
+  },
+  {
+    "id": "OMC_SPEAKER_ID_05",
+    "en": { "name": "Kory" },
+    "ja": { "name": "Kory" },
+    "iconUrl": "https://pbs.twimg.com/profile_images/1762998826238103552/sSkWro4P_400x400.jpg",
+    "contributes": [],
+    "github": "kory33",
+    "twitter": "Kory__3",
+    "otherSnsUrls": []
   }
 ]
