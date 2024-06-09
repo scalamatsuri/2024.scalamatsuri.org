@@ -380,11 +380,16 @@
   },
   {
     "id": "OMC_SPEAKER_ID_01",
-    "en": { "name": "kmizu" },
-    "ja": { "name": "kmizu" },
+    "en": { "name": "Kota Mizushima (kmizu)" },
+    "ja": { "name": "水島宏太（kmizu）" },
     "iconUrl": "https://pbs.twimg.com/profile_images/1317276037617655808/Sz4gOLLl_400x400.png",
-    "contributes": [],
-    "github": "",
+    "contributes": [
+      "ScalaText (https://github.com/scala-text/scala_text) ",
+      "Nuko (https://github.com/kmizu/nuko) ",
+      "SComb (https://github.com/kmizu/scomb)."
+    ],
+    "github": "kmizu",
+    "twitter": "kmizu",
     "otherSnsUrls": []
   },
   {
@@ -393,7 +398,8 @@
     "ja": { "name": "xuwei-k" },
     "iconUrl": "https://avatars.githubusercontent.com/u/389787",
     "contributes": [],
-    "github": "",
+    "github": "xuwei-k",
+    "twitter": "xuwei_k",
     "otherSnsUrls": []
   },
   {
@@ -403,6 +409,7 @@
     "iconUrl": "https://pbs.twimg.com/profile_images/1110501048559390720/UmgRho9s_400x400.jpg",
     "contributes": [],
     "github": "",
+    "twitter": "nomadblacky",
     "otherSnsUrls": []
   },
   {
@@ -412,6 +419,7 @@
     "iconUrl": "https://avatars.githubusercontent.com/u/612043?v=4",
     "contributes": [],
     "github": "",
+    "twitter": "_yyu_",
     "otherSnsUrls": []
   }
 ]
