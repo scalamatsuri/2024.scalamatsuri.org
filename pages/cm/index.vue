@@ -9,15 +9,13 @@ ja:
   <MainVisual :title="t('title')" />
   <div class="section">
     <iframe
-      src="https://docs.google.com/presentation/d/e/2PACX-1vRrZzUDdpGiip2koK_kIVZ4f40xkKK3rtN7vxcXLNgfbA5XRbrkqhbtbgVa6YfSESEVRrrHubs5LlmL/embed?start=true&loop=true&delayms=5000"
+      src="https://docs.google.com/presentation/d/e/2PACX-1vQpDjD0CWNznkEvoKwp760dXcZwbu5os3YdfaK2j983voK1zMpvAvGXZl-_nna2DAQpCxjQy-OhsDAW/embed?start=true&loop=true&delayms=5000"
       frameborder="0"
       width="900"
       height="749"
       allowfullscreen="true"
       mozallowfullscreen="true"
-      webkitallowfullscreen="true"
-      >
-    </iframe>
+      webkitallowfullscreen="true"></iframe>
   </div>
 </template>
 
