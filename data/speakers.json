@@ -431,5 +431,15 @@
     "github": "kory33",
     "twitter": "Kory__3",
     "otherSnsUrls": []
+  },
+  {
+    "id": "OMC_SPEAKER_ID_06",
+    "en": { "name": "takezoux2" },
+    "ja": { "name": "takezoux2" },
+    "iconUrl": "https://pbs.twimg.com/profile_images/1787731350835052545/ZewdulOQ_400x400.jpg",
+    "contributes": [],
+    "github": "takezoux2",
+    "twitter": "takezoux2",
+    "otherSnsUrls": []
   }
 ]
