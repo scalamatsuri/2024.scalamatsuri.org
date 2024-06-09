@@ -57,7 +57,7 @@
   {
     "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_05" },
     "ja": { "title": "呑みながら解くリートコード", "description": "酒飲みながら、リートコードの問題ときます。ホワイエで毎年やってたやつ" },
-    "en": { "title": "Leet code to be solved while drinking", "description": "Drinks and lead chord problems.This event was held annually in the 3rd floor foyer." },
+    "en": { "title": "Leet code to be solved while drinking", "description": "Over drinks, leet code issues. This event was held annually in the 3rd floor foyer." },
     "language": "ja",
     "length": 20,
     "keywords": [],
