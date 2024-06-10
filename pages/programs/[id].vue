@@ -1,3 +1,11 @@
+<i18n lang="yaml">
+## language=yaml
+en:
+  document: Document link
+ja:
+  document: 資料へのリンク
+</i18n>
+
 <template>
   <MainVisual :title="session.proposalWithSpeakers[locale].title" />
   <div class="proposals">
@@ -20,11 +28,23 @@
       <p>{{ session.proposalWithSpeakers.length }} min</p>
       <p v-if="session.proposalWithSpeakers.language == 'en'">Talking in English</p>
       <p v-if="session.proposalWithSpeakers.language == 'ja'">Talking in Japanese</p>
-      <p class="description" v-html="session.proposalWithSpeakers[locale].description" />
+      <p class="description" v-html="session.proposalWithSpeakers[locale].description"></p>
       <div class="tags">
         <div v-for="kw in session.proposalWithSpeakers.keywords" :key="kw" class="tag" data-tag="tag">
           <span>{{ kw }}</span>
         </div>
+      </div>
+      <div v-if="session.proposalWithSpeakers.slideUrl" class="slide">
+        <iframe :src="session.proposalWithSpeakers.slideUrl"
+          width="100%"
+          height="900px"
+          allowfullscreen="true"
+          mozallowfullscreen="true"
+          webkitallowfullscreen="true">
+        </iframe>
+      </div>
+      <div v-if="session.proposalWithSpeakers.otherWebUrl" class="slide">
+        <a :href="session.proposalWithSpeakers.otherWebUrl">{{ t("document") }}</a>
       </div>
     </div>
   </div>
@@ -32,7 +52,7 @@
 
 <script setup lang="ts">
 import { type Session } from '~/models/model'
-const { locale } = useI18n()
+const { locale, t } = useI18n()
 pageMetaCheck()
 const route = useRoute()
 let session = {} as Session
@@ -154,6 +174,12 @@ if (maybeSession) {
     &:before {
       content: ' | ';
     }
+  }
+}
+.slide {
+  margin-top: 20px;
+  iframe {
+    border: none;
   }
 }
 </style>
