@@ -35,7 +35,7 @@
     "keywords": ["Scala入門"],
     "speakerIds": ["SPEAKER_ID_01"],
     "youtubeUrl": "",
-    "slideUrl": ""
+    "slideUrl": "https://docs.google.com/presentation/d/e/2PACX-1vSP9jbfKrRj0K4TaSCFfZGsfuufvYXI2Wx2MqVI7eHhagXstuBt0DjSF2sp6bncSA/embed?slide=id.p1"
   },
   {
     "proposalId": {
@@ -339,7 +339,7 @@
     "keywords": ["DevOps & Tools"],
     "speakerIds": ["SPEAKER_ID_14"],
     "youtubeUrl": "",
-    "slideUrl": ""
+    "slideUrl": "https://slides.com/tomekgodzik/scala-matsuri"
   },
   {
     "proposalId": {
@@ -529,7 +529,7 @@
     "keywords": ["関数型プログラミング一般や圏論", "Scala入門"],
     "speakerIds": ["SPEAKER_ID_23"],
     "youtubeUrl": "",
-    "slideUrl": ""
+    "slideUrl": "https://speakerdeck.com/boykush/introduction-to-safe-programming-with-numeric-library"
   },
   {
     "proposalId": {
@@ -719,7 +719,7 @@
     "keywords": ["Scala3", "Software Design and Architecture", "Scala.js"],
     "speakerIds": ["SPEAKER_ID_29"],
     "youtubeUrl": "",
-    "slideUrl": ""
+    "slideUrl": "https://speakerdeck.com/tarao/record4s-extensible-records-for-scala-3-and-domain-modeling-with-structural-types"
   },
   {
     "proposalId": {
@@ -738,7 +738,7 @@
     "keywords": ["Big Data / Fast Data / Data Science", "Scala3"],
     "speakerIds": ["SPEAKER_ID_30"],
     "youtubeUrl": "",
-    "slideUrl": ""
+    "slideUrl": "https://speakerdeck.com/i10416/scalamatsuri2024-how-to-use-embedding-models-from-scala"
   },
   {
     "proposalId": {
@@ -757,7 +757,7 @@
     "keywords": ["Effect System (Cats Effect / Monix / ZIO / eff etc.)", "関数型プログラミング一般や圏論", "Software Design and Architecture"],
     "speakerIds": ["SPEAKER_ID_31-01", "SPEAKER_ID_31-02"],
     "youtubeUrl": "",
-    "slideUrl": ""
+    "slideUrl": "https://docs.google.com/presentation/d/1raybiE8Otk2nreKDyRHoF1HK50K9K-fjL8-37QK8kW4/embed#slide=id.p"
   },
   {
     "proposalId": {
@@ -795,7 +795,7 @@
     "keywords": ["関数型プログラミング一般や圏論", "Scala入門", "Software Design and Architecture"],
     "speakerIds": ["SPEAKER_ID_33"],
     "youtubeUrl": "",
-    "slideUrl": ""
+    "slideUrl": "https://gakuzzzz.github.io/slides/when_to_use_subtyping_when_not_to_use/#1"
   },
   {
     "proposalId": {

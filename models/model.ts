@@ -57,6 +57,7 @@ export type Proposal = {
   speakerIds: string[] // スピーカーIds
   youtubeUrl?: string
   slideUrl?: string
+  otherWebUrl?: string
 }
 
 export type ProposalId = {
