@@ -41,7 +41,8 @@
     "keywords": [],
     "speakerIds": ["OMC_SPEAKER_ID_03"],
     "youtubeUrl": "",
-    "slideUrl": ""
+    "slideUrl": "",
+    "otherWebUrl": "https://cobalt-lupin-e48.notion.site/Observability-ScalaTest-OpenTelemetry-b2d3e69d75f146b1a26fe9199d51e3e9"
   },
   {
     "proposalId": { "value": "OPEN_MIC_CONFERENCE_ID_04" },
