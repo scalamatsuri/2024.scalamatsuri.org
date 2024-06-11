@@ -149,7 +149,7 @@
     "keywords": ["DevOps & Tools", "Introduction to Scala", "Software Design and Architecture"],
     "speakerIds": ["SPEAKER_ID_06"],
     "youtubeUrl": "",
-    "slideUrl": ""
+    "slideUrl": "https://docs.google.com/presentation/d/13duWcOsHzXR96u2OeIoFnuXPhj4PrRd2ybEjBiKBn10/embed?slide=id.p"
   },
   {
     "proposalId": {
@@ -434,7 +434,7 @@
     "keywords": ["Functional programming in general and category theory, Organization"],
     "speakerIds": ["SPEAKER_ID_19"],
     "youtubeUrl": "",
-    "slideUrl": ""
+    "slideUrl": "https://slides.com/magdastozek/property-based-testing-scala-20-min"
   },
   {
     "proposalId": {
@@ -643,7 +643,7 @@
     "keywords": ["Scala3", "Compiler", "JVM"],
     "speakerIds": ["SPEAKER_ID_27"],
     "youtubeUrl": "",
-    "slideUrl": ""
+    "slideUrl": "https://speakerdeck.com/bishabosha/optimising-scala-3-build-times-scala-matsuri"
   },
   {
     "proposalId": {
