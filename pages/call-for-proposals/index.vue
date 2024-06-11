@@ -123,49 +123,51 @@ ja:
 
 <template>
   <MainVisual :title="t('title')" />
-  <div class="section">
-    <p class="section_text">
-      <span v-html="t('section1_body', { coc_link: localePath('code-of-conduct') })" />
-    </p>
-  </div>
-  <div class="section">
-    <h2 class="section_title">
-      <span class="section_title_inner">{{ t('section3_title') }}</span>
-    </h2>
-    <p class="section_text">
-      <span v-html="t('section3_body')" />
-    </p>
-  </div>
-  <div class="section">
-    <h2 class="section_title">
-      <span class="section_title_inner">{{ t('section4_title') }}</span>
-    </h2>
-    <p class="section_text">
-      <span v-html="t('section4_body')" />
-    </p>
-    <p class="section_text">
-      <br />
-    </p>
-  </div>
-  <div class="section">
-    <h2 class="section_title">
-      <span class="section_title_inner">{{ t('section2_title') }}</span>
-    </h2>
-    <p class="section_text">
-      <span v-html="t('section2_body')" />
-    </p>
-  </div>
-  <div class="section">
-    <h2 class="section_title">
-      <span class="section_title_inner">{{ t('section5_title') }}</span>
-    </h2>
-    <p class="section_text">
-      <span v-html="t('section5_body')" />
-    </p>
-    <p class="section_text">
-      <br />
-    </p>
-  </div>
+  <ClientOnly>
+    <div class="section">
+      <p class="section_text">
+        <span v-html="t('section1_body', { coc_link: localePath('code-of-conduct') })" />
+      </p>
+    </div>
+    <div class="section">
+      <h2 class="section_title">
+        <span class="section_title_inner">{{ t('section3_title') }}</span>
+      </h2>
+      <p class="section_text">
+        <span v-html="t('section3_body')" />
+      </p>
+    </div>
+    <div class="section">
+      <h2 class="section_title">
+        <span class="section_title_inner">{{ t('section4_title') }}</span>
+      </h2>
+      <p class="section_text">
+        <span v-html="t('section4_body')" />
+      </p>
+      <p class="section_text">
+        <br />
+      </p>
+    </div>
+    <div class="section">
+      <h2 class="section_title">
+        <span class="section_title_inner">{{ t('section2_title') }}</span>
+      </h2>
+      <p class="section_text">
+        <span v-html="t('section2_body')" />
+      </p>
+    </div>
+    <div class="section">
+      <h2 class="section_title">
+        <span class="section_title_inner">{{ t('section5_title') }}</span>
+      </h2>
+      <p class="section_text">
+        <span v-html="t('section5_body')" />
+      </p>
+      <p class="section_text">
+        <br />
+      </p>
+    </div>
+  </ClientOnly>
 </template>
 
 <script setup lang="ts">
