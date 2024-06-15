@@ -34,6 +34,15 @@ ja:
           <span>{{ kw }}</span>
         </div>
       </div>
+      <div v-if="session.proposalWithSpeakers.youtubeUrl" class="slide">
+        <iframe :src="session.proposalWithSpeakers.youtubeUrl"
+          width="100%"
+          height="600px"
+          allowfullscreen="true"
+          mozallowfullscreen="true"
+          webkitallowfullscreen="true">
+        </iframe>
+      </div>
       <div v-if="session.proposalWithSpeakers.slideUrl" class="slide">
         <iframe :src="session.proposalWithSpeakers.slideUrl"
           width="100%"
