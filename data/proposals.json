@@ -34,7 +34,7 @@
     "length": 20,
     "keywords": ["Scala入門"],
     "speakerIds": ["SPEAKER_ID_01"],
-    "youtubeUrl": "",
+    "youtubeUrl": "https://www.youtube.com/embed/_-NZs964bvQ?si=0Qe5jixTupRlEnyg",
     "slideUrl": "https://docs.google.com/presentation/d/e/2PACX-1vSP9jbfKrRj0K4TaSCFfZGsfuufvYXI2Wx2MqVI7eHhagXstuBt0DjSF2sp6bncSA/embed?slide=id.p1"
   },
   {
@@ -72,7 +72,7 @@
     "length": 20,
     "keywords": ["Introduction to Scala"],
     "speakerIds": ["SPEAKER_ID_03"],
-    "youtubeUrl": "",
+    "youtubeUrl": "https://www.youtube.com/embed/ChcAAglvy_Y?si=7nYHXaO1EIN9oMRp",
     "slideUrl": ""
   },
   {
@@ -167,7 +167,7 @@
     "length": 20,
     "keywords": ["Effect System (Cats Effect / Monix / ZIO / eff etc.)", "Scala3", "Concurrency", "Reactive Systems", "Compiler", "JVM"],
     "speakerIds": ["SPEAKER_ID_07"],
-    "youtubeUrl": "",
+    "youtubeUrl": "https://www.youtube.com/embed/0SeIGZkoDY0?si=7bdRufa7NhtE3Yrg",
     "slideUrl": ""
   },
   {
@@ -186,7 +186,7 @@
     "length": 20,
     "keywords": ["Scala3", "Concurrency"],
     "speakerIds": ["SPEAKER_ID_08"],
-    "youtubeUrl": "",
+    "youtubeUrl": "https://www.youtube.com/embed/fpTRtHP8780?si=13pMlQtwKpiYr-Ji",
     "slideUrl": "https://speakerdeck.com/th0rikosh1/project-loom-gai-yao-to-scala-niokeruyou-yong-xing-at-scalamatsuri2024"
   },
   {
@@ -243,7 +243,7 @@
     "length": 20,
     "keywords": ["Big Data / Fast Data / Data Science", "Scala3"],
     "speakerIds": ["SPEAKER_ID_10"],
-    "youtubeUrl": "",
+    "youtubeUrl": "https://www.youtube.com/embed/u2aQwEToJyg?si=Q8WR8RhZSEu8m4Y6",
     "slideUrl": ""
   },
   {
@@ -338,7 +338,7 @@
     "length": 20,
     "keywords": ["DevOps & Tools"],
     "speakerIds": ["SPEAKER_ID_14"],
-    "youtubeUrl": "",
+    "youtubeUrl": "https://www.youtube.com/embed/R7as1vtm-3A?si=PVhyJguZHnItir9X",
     "slideUrl": "https://slides.com/tomekgodzik/scala-matsuri"
   },
   {
@@ -414,8 +414,8 @@
     "length": 40,
     "keywords": ["Scala.js", "Scala Native", "コンパイラ、JVM"],
     "speakerIds": ["SPEAKER_ID_18"],
-    "youtubeUrl": "",
-    "slideUrl": ""
+    "youtubeUrl": "https://www.youtube.com/embed/bOEntOOJi6Q?si=ixHwCKkq2e-CYh4N",
+    "slideUrl": "https://speakerdeck.com/tanishiking/scala-to-webassembly-exploring-the-how-and-why"
   },
   {
     "proposalId": {
@@ -433,7 +433,7 @@
     "length": 20,
     "keywords": ["Functional programming in general and category theory, Organization"],
     "speakerIds": ["SPEAKER_ID_19"],
-    "youtubeUrl": "",
+    "youtubeUrl": "https://www.youtube.com/embed/948G18emdGA?si=Fr6_8c9Xw82xLaMg",
     "slideUrl": "https://slides.com/magdastozek/property-based-testing-scala-20-min"
   },
   {
@@ -528,7 +528,7 @@
     "length": 20,
     "keywords": ["関数型プログラミング一般や圏論", "Scala入門"],
     "speakerIds": ["SPEAKER_ID_23"],
-    "youtubeUrl": "",
+    "youtubeUrl": "https://www.youtube.com/embed/I4SZmR1wZbI?si=GQo7jMKqRwSASSeL",
     "slideUrl": "https://speakerdeck.com/boykush/introduction-to-safe-programming-with-numeric-library"
   },
   {
@@ -585,7 +585,7 @@
     "length": 20,
     "keywords": ["Scala3", "Software Design and Architecture"],
     "speakerIds": ["SPEAKER_ID_25"],
-    "youtubeUrl": "",
+    "youtubeUrl": "https://www.youtube.com/embed/SrocjO2_2_w?si=SXAfJ6Ua6x9r3STu",
     "slideUrl": "https://scalamatsuri.rlemaitre.com/1"
   },
   {
@@ -642,7 +642,7 @@
     "length": 40,
     "keywords": ["Scala3", "Compiler", "JVM"],
     "speakerIds": ["SPEAKER_ID_27"],
-    "youtubeUrl": "",
+    "youtubeUrl": "https://www.youtube.com/embed/Gt7mMc645Ws?si=-djF7W0g2bejYsjW",
     "slideUrl": "https://speakerdeck.com/bishabosha/optimising-scala-3-build-times-scala-matsuri"
   },
   {
@@ -718,7 +718,7 @@
     "length": 20,
     "keywords": ["Scala3", "Software Design and Architecture", "Scala.js"],
     "speakerIds": ["SPEAKER_ID_29"],
-    "youtubeUrl": "",
+    "youtubeUrl": "https://www.youtube.com/embed/CwgaSy2M5VU?si=ZWnxLsFCKCl03rwu",
     "slideUrl": "https://speakerdeck.com/tarao/record4s-extensible-records-for-scala-3-and-domain-modeling-with-structural-types"
   },
   {
@@ -737,7 +737,7 @@
     "length": 20,
     "keywords": ["Big Data / Fast Data / Data Science", "Scala3"],
     "speakerIds": ["SPEAKER_ID_30"],
-    "youtubeUrl": "",
+    "youtubeUrl": "https://www.youtube.com/embed/zEByWJ2OYKQ?si=Rr2b9dFSlptFGpkQ",
     "slideUrl": "https://speakerdeck.com/i10416/scalamatsuri2024-how-to-use-embedding-models-from-scala"
   },
   {
@@ -756,7 +756,7 @@
     "length": 40,
     "keywords": ["Effect System (Cats Effect / Monix / ZIO / eff etc.)", "関数型プログラミング一般や圏論", "Software Design and Architecture"],
     "speakerIds": ["SPEAKER_ID_31-01", "SPEAKER_ID_31-02"],
-    "youtubeUrl": "",
+    "youtubeUrl": "https://www.youtube.com/embed/crHQXRE1ZTw?si=eCUryNFlbAu_fGVr",
     "slideUrl": "https://docs.google.com/presentation/d/1raybiE8Otk2nreKDyRHoF1HK50K9K-fjL8-37QK8kW4/embed#slide=id.p"
   },
   {
@@ -794,7 +794,7 @@
     "length": 20,
     "keywords": ["関数型プログラミング一般や圏論", "Scala入門", "Software Design and Architecture"],
     "speakerIds": ["SPEAKER_ID_33"],
-    "youtubeUrl": "",
+    "youtubeUrl": "https://www.youtube.com/embed/cXUQHC2lpg4?si=JW3JLSJT0qk89tUc",
     "slideUrl": "https://gakuzzzz.github.io/slides/when_to_use_subtyping_when_not_to_use/#1"
   },
   {
