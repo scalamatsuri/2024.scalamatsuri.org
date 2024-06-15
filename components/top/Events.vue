@@ -91,10 +91,10 @@ ja:
 
 <template>
   <section class="content">
-    <h2 class="content_title">Ticket</h2>
-    <div class="content_text">
-      <span v-html="t('ticket_info')" />
-    </div>
+    <!-- <h2 class="content_title">Ticket</h2> -->
+    <!-- <div class="content_text"> -->
+      <!-- <span v-html="t('ticket_info')" /> -->
+    <!-- </div> -->
     <h2 class="content_title">Events</h2>
     <div class="content_text">
       <span v-html="t('event_overview_1')" />

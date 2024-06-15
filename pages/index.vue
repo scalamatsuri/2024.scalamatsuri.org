@@ -4,6 +4,7 @@
   <ClientOnly fallback-tag="span" fallback="Loading comments...">
     <TopNews />
   </ClientOnly>
+  <TopThankYou />
   <TopBanners />
   <TopEvents />
   <TopSponsors />
