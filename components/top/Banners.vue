@@ -2,12 +2,12 @@
 en:
   sponsorship: 'Sponsorship(ja)'
   call-for-proposals: 'Call for proposals'
-  ticket: 'Get a Ticket'
+  ticket: 'Doorkeeper'
   tshirt: 'Get a (Ninja) T-Shirt'
 ja:
   sponsorship: 'スポンサー募集'
   call-for-proposals: 'セッションに応募'
-  ticket: 'チケット購入'
+  ticket: 'Doorkeeper'
   tshirt: '(忍者)Tシャツ購入'
 </i18n>
 <template>
