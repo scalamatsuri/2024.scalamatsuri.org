@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "nuxt-lazy-load": "^3.0.4",
-    "sass": "^1.77.4",
+    "sass": "^1.77.5",
     "xml-js": "^1.6.11"
   },
   "packageManager": "yarn@4.1.0"
