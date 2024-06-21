@@ -11,17 +11,21 @@
     "staging_deploy": "firebase deploy --only hosting --project scalamatsuri-2024-web",
     "production_deploy": "firebase deploy --only hosting --project scalamatsuri-2024-web-staging"
   },
+  "engines": {
+    "node": ">= 20.14.0",
+    "yarn": "1.19.0"
+  },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxtjs/i18n": "^8.3.1",
-    "nuxt": "^3.11.2",
-    "vue": "^3.4.27",
+    "nuxt": "^3.12.2",
+    "vue": "^3.4.29",
     "vue-i18n": "^9.13.1",
     "vue-router": "^4.3.3"
   },
   "dependencies": {
     "nuxt-lazy-load": "^3.0.4",
-    "sass": "^1.77.4",
+    "sass": "^1.77.5",
     "xml-js": "^1.6.11"
   },
   "packageManager": "yarn@4.1.0"

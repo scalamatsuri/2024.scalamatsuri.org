@@ -49,11 +49,17 @@ $ asdf install nodejs # If you are in this project directory, the tool version w
 ## Build and start development local server
 
 ```bash
+# corepack enable
+# `corepack enable` enables the use of yarn even if yarn is not installed locally.
+$ yarn
+! Corepack is about to download https://repo.yarnpkg.com/4.1.0/packages/yarnpkg-cli/bin/yarn.js
+? Do you want to continue? [Y/n] Y
+
 # install dependencies
 $ yarn
 
 # serve with hot reload at localhost:3000
-$ yarn dev
+$ yarn run dev
 ```
 
 ## Build and deploy production
