@@ -11,6 +11,10 @@
     "staging_deploy": "firebase deploy --only hosting --project scalamatsuri-2024-web",
     "production_deploy": "firebase deploy --only hosting --project scalamatsuri-2024-web-staging"
   },
+  "engines": {
+    "node": ">= 20.14.0",
+    "yarn": "1.19.0"
+  },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxtjs/i18n": "^8.3.1",
