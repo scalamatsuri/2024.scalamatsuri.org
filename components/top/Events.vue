@@ -19,6 +19,7 @@ en:
     Please see <a href="/programs" target="_blank">here</a> for the timetable.<br />
     For details on the Open Mic Conference, please refer to <a href="/open-mic-conference" target="_blank">here</a><br />
     <br />
+  event_overview_2: |
     <b>Training day</b><br />
     On Friday, June 7, 2024, a training day will be held in conjunction with Recruit Co., Ltd.<br />
     For more information on the Training Day, please refer to <a href="/training-day" target="_blank">here(ja only)</a>.<br />
@@ -39,6 +40,7 @@ en:
     🎉 Campaign 2<br />
     We will be giving away ScalaMatsuri 2023 T-shirts through a lottery. (Excluding "Ninja sponsor" T-shirts)<br />
     <br />
+  event_overview_3: |
     <b>Travel info</b><br />
     We are introducing travel information in the area.<br />
     <a href="/travel" target="_blank">Travel info</a>
@@ -61,9 +63,9 @@ ja:
     <b>カンファレンスセッション、飛び入りカンファレンス</b><br />
     2024年6月8日(土)〜9日(日)には、カンファレンスセッションと飛び入りカンファレンスを同日開催する予定です！<br />
     カンファレンスセッションのタイムテーブルは<a href="/programs" target="_blank">こちら</a>をご参照ください。<br />
-    飛び入りカンファレンスの詳細は<a href="/open-mic-conference" target="_blank">こちら</a>をご参照ください。
+    飛び入りカンファレンスの詳細は<a href="/open-mic-conference" target="_blank">こちら</a>をご参照ください。<br />
     <br />
-    <br />
+  event_overview_2: |
     <b>トレーニング・デイ</b><br />
     2024年6月7日(金)には、トレーニング・デイを株式会社リクルート様と共同開催します！<br />
     トレーニング・デイの詳細は<a href="/training-day" target="_blank">こちら</a>をご参照ください。
@@ -84,6 +86,7 @@ ja:
     🎉 Campaign 2<br />
     抽選で ScalaMatsuri 2024 開催記念Tシャツをプレゼントします。("Ninja sponsor" Tシャツ以外)<br />
     <br />
+  event_overview_3: |
     <b>トラベル情報</b><br />
     周辺のトラベル情報をご紹介しています。<br />
     <a href="/travel" target="_blank">トラベル情報</a>
@@ -98,6 +101,8 @@ ja:
     <h2 class="content_title">Events</h2>
     <div class="content_text">
       <span v-html="t('event_overview_1')" />
+      <!-- <span v-html="t('event_overview_2')" /> -->
+      <span v-html="t('event_overview_3')" />
       <div class="venue_map">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1621.6413002621073!2d139.7761757!3d35.6207591!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601889fec03298c3%3A0x580ab4984e28a750!2z5p2x5Lqs5Zu96Zqb5Lqk5rWB6aSoIOODl-ODqeOCtuW5s-aIkA!5e0!3m2!1sja!2sjp!4v1703073639041!5m2!1sja!2sjp"
